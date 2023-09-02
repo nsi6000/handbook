@@ -12,3 +12,13 @@
 ## Hacking
 ## Data Science
 ## Artificial Intelligence and Machine Learning
+## Databases Internals
+## Database Administration
+## NoSQL Databases
+## Coding Best Practices
+## Coding Puzzles
+## Vim
+## Git
+## Data Streaming
+## Kubernetes
+## Terraform
