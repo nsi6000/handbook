@@ -1,5 +1,10 @@
 # Chemistry
 ## College Chemistry
+1. Foundations of College Chemistry - Morris Hein, Susan Arena. (978-1119768159)
+2. Schaum's Outline of College Chemistry - Jerome Rosenberg. (978-0071810821)
+3. Chemistry The Central Science - Theodore Brown, Bruce Bursten. (978-1292407609)
+4. Schaum's Outline of Beginning Chemistry - David Goldberd. (978-0071811347)
+5. Schaum's 3000 Solved Problems in Chemistry - David Goldberg. (978-0071755009)
 ## General Chemistry
 1. Chemical Principles - Peter Atkins, Loretta Jones, Leroy Laverman. (978-1429288972) [link](https://www.amazon.com/s?k=978-1429288972)
     - Study Guide for Atkins's Chemical Principles - John Krenos, Joseph Potenza. (978-1319017552)
@@ -36,4 +41,25 @@
 11. Schaum's Outline of Organic Chemistry - Herbert Meislich. (978-1265513320)
 12. Schaum's 3000 Solved Problems in Organic Chemistry - Herbert Meislich. (978-0070564244)
 ## Physical Chemistry
+1. Physical Chemistry - Peter Atkins, Julio de Paula, James Keeler. (978-0198847816)
+2. Principles of Chemistry A Molecular Approach - Nivaldo Tro. (978-0134895741)
+3. Physical Chemistry - Thomas Engel, Philip Reid. (978-0321812001)
+4. Physical Chemistry - Robert Mortimer. (978-0123706171)
+5. Physical Chemistry Understanding our Chemical World - Paul Monk. (978-0471491804)
+6. Physical Chemistry - Ira Levine. (978-0072538625)
+7. Physical Chemistry - Keith Laidler, John Meiser, Bryan Sanctuary. (978-0618123414)
+8. Physical Chemistry for the Chemical Sciences - Raymond Chang, John Thoman. (978-1938787690)
+9. Physical Chemistry A Molecular Approach - John Simon, Donald McQuarrie. (978-1940380216)
+10. Physical Chemistry for the Life Sciences - Peter Atkins, Julio de Paula. (978-0198830108)
+11. Schaum's Outline of Physical Chemistry - Clyde Metz. (978-0070417151)
+12. Schaum's 2000 Solved Problems in Physical Chemistry - Clyde Metz. (978-0070417168)
 ## Biochemistry
+1. Lehninger Principles of Biochemistry - David Nelson. (978-1319228002)
+2. Fundamentals of Biochemistry - Donald Voet, Judith Voet, Charlotte Pratt. (978-1118918401)
+    - Fundamentals of Biochemistry Student Companion - Donald Voet, Judith Voet, Charlotte Pratt. (978-1119267935)
+3. General, Organic and Biochemistry - Katherine Denniston, Joseph Topping, Danae Quirk. (978-1265138462)
+4. Biochemistry - Reginald Garrett, Charles Grisham. (978-0357728451)
+5. Biochemistry The Chemical Reactions of Living Cells - David Metzler. (978-0124925502)
+6. Principles of Biochemistry - Laurence Moran, Robert Horton. (978-0321707338)
+7. Lippincott Illustrated Reviews Biochemistry - Emine Abali, Susan Cline, David Franklin, Susan Viselli. (978-9960717319)
+8. Schaum's Outline of Biochemistry - Philip Kuchel. (978-0071472272)
