@@ -1,0 +1,8 @@
+- [Economics](economics.md)
+    - [Principles of Economics](financial_accounting.md)
+    - [Microeconomics](financial_accounting.md)
+    - [Macroeconomics](financial_accounting.md)
+    - [Industrial Organization](financial_accounting.md)
+    - [International Economics](financial_accounting.md)
+    - [Econometrics](financial_accounting.md)
+    - [Economics Dynamics](financial_accounting.md)
