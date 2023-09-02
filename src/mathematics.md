@@ -3,6 +3,7 @@
 ## Intermediate Algebra
 ## Trigonometry
 ## Precalculus
+## College Mathematics
 ## Calculus
 ## Advanced Calculus
 ## Real Analysis
