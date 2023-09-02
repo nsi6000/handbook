@@ -1,5 +1,5 @@
-- [Chemistry](chemistry.md)
-    - [General Chemistry](financial_accounting.md)
-    - [Organic Chemistry](financial_accounting.md)
-    - [Physical Chemistry](financial_accounting.md)
-    - [Biochemistry](financial_accounting.md)
+# Chemistry
+## General Chemistry
+## Organic Chemistry
+## Physical Chemistry
+## Biochemistry
