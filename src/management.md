@@ -16,3 +16,6 @@
 ## Operational Research
 ## Project Management
 ## Business Analysis
+## CFA
+## CPA
+## MBA
