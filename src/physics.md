@@ -1,11 +1,11 @@
-- [Physics](physics.md)
-    - [General Physics](financial_accounting.md)
-    - [Mechanics Statics and Dynamics](financial_accounting.md)
-    - [Strength of Materials](financial_accounting.md)
-    - [Fluid Mechanics](financial_accounting.md)
-    - [Finite Elements Analysis](financial_accounting.md)
-    - [Signal and Systems](financial_accounting.md)
-    - [Electrical Engineering](financial_accounting.md)
-    - [Feedback Systems](financial_accounting.md)
-    - [Thermodynamics](financial_accounting.md)
-    - [Aerodynamics](financial_accounting.md)
+# Physics
+## General Physics
+## Mechanics Statics and Dynamics
+## Strength of Materials
+## Fluid Mechanics
+## Finite Elements Analysis
+## Signal and Systems
+## Electrical Engineering
+## Feedback Systems
+## Thermodynamics
+## Aerodynamics
