@@ -1,20 +1,20 @@
-- [Mathematics](mathematics.md)
-    - [Elementary Algebra](financial_accounting.md)
-    - [Intermediate Algebra](financial_accounting.md)
-    - [Trigonometry](financial_accounting.md)
-    - [Precalculus](financial_accounting.md)
-    - [Calculus](financial_accounting.md)
-    - [Advanced Calculus](financial_accounting.md)
-    - [Real Analysis](financial_accounting.md)
-    - [Complex Analysis](financial_accounting.md)
-    - [Differential Equations](financial_accounting.md)
-    - [Numerical Analysis](financial_accounting.md)
-    - [Linear Algebra](financial_accounting.md)
-    - [Abstract Algebra](financial_accounting.md)
-    - [Topology](financial_accounting.md)
-    - [Combinatorics](financial_accounting.md)
-    - [Optimization](financial_accounting.md)
-    - [Proofs](financial_accounting.md)
-    - [Discrete Mathematics](financial_accounting.md)
-    - [Statistics](financial_accounting.md)
-    - [Misc](financial_accounting.md)
+- Mathematics
+    - Elementary Algebra
+    - Intermediate Algebra
+    - Trigonometry
+    - Precalculus
+    - Calculus
+    - Advanced Calculus
+    - Real Analysis
+    - Complex Analysis
+    - Differential Equations
+    - Numerical Analysis
+    - Linear Algebra
+    - Abstract Algebra
+    - Topology
+    - Combinatorics
+    - Optimization
+    - Proofs
+    - Discrete Mathematics
+    - Statistics
+    - Misc
