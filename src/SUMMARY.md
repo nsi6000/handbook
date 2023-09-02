@@ -6,6 +6,7 @@
 
 - [Management](management.md)
 - [Economics](economics.md)
+- [Law](law.md)
 - [Computer Science](computer_science.md)
 - [Mathematics](mathematics.md)
 - [Physics](physics.md)
