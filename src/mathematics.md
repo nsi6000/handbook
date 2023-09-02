@@ -1,20 +1,20 @@
-- Mathematics
-    - Elementary Algebra
-    - Intermediate Algebra
-    - Trigonometry
-    - Precalculus
-    - Calculus
-    - Advanced Calculus
-    - Real Analysis
-    - Complex Analysis
-    - Differential Equations
-    - Numerical Analysis
-    - Linear Algebra
-    - Abstract Algebra
-    - Topology
-    - Combinatorics
-    - Optimization
-    - Proofs
-    - Discrete Mathematics
-    - Statistics
-    - Misc
+# Mathematics
+## Elementary Algebra
+## Intermediate Algebra
+## Trigonometry
+## Precalculus
+## Calculus
+## Advanced Calculus
+## Real Analysis
+## Complex Analysis
+## Differential Equations
+## Numerical Analysis
+## Linear Algebra
+## Abstract Algebra
+## Topology
+## Combinatorics
+## Optimization
+## Proofs
+## Discrete Mathematics
+## Statistics
+## Misc
