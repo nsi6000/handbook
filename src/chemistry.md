@@ -5,6 +5,7 @@
 3. Chemistry The Central Science - Theodore Brown, Bruce Bursten. (978-1292407609)
 4. Schaum's Outline of Beginning Chemistry - David Goldberd. (978-0071811347)
 5. Schaum's 3000 Solved Problems in Chemistry - David Goldberg. (978-0071755009)
+## AP Chemistry
 ## General Chemistry
 1. Chemical Principles - Peter Atkins, Loretta Jones, Leroy Laverman. (978-1429288972) [link](https://www.amazon.com/s?k=978-1429288972)
     - Study Guide for Atkins's Chemical Principles - John Krenos, Joseph Potenza. (978-1319017552)
