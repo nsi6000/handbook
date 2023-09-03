@@ -5,6 +5,22 @@
 ## Precalculus
 ## College Mathematics
 ## Calculus
+1. Thomas' Calculus, SI Units - Joel Hass, Christopher Heil, Maurice Weir, Przemyslaw Bogacki. (978-1292459677)
+    - Thomas' Calculus: Early Transcendentals, SI Units - Joel Hass, Christopher Heil, Maurice Weir, Przemyslaw Bogacki. (978-1292725901)
+2. Calculus: A Complete Course - Robert Adams, Christopher Essex. (978-0135732588)
+    - Student Solutions Manual for Calculus - Robert Adams, Christopher Essex. (978-0135732533)
+3. Calculus - William Briggs, Lyle Cochran, Bernard Gillett. (978-1292062327)
+    - Calculus: Early Transcendentals - William Briggs, Lyle Cochran, Bernard Gillett. (978-1292062310)
+4. University Calculus: Early Transcendentals, SI Units - Joel Hass, Christopher Heil, Maurice Weir, George Thomas. (978-1292317304)
+5. Calculus: Concepts and Methods - Ken Binmore, Joan Davies. (978-0521775410)
+6. Calculus - Michael Spivak. (978-0914098911)
+    - Combined Answer Book for Calculus by Spivak - Michael Spivak. (978-0914098928)
+7. Calculus, Metric Edition - James Stewart, Daniel Clegg, Saleem Watson. (978-0357113462)
+    - Calculus: Early Transcendentals, Metric Edition - James Stewart, Daniel Clegg, Saleem Watson. (978-0357113516)
+8. Calculus, International Metric Edition - Ron Larson, Bruce Edwards. (978-0357908129)
+9. Calculus - Howard Anton, Irl Bivens, Stephen Davis. (978-1119778103)
+    - Calculus: Early Transcendentals - Howard Anton, Irl Bivens, Stephen Davis. (978-1119777984)
+10. abc
 ## Advanced Calculus
 ## Real Analysis
 ## Complex Analysis
@@ -13,6 +29,12 @@
 ## Linear Algebra
 ## Abstract Algebra
 ## Topology
+1. Topology - James Munkres. (978-0134689517)
+2. Algebraic Topology - Allen Hatcher. (978-0521795401)
+3. Introduction to Topology - Bert Mendelson. (978-0486663524)
+4. Elementary Applied Topology - Robert Ghrist. (978-1502880857)
+5. Topology Through Inquiry - Michael Starbied, Francis Su. (978-1470462611)
+6. Schaum's Outline of General Topology - Seymour Lipschutz. (978-0071763479)
 ## Combinatorics
 ## Optimization
 ## Proofs
