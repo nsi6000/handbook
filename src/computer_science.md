@@ -61,6 +61,9 @@
 8. Akka in Action - Francisco Lopez-Sancho Abraham. (978-1617299216)
 9. Apache Pulsar in Action - David Kjerrumgaard. (978-1617296888)
 10. Mastering Apache Pulsar - Jowanza Joseph. (978-1492084907)
+11. Stream Processing with Apache Flink - Fabian Hueske, Vasiliki Kalavri. (978-1491974292)
+12. Learning Apache Flink - Tanmay Deshpande. (978-1786466228)
+13. Flink in Action (MEAP - book in development) - Sameer Wadkar, Hari Rajaram. (978-1617293924)
 ## Kubernetes
 ## Terraform
 1. Terraform Up and Running - Yevgeniy Brikman. (978-1098116743)
