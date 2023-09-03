@@ -3,7 +3,9 @@
 ## Intermediate Algebra
 ## Trigonometry
 ## Precalculus
+## AP Precalculus
 ## College Mathematics
+## AP Calculus AB/BC
 ## Calculus
 1. Thomas' Calculus, SI Units - Joel Hass, Christopher Heil, Maurice Weir, Przemyslaw Bogacki. (978-1292459677)
     - Thomas' Calculus: Early Transcendentals, SI Units - Joel Hass, Christopher Heil, Maurice Weir, Przemyslaw Bogacki. (978-1292725901)
@@ -53,4 +55,5 @@
 13. Proofs and Concepts - Dave Witte Morris, Joy Morris. [link](https://opentext.uleth.ca/PDF/proofs+concepts.pdf)
 ## Discrete Mathematics
 ## Statistics
+## AP Statistics
 ## Misc
