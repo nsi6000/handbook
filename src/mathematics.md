@@ -3,7 +3,22 @@
 ## Intermediate Algebra
 ## Trigonometry
 ## Precalculus
+1. Precalculus - Robert Blitzer. (978-0134469140)
+2. Precalculus - Michael Sullivan. (978-0135189405)
+3. Precalculus - Julie Miller, Donna Gerken. (978-0078035609)
+4. Precalculus - Ron Larson. (978-1337271073)
+5. Precalculus: Mathematics for Calculus - James Stewart, Lothar Redlin, Saleem Watson. (978-0840068071)
+6. Precalculus: A Prelude to Calculus - Sheldon Axler. (978-1119443339)
+7. Precalculus - Cynthia Young. (978-1119869405)
+8. Precalculus - OpenStax. (978-1711493992)
+9. Schaum's Outline of Precalculus - Fred Safier. (978-1260454208)
+10. Schaum's 3000 Solved Problems in Precalculus - Philip Schmidt. (978-0070553651)
+11. Pre-Calculus For Dummies - Mary Jane Sterling. (978-1119508779)
+12. Pre-Calculus Workbook For Dummies - Mary Jane Sterling. (978-1119508809)
+13. Pre-Calculus For Dummies: 1001 Practice Problems - Mary Jane Sterling. (978-1118853320)
 ## AP Precalculus
+1. Barron's AP Precalculus Premium 2024 - Christine Pawlowski-Polanish. (978-1506288635)
+2. 5 Steps to a 5: AP Precalculus 2024 - Deborah Klipp, Paul Rodriguez. (978-1265343729)
 ## College Mathematics
 ## AP Calculus AB/BC
 ## Calculus
@@ -26,12 +41,17 @@
 ## Advanced Calculus
 ## Real Analysis
 1. Principles of Mathematical Analysis (aka Little Rudin) - Walter Rudin. (978-1259064784)
-2. Real Analysis: A Long-Form Mathematics Textbook - Jay Cummings. (978-1077254541)
-3. Real Analysis - Halsey Royden, Patrick Fitzpatrick. (978-0134689494)
-4. Real Analysis - N.L. Carothers. (978-0521497565)
-5. Real and Complex Analysis - Walter Rudin. (978-0070542341)
-6. Introductory Real Analysis - A.N. Kolmogorov, S.V. Fomin. (978-0486612263)
-7. Real Analysis: Modern Techniques and Their Applications - Gerald Folland. (978-0471317166)
+2. Understanding Analysis - Stephen Abbott. (978-1493927111)
+3. Real Analysis: A Long-Form Mathematics Textbook - Jay Cummings. (978-1077254541)
+4. Real Analysis - Halsey Royden, Patrick Fitzpatrick. (978-0134689494)
+5. Real Analysis - N.L. Carothers. (978-0521497565)
+6. Real and Complex Analysis - Walter Rudin. (978-0070542341)
+7. Introductory Real Analysis - A.N. Kolmogorov, S.V. Fomin. (978-0486612263)
+8. Real Analysis: Modern Techniques and Their Applications - Gerald Folland. (978-0471317166)
+9. Real Mathamatical Analysis - Charles Chapman Pugh. (978-3319177700)
+10. Real Analysis for the Undegraduate - Matthew Pons. (978-1461496373)
+11. Real Analysis: Foundations and Functions of One Variable - Miklos Laczkovich, Vera Sos. (978-1493927654)
+12. Introduction to Real Analysis - Donald Bartle, Robert Sherbert. (978-1119496786)
 ## Complex Analysis
 ## Differential Equations
 ## Numerical Analysis
@@ -60,7 +80,14 @@
 11. A Transition to Advanced Mathematics - Douglas Smith, Maurice Eggen, Richard St Andre. (978-0495562023)
 12. Mathematical Reasoning: Writing and Proof Version 3 - Ted Sundstrom. (979-8622238970)
 13. Proofs and Concepts - Dave Witte Morris, Joy Morris. [link](https://opentext.uleth.ca/PDF/proofs+concepts.pdf)
+14. Introduction to Mathematical Structures and Proofs - Larry Gerstein. (978-1461442646)
 ## Discrete Mathematics
+1. Discrete Mathematics and Its Applications - Kenneth Rosen. (978-1259676512)
+2. Discrete Mathematics with Applications - Susanna Epp. (978-0357114087)
+3. Discrete Mathematics - Richard Johnsonbaugh. (978-0321964687)
+4. Discrete Mathematics: Elementary and Beyond - Laszlo Lovasz, Jozsef Pelikan, Katalin Vesztergombi. (978-0387955858)
+5. Schaum's Outline of Discrete Mathematics - Seymour Lipschutz, Marc Lipson. (978-1264258802)
+6. Schaum's 2000 Solved Problems in Discrete Mathematics - Seymour Lipschutz. (978-0070380318)
 ## Statistics
 ## AP Statistics
 ## Misc
