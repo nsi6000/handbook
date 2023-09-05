@@ -56,6 +56,18 @@
 ## Differential Equations
 ## Numerical Analysis
 ## Linear Algebra
+1. Linear Algebra and Its Applications - David Lay, Judy McDonald, Steven Lay. (978-0135851258)
+2. Introduction to Linear Algebra - Gilbert Strang. (978-1733146678)
+3. Linear Algebra with Applications - Steve Leon, Lisette de Pillis. (978-0136731634)
+4. Linear Algebra Done Right - Sheldon Axler. (978-3031410253)
+5. Linear Algebra with Applications - Otto Bretscher. (978-0321796974)
+6. Coding the Matrix: Linear Algebra through Applications to Computer Science - Philip Klein. (978-0615880990)
+7. Linear Algebra: A Modern Introduction - David Poole. (978-1285463247)
+8. Linear Algebra with Appliations - Gareth Williams. (978-1284120097)
+9. Linear Algebra - John Fraleigh, Raymong Beauregard. (978-0201526752)
+10. A Linear Algebra Primer for Financial Engineering - Dan Stefanica. (978-0979757655)
+    - Solutions Manual for A Linear Algebra Primer - Dan Stefanica. (978-0979757662)
+11. Schaum's Outline of Linear Algebra - Seymour Lipschutz, Marc Lipson. (978-1260011449)
 ## Abstract Algebra
 ## Topology
 1. Topology - James Munkres. (978-0134689517)
@@ -81,6 +93,7 @@
 12. Mathematical Reasoning: Writing and Proof Version 3 - Ted Sundstrom. (979-8622238970)
 13. Proofs and Concepts - Dave Witte Morris, Joy Morris. [link](https://opentext.uleth.ca/PDF/proofs+concepts.pdf)
 14. Introduction to Mathematical Structures and Proofs - Larry Gerstein. (978-1461442646)
+15. Writing Proofs in Analysis - Jonathan Kane. (978-3319809311)
 ## Discrete Mathematics
 1. Discrete Mathematics and Its Applications - Kenneth Rosen. (978-1259676512)
 2. Discrete Mathematics with Applications - Susanna Epp. (978-0357114087)
