@@ -38,7 +38,16 @@
 9. Calculus - Howard Anton, Irl Bivens, Stephen Davis. (978-1119778103)
     - Calculus: Early Transcendentals - Howard Anton, Irl Bivens, Stephen Davis. (978-1119777984)
 10. abc
-## Advanced Calculus
+## Advanced Engineering Mathematics
+1. Advanced Engineering Mathematics - Erwin Kreyszig. (978-0470646137)
+2. Higher Engineering Mathematics - John Bird. (978-0367643737)
+3. Advanced Engineering Mathematics - K.A. Stroud, Dexter Booth. (978-1352010251)
+4. Advanced Engineering Mathematics - Dennis Zill. (978-1284206241)
+5. Advanced Engineering Mathematics - Michael Greenberg. (978-8177585469)
+6. Mathematical Methods for Physics and Engineering: A Comprehensive Guide - K.F. Riley, M.P. Hobson, S.J. Bence. (978-0521679718)
+    - Student Solutions Manual for Mathematical Methods - K.F. Riley, M.P. Hobson. (978-0521679732)
+7. Mathematical Methods for Physicists: A Comprehensive Guide - George Arfken, Hans Weber, Frank Harris. (978-9381269558)
+8. Schaum's Outline of Advanced Mathematics for Engineers and Scientists - Murray Spiegel. (978-0071635400)
 ## Real Analysis
 1. Principles of Mathematical Analysis (aka Little Rudin) - Walter Rudin. (978-1259064784)
 2. Understanding Analysis - Stephen Abbott. (978-1493927111)
