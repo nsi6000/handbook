@@ -130,6 +130,7 @@
 13. Proofs and Concepts - Dave Witte Morris, Joy Morris. [link](https://opentext.uleth.ca/PDF/proofs+concepts.pdf)
 14. Introduction to Mathematical Structures and Proofs - Larry Gerstein. (978-1461442646)
 15. Writing Proofs in Analysis - Jonathan Kane. (978-3319809311)
+16. Bridge to Abstract Mathematics - Ronald Morash. (978-0394354293)
 ## Discrete Mathematics
 1. Discrete Mathematics and Its Applications - Kenneth Rosen. (978-1259676512)
 2. Discrete Mathematics with Applications - Susanna Epp. (978-0357114087)
@@ -140,3 +141,10 @@
 ## Statistics
 ## AP Statistics
 ## Misc
+1. All the Math You Missed - Thomas A. Garrity. (978-1009009195)
+2. Understanding Pure Mathematics - A.J. Sadler, D.W.S. Thorning. (978-0199142590)
+3. Oliver Byrne's Elements of Euclid - Art Meets Science. (978-1528770439)
+4. Euclid's Elements - Dana Densmore, Thomas Heath. (978-1888009187)
+5. The Thirteen Books of the Elements Volume 1 - Dover Books on Mathematics. (978-0486600888)
+6. The Thirteen Books of the Elements Volume 2 - Dover Books on Mathematics. (978-0486600895)
+7. The Thirteen Books of the Elements Volume 3 - Dover Books on Mathematics. (978-0486600901)
