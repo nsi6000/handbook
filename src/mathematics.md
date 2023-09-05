@@ -64,6 +64,20 @@
 ## Complex Analysis
 ## Differential Equations
 ## Numerical Analysis
+1. Numerical Recipes: The Art of Scientific Computing - William H. Press, Saul Teukolsky, William Vetterling, Brian Flannery. (978-0521880688) [official website](http://numerical.recipes/)
+2. Numerical Methods using MATLAB - John Mathews, Kurtis Fink. (978-0130652485)
+3. Applied Numerical Analysis Using MATLAB - Laurene Fausett. (978-0132397285)
+4. Numerical Methods for Engineers - Steven Chapra, Raymond Canale. (978-1260232073)
+5. Numerical Analysis - Richard Burden, Douglas Faires. (unknown)
+6. Numerical Methods Using MATLAB - George Lindfield, John Penny. (978-0128122563)
+7. Numerical Linear Algebra with Applications Using MATLAB - William Ford. (978-0123944351)
+8. Numerical Analysis - Timothy Sauer. (978-0134696454)
+9. Scientific Computing with MATLAB and Octave - Alfio Quarteroni, Fausto Saleri, Paola Gervasio. (978-3662517581)
+10. A Primer of Scientific Programming with Python - Hans Petter Langtangen. (978-3662570463)
+11. Numerical Python - Robert Johansson. (978-1484242452)
+12. Numerical Methods in Engineering with Python 3 - Jaan Kiusalaas. (978-1107033856)
+13. Numerical Methods in Physics with Python - Alex Gezerlis. (978-1009303866)
+14. Schaum's Outline of Numerical Analysis - Francis Scheid. (978-0070552210)
 ## Linear Algebra
 1. Linear Algebra and Its Applications - David Lay, Judy McDonald, Steven Lay. (978-0135851258)
 2. Introduction to Linear Algebra - Gilbert Strang. (978-1733146678)
