@@ -25,6 +25,13 @@
 10. abc
 ## Advanced Calculus
 ## Real Analysis
+1. Principles of Mathematical Analysis (aka Little Rudin) - Walter Rudin. (978-1259064784)
+2. Real Analysis: A Long-Form Mathematics Textbook - Jay Cummings. (978-1077254541)
+3. Real Analysis - Halsey Royden, Patrick Fitzpatrick. (978-0134689494)
+4. Real Analysis - N.L. Carothers. (978-0521497565)
+5. Real and Complex Analysis - Walter Rudin. (978-0070542341)
+6. Introductory Real Analysis - A.N. Kolmogorov, S.V. Fomin. (978-0486612263)
+7. Real Analysis: Modern Techniques and Their Applications - Gerald Folland. (978-0471317166)
 ## Complex Analysis
 ## Differential Equations
 ## Numerical Analysis
