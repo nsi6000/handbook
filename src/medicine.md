@@ -1,5 +1,6 @@
 # Medicine
 ## MCAT
+1. MCAT Study Guide - Wikibooks. [link](https://en.wikibooks.org/wiki/MCAT_Study_Guide)
 ## PCAT
 ## DAT-NBDE
 ## Anatomy and Physiology
@@ -25,6 +26,9 @@
 16. Kaplan Medical Anatomy Flash Cards - Joanne Tillotson, Stephanie McCann. (978-1506258874)
 17. Kaplan Anatomy Coloring Book - Stephanie McCann, Eric Wise. (978-1506281216)
 18. The Princeton Review Anatomy Coloring Book - The Princeton Review. (978-0451487872)
+19. Anatomy and Physiology - OpenStax. (978-1711494067)
+20. General Anatomy - Wikibooks. [link](https://en.wikibooks.org/wiki/General_Anatomy)
+21. Human Physiology - Wikibooks. [link](https://en.wikibooks.org/wiki/Human_Physiology)
 ## Internal Medicine
 1. Harrison's Principles of Internal Medicine - Larry Jameson, Anthony Fauci, Dennis Kasper, Stephen Hauser, Dan Longo, Joseph Loscalzo. (978-1259644030)
 2. Netter's Internal Medicine - Marschall Runge, Andrew Greganti. (978-1416044178)
@@ -38,6 +42,7 @@
 10. Kaplan Medical Internal Medicine Question Book - Conrad Fischer. (978-1607141266)
 11. First Aid for the Internal Medicine Boards - Tao Le, Tom Baudendistel, Peter Chin-Hong, Cindy Lai. (978-1259835032)
 12. Clinical Medicine Complete 5-Book Subject Review 2024 2025 - Kaplan Medical. (978-1506285245)
+13. Internal Medicine - Wikibooks. [link](https://en.wikibooks.org/wiki/Internal_Medicine)
 ## Surgery
 1. Schwartz's Principles of Surgery - F. Charles Brunicardi. (978-1259835353)
 2. Sabiston Textbook of Surgery - Courtney Townsend. (978-0323640626)
@@ -59,12 +64,16 @@
 6. Principles of Rubin's Pathology - Emanuel Rubin, Howard M. Reisner. (978-1496350329)
 7. Rosai and Ackerman's Surgical Pathology - John Goldblum, Laura Lamps, Jesse McKenney, Jeffrey Myers. (978-0323263399)
 8. Schaum's Outline of Pathophysiology - Tom Betsy. (978-0071623698)
+9. Netter's Integrated Review of Medicine: Pathogenesis to Treatment - Bryan Lepperrt, Christopher Kelly. (978-0323479387)
+10. Pathology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pathology)
 ## Clinical Examination
 1. Physical Examination and Health Assessment - Carolyn Jarvis. (978-0323809849)
 2. Seidel's Guide to Physical Examination - Jane Ball, Joyce Dains, John Flynn, Barry Solomon, Rosalyn Stewart. (978-0323481953)
 3. Talley and O'Connor's Clinical Examination - Nicholas Talley, Simon O'Connor. (978-0729544245)
 4. Macleod's Clinical Examination - J. Alastair Innes, Anna R. Dover, Karen Fairhurst. (978-0323847704)
 5. Clinical Examination - Owen Epstein, David Perkin. (978-0723434542)
+6. Bate's Guide To Physical Examination and History Taking - Lynn S. Bickley. (978-1496398178)
+7. Guide to Clinical Examination - Wikibooks. [link](https://en.wikibooks.org/wiki/Guide_to_Clinical_Examination)
 ## Histology
 1. Wheater's Functional Histology - Geraldine O'Dowd, Sarah Bell, Sylvia Wright. (978-0702083341)
 2. Junqueira's Basic Histology - Anthony L. Mescher. (978-1260462982)
@@ -78,11 +87,17 @@
 3. Basic Immunology - Abul Abbas, Andrew Lichtman, Shiv Pillai. (978-0443105197)
 4. Lippincott Illustrated Reviews: Immunology - Thao Doan, Fabio Lievano, Susan Viselli, Michelle Swanson-Mungerson. (978-1975151331)
 5. Schaum's Outline of Immunology - George Pinchuk. (978-0071373661)
+6. Roitt's Essential Immunology - Seamus J. Martin, Dennis R. Burton. (978-1118415771)
+7. Immunology: Understanding the Immunce System - Klaus D. Egbert. (978-0470081570)
+8. Immunology - David Male, R. Stokes Peebles Jr., Victoria Male. (978-0702078446)
+## Pharmacology
+1. Pharmacology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pharmacology)
 ## BRS
 ## CaseFiles
 ## Blueprints
 ## PreTest and Elsevier Rapid Review
 ## EMT
+1. EMT-Basic - Wikibooks. [link](https://en.wikibooks.org/wiki/EMT-Basic)
 ## Paramedics
 ## NCLEX and Nursing
 ## CCRN
