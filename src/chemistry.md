@@ -30,6 +30,7 @@
 11. Inorganic Chemistry - James House. (978-0123851109)
 12. Inorganic Chemistry - Peter Atkins, Tina Overton, Jonathan Rourke, Mark Weller, Armstrong. (978-0198768128)
 13. University Chemistry - Peter Siska. (978-0805393491)
+14. General Chemistry - Wikibooks. [link](https://en.wikibooks.org/wiki/General_Chemistry)
 ## Organic Chemistry
 1. Organic Chemistry - Paula Yurkanis Bruice. (978-0134048147)
 2. Organic Chemistry - Joanathan Clayden, Nick Greeves, Stuart Warren. (978-0199270293)
@@ -47,6 +48,7 @@
 10. Organic Chemistry - Marc Loudon, Jim Parise. (978-1319188429)
 11. Schaum's Outline of Organic Chemistry - Herbert Meislich. (978-1265513320)
 12. Schaum's 3000 Solved Problems in Organic Chemistry - Herbert Meislich. (978-0070564244)
+13. Organic Chemistry - Wikibooks. [link](https://en.wikibooks.org/wiki/Organic_Chemistry)
 ## Physical Chemistry
 1. Physical Chemistry - Peter Atkins, Julio de Paula, James Keeler. (978-0198847816)
 2. Principles of Chemistry A Molecular Approach - Nivaldo Tro. (978-0134895741)
@@ -70,3 +72,4 @@
 6. Principles of Biochemistry - Laurence Moran, Robert Horton. (978-0321707338)
 7. Lippincott Illustrated Reviews Biochemistry - Emine Abali, Susan Cline, David Franklin, Susan Viselli. (978-9960717319)
 8. Schaum's Outline of Biochemistry - Philip Kuchel. (978-0071472272)
+9. Biochemistry - Wikibooks. [link](https://en.wikibooks.org/wiki/Biochemistry)
