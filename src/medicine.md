@@ -3,6 +3,20 @@
 ## PCAT
 ## DAT-NBDE
 ## Anatomy and Physiology
+1. Human Anatomy - Elaine Marieb, Patricia Brady, Jon Mallat. (978-1292314471)
+2. Anatomy & Physiology - Kenneth Saladin. (978-1259277726)
+3. Netter Atlas of Human Anatomy - Frank H. Netter. (978-0323680424)
+    - Netter's Anatomy Flash Cards - John Hansen. (978-0323834179)
+    - Netter's Anatomy Coloring Book - John Hansen. (978-0323826730)
+    - Netter's Physiology Coloring Book - Susan Mulroney, Adam Myers. (978-0323694636)
+    - Netter's Neuroscience Coloring Book - David L. Felten, Mary Summo Maida. (978-0323509596)
+4. Gray's Anatomy - Susan Standring. (978-0702077050)
+5. Seeley's Anatomy & Physiology - Cinnamon VanPutte, Jennifer Regan, Andrew Russo. (978-1265129583)
+6. Hole's Human Anatomy & Physiology - David Shier, Jackie Butler, Ricki Lewis. (978-1260092820)
+7. Human Anatomy - Michael McKinley, Valerie O'Loughlin, Elizabeth Pennefather-O'Brien. (978-1260251357)
+8. Principles of Anatomy and Physiology - Gerard Tortora, Bryan Derrickson. (978-1119662792)
+9. Anthony's Textbook of Anatomy & Physiology - Kevin Patton, Gary Thibodeau. (978-0323528801)
+10. Human Anatomy - Frederic Martini, Robert Tallitsch, Judi Nath. (978-0134320762)
 ## Internal Medicine
 1. Harrison's Principles of Internal Medicine - Larry Jameson, Anthony Fauci, Dennis Kasper, Stephen Hauser, Dan Longo, Joseph Loscalzo. (978-1259644030)
 2. Netter's Internal Medicine - Marschall Runge, Andrew Greganti. (978-1416044178)
@@ -27,8 +41,15 @@
 8. Dr. Pestana's Surgery Notes - Carlos Pestana. (978-1506281254)
 9. Bailey & Love's Short Practice of Surgery - P. Ronan O'Connell. (978-0367548117)
 10. Principles and Practice of Surgery - O. James Garden, Rowan W. Parks, Stephen J. Wigmore. (978-0702082511)
+## Pathology
 ## Clinical Examination
 ## Histology
+1. Wheater's Functional Histology - Geraldine O'Dowd, Sarah Bell, Sylvia Wright. (978-0702083341)
+2. Junqueira's Basic Histology - Anthony L. Mescher. (978-1260462982)
+3. Histology: A Text and Atlas - Wojciech Pawlina. (978-1975181512)
+4. Gartner & Hiatt's Atlas and Text of Histology - Leslie P. Gartner, Lisa M.J. Lee. (978-1975164256)
+5. Bloom & Fawcett's Concise Histology - Don Fawcett, Ronald Jensh. (978-0340806777)
+6. Steven & Lowe's Human Histology - James S. Lowe, Peter G. Anderson. (978-0723435020)
 ## Immunology
 1. Kuby Immunology - Jenni Punt, Sharon Stranford, Patricia Jones, Judy Owen. (978-1464189784)
 2. Janeway's Immunobiology - Kenneth Murphy, Casey Weaver, Leslie Berg. (978-0393884890)
