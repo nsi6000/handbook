@@ -17,6 +17,16 @@
 11. First Aid for the Internal Medicine Boards - Tao Le, Tom Baudendistel, Peter Chin-Hong, Cindy Lai. (978-1259835032)
 12. Clinical Medicine Complete 5-Book Subject Review 2024 2025 - Kaplan Medical. (978-1506285245)
 ## Surgery
+1. Schwartz's Principles of Surgery - F. Charles Brunicardi. (978-1259835353)
+2. Sabiston Textbook of Surgery - Courtney Townsend. (978-0323640626)
+3. Current Surgical Therapy - John L. Cameron, Andrew M. Cameron. (978-0323796835)
+4. Essentials of General Surgery and Surgical Specialties - Peter F. Lawrence. (978-1496351043)
+5. Fischer's Mastery of Surgery - E. Christopher Ellison. (978-1975176433)
+6. Surgical Recall - Lorne Blackbourne. (978-1975152949)
+7. Mulholland & Greenfield's Surgery - Justing B. Dimick. (978-1975143169)
+8. Dr. Pestana's Surgery Notes - Carlos Pestana. (978-1506281254)
+9. Bailey & Love's Short Practice of Surgery - P. Ronan O'Connell. (978-0367548117)
+10. Principles and Practice of Surgery - O. James Garden, Rowan W. Parks, Stephen J. Wigmore. (978-0702082511)
 ## Clinical Examination
 ## Histology
 ## Immunology
