@@ -37,7 +37,7 @@
 8. Calculus, International Metric Edition - Ron Larson, Bruce Edwards. (978-0357908129)
 9. Calculus - Howard Anton, Irl Bivens, Stephen Davis. (978-1119778103)
     - Calculus: Early Transcendentals - Howard Anton, Irl Bivens, Stephen Davis. (978-1119777984)
-10. abc
+10. Calculus - Wikibooks. [link](https://en.wikibooks.org/wiki/Calculus)
 ## Advanced Engineering Mathematics
 1. Advanced Engineering Mathematics - Erwin Kreyszig. (978-0470646137)
 2. Higher Engineering Mathematics - John Bird. (978-0367643737)
@@ -48,6 +48,7 @@
     - Student Solutions Manual for Mathematical Methods - K.F. Riley, M.P. Hobson. (978-0521679732)
 7. Mathematical Methods for Physicists: A Comprehensive Guide - George Arfken, Hans Weber, Frank Harris. (978-9381269558)
 8. Schaum's Outline of Advanced Mathematics for Engineers and Scientists - Murray Spiegel. (978-0071635400)
+9. Advanced Mathematics for Engineers and Scientists - Wikibooks. [link](https://en.wikibooks.org/wiki/Advanced_Mathematics_for_Engineers_and_Scientists)
 ## Real Analysis
 1. Principles of Mathematical Analysis (aka Little Rudin) - Walter Rudin. (978-1259064784)
 2. Understanding Analysis - Stephen Abbott. (978-1493927111)
@@ -61,8 +62,12 @@
 10. Real Analysis for the Undegraduate - Matthew Pons. (978-1461496373)
 11. Real Analysis: Foundations and Functions of One Variable - Miklos Laczkovich, Vera Sos. (978-1493927654)
 12. Introduction to Real Analysis - Donald Bartle, Robert Sherbert. (978-1119496786)
+13. Real Analysis - Wikibooks. [link](https://en.wikibooks.org/wiki/Real_Analysis)
 ## Complex Analysis
+1. Complex Analysis - Wikibooks. [link](https://en.wikibooks.org/wiki/Complex_Analysis)
 ## Differential Equations
+1. Ordinary Differential Equations - Wikibooks. [link](https://en.wikibooks.org/wiki/Ordinary_Differential_Equations)
+2. Partial Differential Equations - Wikibooks. [link](https://en.wikibooks.org/wiki/Partial_Differential_Equations)
 ## Numerical Analysis
 1. Numerical Recipes: The Art of Scientific Computing - William H. Press, Saul Teukolsky, William Vetterling, Brian Flannery. (978-0521880688) [official website](http://numerical.recipes/)
 2. Numerical Methods using MATLAB - John Mathews, Kurtis Fink. (978-0130652485)
@@ -78,19 +83,23 @@
 12. Numerical Methods in Engineering with Python 3 - Jaan Kiusalaas. (978-1107033856)
 13. Numerical Methods in Physics with Python - Alex Gezerlis. (978-1009303866)
 14. Schaum's Outline of Numerical Analysis - Francis Scheid. (978-0070552210)
+15. Numerical Methods - Wikibooks. [link](https://en.wikibooks.org/wiki/Numerical_Methods)
+16. Tea Time Numerical Analysis - Leon Q. Brin. [github](https://github.com/lqbrin/tea-time-numerical) [website](https://lqbrin.github.io/tea-time-numerical/)
 ## Linear Algebra
 1. Linear Algebra and Its Applications - David Lay, Judy McDonald, Steven Lay. (978-0135851258)
 2. Introduction to Linear Algebra - Gilbert Strang. (978-1733146678)
 3. Linear Algebra with Applications - Steve Leon, Lisette de Pillis. (978-0136731634)
 4. Linear Algebra Done Right - Sheldon Axler. (978-3031410253)
 5. Linear Algebra with Applications - Otto Bretscher. (978-0321796974)
-6. Coding the Matrix: Linear Algebra through Applications to Computer Science - Philip Klein. (978-0615880990)
+6. Coding the Matrix: Linear Algebra through Applications to Computer Science - Philip Klein. (978-0615880990) [website](https://codingthematrix.com/)
 7. Linear Algebra: A Modern Introduction - David Poole. (978-1285463247)
 8. Linear Algebra with Appliations - Gareth Williams. (978-1284120097)
 9. Linear Algebra - John Fraleigh, Raymong Beauregard. (978-0201526752)
 10. A Linear Algebra Primer for Financial Engineering - Dan Stefanica. (978-0979757655)
     - Solutions Manual for A Linear Algebra Primer - Dan Stefanica. (978-0979757662)
 11. Schaum's Outline of Linear Algebra - Seymour Lipschutz, Marc Lipson. (978-1260011449)
+12. Linear Algebra - Wikibooks. [link](https://en.wikibooks.org/wiki/Linear_Algebra)
+13. Tea Time Linear Algebra - Leon Q. Brin. [github](https://github.com/lqbrin/tea-time-linear) [website](https://lqbrin.github.io/tea-time-linear/)
 ## Abstract Algebra
 1. A First Course in Abstract Algebra - John Fraleigh. (978-0201763904)
 2. Contemporary Abstract Algebra - Joseph Gallian. (978-0367651787)
@@ -105,14 +114,17 @@
 10. Abstract Algebra: A First Course - Dan Saracino. (978-1577665366)
 11. Schaum's Outline of Abstract Algebra - Lloyd Jaisingh. (978-0071403276)
 12. Schaum's Outline of Modern Abstract Algebra - Frank Ayres. (unknown)
+13. Abstract Algebra - Wikibooks. [link](https://en.wikibooks.org/wiki/Abstract_Algebra)
 ## Topology
 1. Topology - James Munkres. (978-0134689517)
-2. Algebraic Topology - Allen Hatcher. (978-0521795401)
+2. Algebraic Topology - Allen Hatcher. (978-0521795401) [website](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)
 3. Introduction to Topology - Bert Mendelson. (978-0486663524)
 4. Elementary Applied Topology - Robert Ghrist. (978-1502880857)
 5. Topology Through Inquiry - Michael Starbied, Francis Su. (978-1470462611)
 6. Schaum's Outline of General Topology - Seymour Lipschutz. (978-0071763479)
+7. Topology - Wikibooks. [link](https://en.wikibooks.org/wiki/Topology)
 ## Combinatorics
+1. Combinatorics - Wikibooks. [link](https://en.wikibooks.org/wiki/Combinatorics)
 ## Optimization
 ## Proofs
 1. How to Prove It: A Structured Approach - Daniel Velleman. (978-1108439534)
@@ -138,6 +150,7 @@
 4. Discrete Mathematics: Elementary and Beyond - Laszlo Lovasz, Jozsef Pelikan, Katalin Vesztergombi. (978-0387955858)
 5. Schaum's Outline of Discrete Mathematics - Seymour Lipschutz, Marc Lipson. (978-1264258802)
 6. Schaum's 2000 Solved Problems in Discrete Mathematics - Seymour Lipschutz. (978-0070380318)
+7. Discrete Mathematics - Wikibooks. [link](https://en.wikibooks.org/wiki/Discrete_Mathematics)
 ## Statistics
 ## AP Statistics
 ## Misc
