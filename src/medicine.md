@@ -42,7 +42,20 @@
 9. Bailey & Love's Short Practice of Surgery - P. Ronan O'Connell. (978-0367548117)
 10. Principles and Practice of Surgery - O. James Garden, Rowan W. Parks, Stephen J. Wigmore. (978-0702082511)
 ## Pathology
+1. Fundamentals of Pathology - Husain A. Sattar. (978-0983224631) [website](https://www.pathoma.com/)
+2. Robbins & Cotran Pathologic Basis of Disease - Vinay Kumar, Abul Abbas, Jon Aster. (978-0323531139)
+    - Robbins and Cotran Pathology Flash Cards - Edward Klatt, Richard Mitchell. (978-0323352222)
+3. Robbins & Kumar Basic Pathology - Vinay Kumar, Abul Abbas, Jon Aster, Andrea Deyrup. (978-0323790185)
+4. Robbins & Cotran Review of Pathology - Edward Klatt, Vinay Kumar. (978-1455751556)
+5. Porth's Pathophysiology - Tommie L. Norris. (978-1496377555)
+6. Principles of Rubin's Pathology - Emanuel Rubin, Howard M. Reisner. (978-1496350329)
+7. Rosai and Ackerman's Surgical Pathology - John Goldblum, Laura Lamps, Jesse McKenney, Jeffrey Myers. (978-0323263399)
 ## Clinical Examination
+1. Physical Examination and Health Assessment - Carolyn Jarvis. (978-0323809849)
+2. Seidel's Guide to Physical Examination - Jane Ball, Joyce Dains, John Flynn, Barry Solomon, Rosalyn Stewart. (978-0323481953)
+3. Talley and O'Connor's Clinical Examination - Nicholas Talley, Simon O'Connor. (978-0729544245)
+4. Macleod's Clinical Examination - J. Alastair Innes, Anna R. Dover, Karen Fairhurst. (978-0323847704)
+5. Clinical Examination - Owen Epstein, David Perkin. (978-0723434542)
 ## Histology
 1. Wheater's Functional Histology - Geraldine O'Dowd, Sarah Bell, Sylvia Wright. (978-0702083341)
 2. Junqueira's Basic Histology - Anthony L. Mescher. (978-1260462982)
