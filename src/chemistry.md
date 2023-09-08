@@ -6,6 +6,12 @@
 4. Schaum's Outline of Beginning Chemistry - David Goldberd. (978-0071811347)
 5. Schaum's 3000 Solved Problems in Chemistry - David Goldberg. (978-0071755009)
 ## AP Chemistry
+1. The Princeton Review AP Chemistry Premium Prep 2024 - The Princeton Review. (978-0593516768)
+2. Barron's AP Chemistry Premium 2024 - Neil Jespersen, Pamela Kerrigan. (978-1506287652)
+    - AP Chemistry Flashcards - Neil Jespersen. (978-1506263908)
+3. 5 Steps to a 5: AP Chemistry - Mary Millhollon, Richard Langley. (978-1265334260)
+4. CliffsNotes: AP Chemistry 2021 - Angela Woodward Spangenberg. (978-0358353539)
+5. AP Chemistry For Dummies - Peter Mikulecky, Michelle Rose Gilman, Kate Brutlag. (978-0470389768)
 ## General Chemistry
 1. Chemical Principles - Peter Atkins, Loretta Jones, Leroy Laverman. (978-1429288972) [link](https://www.amazon.com/s?k=978-1429288972)
     - Study Guide for Atkins's Chemical Principles - John Krenos, Joseph Potenza. (978-1319017552)
