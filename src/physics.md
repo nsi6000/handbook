@@ -57,6 +57,13 @@
 10. Fluid Mechanics - WikiBooks. [link](https://en.wikibooks.org/wiki/Fluid_Mechanics)
 ## Finite Elements Analysis
 ## Signal and Systems
+1. Signals and Systems - Simon Haykin, Barry Van Veen. (978-0471707899)
+2. Signals and Systems - Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab. (978-0138147570)
+3. Signals and Systems with MATLAB Applications - Steven T. Karris. (978-0970951137)
+4. Signals and Systems using MATLAB - Luis Chaparro. (978-0123948120)
+5. Signals and Systems: Analysis Using Transform Methods and MATLAB - M. J. Roberts. (978-0078028120)
+6. Schaum's Outline of Signals and Systems - Hwei Hsu. (978-1260454246)
+7. Signals and Systems - WikiBooks. [link](https://en.wikibooks.org/wiki/Signals_and_Systems)
 ## Electrical Engineering
 ## Feedback Systems
 ## Thermodynamics
