@@ -24,6 +24,14 @@
 10. Schaum's Outline of Applied Physics - Arthur Beiser. (978-0071611572)
 11. Schaum's 3000 Solved Problems in Physics - Alvin Halpern. (978-0071763462)
 ## Mechanics Statics and Dynamics
+1. Engineering Mechanics: Statics / Dynamics - Russell Hibbeler. (978-0133918922) (978-0133915389)
+2. Engineering Mechanics: Statics / Dynamics - Anthony Bedford, Wallace Fowler. (978-0136129158) (978-0136129165)
+3. Engineering Mechanics: Statics / Dynamics - Robert W. Soutas-Little, Daniel J. Inman, Daniel Balint. (978-0534549213) (978-0132784092)
+4. Engineering Mechanics: Statics / Dynamics - Andrew Pytel, Jaan Kiusalaas. (978-1305501607) (978-1305579200)
+5. Meriam's Engineering Mechanics: Statics / Dynamics - James L. Meriam, L. G. Kraige, J. N. Bolton. (978-1119665045) (978-1119724179)
+6. Schaum's Outline of Engineering Mechanics: Statics / Dynamics - Merle Potter, E. W. Nelson. (978-1260462883) (978-1260462869)
+7. Mechanical Engineering Principles - John Bird, Carl Ross. (978-0367253240)
+8. Engineering Mechanics: Statics / Dynamics - WikiBooks. [link](https://en.wikibooks.org/wiki/Statics) [link](https://en.wikibooks.org/wiki/Dynamics)
 ## Strength of Materials
 ## Fluid Mechanics
 ## Finite Elements Analysis
