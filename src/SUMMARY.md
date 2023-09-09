@@ -1,6 +1,7 @@
 # Summary
 
 [Introduction](Intro.md)
+[List of textbooks publishers](publishers.md)
 
 # Textbooks
 
