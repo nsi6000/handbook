@@ -33,6 +33,14 @@
 7. Mechanical Engineering Principles - John Bird, Carl Ross. (978-0367253240)
 8. Engineering Mechanics: Statics / Dynamics - WikiBooks. [link](https://en.wikibooks.org/wiki/Statics) [link](https://en.wikibooks.org/wiki/Dynamics)
 ## Strength of Materials
+1. Statics and Strength of Materials - Harold Morrow, Robert Kokernak. (978-0135034521)
+2. Applied Statics and Strength of Materials - George Limbrunner, Craig D'Allaird. (978-0133840544)
+3. Applied Strength of Materials - Robert L. Mott, Joseph A. Untener. (978-1032002224)
+4. Mechanics of Materials - Russell C. Hibbeler. (978-0133254426)
+5. Mechanics of Materials - Barry J. Goodno, James M. Gere. (978-1337093347)
+6. Mechanics of Materials - Ferdinand Beer, E. Johnston, John DeWolf, David Mazurek. (978-1260113273)
+7. Schaum's Outline of Strength of Materials - Merle C. Potter, William A. Nash. (978-1260456547)
+8. Strength of Materials - WikiBooks. [link](https://en.wikibooks.org/wiki/Strength_of_Materials)
 ## Fluid Mechanics
 ## Finite Elements Analysis
 ## Signal and Systems
