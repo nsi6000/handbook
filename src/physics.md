@@ -56,6 +56,11 @@
 9. Schaum's Outline of Fluid Mechanics and Hydraulics - Cheng Liu, Giles Ranald, Jack Evett. (978-0071831451)
 10. Fluid Mechanics - WikiBooks. [link](https://en.wikibooks.org/wiki/Fluid_Mechanics)
 ## Finite Elements Analysis
+1. The Finite Element Method Using MATLAB - Young W. Kwon, Hyochoong Bang. (978-0849300967)
+2. Finite Element Analysis: Theory and Application with ANSYS - Saeed Moaveni. (978-0133840803)
+3. Finite Element Analysis with Error Estimators - J. E. Akin. (978-0750667227)
+4. The Finite Element Method: Its Basis and Fundamentals - Olek C. Zienkiewicz, Robert L. Taylor. (978-1856176330)
+5. Schaum's Outline of Finite Element Analysis - George Buchanan. (978-0070087149)
 ## Signal and Systems
 1. Signals and Systems - Simon Haykin, Barry Van Veen. (978-0471707899)
 2. Signals and Systems - Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab. (978-0138147570)
