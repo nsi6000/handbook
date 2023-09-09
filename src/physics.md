@@ -23,6 +23,9 @@
 9. Schaum's Outline of Physics for Engineering and Science - Michael Browne. (978-1260453836)
 10. Schaum's Outline of Applied Physics - Arthur Beiser. (978-0071611572)
 11. Schaum's 3000 Solved Problems in Physics - Alvin Halpern. (978-0071763462)
+12. Physics with Calculus - WikiBooks. [link](https://en.wikibooks.org/wiki/Physics_with_Calculus)
+13. Modern Physics - WikiBooks. [link](https://en.wikibooks.org/wiki/Modern_Physics)
+14. Physics Study Guide - WikiBooks. [link](https://en.wikibooks.org/wiki/Physics_Study_Guide)
 ## Mechanics Statics and Dynamics
 1. Engineering Mechanics: Statics / Dynamics - Russell Hibbeler. (978-0133918922) (978-0133915389)
 2. Engineering Mechanics: Statics / Dynamics - Anthony Bedford, Wallace Fowler. (978-0136129158) (978-0136129165)
@@ -42,6 +45,16 @@
 7. Schaum's Outline of Strength of Materials - Merle C. Potter, William A. Nash. (978-1260456547)
 8. Strength of Materials - WikiBooks. [link](https://en.wikibooks.org/wiki/Strength_of_Materials)
 ## Fluid Mechanics
+1. Fluid Mechanics - Pijush K. Kundu, Ira M. Cohen, David R. Dowling. (978-0124059351)
+2. Fluid Mechanics: Fundamentals and Applications - Yunus Cengel, John Cimbala. (978-1259696534)
+3. Fluid Mechanics - Frank White. (978-0073398273)
+4. Applied Fluid Mechanics - Robert Mott, Joseph Untener. (978-0132558921)
+5. Fluid Mechanics - Russell C. Hibbeler. (978-0134649290)
+6. Engineering Fluid Mechanics - Donald F. Elger, Barbara A. LeBret, Clayton T. Crowe, John A. Roberson. (978-1119723509)
+7. Munson, Young and Okiishi's Fundamentals of Fluid Mechanics - Andrew L. Gerhart, Philip M. Gerhart, John I. Hochstein. (978-1119703266)
+8. Schaum's Outline of Fluid Mechanics - Merle Potter, David Wiggert. (978-1260462845)
+9. Schaum's Outline of Fluid Mechanics and Hydraulics - Cheng Liu, Giles Ranald, Jack Evett. (978-0071831451)
+10. Fluid Mechanics - WikiBooks. [link](https://en.wikibooks.org/wiki/Fluid_Mechanics)
 ## Finite Elements Analysis
 ## Signal and Systems
 ## Electrical Engineering
