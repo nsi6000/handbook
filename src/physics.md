@@ -1,4 +1,4 @@
-# Physics
+# Physics & Engineering
 ## College Physics
 1. College Physics - OpenStax. (978-1711470825)
 2. College Physics: A Strategic Approach - Randall Knight, Brian Jones, Stuart Field. (978-0134609034)
@@ -22,19 +22,24 @@
 ## General Physics
 1. University Physics with Modern Physics - Hugh Young, Roger Freedman. (978-0135159552)
 2. Physics: Principles with Applications - Douglas Giancoli. (978-0321625922)
-3. University Physics - Harris Benson. (978-0471006893)
-4. The Feynman Lectures on Physics - Richard Feynman. (978-0465023820)
+3. Physics for Scientists & Engineers - Douglas Giancoli. (978-0131495081)
+4. University Physics - Harris Benson. (978-0471006893)
+5. Fundamentals of Physics - David Halliday, Robert Resnick, Jearl Walker. (978-1118230718)
+    - Student Study Guide for Fundamentals of Physics - David Halliday, Robert Resnick, Jearl Walker. (978-1118230787)
+    - Fundamentals of Physics Student Solutions Manual - David Halliday, Robert Resnick, Jearl Walker. (978-1118230664)
+6. The Feynman Lectures on Physics - Richard Feynman. (978-0465023820)
     - Exercises for the Feynman Lectures on Physics - Richard Feynman. (978-0465060719)
-5. Physics for Scientists and Engineers with Modern Physics - Raymond Serway, John Jewett. (978-1337553292)
-6. Univeristy Physics with Modern Physics - Wolfgang Bauer, Gary Westfall. (978-0073513881)
-7. Physics for Scientists and Engineers - Randall Knight. (978-0133942651)
-8. Physics - John Cutnell, Kenneth Johnson. (978-1119773610)
-9. Schaum's Outline of Physics for Engineering and Science - Michael Browne. (978-1260453836)
-10. Schaum's Outline of Applied Physics - Arthur Beiser. (978-0071611572)
-11. Schaum's 3000 Solved Problems in Physics - Alvin Halpern. (978-0071763462)
-12. Physics with Calculus - WikiBooks. [link](https://en.wikibooks.org/wiki/Physics_with_Calculus)
-13. Modern Physics - WikiBooks. [link](https://en.wikibooks.org/wiki/Modern_Physics)
-14. Physics Study Guide - WikiBooks. [link](https://en.wikibooks.org/wiki/Physics_Study_Guide)
+7. Physics for Scientists and Engineers with Modern Physics - Raymond Serway, John Jewett. (978-1337553292)
+8. Univeristy Physics with Modern Physics - Wolfgang Bauer, Gary Westfall. (978-0073513881)
+9. Physics for Scientists and Engineers - Randall Knight. (978-0133942651)
+10. Physics - John Cutnell, Kenneth Johnson. (978-1119773610)
+11. Physics for Engineers and Scientists - Hans C. Ohanian, John T. Markert. (978-0393930030)
+12. Schaum's Outline of Physics for Engineering and Science - Michael Browne. (978-1260453836)
+13. Schaum's Outline of Applied Physics - Arthur Beiser. (978-0071611572)
+14. Schaum's 3000 Solved Problems in Physics - Alvin Halpern. (978-0071763462)
+15. Physics with Calculus - WikiBooks. [link](https://en.wikibooks.org/wiki/Physics_with_Calculus)
+16. Modern Physics - WikiBooks. [link](https://en.wikibooks.org/wiki/Modern_Physics)
+17. Physics Study Guide - WikiBooks. [link](https://en.wikibooks.org/wiki/Physics_Study_Guide)
 ## Mechanics Statics and Dynamics
 1. Engineering Mechanics: Statics / Dynamics - Russell Hibbeler. (978-0133918922) (978-0133915389)
 2. Engineering Mechanics: Statics / Dynamics - Anthony Bedford, Wallace Fowler. (978-0136129158) (978-0136129165)
@@ -88,5 +93,20 @@
 7. Signals and Systems - WikiBooks. [link](https://en.wikibooks.org/wiki/Signals_and_Systems)
 ## Electrical Engineering
 ## Feedback Systems
+## Mechatronics
+1. Mechatronics: Principles and Applications - Godfrey Onwubolu. (978-0750663793)
+2. Mechatronics: Electronic Control Systems in Mechanical and Electrical Engineering - William Bolton. (978-9357052849)
+3. Micromechatronics: Modeling, Analysis and Design with MATLAB - Victor Giurgiutiu, Sergey Edward Lyshevski. (978-0849315930)
 ## Thermodynamics
+1. Schaum's Outline of Thermodynamics for Engineers - Merle Potter, Craig Somerton. (978-1260456523)
+## Heat Transfer
+1. Schaum's Outline of Heat Transfer - Donald Pitts, Leighton Sissom. (978-0071764292)
+## Machine Design
+1. Fundamentals of Machine Component Design - Robert C. Juvinall, Kurt M. Marshek. (978-1119723608)
+2. Machine Design: An Integrated Approach - Robert Norton. (978-0135184233)
+3. Shigley's Mechanical Engineering Design - Richard Budynas. (978-1260569995)
+4. Machine Elements in Mechanical Design - Robert Mott, Edward Vavrek, Jyhwen Wang. (978-0134441184)
+5. Schaum's Outline of Machine Design - Allen S. Hall, Alfred R. Holowenko, Herman G. Laughlin. (unknown)
 ## Aerodynamics
+## Optics
+1. Optics - Eugene Hecht. (978-0133977226)
