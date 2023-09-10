@@ -36,6 +36,8 @@
 10. Schaum's Outline of Microbiology - Edward Alcamo, Jennifer Warner. (978-0071623261)
 11. The Microbiology Coloring Book - Edward Alcamo, Lawrence Elson. (978-0060419257)
 12. Microbiology For Dummies - Jennifer Stearns, Michael Surette. (978-1119544425)
+13. Jawetz, Melnick & Adelberg's Medical Microbiology - Stefan Riedel, Stephen Morse, Timothy Mietzner, Steve Miller. (978-1260012026)
+14. Sherris & Ryan's Medical Microbiology - Kenneth Ryan. (978-1260464283)
 ## Molecular Biology
 1. Molecular Biology of the Cell - Bruce Alberts, Rebecca Heald. (978-0393884821)t
 2. Molecular Cell Biology - Harvey Lodish, Arnold Berk. (978-1319208523)
@@ -43,12 +45,14 @@
 4. Molecular Biology of the Gene - James Watson, Tania Baker. (978-0321762436)
 5. Schaum's Outline of Molecular and Cell Biology - William Stansfield, Raul Cano, Jaime Colome. (978-0070608986)
 6. Molecular & Cell Biology For Dummies - Rene Fester Kratz. (978-1119620402)
+7. Lippincott Illustrated Reviews: Cell and Molecular Biology - Nalini Chandar, Susan Viselli. (978-1975180898)
 ## Genetics
 1. Concepts of Genetics - William Klug, Michael Cummings. (978-1292265322)
     - Essentials of Genetics - William Klug, Michael Cummings. (978-1292108865)
 2. Principles of Genetics - Peter Snustad, Michael Simmons. (978-1119142270)
 3. Genetics For Dummies - Rene Fester Kratz, Lisa Spock. (978-1394210190)
 4. Schaum's Outline of Genetics - Susan Elrod. (978-0071625036)
+5. BRS Genetics - Ronald W. Dudek. (978-8184733051)
 ## Ecology
 ## AP Environmental Science
 1. Barron's AP Environmental Science - Gary S. Thorpe. (978-1506288062)
