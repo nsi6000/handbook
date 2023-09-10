@@ -1,5 +1,6 @@
 # Biology
 ## College Biology
+1. McGraw-Hill Education 500 College Biology Questions - Robert Stewart. (978-0071789592)
 ## AP Biology
 1. Barron's AP Biology Premium 2024 - Mary Wuerth. (978-1506287799)
     - Barron's AP Biology Flashcards - Mary Wuerth. (978-1506288109)
@@ -16,10 +17,11 @@
 6. Biology - Robert Brooker, Eric Widmaier, Linda Graham, Peter Stiling. (978-1265121136)
     - Principles of Biology - Robert Brooker, Eric Widmaier, Linda Graham, Peter Stiling. (978-1260240863)
 7. Schaum's Outline of Biology - George Fried, George Hademenos. (978-1260120783)
-8. Biology - OpenStax. (978-1947172517)
-9. Biological Science - Scott Freeman, Kim Quillin, Lizabeth Allison. (978-1292165073)
-10. The Biology Coloring Book - Robert Griffin, Cinthea Vadala. (978-0064603072)
-11. Biology Coloring Workbook - The Princeton Review. (978-0451487780)
+8. Schaum's 3000 Solved Problems in Biology - Ruth Bernstein, Steve Bernstein. (978-0070050228)
+9. Biology - OpenStax. (978-1947172517)
+10. Biological Science - Scott Freeman, Kim Quillin, Lizabeth Allison. (978-1292165073)
+11. The Biology Coloring Book - Robert Griffin, Cinthea Vadala. (978-0064603072)
+12. Biology Coloring Workbook - The Princeton Review. (978-0451487780)
 ## Microbiology
 1. Prescott's Microbiology - Joanne Willey, Kathleen Sandman, Dorothy Wood. (978-1265123031)
     - Laboratory Exercises in Microbiology - John Harley. (978-1259657573)
@@ -34,9 +36,25 @@
 10. Schaum's Outline of Microbiology - Edward Alcamo, Jennifer Warner. (978-0071623261)
 11. The Microbiology Coloring Book - Edward Alcamo, Lawrence Elson. (978-0060419257)
 12. Microbiology For Dummies - Jennifer Stearns, Michael Surette. (978-1119544425)
+## Molecular Biology
+1. Molecular Biology of the Cell - Bruce Alberts, Rebecca Heald. (978-0393884821)t
+2. Molecular Cell Biology - Harvey Lodish, Arnold Berk. (978-1319208523)
+3. Molecular Biology - David P. Clark, Nanette J. Pazdernik, Michelle R. McGehee. (978-0128132883)
+4. Molecular Biology of the Gene - James Watson, Tania Baker. (978-0321762436)
+5. Schaum's Outline of Molecular and Cell Biology - William Stansfield, Raul Cano, Jaime Colome. (978-0070608986)
+6. Molecular & Cell Biology For Dummies - Rene Fester Kratz. (978-1119620402)
 ## Genetics
 1. Concepts of Genetics - William Klug, Michael Cummings. (978-1292265322)
     - Essentials of Genetics - William Klug, Michael Cummings. (978-1292108865)
 2. Principles of Genetics - Peter Snustad, Michael Simmons. (978-1119142270)
+3. Genetics For Dummies - Rene Fester Kratz, Lisa Spock. (978-1394210190)
+4. Schaum's Outline of Genetics - Susan Elrod. (978-0071625036)
 ## Ecology
 ## AP Environmental Science
+1. Barron's AP Environmental Science - Gary S. Thorpe. (978-1506288062)
+    - Barron's AP Environmental Science Flashcards - Gary S. Thorpe. (978-1506267050)
+2. Princeton Review AP Environmental Science Prep 2024 - The Princeton Review. (978-0593517130)
+3. 5 Steps to a 5: AP Environmental Science 2024 - Courtney Mayer. (978-1265296964)
+    - 5 Steps to a 5: 500 AP Environmental Science Questions - Anaxos Inc. (978-1260474787)
+4. CliffsNotes AP Environmental Science - Jennifer Sutton. (978-0470889756)
+5. Kaplan AP Environmental Science 2014 - Craig C. Freudenrich. (978-1618652546)
