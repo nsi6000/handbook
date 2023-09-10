@@ -1,6 +1,19 @@
-# Medicine
+# Medicine, Nursing and Health Sciences
 ## MCAT
-1. MCAT Study Guide - Wikibooks. [link](https://en.wikibooks.org/wiki/MCAT_Study_Guide)
+1. Kaplan MCAT Complete 7-Book Subject Review 2024-2025 - Kaplan Test Prep. (978-1506287065)
+    - MCAT Flashcards - Kaplan Test Prep. (978-1506259697)
+2. Princeton Review MCAT Subject Review Complete Box Set - The Princeton Review. (978-0593516287)
+    - Essential MCAT Flashcards - The Princeton Review. (978-0307946300)
+3. Barron's MCAT - Jay B. Cutts. (978-1438077925)
+    - MCAT Flash Cards - Jay B. Cutts. (978-1438075549)
+4. Examkrakers MCAT Study Package - Jonathan Orsay. (978-1951127008)
+5. Kaplan MCAT Practice Tests - Kaplan. (978-1609789480)
+6. Kaplan MCAT 528 Advanced Prep 2023-2024 - Kaplan Test Prep. (978-1506276786)
+7. Princeton Review MCAT Prep 2024-2025 - The Princeton Review. (978-0593516577)
+8. Princeton Review MCAT Workout 2022-2023 - The Princeton Review. (978-0525571568)
+9. Princeton Review MCAT Elite - The Princeton Review. (978-1101920619)
+10. McGraw-Hill Education 3 MCAT Practice Tests - George Hademenos. (978-1259859625)
+11. MCAT Study Guide - Wikibooks. [link](https://en.wikibooks.org/wiki/MCAT_Study_Guide)
 ## PCAT
 ## DAT-NBDE
 ## Anatomy and Physiology
@@ -121,15 +134,28 @@
 ## Pediatrics
 1. Case Files Pediatrics - Eugene Toy. (978-0071839952)
 2. Blueprints Pediatrics - Bradley Marino. (978-1496396464)
+## Orthopaedics
+1. Case File Orthopaedics Surgery - Eugene Toy. (978-0071790307)
 ## Psychiatry & Psychology
 1. Case Files Psychiatry - Eugene Toy. (978-1260468731)
 2. Blueprints Psychiatry - Michael Murphy, Ronald Cowan. (978-1496381347)
 ## Family Medicine
 1. Blueprints Family Medicine - Mitchell King, Martin Lipsky. (978-1496377883)
+2. Case Files Family Medicine - Eugene Toy. (978-1260468595)
+## Emergency Medicine
+1. Blueprints Emergency Medicine - Nathan Mick, Jessica Peters. (978-1405104616)
+2. Case Files Emergency Medicine - Eugene Toy. (978-1264268337)
+## Critical Care
+1. Case Files Critical Care - Eugene Toy. (978-1259641855)
 ## Obstetrics & Gynecology
 1. Blueprints Obstetrics & Gynecology - Tamara Callahan. (978-1975134877)
+2. Case Files Obstetrics and Gynecology - Eugene Toy. (978-1260468786)
+3. Case Files Gynecologic Surgery - Eugene Toy. (978-0071592802)
+4. Case Files High-Risk Obstetrics - Eugene Toy. (unknown)
 ## Radiology
 1. Blueprints Radiology - Alina Uzelac, Ryan Davis. (978-1405104609)
+## Anesthesiology
+1. Case Files Anesthesiology - Lydia Conlay. (978-0071606394)
 ## PreTest and Elsevier Rapid Review
 ## EMT
 1. EMT-Basic - Wikibooks. [link](https://en.wikibooks.org/wiki/EMT-Basic)
