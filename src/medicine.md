@@ -26,9 +26,17 @@
 16. Kaplan Medical Anatomy Flash Cards - Joanne Tillotson, Stephanie McCann. (978-1506258874)
 17. Kaplan Anatomy Coloring Book - Stephanie McCann, Eric Wise. (978-1506281216)
 18. The Princeton Review Anatomy Coloring Book - The Princeton Review. (978-0451487872)
-19. Anatomy and Physiology - OpenStax. (978-1711494067)
-20. General Anatomy - Wikibooks. [link](https://en.wikibooks.org/wiki/General_Anatomy)
-21. Human Physiology - Wikibooks. [link](https://en.wikibooks.org/wiki/Human_Physiology)
+19. The Anatomy Coloring Book - Wynn Kapit, Lawrence M. Elson. (978-0321832016)
+20. The Physiology Coloring Book - Wynn Kapit, Robert Macey, Esmail Meisami. (978-0321036636)
+21. BRS Gross Anatomy - Nancy L. Halliday, Harold M. Chung. (978-1975181376)
+22. BRS Physiology - Linda S. Costanzo. (978-1975153601)
+23. Lippincott Illustrated Reviews: Anatomy - Kelly M. Harrell, Ronald W. Dudek. (978-1496317902)
+24. Lippincott Illustrated Reviews: Physiology - Robin R. Preston, Thad E. Wilson. (978-1496385826)
+25. Case Files Anatomy - Eugene Toy. (978-0071794862)
+26. Case Files Physiology - Eugene Toy. (978-0071493741)
+27. Anatomy and Physiology - OpenStax. (978-1711494067)
+28. General Anatomy - Wikibooks. [link](https://en.wikibooks.org/wiki/General_Anatomy)
+29. Human Physiology - Wikibooks. [link](https://en.wikibooks.org/wiki/Human_Physiology)
 ## Internal Medicine
 1. Harrison's Principles of Internal Medicine - Larry Jameson, Anthony Fauci, Dennis Kasper, Stephen Hauser, Dan Longo, Joseph Loscalzo. (978-1259644030)
 2. Netter's Internal Medicine - Marschall Runge, Andrew Greganti. (978-1416044178)
@@ -42,7 +50,9 @@
 10. Kaplan Medical Internal Medicine Question Book - Conrad Fischer. (978-1607141266)
 11. First Aid for the Internal Medicine Boards - Tao Le, Tom Baudendistel, Peter Chin-Hong, Cindy Lai. (978-1259835032)
 12. Clinical Medicine Complete 5-Book Subject Review 2024 2025 - Kaplan Medical. (978-1506285245)
-13. Internal Medicine - Wikibooks. [link](https://en.wikibooks.org/wiki/Internal_Medicine)
+13. Blueprints Medicine - Vincent Young. (978-1469864150)
+14. Case Files Internal Medicine - Eugene Toy. (978-1260469967)
+15. Internal Medicine - Wikibooks. [link](https://en.wikibooks.org/wiki/Internal_Medicine)
 ## Surgery
 1. Schwartz's Principles of Surgery - F. Charles Brunicardi. (978-1259835353)
 2. Sabiston Textbook of Surgery - Courtney Townsend. (978-0323640626)
@@ -54,6 +64,9 @@
 8. Dr. Pestana's Surgery Notes - Carlos Pestana. (978-1506281254)
 9. Bailey & Love's Short Practice of Surgery - P. Ronan O'Connell. (978-0367548117)
 10. Principles and Practice of Surgery - O. James Garden, Rowan W. Parks, Stephen J. Wigmore. (978-0702082511)
+11. Current Diagnosis and Treatment Surgery - Gerard Doherty. (978-1260122213)
+12. Case Files Surgery - Eugene Toy. (978-1260468809)
+13. Blueprints Surgery - Seth J. Karp, James P.G. Morris. (978-0781788687)
 ## Pathology
 1. Fundamentals of Pathology - Husain A. Sattar. (978-0983224631) [website](https://www.pathoma.com/)
 2. Robbins & Cotran Pathologic Basis of Disease - Vinay Kumar, Abul Abbas, Jon Aster. (978-0323531139)
@@ -65,7 +78,11 @@
 7. Rosai and Ackerman's Surgical Pathology - John Goldblum, Laura Lamps, Jesse McKenney, Jeffrey Myers. (978-0323263399)
 8. Schaum's Outline of Pathophysiology - Tom Betsy. (978-0071623698)
 9. Netter's Integrated Review of Medicine: Pathogenesis to Treatment - Bryan Lepperrt, Christopher Kelly. (978-0323479387)
-10. Pathology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pathology)
+10. Gould's Pathophysiology for the Health Professions - Karin C. VanMeter, Robert J. Hubert. (978-0323792882)
+11. Pathophysiology of Disease: An Introduction to Clinical Medicine - Gary Hammer, Stephen McPhee. (978-1260026504)
+12. Case Files Pathology - Eugene Toy. (978-0071486668)
+13. BRS Pathology - Mary Elizabeth Peyton Gupta. (978-1975136628)
+14. Pathology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pathology)
 ## Clinical Examination
 1. Physical Examination and Health Assessment - Carolyn Jarvis. (978-0323809849)
 2. Seidel's Guide to Physical Examination - Jane Ball, Joyce Dains, John Flynn, Barry Solomon, Rosalyn Stewart. (978-0323481953)
@@ -91,10 +108,28 @@
 7. Immunology: Understanding the Immunce System - Klaus D. Egbert. (978-0470081570)
 8. Immunology - David Male, R. Stokes Peebles Jr., Victoria Male. (978-0702078446)
 ## Pharmacology
-1. Pharmacology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pharmacology)
-## BRS
-## CaseFiles
-## Blueprints
+1. Katzung's Basic and Clinical Pharmacology - Todd W. Vanderah. (978-1260463309)
+    - Lange Pharmacology Flashcards - Suzanne Baron, Christoph Lee. (978-1259837241)
+2. Lippincott Illustrated Reviews: Pharmacology - Karen Whalen. (978-1975170554)
+3. BRS Pharmacology - Sarah Lerchenfeldt. (978-1975105495)
+4. Case Files Pharmacology - Eugene Toy. (978-0071790239)
+5. Pharmacology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pharmacology)
+## Neurology
+1. Lippincott Illustrated Reviews: Neuroscience - Claudia Krebs. (978-1496367891)
+2. Case Files Neuroscience - Eugene Toy. (978-0071790253)
+3. Blueprints Neurology - Frank Drislane. (978-1496387394)
+## Pediatrics
+1. Case Files Pediatrics - Eugene Toy. (978-0071839952)
+2. Blueprints Pediatrics - Bradley Marino. (978-1496396464)
+## Psychiatry & Psychology
+1. Case Files Psychiatry - Eugene Toy. (978-1260468731)
+2. Blueprints Psychiatry - Michael Murphy, Ronald Cowan. (978-1496381347)
+## Family Medicine
+1. Blueprints Family Medicine - Mitchell King, Martin Lipsky. (978-1496377883)
+## Obstetrics & Gynecology
+1. Blueprints Obstetrics & Gynecology - Tamara Callahan. (978-1975134877)
+## Radiology
+1. Blueprints Radiology - Alina Uzelac, Ryan Davis. (978-1405104609)
 ## PreTest and Elsevier Rapid Review
 ## EMT
 1. EMT-Basic - Wikibooks. [link](https://en.wikibooks.org/wiki/EMT-Basic)
