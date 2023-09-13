@@ -9,6 +9,7 @@
 - [Economics](economics.md)
 - [Law](law.md)
 - [Computer Science](computer_science.md)
+- [Programming Languages](programming_languages.md)
 - [Mathematics](mathematics.md)
 - [Physics](physics.md)
 - [Chemistry](chemistry.md)
