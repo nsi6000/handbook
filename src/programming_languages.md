@@ -39,6 +39,18 @@
 8. Powerful Command-Line Applications in Go - Ricardo Gerardi. (978-1680506969)
 9. Pro Go: The Complete Guide to Programming Reliable and Efficient Software using Golang - Adam Freeman. (978-1484273548)
 10. Software Development with Go - Nanik Tolaram. (978-1484287309)
+11. Efficient Go: Data-Driven Performance Optimization - Bartlomiej Plotka. (978-1098105716)
+12. Cloud Native Go - Matthew Titmus. (978-1492076339)
+13. Practical Go - Amit Saha. (978-1119773818)
+14. Effective Go: Elegant, efficient, and testable code - Inanc Gumus. (978-1617299896)
+15. Shipping Go - Joel Holmes. (978-1617299506)
+16. Distributed Services with Go - Travis Jeffery. (978-1680507607)
+17. Building Distributed Applications in Gin - Mohamed Labouardy. (978-1801074858)
+18. Go for DevOps - John Doak, David Justice. (978-1801818896)
+19. Mastering Go - Mihalis Tsoukalos. (978-1801079310)
+20. Network Programming with Go - Adam Woodbeck. (978-1718500884)
+21. Machine Learning with Go - Daniel Whitenack, Janani Selvaraj. (978-1789619898)
+22. Go Machine Learning Projects - Xuanyi Chew. (978-1788993401)
 ## Java
 ## Scala
 ## Haskell
