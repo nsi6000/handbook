@@ -33,11 +33,12 @@
 7. Medical Microbiology - Patrick Murray, Ken Rosenthal, Michael Pfaller. (978-0323673228)
 8. Microbiology: A Laboratory Manual - James Cappuccino, Natalie Sherman. (978-9332535190)
 9. Brock Biology of Microorganisms - Michael Madigan, Kelly Bender, Daniel Buckley, Matthew Sattley, David Stahl. (978-0134874401)
-10. Schaum's Outline of Microbiology - Edward Alcamo, Jennifer Warner. (978-0071623261)
-11. The Microbiology Coloring Book - Edward Alcamo, Lawrence Elson. (978-0060419257)
-12. Microbiology For Dummies - Jennifer Stearns, Michael Surette. (978-1119544425)
-13. Jawetz, Melnick & Adelberg's Medical Microbiology - Stefan Riedel, Stephen Morse, Timothy Mietzner, Steve Miller. (978-1260012026)
-14. Sherris & Ryan's Medical Microbiology - Kenneth Ryan. (978-1260464283)
+10. Lippincott Illustrated Reviews: Microbiology - Cynthia Nau Cornelissen, Marcia Metzgar Hobbs. (978-1496395856)
+11. Schaum's Outline of Microbiology - Edward Alcamo, Jennifer Warner. (978-0071623261)
+12. The Microbiology Coloring Book - Edward Alcamo, Lawrence Elson. (978-0060419257)
+13. Microbiology For Dummies - Jennifer Stearns, Michael Surette. (978-1119544425)
+14. Jawetz, Melnick & Adelberg's Medical Microbiology - Stefan Riedel, Stephen Morse, Timothy Mietzner, Steve Miller. (978-1260012026)
+15. Sherris & Ryan's Medical Microbiology - Kenneth Ryan. (978-1260464283)
 ## Molecular Biology
 1. Molecular Biology of the Cell - Bruce Alberts, Rebecca Heald. (978-0393884821)t
 2. Molecular Cell Biology - Harvey Lodish, Arnold Berk. (978-1319208523)
