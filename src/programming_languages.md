@@ -29,6 +29,16 @@
 9. Rust Atomics and Locks: Low-Level Concurrency in Practice - Mara Bos. (978-1098119447)
 ## C++
 ## Golang
+1. The Go Programming Language - Alan Donovan, Brian Kernighan. (978-0134190440)
+2. Programming in Go - Mark Summerfield. (978-0321774637)
+3. Go in Action - William Kennedy, Brian Ketelsen, Erik St. Martin. (978-1617291784)
+4. Go Web Programming - Sau Sheong Chang. (978-1617292569)
+5. Go in Practice: Includes 70 Techiques - Matt Butcher, Matt Farina. (978-1633430075)
+6. Learning Go: An Idiomatic Approach to Real-World Go Programming - Jon Bodner. (978-1492077213)
+7. Kubernetes Programming with Go - Philippe Martin. (978-1484290255)
+8. Powerful Command-Line Applications in Go - Ricardo Gerardi. (978-1680506969)
+9. Pro Go: The Complete Guide to Programming Reliable and Efficient Software using Golang - Adam Freeman. (978-1484273548)
+10. Software Development with Go - Nanik Tolaram. (978-1484287309)
 ## Java
 ## Scala
 ## Haskell
