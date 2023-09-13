@@ -65,10 +65,27 @@
 11. Stream Processing with Apache Flink - Fabian Hueske, Vasiliki Kalavri. (978-1491974292)
 12. Learning Apache Flink - Tanmay Deshpande. (978-1786466228)
 13. Flink in Action (MEAP - book in development) - Sameer Wadkar, Hari Rajaram. (978-1617293924)
+14. Grokking Streaming Systems - Josh Fischer, Ning Wang. (978-1617297304)
 ## Kubernetes
-## Terraform
+## Docker / Podman
+1. Podman in Action - Daniel Walsh. (978-1633439689)
+## Terraform & Infrastructure-as-code
 1. Terraform Up and Running - Yevgeniy Brikman. (978-1098116743)
 2. Terraform in Action - Scott Winkler. (978-1617296895)
+3. Infrastruce as Code: Dynamic Systems for the Cloud Age - Kief Morris. (978-1098114671)
+4. Infrastruce as Code, Patterns and Practices: With examples in Python and Terraform - Rosemary Wang. (978-1617298295)
+## Continuous Integration and Continuous Delivery / DevOps
+1. Jenkins: The Definitive Guide - John Smart. (978-1449305352)
+2. Continuous Delivery with Docker and Jenkins - Rafal Leszko. (978-1803237480)
+3. SonarQube in Action - G. Ann Campbell, Patroklos P. Papapetrou. (978-1617290954)
+4. JUnit in Action - Catalin Tudose. (978-1617297045)
+5. Python for DevOps - Noah Gift. (978-1492057697)
+6. DevOps in Python: Infrastructure as Python - Moshe Zadka. (978-1484279953)
+7. Learning DevOps - Mikael Krief. (978-1801818964)
+8. Grokking Continuous Delivery - Christie Wilson. (978-1617298257)
+## Microservices
+1. Quarkus in Action - Martin Stefanko, Jan Martiska. (978-1633438958)
+2. Building Microservices with Micronaut - Nirmal Singh, Zack Dawood. (978-1800564237)
 ## Data Science and Machine Learning Interviews
 1. Machine Learning System Design Interview - Ali Aminian, Alex Xu. (978-1736049129)
 2. Machine Learning Design Interview - Khang Pham. (979-8813031571)
