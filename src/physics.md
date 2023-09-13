@@ -98,9 +98,16 @@
 2. Mechatronics: Electronic Control Systems in Mechanical and Electrical Engineering - William Bolton. (978-9357052849)
 3. Micromechatronics: Modeling, Analysis and Design with MATLAB - Victor Giurgiutiu, Sergey Edward Lyshevski. (978-0849315930)
 ## Thermodynamics
-1. Schaum's Outline of Thermodynamics for Engineers - Merle Potter, Craig Somerton. (978-1260456523)
+1. Fundamentals of Engineering Thermodynamics - Michael J. Moran, Howard N. Shapiro, Daisie D. Boettner, Margaret B. Bailey. (978-0470495902)
+2. Thermodynamics: An Engineering Approach - Yunus Cengel, Michael Boles, Mehmet Kanoglu. (978-1259822674)
+3. Fundamentals of Thermodynamics - Richard E. Sonntag, Claus Borgnakke. (978-1119723653)
+4. Schaum's Outline of Thermodynamics for Engineers - Merle Potter, Craig Somerton. (978-1260456523)
+5. Thermodynamics For Dummies - Mike Pauken. (978-1118002919)
 ## Heat Transfer
-1. Schaum's Outline of Heat Transfer - Donald Pitts, Leighton Sissom. (978-0071764292)
+1. Fundamentals of Heat and Mass Transfer - Theodore L. Bergman, Adrienne S. Lavine, Frank P. Incropera, David P. DeWitt. (978-1119722489)
+2. Principles of Heat Transfer - Frank Kreith, Raj M. Manglik. (978-1305387102)
+3. Heat and Mass Transfer: Fundamentals and Applications - Yunus Cengel, Afshin Ghajar. (978-0073398181)
+4. Schaum's Outline of Heat Transfer - Donald Pitts, Leighton Sissom. (978-0071764292)
 ## Machine Design
 1. Fundamentals of Machine Component Design - Robert C. Juvinall, Kurt M. Marshek. (978-1119723608)
 2. Machine Design: An Integrated Approach - Robert Norton. (978-0135184233)
@@ -108,5 +115,7 @@
 4. Machine Elements in Mechanical Design - Robert Mott, Edward Vavrek, Jyhwen Wang. (978-0134441184)
 5. Schaum's Outline of Machine Design - Allen S. Hall, Alfred R. Holowenko, Herman G. Laughlin. (unknown)
 ## Aerodynamics
+1. Fundamentals of Aerodynamics - John Anderson. (978-1259129919)
+2. Flight Theory and Aerodynamics - Joseph R. Badick, Brian A. Johnson. (978-1119772392)
 ## Optics
 1. Optics - Eugene Hecht. (978-0133977226)
