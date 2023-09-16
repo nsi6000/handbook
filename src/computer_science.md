@@ -38,7 +38,17 @@
 4. Black Hat Go - Tom Steele, Chris Patten, Dan Kottmann. (978-1593278656)
 5. Cybersecurity Ops with bash - Paul Troncone, Carl Albing. (978-1492041313)
 ## Data Science
-## Artificial Intelligence and Machine Learning
+see 'Data Science and Machine Learning Interviews' below.
+1. An Introduction to Statistical Learning: with Applications in R - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathan Taylor. (978-1071614174)
+2. The Elements of Statistical Learning - Trevor Hastie, Robert Tibshirani, Jerome Friedman. (978-0387848570)
+3. Data Science from Scratch - Joel Grus. (978-1492041139)
+4. Data Science at the Command Line - Jeroen Janssens. (978-1492087915) [read online](https://jeroenjanssens.com/dsatcl/)
+## Artificial Intelligence, Machine Learning and Deep Learning
+1. Artificial Intelligence: A Modern Approach - Peter Norvig, Stuart Russell. (978-1292401133)
+2. Deep Learning - Ian Goodfellow. (978-0262035613)
+3. Hands-on Machine Learning with Scikit-learn, Keras, and Tensorflow - Aurelien Geron. (978-1098125974)
+4. Deep Learning with Python - Francois Chollet. (978-1617296864)
+5. Designing Machine Learning Systems - Chip Huyen. (978-1098107963)
 ## Databases Internals
 1. Designing Data-Intensive Applications - Martin Kleppmann. (978-1449373320)
 2. Database Internals - Alex Petrov. (978-1492040347)
