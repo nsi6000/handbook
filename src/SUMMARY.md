@@ -18,3 +18,6 @@
 - [Veterinary Medicine](veterinary_medicine.md)
 - [Standardized Test Preparation](standardized_test_preparation.md)
 - [Job Interviews](job_interviews.md)
+
+# Addendum
+- [Free & Open Source Softwares](softwares.md)
