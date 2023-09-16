@@ -36,6 +36,7 @@
 2. Gray Hat Hacking - Allen Harper, Ryan Linn. (978-1264268948)
 3. Black Hat Python - Justin Seitz, Tim Arnold. (978-1718501126)
 4. Black Hat Go - Tom Steele, Chris Patten, Dan Kottmann. (978-1593278656)
+5. Cybersecurity Ops with bash - Paul Troncone, Carl Albing. (978-1492041313)
 ## Data Science
 ## Artificial Intelligence and Machine Learning
 ## Databases Internals
