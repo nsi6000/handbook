@@ -52,6 +52,17 @@
 21. Machine Learning with Go - Daniel Whitenack, Janani Selvaraj. (978-1789619898)
 22. Go Machine Learning Projects - Xuanyi Chew. (978-1788993401)
 ## Java
+1. Java Software Solutions - John Lewis, William Loftus. (978-0134462028)
+2. Java How To Program: Early Objects - Paul Dietel, Harvey Deitel. (978-0134743356)
+    - Java How To Program: Late Objects - Paul Dietel, Harvey Deitel. (978-0134791401)
+3. Big Java: Early Objects - Cay S. Horstmann. (978-1119588887)
+    - Big Java: Late Objects - Cay S. Horstmann. (978-1119398721)
+4. Modern Java in Action - Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft. (978-1617293566)
+5. Reactive Systems in Java - Clement Escoffier, Ken Fennigan. (978-1492091721)
+6. Java Performance - Scott Oaks. (978-1492056119)
+7. Optimizing Java - Benjaming Evans, James Gough, Chris Newland. (978-1492025795)
+8. Core Java for the Impatient - Cay S. Horstmann. (978-0138052102)
+9. The Well-Grounded Java Developer - Benjamin Evans, Martijn Verburg, Jason Clark. (978-1617298875)
 ## Scala
 1. Programming in Scala - Martin Odersky, Lex Spoon, Bill Venners, Frank Sommers. (978-0997148008)
 2. Programming Scala: Scalability = Functional Programming + Objects - Dean Wampler. (978-1492077893)
