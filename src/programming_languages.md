@@ -17,6 +17,23 @@
 14. ARM Assembly Internals and Reverse Engineering - Maria Markstedter. (978-1119745303)
 15. ARM 64-Bit Assembly Language - Larry D. Pyeatt, William Ughetta. (978-0128192214)
 ## C
+1. The C Programming Language - Brian W. Kernighan, Dennis M. Ritchie. (978-0131103627)
+    - Note: recommended by the [Linux Kernel How To](https://www.kernel.org/doc/html/v4.14/process/howto.html#introduction).
+    - The C Answer Book - Clovis L. Tondo, Scott E. Gimpel. (978-0131096530)
+2. Practical C Programming - Steve Oualline. (978-1565923065)
+    - Note: recommended by the [Linux Kernel How To](https://www.kernel.org/doc/html/v4.14/process/howto.html#introduction).
+3. C: A Reference Manual - Samuel Harbison, Guy Steele Jr. (978-0130895929)
+    - Note: recommended by the [Linux Kernel How To](https://www.kernel.org/doc/html/v4.14/process/howto.html#introduction).
+4. Expert C Programming - Peter van der Linden. (978-0131774292)
+5. Modern C - Jens Gustedt. (978-1617295812)
+6. Extreme C - Kamran Amini. (978-1789343625)
+7. Effective C - Robert C. Seacord. (978-1718501041)
+8. 21th Century C: C Tips from the New School - Ben Klemens. (978-1491903896)
+9. Programming in C - Stephen Kochan. (978-0321776419)
+10. C Programming: A Modern Approach - K. N. King. (978-0393979503)
+11. C Primer Plus - Stephen Prata. (978-0321928429)
+12. C Programming in One Hour a Day - Siddhartha Rao. (978-0137334681)
+13. C How To Program - Paul Deitel, Harvey Deitel. (978-0133976892)
 ## Rust
 1. The Rust Programming Language - Steve Klabnik, Carol Nichols. (978-1718503106)
 2. Programming Rust: Fast, Safe Systems Development - Jim Blandy, Jason Orendorff, Leonora Tindall. (978-1492052593)
@@ -81,8 +98,8 @@
 15. Pragmatic Scala - Venkat Subramaniam. (978-1680500547)
 16. Modern Systems Programming with Scala - Richard Whaling. (978-1680506228)
 ## Haskell
-1. Learn You a Haskell for Great Good! - Miran Lipovaca. (978-1593272838)
-2. Real World Haskell - Bryan O'Sullivan, John Goerzen, Don Stewart. (978-0596514983)
+1. Learn You a Haskell for Great Good! - Miran Lipovaca. (978-1593272838) [website](http://learnyouahaskell.com/) [free book (partim)](http://learnyouahaskell.com/learnyouahaskell.pdf) [read online](http://learnyouahaskell.com/chapters)
+2. Real World Haskell - Bryan O'Sullivan, John Goerzen, Don Stewart. (978-0596514983) [website](https://book.realworldhaskell.org/) [read online](https://book.realworldhaskell.org/read/)
 3. Programming in Haskell - Graham Hutton. (978-1316626221)
 4. Haskell Data Analysis Cookbook - Nishant Shukla. (978-1783286331)
 5. Learning Haskell Data Analysis - James Church. (978-1784394707)
