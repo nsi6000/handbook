@@ -22,10 +22,33 @@
 ## Compilers
 ## Programming Languages Concepts
 ## Reverse Engineering
+1. Reversing: Secrets of Reverse Engineering - Eldad Eilam. (978-0764574818)
+2. Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, Elias Bachaanlany. (978-1118787311)
+3. Practical Binary Analysis - Dennis Andriesse. (978-1593279127)
+4. Learning Linux Binary Analysis - Ryan O'Neill. (978-1782167105)
+5. The IDA Pro Book - Chris Eagle. (978-1593272890)
+6. The Ghidra Book - Chris Eagle, Kara Nance. (978-1718501027)
+7. Ghidra Software Reverse Engineering for Beginners - A. P. David. (978-1800207974)
+8. x86 Software Reverse-Engineering, Cracking, and Counter-Measures - Stephanie Domas. (978-1394199884)
+9. Mastering Reverse Engineering - Reginald Wong. (978-1788838849)
 ## Hacking
+1. Hacking: The Art of Exploitation - Jon Erickson. (978-1593271442)
+2. Gray Hat Hacking - Allen Harper, Ryan Linn. (978-1264268948)
+3. Black Hat Python - Justin Seitz, Tim Arnold. (978-1718501126)
+4. Black Hat Go - Tom Steele, Chris Patten, Dan Kottmann. (978-1593278656)
 ## Data Science
 ## Artificial Intelligence and Machine Learning
 ## Databases Internals
+1. Designing Data-Intensive Applications - Martin Kleppmann. (978-1449373320)
+2. Database Internals - Alex Petrov. (978-1492040347)
+3. Understanding MySQL Internals - Sasha Pachev. (978-0596009571)
+4. Oracle Core: Essential Internals for DBAs and Developers - Jonathan Lewis. (978-1430239543)
+5. Pro SQL Server Internals - Dmitri Korotkevitch. (978-1484219638)
+6. Microsoft SQL Server 2012 Internals - Kalen Delaney, Craig Freeman. (978-0735658561)
+7. Professional SQL Server 2012 Internals and Troubleshooting - Christian Bolton, Justin Langford. (978-1118177655)
+8. Distributed Systems - Maarten van Steen, Andrew S. Tanenbaum. (978-9081540636)
+9. Refactoring Databases - Scott W. Ambler, Pramod J. Sadalage. (978-0321293534)
+10. Database in Depth: Relational Theory for Practitioners - C. J. Date. (978-0596100124)
 ## Database Administration
 ## NoSQL Databases
 ## Coding Best Practices
