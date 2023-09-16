@@ -92,6 +92,11 @@
 ## Kubernetes
 ## Docker / Podman
 1. Podman in Action - Daniel Walsh. (978-1633439689)
+2. Docker Deep Dive - Nigel Poulton. (978-1916585256)
+3. Docker Up & Running - Sean Kane, Karl Matthias. (978-1098131821)
+4. Using Docker - Adrian Mouat. (978-1491915769)
+5. Docker in Action - Jeff Nickoloff, Stephen Kuenzli. (978-1617294761)
+6. Docker in Practice - Ian Miell, Aidan Hobson Sayers. (978-1617294808)
 ## Terraform & Infrastructure-as-code
 1. Terraform Up and Running - Yevgeniy Brikman. (978-1098116743)
 2. Terraform in Action - Scott Winkler. (978-1617296895)
@@ -117,4 +122,8 @@
 5. The Kaggle Book - Konrad Banachewicz, Luca Massaron. (978-1801817479)
 6. The Kaggle Workbook - Konrad Banachewicz, Luca Massaron. (978-1804611210)
 7. Cracking the Data Science Interview - Maverick Lin. (978-1710680133)
-8. Cracking the Machine Learning Interview - Nitin Suri (978-1729223604)
+8. The Little Book of Data Science Tricks - Maverick Lin. (979-8655659063)
+9. Cracking the Machine Learning Interview - Nitin Suri (978-1729223604)
+10. The Hundred-Page Machine Learning Book - Anldriy Burkov. (978-1777005474)
+11. Heard in Data Science Interviews - Kal Mishra. (978-1727287325)
+12. Be The Outlier - Shrilata Murthy. (978-1641379854)
