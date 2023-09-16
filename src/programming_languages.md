@@ -80,8 +80,30 @@
 14. Programming Scala - Venkat Subramaniam. (978-1934356319)
 15. Pragmatic Scala - Venkat Subramaniam. (978-1680500547)
 16. Modern Systems Programming with Scala - Richard Whaling. (978-1680506228)
-17. 
 ## Haskell
+1. Learn You a Haskell for Great Good! - Miran Lipovaca. (978-1593272838)
+2. Real World Haskell - Bryan O'Sullivan, John Goerzen, Don Stewart. (978-0596514983)
+3. Programming in Haskell - Graham Hutton. (978-1316626221)
+4. Haskell Data Analysis Cookbook - Nishant Shukla. (978-1783286331)
+5. Learning Haskell Data Analysis - James Church. (978-1784394707)
+6. Haskell: The Craft of Functional Programming - Simon Thompson. (978-0201882957)
+7. Introduction to Functional Programming using Haskell - Richard Bird. (978-0134843469)
+8. Think Functionally with Haskell - Richard Bird. (978-1107452640)
+9. Haskell in Depth - Vitaly Bragilevsky. (978-1617295409)
+10. Practical Concurrent Haskell: with Big Data Applications - Stefania Loredana Nita, Marius Mihailescu. (978-1484227824)
+11. Effective Haskell - Rebecca Skinner. (978-1680509342)
+12. Haskell Design Patterns - Ryan Lemmer. (978-1783988723)
+13. Practical Haskell - Alejandro Serrano Mena. (978-1484285800)
+14. Learn Physics with Functional Programming - Scott N. Walck. (978-1718501669)
+15. Parallel and Concurrent Programming in Haskell - Simon Marlow. (978-1449335946)
+16. Developing Web Apps with Haskell and Yesod - Michael Snoyman. (978-1491915592)
+## OCaml
+1. Real World OCaml: Functional Programming for the Masses - Anil Madhavapeddy. (978-1009125802) [website](https://dev.realworldocaml.org/)
+2. OCaml Scientific Computing: Functional Programming in Data Science and Artificial Intelligence - Liang Wang, Jianxin Zhao, Richard Mortier. (978-3030976446)
+3. Architecture of Advanced Numerical Analysis Systems: Designing a Scientific Computing System using OCaml - Liang Wang, Jianxin Zhao. (978-1484288528) [free book](https://library.oapen.org/handle/20.500.12657/60830)
+4. Practical OCaml - Joshua B. Smith. (978-1590596203)
+5. OCaml from the very beginning - John Whitington. (978-0957671102)
+6. More OCaml: Algorithms, Methods, and Diversions - John Whitington. (978-0957671119)
 ## Lisp/Scheme
 ## Clojure
 ## Python
