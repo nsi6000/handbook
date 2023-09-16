@@ -44,11 +44,16 @@ see 'Data Science and Machine Learning Interviews' below.
 3. Data Science from Scratch - Joel Grus. (978-1492041139)
 4. Data Science at the Command Line - Jeroen Janssens. (978-1492087915) [read online](https://jeroenjanssens.com/dsatcl/)
 ## Artificial Intelligence, Machine Learning and Deep Learning
-1. Artificial Intelligence: A Modern Approach - Peter Norvig, Stuart Russell. (978-1292401133)
+1. Artificial Intelligence: A Modern Approach - Peter Norvig, Stuart Russell. (978-1292401133) [github](https://github.com/aimacode)
 2. Deep Learning - Ian Goodfellow. (978-0262035613)
 3. Hands-on Machine Learning with Scikit-learn, Keras, and Tensorflow - Aurelien Geron. (978-1098125974)
 4. Deep Learning with Python - Francois Chollet. (978-1617296864)
 5. Designing Machine Learning Systems - Chip Huyen. (978-1098107963)
+6. Prolog Programming for Artificial Intelligence - Ivan Bratko. (978-0321417466)
+7. Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp - Peter Norvig. (978-1558601918) [github](https://github.com/norvig/paip-lisp)
+8. Practical MLOps: Operationalizing Machine Learning Models - Noah Gift, Alfredo Deza. (978-1098103019)
+9. Implementing MLOps in the Entreprise - Noah Gift, Yaron Haviv. (978-1098136581)
+10. Engineering MLOps - Emmanuel Raj. (978-1800562882)
 ## Databases Internals
 1. Designing Data-Intensive Applications - Martin Kleppmann. (978-1449373320)
 2. Database Internals - Alex Petrov. (978-1492040347)
