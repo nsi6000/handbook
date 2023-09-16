@@ -53,6 +53,23 @@
 22. Go Machine Learning Projects - Xuanyi Chew. (978-1788993401)
 ## Java
 ## Scala
+1. Programming in Scala - Martin Odersky, Lex Spoon, Bill Venners, Frank Sommers. (978-0997148008)
+2. Programming Scala: Scalability = Functional Programming + Objects - Dean Wampler. (978-1492077893)
+3. Scala in Action - Nilanjan Raychaudhuri, Chad Fowler. (978-1935182757)
+4. Scala in Depth - Josh D. Suereth. (978-1935182702)
+5. Learning Scala: Practical Functional Programming for the JVM - Jason Swartz. (978-1449367930)
+6. Functional Programming in Scala - Michael Pilquist, Paul Chiusano, Runar Bjarnasson. (978-1617299582)
+7. Scala for the Impatient - Cay S. Horstmann. (978-0138033651)
+8. Scala for Data Science - Pascal Bugnion. (978-1785281372)
+9. Scientific Computing with Scala - Vytautas Jancauskas. (978-1785886942)
+10. Scala Puzzlers - Andrew Phillips, Nermin Serifovic. (978-0981531670)
+11. Scala Cookbook - Alvin Alexander. (978-1492051541)
+12. Scala Data Analysis Cookbook - Arun Manivannan. (978-1784396749)
+13. Learning Concurrent Programming in Scala - Aleksandar Prokopec. (978-1786466891)
+14. Programming Scala - Venkat Subramaniam. (978-1934356319)
+15. Pragmatic Scala - Venkat Subramaniam. (978-1680500547)
+16. Modern Systems Programming with Scala - Richard Whaling. (978-1680506228)
+17. 
 ## Haskell
 ## Lisp/Scheme
 ## Clojure
