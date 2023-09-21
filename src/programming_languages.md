@@ -25,7 +25,7 @@
 3. C: A Reference Manual - Samuel Harbison, Guy Steele Jr. (978-0130895929)
     - Note: recommended by the [Linux Kernel How To](https://www.kernel.org/doc/html/v4.14/process/howto.html#introduction).
 4. Expert C Programming - Peter van der Linden. (978-0131774292)
-5. Modern C - Jens Gustedt. (978-1617295812)
+5. Modern C - Jens Gustedt. (978-1617295812) [read online](https://gustedt.gitlabpages.inria.fr/modern-c/)
 6. Extreme C - Kamran Amini. (978-1789343625)
 7. Effective C - Robert C. Seacord. (978-1718501041)
 8. 21th Century C: C Tips from the New School - Ben Klemens. (978-1491903896)
@@ -35,7 +35,7 @@
 12. C Programming in One Hour a Day - Siddhartha Rao. (978-0137334681)
 13. C How To Program - Paul Deitel, Harvey Deitel. (978-0133976892)
 ## Rust
-1. The Rust Programming Language - Steve Klabnik, Carol Nichols. (978-1718503106)
+1. The Rust Programming Language - Steve Klabnik, Carol Nichols. (978-1718503106) [read online](https://doc.rust-lang.org/book/)
 2. Programming Rust: Fast, Safe Systems Development - Jim Blandy, Jason Orendorff, Leonora Tindall. (978-1492052593)
 3. Rust in Action - Tim McNamara. (978-1617294556)
 4. Rust for Rustaceans - Jon Gjengset. (978-1718501850)
