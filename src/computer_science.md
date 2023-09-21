@@ -2,6 +2,19 @@
 ## AP Computer Science Principles / A
 ## Computer Architecture
 ## Operating Systems
+1. Operating Systems Design and Implementation - Andrew S. Tanenbaum, Albert S. Woodhull. (978-0131429383)
+2. Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos. (978-0133591620)
+3. Operating System Concepts - Abrahama Silberschatz, Peter B. Galvin, Greg Gagne. (978-1119800361)
+4. Operating Systems: Internals and Design Principles - William Stallings. (978-0134670959)
+5. Operating System - Harvey M. Deitel, Paul J. Deitel, David R. Choffnes. (978-0131828278)
+6. Understanding Operating Systems - Ann McHoes, Ida M. Flynn. (978-1305674257)
+7. Operating Systems: A Spiral Approach - Ramez Elmasri, A. Gil Carrick, David Levine. (978-0072449815)
+8. Linux Kernel Development - Robert Love. (978-0672329463)
+9. Understanding the Linux Kernel - Daniel Bovet, Marco Cesati. (978-0596005658)
+10. The Linux Programming Interface - Michael Kerrisk. (978-1593272203)
+11. Lions' Commentary on Unix - John Lions, Peter H. Salus. (978-1573980135)
+12. The Design and Implementation of the FreeBSD Operating System - Marshall McKusick, George Neville-Neil, Robert Watson. (978-0321968975)
+13. FreeDOS Kernel - Pat Villani. (978-1138412309)
 ## Networking
 ## Distributed Operating Systems
 ## Introduction to programming
@@ -22,15 +35,16 @@
 ## Compilers
 ## Programming Languages Concepts
 ## Reverse Engineering
-1. Reversing: Secrets of Reverse Engineering - Eldad Eilam. (978-0764574818)
-2. Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, Elias Bachaanlany. (978-1118787311)
-3. Practical Binary Analysis - Dennis Andriesse. (978-1593279127)
-4. Learning Linux Binary Analysis - Ryan O'Neill. (978-1782167105)
-5. The IDA Pro Book - Chris Eagle. (978-1593272890)
-6. The Ghidra Book - Chris Eagle, Kara Nance. (978-1718501027)
-7. Ghidra Software Reverse Engineering for Beginners - A. P. David. (978-1800207974)
-8. x86 Software Reverse-Engineering, Cracking, and Counter-Measures - Stephanie Domas. (978-1394199884)
-9. Mastering Reverse Engineering - Reginald Wong. (978-1788838849)
+1. The radare book - pancake, maijin. (unknown) [github](https://github.com/radareorg/radare2-book) [read online](https://book.rada.re/)
+2. Reversing: Secrets of Reverse Engineering - Eldad Eilam. (978-0764574818)
+3. Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, Elias Bachaanlany. (978-1118787311)
+4. Practical Binary Analysis - Dennis Andriesse. (978-1593279127)
+5. Learning Linux Binary Analysis - Ryan O'Neill. (978-1782167105)
+6. The IDA Pro Book - Chris Eagle. (978-1593272890)
+7. The Ghidra Book - Chris Eagle, Kara Nance. (978-1718501027)
+8. Ghidra Software Reverse Engineering for Beginners - A. P. David. (978-1800207974)
+9. x86 Software Reverse-Engineering, Cracking, and Counter-Measures - Stephanie Domas. (978-1394199884)
+10. Mastering Reverse Engineering - Reginald Wong. (978-1788838849)
 ## Hacking
 1. Hacking: The Art of Exploitation - Jon Erickson. (978-1593271442)
 2. Gray Hat Hacking - Allen Harper, Ryan Linn. (978-1264268948)
