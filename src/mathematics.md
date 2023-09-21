@@ -161,6 +161,15 @@
 ## Combinatorics
 1. Combinatorics - Wikibooks. [link](https://en.wikibooks.org/wiki/Combinatorics)
 ## Optimization
+1. Convex Optimization - Stephen Boyd, Lieven Vandenberghe. (978-0521833783)
+2. Numerical Optimization - Jorge Nocedal, Stephen Wright. (978-0387303031)
+3. Integer Programming - Laurence A. Wolsey. (978-1119606536)
+4. Engineering Optimization: Methods and Applications - A. Ravindran, K. M. Ragsdell, G. V. Reklaitis. (978-0471558149)
+5. Combinatorial Optimization - Christos H. Papadimitriou, Kenneth Steiglitz. (978-0486402581)
+6. Algorithms for Optimization - Mykel J. Kochenderfer, Tim A. Wheeler. (978-0262039420)
+7. Nonlinear Optimization - Andrzej Ruszczynski. (978-0691119151)
+8. Applied Optimization with MATLAB Programming - P. Venkataraman. (978-0470084885)
+9. Pyomo: Optimization Modeling in Python - Michael L. Bynum. (978-3030689278)
 ## Proofs
 1. How to Prove It: A Structured Approach - Daniel Velleman. (978-1108439534)
 2. How to Solve It: A New Aspect of Mathematical Method - George Polya. (978-0691119663)
