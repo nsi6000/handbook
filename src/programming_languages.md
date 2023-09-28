@@ -34,6 +34,8 @@
 11. C Primer Plus - Stephen Prata. (978-0321928429)
 12. C Programming in One Hour a Day - Siddhartha Rao. (978-0137334681)
 13. C How To Program - Paul Deitel, Harvey Deitel. (978-0133976892)
+14. A Little C Primer - WikiBooks. [link](https://en.wikibooks.org/wiki/A_Little_C_Primer)
+15. C Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/C_Programming)
 ## Rust
 1. The Rust Programming Language - Steve Klabnik, Carol Nichols. (978-1718503106) [read online](https://doc.rust-lang.org/book/)
 2. Programming Rust: Fast, Safe Systems Development - Jim Blandy, Jason Orendorff, Leonora Tindall. (978-1492052593)
@@ -45,6 +47,7 @@
 8. Practical Rust Projects - Shing Lyu, Andrew Rzeznik. (978-1484293300)
 9. Rust Atomics and Locks: Low-Level Concurrency in Practice - Mara Bos. (978-1098119447)
 ## C++
+1. C++ Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/C%2B%2B_Programming)
 ## Golang
 1. The Go Programming Language - Alan Donovan, Brian Kernighan. (978-0134190440)
 2. Programming in Go - Mark Summerfield. (978-0321774637)
@@ -80,6 +83,7 @@
 7. Optimizing Java - Benjaming Evans, James Gough, Chris Newland. (978-1492025795)
 8. Core Java for the Impatient - Cay S. Horstmann. (978-0138052102)
 9. The Well-Grounded Java Developer - Benjamin Evans, Martijn Verburg, Jason Clark. (978-1617298875)
+10. Java Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Java_Programming)
 ## Scala
 1. Programming in Scala - Martin Odersky, Lex Spoon, Bill Venners, Frank Sommers. (978-0997148008)
 2. Programming Scala: Scalability = Functional Programming + Objects - Dean Wampler. (978-1492077893)
@@ -114,6 +118,8 @@
 14. Learn Physics with Functional Programming - Scott N. Walck. (978-1718501669)
 15. Parallel and Concurrent Programming in Haskell - Simon Marlow. (978-1449335946)
 16. Developing Web Apps with Haskell and Yesod - Michael Snoyman. (978-1491915592)
+17. Haskell - WikiBooks. [link](https://en.wikibooks.org/wiki/Haskell)
+18. Yet Another Haskell Tutorial - WikiBooks. [link](https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial)
 ## OCaml
 1. Real World OCaml: Functional Programming for the Masses - Anil Madhavapeddy. (978-1009125802) [website](https://dev.realworldocaml.org/)
 2. OCaml Scientific Computing: Functional Programming in Data Science and Artificial Intelligence - Liang Wang, Jianxin Zhao, Richard Mortier. (978-3030976446)
@@ -122,5 +128,15 @@
 5. OCaml from the very beginning - John Whitington. (978-0957671102)
 6. More OCaml: Algorithms, Methods, and Diversions - John Whitington. (978-0957671119)
 ## Lisp/Scheme
+1. Common Lisp - WikiBooks. [link](https://en.wikibooks.org/wiki/Common_Lisp)
+2. Scheme Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Scheme_Programming)
 ## Clojure
 ## Python
+1. Python Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Python_Programming)
+2. Think Python - WikiBooks. [link](https://en.wikibooks.org/wiki/Think_Python)
+3. Non-Programmer's Tutorial for Python 3 - WikiBooks. [link](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3)
+## SQL
+1. Structured Query Language - WikiBooks. [link](https://en.wikibooks.org/wiki/Structured_Query_Language)
+2. SQL Exercises - WikiBooks. [link](https://en.wikibooks.org/wiki/SQL_Exercises)
+## LaTeX
+1. LaTeX - WikiBooks. [link](https://en.wikibooks.org/wiki/LaTeX)
