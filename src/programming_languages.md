@@ -46,6 +46,7 @@
 7. Rust Brain Teasers: Exercise Your Mind - Herbert Wolverson. (978-1680509175)
 8. Practical Rust Projects - Shing Lyu, Andrew Rzeznik. (978-1484293300)
 9. Rust Atomics and Locks: Low-Level Concurrency in Practice - Mara Bos. (978-1098119447)
+10. Rust For The Novice Programmer - WikiBooks. [link](https://en.wikibooks.org/wiki/Rust_for_the_Novice_Programmer)
 ## C++
 1. C++ Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/C%2B%2B_Programming)
 ## Golang
@@ -71,6 +72,8 @@
 20. Network Programming with Go - Adam Woodbeck. (978-1718500884)
 21. Machine Learning with Go - Daniel Whitenack, Janani Selvaraj. (978-1789619898)
 22. Go Machine Learning Projects - Xuanyi Chew. (978-1788993401)
+23. Go From Scratch - WikiBooks. [link](https://en.wikibooks.org/wiki/Go_From_Scratch)
+24. Go Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Go_Programming)
 ## Java
 1. Java Software Solutions - John Lewis, William Loftus. (978-0134462028)
 2. Java How To Program: Early Objects - Paul Dietel, Harvey Deitel. (978-0134743356)
@@ -101,6 +104,7 @@
 14. Programming Scala - Venkat Subramaniam. (978-1934356319)
 15. Pragmatic Scala - Venkat Subramaniam. (978-1680500547)
 16. Modern Systems Programming with Scala - Richard Whaling. (978-1680506228)
+17. Scala Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Scala)
 ## Haskell
 1. Learn You a Haskell for Great Good! - Miran Lipovaca. (978-1593272838) [website](http://learnyouahaskell.com/) [free book (partim)](http://learnyouahaskell.com/learnyouahaskell.pdf) [read online](http://learnyouahaskell.com/chapters)
 2. Real World Haskell - Bryan O'Sullivan, John Goerzen, Don Stewart. (978-0596514983) [website](https://book.realworldhaskell.org/) [read online](https://book.realworldhaskell.org/read/)
@@ -127,6 +131,7 @@
 4. Practical OCaml - Joshua B. Smith. (978-1590596203)
 5. OCaml from the very beginning - John Whitington. (978-0957671102)
 6. More OCaml: Algorithms, Methods, and Diversions - John Whitington. (978-0957671119)
+7. OCaml Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/OCaml)
 ## Lisp/Scheme
 1. Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman. (978-0262510875)
 2. Land of Lisp - Conrad Barski. (978-1593272814)
@@ -145,10 +150,31 @@
 15. Common Lisp - WikiBooks. [link](https://en.wikibooks.org/wiki/Common_Lisp)
 16. Scheme Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Scheme_Programming)
 ## Clojure
+1. Clojure Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Clojure_Programming)
 ## Python
-1. Python Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Python_Programming)
-2. Think Python - WikiBooks. [link](https://en.wikibooks.org/wiki/Think_Python)
-3. Non-Programmer's Tutorial for Python 3 - WikiBooks. [link](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3)
+1. Introduction to Computation and Programming Using Python - John V. Guttag. (978-0262542364)
+2. Python For Everybody - Charles R. Severance. (978-1530051120)
+3. Python Crash Course - Eric Matthes. (978-1718502703)
+4. Automate the boring stuff with Python - Al Sweigart. (978-1718503403)
+5. Serious Python - Julien Danjou. (978-1593278786)
+6. Learning Python - Mark Lutz. (978-1449355739)
+7. Python for Data Analysis - Wes McKinney. (978-1098104030)
+8. Fluent Python - Luciano Ramalho. (978-1492056355)
+9. Think Python - Allen Downey. (978-1491939369)
+10. Programming Python - Mark Lutz. (978-0596158101)
+11. Python Basics - Dan Bader. (978-1775093329)
+12. Python Tricks - Dan Bader. (978-1775093305)
+13. CPython Internals - Anthony Shaw. (978-1775093343)
+14. High Performance Python - Micha Gorelick, Ian Ozsvald. (978-1492055020)
+15. Architecture Patterns with Python - Harry Percival, Bob Gregory. (978-1492052203)
+16. Expert Python Programming - Michal Jaworski, Tarek Ziade. (978-1801071109)
+17. Clean Code in Python - Mariano Anaya. (978-1800560215)
+18. Robust Python - Patrick Viafore. (978-1098100667)
+19. Intro to Python for Computer Science and Data Science - Paul Deitel, Harvey M. Deitel. (978-1292364902)
+20. Data Science from Scratch - Joel Grus. (978-1492041139)
+21. Python Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Python_Programming)
+22. Think Python - WikiBooks. [link](https://en.wikibooks.org/wiki/Think_Python)
+23. Non-Programmer's Tutorial for Python 3 - WikiBooks. [link](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3)
 ## SQL
 1. Structured Query Language - WikiBooks. [link](https://en.wikibooks.org/wiki/Structured_Query_Language)
 2. SQL Exercises - WikiBooks. [link](https://en.wikibooks.org/wiki/SQL_Exercises)
