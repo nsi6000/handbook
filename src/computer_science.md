@@ -83,6 +83,21 @@ see 'Data Science and Machine Learning Interviews' below.
 ## Database Administration
 ## NoSQL Databases
 ## Coding Best Practices
+1. The Pragmatic Programmer - David Thomas, Andrew Hunt. (978-0135957059)
+2. Clean Code - Robert C. Martin. (978-0132350884)
+3. Code Complete - Steve McConnell. (978-0735619678)
+4. The Art of Readable Code - Dustin Boswell, Trevor Foucher. (978-0596802295)
+5. Effective Debugging - Diomidis Spinellis. (978-0134394794)
+6. Hacker's Delight - Henry Warren. (978-0321842688)
+7. Clean Architecture - Robert C. Martin. (978-0134494166)
+8. The Clean Coder - Robert C. Martin. (978-0137081073)
+9. Clean Craftmanship - Robert C. Martin. (978-0136915713)
+10. Design Patterns: Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. (978-0201633610)
+11. Refactoring - Martin Fowler. (978-0134757599)
+12. Working Effectively with Legacy Code - Michael Feathers. (978-0131177055)
+13. Test-Driven Development By Example - Kent Beck. (978-0321146533)
+14. Extreme Programming Explained - Kent Beck. (978-0321278654)
+15. Seriously Good Software - Marco Faella. (978-1617296291)
 ## Coding Puzzles / Coding Interviews
 1. Elements of Programming Interviews in Python/Java/C++ - Adnan Aziz, Tsung-Hsien Lee, Amit Prakash. (978-1537713946) (978-1517671273) (978-1479274833)
 2. Cracking the Coding Interview - Gayle Laakmann McDowell. (978-0984782857)
