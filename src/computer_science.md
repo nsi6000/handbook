@@ -17,6 +17,8 @@
 13. FreeDOS Kernel - Pat Villani. (978-1138412309)
 ## Networking
 ## Distributed Operating Systems
+1. Distributed Operating Systems - Andrew S. Tanenbaum. (978-1556353505)
+2. Distributed Systems: Concepts and Design - George Coulouris, Jean Dollimore, Tim Kindberg, Gordon Blair. (978-0132143011)
 ## Introduction to programming
 ## Algorithms and Data Structures
 1. Introduction to Algorithms - Thomas Cormen, Charles Leiserson, Ronald Rivest, Clifford Stein. (978-0262046305)
@@ -33,7 +35,21 @@
 12. Data Structures and Algorithms in Java - Robert Lafore. (978-0672324536)
 ## Databases
 ## Compilers
+1. Compilers: Principles, Techniques, and Tools - Alfred V. Aho, Monica S. Lan, Ravi Sethi, Jeffrey D. Ullman. (978-0321486813)
+2. Engineering a Compiler - Keith D. Cooper, Linda Torczon. (978-1558606982)
+3. Mordern Compiler Implementation in C/JAVA/ML - Andrew W. Appel. (978-0521583909)(978-0521820608)(978-0521607643)
+4. Compiler Design in C - Allen I. Holub. (978-0131550452)
+5. Compiler Construction Using Java, JavaCC, and Yacc - Anthony J. Dos Reis. (978-0470949597)
+6. Modern Compiler Design - Dick Grune. (978-1461446989)
+7. Compiler Construction - Niklaus Wirth. (978-0201403534)
+8. Crafting Interpreters - Robert Nystrom. (978-0990582939)
+9. Writing a C Compiler - Nora Sandler. (978-1718500426)
+10. Build your own programming language - Clinton L. Jeffery. (978-1800204805)
+11. Writing a Compiler in Go - Thorsten Ball. (978-3982016108)
+12. Writing an Interpreter in Go - Thorsten Ball. (978-3982016115)
+13. CPython Internals - Anthony Shaw. (978-1775093343)
 ## Programming Languages Concepts
+* cf Programming Languages page.
 ## Reverse Engineering
 1. The radare book - pancake, maijin. (unknown) [github](https://github.com/radareorg/radare2-book) [read online](https://book.rada.re/)
 2. Reversing: Secrets of Reverse Engineering - Eldad Eilam. (978-0764574818)
@@ -50,7 +66,16 @@
 2. Gray Hat Hacking - Allen Harper, Ryan Linn. (978-1264268948)
 3. Black Hat Python - Justin Seitz, Tim Arnold. (978-1718501126)
 4. Black Hat Go - Tom Steele, Chris Patten, Dan Kottmann. (978-1593278656)
-5. Cybersecurity Ops with bash - Paul Troncone, Carl Albing. (978-1492041313)
+5. Gray Hat Python - Justin Seitz. (978-1593271923)
+6. Cybersecurity Ops with bash - Paul Troncone, Carl Albing. (978-1492041313)
+7. Linux Basics for Hackers - OccupyTheWeb. (978-1593278557)
+8. Learning Kali Linux - Ric Messier. (978-1492028697)
+9. Kali Linux Revealed - Raphael Hertzog, Jim O'Gorman. (978-0997615609)
+10. The Ultimate Kali Linux Book - Glen D. Singh. (978-1801818933)
+11. Kali Linux Penetration Testing Bible - Gus Khawaja. (978-1119719083)
+12. Metasploit: The Penetration Tester's Guide - David Kennedy, Jim O'Gorman. (978-1593272883)
+13. Nmap Network Scanning - Gordon Fyodor Lyon. (978-0979958717)
+14. Practical Packet Analysis - Chris Sanders. (978-1593278021)
 ## Data Science
 see 'Data Science and Machine Learning Interviews' below.
 1. An Introduction to Statistical Learning: with Applications in R - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathan Taylor. (978-1071614174)
