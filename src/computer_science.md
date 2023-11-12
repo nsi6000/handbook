@@ -35,6 +35,7 @@
 1. Distributed Operating Systems - Andrew S. Tanenbaum. (978-1556353505)
 2. Distributed Systems: Concepts and Design - George Coulouris, Jean Dollimore, Tim Kindberg, Gordon Blair. (978-0132143011)
 ## Introduction to programming
+* cf Programming Languages page.
 ## Algorithms and Data Structures
 1. Introduction to Algorithms - Thomas Cormen, Charles Leiserson, Ronald Rivest, Clifford Stein. (978-0262046305)
 2. The Algorithm Design Manual - Steven Skiena. (978-1848000698)
@@ -49,6 +50,14 @@
 11. Programming Abstractions in Java/C++ - Eric Roberts. (978-0134421186) (978-0133454840)
 12. Data Structures and Algorithms in Java - Robert Lafore. (978-0672324536)
 ## Databases
+1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant Navathe. (978-1292097619)
+2. Introduction to Database Systems - C.J. Date, A. Kannan, S. Swamynathan. (978-8177585568)
+3. Database Systems: A Practical Approach to Design, Implementation, and Management - Thomas Connolly, Carolyn Begg. (978-0132943260)
+4. Database Systems: The Complete Book - Hector Garcia-Molina, Jeffrey Ullman, Jennifer Widom. (978-0131873254)
+5. Database System Concepts - Abraham Silberschatz, Henry F. Korth, S. Sudarshan. (978-9390727506)
+6. Modern Database Management - Jeffrey A. Hoffer, Ramesh Venkataraman, Heikki Topi. (978-0133544619)
+7. Database Systems: Design, Implementation, & Management - Carlos Coronel, Steven Morris. (978-1337627900)
+8. A First Course in Database Systems - Jeffrey Ullman, Jennifer Widom. (978-0136006374)
 ## Compilers
 1. Compilers: Principles, Techniques, and Tools - Alfred V. Aho, Monica S. Lan, Ravi Sethi, Jeffrey D. Ullman. (978-0321486813)
 2. Engineering a Compiler - Keith D. Cooper, Linda Torczon. (978-1558606982)
@@ -64,7 +73,6 @@
 12. Writing an Interpreter in Go - Thorsten Ball. (978-3982016115)
 13. CPython Internals - Anthony Shaw. (978-1775093343)
 ## Programming Languages Concepts
-* cf Programming Languages page.
 ## Reverse Engineering
 1. The radare book - pancake, maijin. (unknown) [github](https://github.com/radareorg/radare2-book) [read online](https://book.rada.re/)
 2. Reversing: Secrets of Reverse Engineering - Eldad Eilam. (978-0764574818)
@@ -81,16 +89,19 @@
 2. Gray Hat Hacking - Allen Harper, Ryan Linn. (978-1264268948)
 3. Black Hat Python - Justin Seitz, Tim Arnold. (978-1718501126)
 4. Black Hat Go - Tom Steele, Chris Patten, Dan Kottmann. (978-1593278656)
-5. Gray Hat Python - Justin Seitz. (978-1593271923)
-6. Cybersecurity Ops with bash - Paul Troncone, Carl Albing. (978-1492041313)
-7. Linux Basics for Hackers - OccupyTheWeb. (978-1593278557)
-8. Learning Kali Linux - Ric Messier. (978-1492028697)
-9. Kali Linux Revealed - Raphael Hertzog, Jim O'Gorman. (978-0997615609)
-10. The Ultimate Kali Linux Book - Glen D. Singh. (978-1801818933)
-11. Kali Linux Penetration Testing Bible - Gus Khawaja. (978-1119719083)
-12. Metasploit: The Penetration Tester's Guide - David Kennedy, Jim O'Gorman. (978-1593272883)
-13. Nmap Network Scanning - Gordon Fyodor Lyon. (978-0979958717)
-14. Practical Packet Analysis - Chris Sanders. (978-1593278021)
+5. Black Hat Bash - Dolev Farhi, Nick Aleks. (978-1718503748)
+6. Gray Hat Python - Justin Seitz. (978-1593271923)
+7. Cybersecurity Ops with bash - Paul Troncone, Carl Albing. (978-1492041313)
+8. Linux Basics for Hackers - OccupyTheWeb. (978-1593278557)
+9. Learning Kali Linux - Ric Messier. (978-1492028697)
+10. Kali Linux Revealed - Raphael Hertzog, Jim O'Gorman. (978-0997615609)
+11. The Ultimate Kali Linux Book - Glen D. Singh. (978-1801818933)
+12. Kali Linux Penetration Testing Bible - Gus Khawaja. (978-1119719083)
+13. Metasploit: The Penetration Tester's Guide - David Kennedy, Jim O'Gorman. (978-1593272883)
+14. Nmap Network Scanning - Gordon Fyodor Lyon. (978-0979958717)
+15. Practical Packet Analysis - Chris Sanders. (978-1593278021)
+16. Penetration Testing - Georgia Weidman. (978-1593275648)
+17. Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, Sergey Bratus. (978-1593277161)
 ## Data Science
 see 'Data Science and Machine Learning Interviews' below.
 1. An Introduction to Statistical Learning: with Applications in R - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathan Taylor. (978-1071614174)
@@ -122,6 +133,11 @@ see 'Data Science and Machine Learning Interviews' below.
 10. Database in Depth: Relational Theory for Practitioners - C. J. Date. (978-0596100124)
 ## Database Administration
 ## NoSQL Databases
+1. DuckDB in Action - Mark Needham, Michael Hunger, Michael Simons. (978-1633437258)
+2. ScyllaDB in Action - Bo Ingram. (978-1633437265)
+3. Delta Lake The Definitive Guide - Denny Lee, Tathagata Das, Vini Jaiswal. (TBD)
+4. Delta Lake Up and Running - Bellie Haelen, Dan Davis. (978-1098139728)
+5. Data Engineering with Apache Spark, Delta Lake, and Lakehouse - Manoj Kukreja, Danil Zburivsky. (978-1801077743)
 ## Coding Best Practices
 1. The Art of UNIX Programming - Eric S. Raymond. (978-0131429017)
 2. The Pragmatic Programmer - David Thomas, Andrew Hunt. (978-0135957059)
@@ -151,6 +167,7 @@ see 'Data Science and Machine Learning Interviews' below.
 26. Good Code, Bad Code - Tom Long. (978-1617298936)
 27. Five Lines of Code: How and when to refactor - Christian Clausen. (978-1617298318)
 28. Beyong Legacy Code - David Scott Bernstein. (978-1680500790)
+29. The Practice of Programming - Brian Kernighan, Rob Pike. (978-0201615869)
 ## Coding Puzzles / Coding Interviews
 1. Elements of Programming Interviews in Python/Java/C++ - Adnan Aziz, Tsung-Hsien Lee, Amit Prakash. (978-1537713946) (978-1517671273) (978-1479274833)
 2. Cracking the Coding Interview - Gayle Laakmann McDowell. (978-0984782857)
@@ -164,6 +181,8 @@ see 'Data Science and Machine Learning Interviews' below.
 10. Daily Coding Problems - Lawrence Wu, Alex Miller. (978-1793296634)
 11. Classic Computer Science Problems in Python/Java - David Kopec. (978-1617295980) (978-1617297601)
 12. Exercises for Programmers 57 Challenges to Develop Your Coding Skills - Brian Hogan. (978-1680501223)
+13. Ace the Programming Interview: 160 Questions and Answers for Success - Edward Guiness. (978-1118518564)
+14. Coding Interviews: Questions, Analysis & Solutions - Harry He. (978-8132212249)
 ## System Design Interviews
 1. System Design Interview An Insider's Guide Volume 1 - Alex Xu. (979-8664653403)
 2. System Design Interview An Insider's Guide Volume 2 - Alex Xu, Sahn Lam. (978-1736049112)
@@ -181,13 +200,14 @@ see 'Data Science and Machine Learning Interviews' below.
 5. Kafka in Action - Dylan Scott, Viktor Gamoz, Dave Klein. (978-1617295232)
 6. Kafka Streams in Action - Bill Bejeck. (978-1617298684)
 7. Mastering Kafka Streams and ksqlDB - Mitch Seymour. (978-1492062493)
-8. Akka in Action - Francisco Lopez-Sancho Abraham. (978-1617299216)
-9. Apache Pulsar in Action - David Kjerrumgaard. (978-1617296888)
-10. Mastering Apache Pulsar - Jowanza Joseph. (978-1492084907)
-11. Stream Processing with Apache Flink - Fabian Hueske, Vasiliki Kalavri. (978-1491974292)
-12. Learning Apache Flink - Tanmay Deshpande. (978-1786466228)
-13. Flink in Action (MEAP - book in development) - Sameer Wadkar, Hari Rajaram. (978-1617293924)
-14. Grokking Streaming Systems - Josh Fischer, Ning Wang. (978-1617297304)
+8. Streaming Data Pipelines with Kafka - Stefan Sprenger. (978-1633437012)
+9. Akka in Action - Francisco Lopez-Sancho Abraham. (978-1617299216)
+10. Apache Pulsar in Action - David Kjerrumgaard. (978-1617296888)
+11. Mastering Apache Pulsar - Jowanza Joseph. (978-1492084907)
+12. Stream Processing with Apache Flink - Fabian Hueske, Vasiliki Kalavri. (978-1491974292)
+13. Learning Apache Flink - Tanmay Deshpande. (978-1786466228)
+14. Flink in Action - Sameer Wadkar, Hari Rajaram. (978-1617293924)
+15. Grokking Streaming Systems - Josh Fischer, Ning Wang. (978-1617297304)
 ## Kubernetes
 1. The Kubernetes Book - Nigel Poulton. (978-1916585201)
     - Quick Start Kubernetes - Nigel Poulton. (979-8373431781)
@@ -211,8 +231,9 @@ see 'Data Science and Machine Learning Interviews' below.
 ## Terraform & Infrastructure-as-code
 1. Terraform Up and Running - Yevgeniy Brikman. (978-1098116743)
 2. Terraform in Action - Scott Winkler. (978-1617296895)
-3. Infrastruce as Code: Dynamic Systems for the Cloud Age - Kief Morris. (978-1098114671)
-4. Infrastruce as Code, Patterns and Practices: With examples in Python and Terraform - Rosemary Wang. (978-1617298295)
+3. Terraform in Depth - Robert Hafner. (978-1633438002)
+4. Infrastruce as Code: Dynamic Systems for the Cloud Age - Kief Morris. (978-1098114671)
+5. Infrastruce as Code, Patterns and Practices: With examples in Python and Terraform - Rosemary Wang. (978-1617298295)
 ## Continuous Integration and Continuous Delivery / DevOps
 1. Jenkins: The Definitive Guide - John Smart. (978-1449305352)
 2. Continuous Delivery with Docker and Jenkins - Rafal Leszko. (978-1803237480)
@@ -227,6 +248,7 @@ see 'Data Science and Machine Learning Interviews' below.
 11. Modern CMake for C++ - Rafal Swidzinski. (978-1801070058)
 12. CMake Best Practices - Dominik Berner. (978-1803239729)
 13. Managing Projects with GNU Make - Robert Mecklenburg. (978-0596006105)
+14. Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation - Jez Humble, David Farley. (978-0321601919)
 ## Microservices
 1. Quarkus in Action - Martin Stefanko, Jan Martiska. (978-1633438958)
 2. Building Microservices with Micronaut - Nirmal Singh, Zack Dawood. (978-1800564237)
@@ -246,3 +268,5 @@ see 'Data Science and Machine Learning Interviews' below.
 10. The Hundred-Page Machine Learning Book - Anldriy Burkov. (978-1777005474)
 11. Heard in Data Science Interviews - Kal Mishra. (978-1727287325)
 12. Be The Outlier - Shrilata Murthy. (978-1641379854)
+13. Ace the Data Science Interview - Dan Sanz. (978-1633438248)
+14. Machine Learning System Design - Valerii Babushkin, Arseny Kravchenko. (978-1633438750)
