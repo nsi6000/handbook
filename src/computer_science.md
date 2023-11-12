@@ -87,6 +87,17 @@
 12. Writing an Interpreter in Go - Thorsten Ball. (978-3982016115)
 13. CPython Internals - Anthony Shaw. (978-1775093343)
 ## Programming Languages Concepts
+1. Principles of Programming Languages - Bruce J. MacLennan. (978-0195113068)
+2. Concepts of Programming Languages - Robert Sebesta. (978-1292436821)
+3. Programming Languages Principles and Paradigms - Allen Tucker, Robert Noonan. (978-0072866094)
+4. Concepts in Programming Languages - John C. Mitchell. (978-0521780988)
+5. Programming Languages: Application and Interpretation - Shiram Krishnamurthi. (???)
+6. Essentials of Programming Languages - Daniel P. Friedman, Mitchell Wand. (978-0262062794)
+7. Concepts, Techniques, and Models of Computer Programming - Peter Van Roy, Seif Haridi. (978-0262220699)
+8. Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman. (978-0262510875)
+9. Seven Programming Languages in Seven Weeks - Bruce Tate. (978-1934356593)
+10. Seven More Programming Languages in Seven Weeks - Bruce Tate. (978-1941222157)
+11. Introduction to Programming Languages - WikiBooks. [link](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages)
 ## Reverse Engineering
 1. The radare book - pancake, maijin. (unknown) [github](https://github.com/radareorg/radare2-book) [read online](https://book.rada.re/)
 2. Reversing: Secrets of Reverse Engineering - Eldad Eilam. (978-0764574818)
