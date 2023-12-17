@@ -43,6 +43,8 @@
 6. Schaum's Outline of International Economics - Dominick Salvatore. (978-0070549500)
 ## Econometrics
 1. Introductory Econometrics: A Modern Approach - Jeffrey M. Wooldridge. (978-1337558860)
+    - Using R for Introductory Econometrics - Florian Heiss. (979-8648424364)
+    - Using Python for Introductory Econometrics - Florian Heiss. (979-8648436763)
 2. Econometric Analysis - William H. Greene. (978-0131395381)
 3. Time Series Analysis - James D. Hamilton. (978-0691042893)
 4. Introduction to Econometrics - James H. Stock, Mark W. Watson. (978-0134461991)
@@ -52,8 +54,9 @@
 8. Using Econometrics: A Practical Guide - A. H. Studenmund. (978-0131367739)
 9. Applied Econometric Time Series - Walter Enders. (978-1118808566)
 10. Introductory Econometrics for Finance - Chris Brooks. (978-0521790185)
-11. Microeconometrics Using Stata: Volumes I and II - A. Colin Cameron, Pravin K. Trivedi. (978-1597183598)
-12. Schaum's Outline of Statistics and Econometrics - Dominick Salvatore. (978-0071755474)
+11. Applied Econometrics with R - Christian Kleiber, Achim Zeileis. (978-0387773162)
+12. Microeconometrics Using Stata: Volumes I and II - A. Colin Cameron, Pravin K. Trivedi. (978-1597183598)
+13. Schaum's Outline of Statistics and Econometrics - Dominick Salvatore. (978-0071755474)
 ## Economics Dynamics
 1. Economic Dynamics: Theory and Computation - John Stachurski. (978-0262544771)
 2. Economic Dynamics in Discrete Time - Jianjun Miao. (978-0262043625)
