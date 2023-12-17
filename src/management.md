@@ -46,14 +46,16 @@
 4. Credit-Risk Modelling: Recipes in Python - David Jamieson Bolder. (978-3319946870)
 5. Fundamentals of Actuarial Mathematics - S. David Promislow. (978-1118782460)
 6. Financial Mathematics for Actuarial Science - Richard James Wilders. (978-1032175072)
+7. Actuarial Models: The Mathematics of Insurance - Vladimir I. Rotar. (978-1482227062)
 ## Strategy
 1. Exploring Strategy - Gerry Johnson, Kevan Scholes, Richard Whittington. (978-1292428741)
 2. Corporate Strategy - Richard Lynch. (978-0273701781)
-3. Kellogg on Strategy - David Dranove, Sonia Marciano. (978-0471478553)
-4. The Strategy Book - Max McKeown. (978-1292264134)
-5. Key MBA Models - Julian Birkinshaw, Ken Mark. (978-1292016856)
-6. Key Management Models - Gerben Van den Berg, Paul Pietersma. (978-1292016276)
-7. The Boston Consulting Group on Strategy - Carl W. Stern, Michael S. Deimler. (978-0471757221)
+3. Strategy: An International Perspective - Bob de Wit. (978-1473765856)
+4. Kellogg on Strategy - David Dranove, Sonia Marciano. (978-0471478553)
+5. The Strategy Book - Max McKeown. (978-1292264134)
+6. Key MBA Models - Julian Birkinshaw, Ken Mark. (978-1292016856)
+7. Key Management Models - Gerben Van den Berg, Paul Pietersma. (978-1292016276)
+8. The Boston Consulting Group on Strategy - Carl W. Stern, Michael S. Deimler. (978-0471757221)
 ## Marketing
 ## Human Resource Management
 ## Operational Research
