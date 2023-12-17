@@ -85,4 +85,6 @@
 10. Biochemistry: An Integrative Approach - John T. Tansey. (978-1119820802)
 11. Schaum's Outline of Biochemistry - Philip Kuchel. (978-0071472272)
 12. Case Files Biochemistry - Eugene Toy. (978-0071794886)
-13. Biochemistry - Wikibooks. [link](https://en.wikibooks.org/wiki/Biochemistry)
+13. BRS Biochemistry, Molecular Biology & Genetics - Michael A. Lieberman, Rick Ricer. (978-1496399236)
+14. Rapid Review Biochemistry - John W. Pelley, Edward F. Goljan. (978-0323068871)
+15. Biochemistry - Wikibooks. [link](https://en.wikibooks.org/wiki/Biochemistry)
