@@ -1,4 +1,18 @@
 # Medicine, Nursing and Health Sciences
+## Pre-Med
+1. On becoming a doctor - Tania Heller. (978-1402220135)
+2. Med School Confidential - Robert H. Miller. (978-0312330088)
+3. The Med School Survival Kit - Wendell Cole. (978-1732384309)
+4. How to be Pre-Med - Suzanne M. Miller. (978-1936633555)
+5. The Soul of a Doctor - Susan Pories. (978-1565125070)
+6. Being Mortal - Atul Gawande. (978-1250076229)
+7. Better: A Surgeon's Notes on Performance - Atul Gawande. (978-0312427658)
+8. Complications - Atul Gawande. (978-0312421700)
+9. The Checklist Manifesto - Atul Gawande. (978-0312430009)
+10. When Breath Becomes Air - Paul Kalanithi. (978-0812988406)
+11. The Intern Blues - Robert Marion. (978-0060937096)
+12. The Emperor of All Maladies - Siddhartha Mukherjee. (978-1439170915)
+13. Do No Harm - Henry Marsh. (978-1250090133)
 ## MCAT
 1. Kaplan MCAT Complete 7-Book Subject Review 2024-2025 - Kaplan Test Prep. (978-1506287065)
     - MCAT Flashcards - Kaplan Test Prep. (978-1506259697)
@@ -47,9 +61,10 @@
 24. Lippincott Illustrated Reviews: Physiology - Robin R. Preston, Thad E. Wilson. (978-1496385826)
 25. Case Files Anatomy - Eugene Toy. (978-0071794862)
 26. Case Files Physiology - Eugene Toy. (978-0071493741)
-27. Anatomy and Physiology - OpenStax. (978-1711494067)
-28. General Anatomy - Wikibooks. [link](https://en.wikibooks.org/wiki/General_Anatomy)
-29. Human Physiology - Wikibooks. [link](https://en.wikibooks.org/wiki/Human_Physiology)
+27. Rapid Review Physiology - Thomas A. Brown. (978-0323072601)
+28. Anatomy and Physiology - OpenStax. (978-1711494067)
+29. General Anatomy - Wikibooks. [link](https://en.wikibooks.org/wiki/General_Anatomy)
+30. Human Physiology - Wikibooks. [link](https://en.wikibooks.org/wiki/Human_Physiology)
 ## Internal Medicine
 1. Harrison's Principles of Internal Medicine - Larry Jameson, Anthony Fauci, Dennis Kasper, Stephen Hauser, Dan Longo, Joseph Loscalzo. (978-1259644030)
 2. Netter's Internal Medicine - Marschall Runge, Andrew Greganti. (978-1416044178)
@@ -65,7 +80,8 @@
 12. Clinical Medicine Complete 5-Book Subject Review 2024 2025 - Kaplan Medical. (978-1506285245)
 13. Blueprints Medicine - Vincent Young. (978-1469864150)
 14. Case Files Internal Medicine - Eugene Toy. (978-1260469967)
-15. Internal Medicine - Wikibooks. [link](https://en.wikibooks.org/wiki/Internal_Medicine)
+15. PreTest Medicine - Robert S. Urban, J. Rush Pierce, Roger D. Smalligan. (978-0071850056)
+16. Internal Medicine - Wikibooks. [link](https://en.wikibooks.org/wiki/Internal_Medicine)
 ## Surgery
 1. Schwartz's Principles of Surgery - F. Charles Brunicardi. (978-1259835353)
 2. Sabiston Textbook of Surgery - Courtney Townsend. (978-0323640626)
@@ -95,7 +111,8 @@
 11. Pathophysiology of Disease: An Introduction to Clinical Medicine - Gary Hammer, Stephen McPhee. (978-1260026504)
 12. Case Files Pathology - Eugene Toy. (978-0071486668)
 13. BRS Pathology - Mary Elizabeth Peyton Gupta. (978-1975136628)
-14. Pathology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pathology)
+14. Rapid Review Pathology - Anthony Alfrey, Edward F. Goljan. (978-0323870573)
+15. Pathology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pathology)
 ## Clinical Examination
 1. Physical Examination and Health Assessment - Carolyn Jarvis. (978-0323809849)
 2. Seidel's Guide to Physical Examination - Jane Ball, Joyce Dains, John Flynn, Barry Solomon, Rosalyn Stewart. (978-0323481953)
@@ -111,6 +128,7 @@
 4. Gartner & Hiatt's Atlas and Text of Histology - Leslie P. Gartner, Lisa M.J. Lee. (978-1975164256)
 5. Bloom & Fawcett's Concise Histology - Don Fawcett, Ronald Jensh. (978-0340806777)
 6. Steven & Lowe's Human Histology - James S. Lowe, Peter G. Anderson. (978-0723435020)
+7. BRS Cell Biology and Histology - Leslie P. Gartner. (978-1496396358)
 ## Immunology
 1. Kuby Immunology - Jenni Punt, Sharon Stranford, Patricia Jones, Judy Owen. (978-1464189784)
 2. Janeway's Immunobiology - Kenneth Murphy, Casey Weaver, Leslie Berg. (978-0393884890)
@@ -120,25 +138,33 @@
 6. Roitt's Essential Immunology - Seamus J. Martin, Dennis R. Burton. (978-1118415771)
 7. Immunology: Understanding the Immunce System - Klaus D. Egbert. (978-0470081570)
 8. Immunology - David Male, R. Stokes Peebles Jr., Victoria Male. (978-0702078446)
+9. BRS Microbiology and Immunology - Louise Hawley, Richard J. Ziegler, Benjamin L. Clarke. (978-1451175349)
 ## Pharmacology
 1. Katzung's Basic and Clinical Pharmacology - Todd W. Vanderah. (978-1260463309)
     - Lange Pharmacology Flashcards - Suzanne Baron, Christoph Lee. (978-1259837241)
 2. Lippincott Illustrated Reviews: Pharmacology - Karen Whalen. (978-1975170554)
 3. BRS Pharmacology - Sarah Lerchenfeldt. (978-1975105495)
 4. Case Files Pharmacology - Eugene Toy. (978-0071790239)
-5. Pharmacology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pharmacology)
+5. Rapid Review Pharmacology - Thomas L. Pazdernik, Laszlo Kerecsen. (978-0323068123)
+6. Pharmacology - Wikibooks. [link](https://en.wikibooks.org/wiki/Pharmacology)
 ## Neurology
 1. Lippincott Illustrated Reviews: Neuroscience - Claudia Krebs. (978-1496367891)
 2. Case Files Neuroscience - Eugene Toy. (978-0071790253)
 3. Blueprints Neurology - Frank Drislane. (978-1496387394)
+4. BRS Neuroanatomy - Douglas J. Gould. (978-1496396181)
+5. PreTest Neurology - David Anschel, Daniel DiCapua. (978-1260468298)
 ## Pediatrics
 1. Case Files Pediatrics - Eugene Toy. (978-0071839952)
 2. Blueprints Pediatrics - Bradley Marino. (978-1496396464)
+3. BRS Pediatrics - Llyod J. Brown, Ryan J. Coller, Lee Todd Miller. (978-1496309754)
+4. PreTest Pediatrics - Robert Yetman, Mark Hormann. (978-1260440331)
 ## Orthopaedics
 1. Case File Orthopaedics Surgery - Eugene Toy. (978-0071790307)
 ## Psychiatry & Psychology
 1. Case Files Psychiatry - Eugene Toy. (978-1260468731)
 2. Blueprints Psychiatry - Michael Murphy, Ronald Cowan. (978-1496381347)
+3. BRS Behavioral Science - Barbara Fadem. (978-1975188856)
+4. PreTest Psychiatry - Debra Klamen, Philip Pan. (978-1260467413)
 ## Family Medicine
 1. Blueprints Family Medicine - Mitchell King, Martin Lipsky. (978-1496377883)
 2. Case Files Family Medicine - Eugene Toy. (978-1260468595)
@@ -152,11 +178,18 @@
 2. Case Files Obstetrics and Gynecology - Eugene Toy. (978-1260468786)
 3. Case Files Gynecologic Surgery - Eugene Toy. (978-0071592802)
 4. Case Files High-Risk Obstetrics - Eugene Toy. (unknown)
+5. PreTest Obstetrics & Gynecology - Shireen Madani Sims. (978-1260468427)
 ## Radiology
 1. Blueprints Radiology - Alina Uzelac, Ryan Davis. (978-1405104609)
 ## Anesthesiology
 1. Case Files Anesthesiology - Lydia Conlay. (978-0071606394)
-## PreTest and Elsevier Rapid Review
+## AP Psychology
+1. Barron's AP Psychology 2024 - Allyson Weseley, Robert McEntarffer. (978-1506287973)
+    - Barron's AP Psychology Flashcards - Robert McEntarffer. (978-1506287997)
+    - Barron's Q&A Psychology - Robert McEntarffer, Kristin Whitlock. (978-1506288017)
+2. Princeton Review AP Psychology Premium Prep - The Princeton Review. (978-0593517239)
+3. 5 Steps to a 5: AP Psychology 2024 - Laura Lincoln Maitland, Laura Sheckell. (978-1265270421)
+4. AP Psychology Crash Course - Larry Krieger. (978-0738612713)
 ## EMT
 1. EMT-Basic - Wikibooks. [link](https://en.wikibooks.org/wiki/EMT-Basic)
 ## Paramedics
