@@ -9,11 +9,20 @@
 4. Investment Analysis and Portfolio Management - Frank K. Reilly, Keith C. Brown, Sanford J. Leeds. (978-1305262997)
 5. Foundations of Financial Management - Stanley Block, Geoffrey Hirt, Bartley Danielsen. (978-1259277160)
 6. Foundamentals of Corporate Finance - Bradford Ross, Randolph Westerfield. (978-1265553609)
+7. Investments - William F. Sharpe. (978-0131037717)
+8. Fundamentals of Financial Management - James C. Van Horne, John M. Wachowicz. (978-0273713630)
+9. Principles of Managerial Finance - Lawrence J. Gitman. (978-0136119463)
+10. Investment Science - David G. Luenberger. (978-0199740086)
 ## Derivatives
 1. Options, Futures, and Other Derivatives - John Hull. (978-0133456318)
     - Student Solutions Manual for Options, Futures, and Other Derivatives - John Hull. (978-0134629995)
 2. Paul Wilmott Introduces Quantitative Finance - Paul Wilmott. (978-0470319581)
 3. Paul Wilmott on Quantitative Finance - Paul Wilmott. (978-0470018705)
+4. A Primer for the Mathematics of Financial Engineering - Dan Stefanica. (978-0979757624)
+    - Solutions Manual for A Primer for the Mathematics of Financial Engineering - Dan Stefanica. (978-0979757617)
+5. Futures, Options, & Swaps - Robert W. Kolb. (978-0631214991)
+6. Financial Derivatives - Robert Kolb, James A. Overdahl. (978-1557869302)
+7. Analysis of Derivatives for the CFA Program - Don M. Chance. (978-0935015935)
 ## Investment Banking
 1. Investment Banking: Valuation, LBOs, M&A, and IPOs - Joshua Rosenbaum, Joshua Pearl. (978-1119706182)
 2. Valuation: Measuring and Managing the Value of Companies, Univeristy Edition - Tim Koller, Marc Goedhart, David Wessels. (978-1119611868)
@@ -31,6 +40,12 @@
 ## Financial Modelling with R
 ## Financial Modelling with C++
 ## Actuarial Science
+1. Computational Actuarial Science with R - Arthur Charpentier. (978-1466592599)
+2. Modern Actuarial Risk Theory: Using R - Rob Kaas, Marc Goovaerts, Jan Dhaene, Michel Denuit. (978-3642034077)
+3. Credit Risk Analytics - Bart Baessens, Daniel Rosch, Harald Scheule. (978-1119143987)
+4. Credit-Risk Modelling: Recipes in Python - David Jamieson Bolder. (978-3319946870)
+5. Fundamentals of Actuarial Mathematics - S. David Promislow. (978-1118782460)
+6. Financial Mathematics for Actuarial Science - Richard James Wilders. (978-1032175072)
 ## Strategy
 1. Exploring Strategy - Gerry Johnson, Kevan Scholes, Richard Whittington. (978-1292428741)
 2. Corporate Strategy - Richard Lynch. (978-0273701781)
