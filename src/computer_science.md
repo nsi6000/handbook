@@ -1,5 +1,12 @@
 # Computer Science
 ## AP Computer Science Principles / A
+1. 5 Steps to a 5: AP Computer Science Principles - Julie Schacht Sway. (978-1265287566)
+2. 5 Steps to a 5: AP Computer Science A - Deborah B. Klipp, Dean Johnson, Carol Paymer. (978-1265267926)
+3. Barron's AP Computer Science Principles Premium - Seth Reichelson. (978-1506287751)
+4. Barron's AP Computer Science A Premium - Roselyn Teukolsky. (978-1506287911)
+5. Barron's AP Computer Science A Flashcards - Roselyn Teukolsky. (978-1506264110)
+6. Princeton Review AP Computer Science Principles - The Princeton Review. (978-0593516782)
+7. Princeton Review AP Computer Science A - The Princeton Review. (978-0593517055)
 ## Computer Architecture
 1. Computer Architecture: A Quantitative Approach - John L. Hennessy, David A. Patterson. (978-0128119051)
 2. Computer Organization and Design: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0124077263)
