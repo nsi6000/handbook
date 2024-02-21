@@ -57,12 +57,27 @@
 7. Key Management Models - Gerben Van den Berg, Paul Pietersma. (978-1292016276)
 8. The Boston Consulting Group on Strategy - Carl W. Stern, Michael S. Deimler. (978-0471757221)
 ## Marketing
+1. Marketing Management - Philip Kotler, Kevin Keller. (978-1292404813)
+2. The New Strategic Brand Management - Jean-Noel Kapferer. (978-0749465155)
+3. Marketing: Real People, Real Choices - Michael Solomon, Greg Marshall, Elnora Stuart. (978-0134292663)
+4. Marketing Research: An Applied Orientation - Naresh Malhotra. (978-0134734842)
+5. Global Marketing - Warren Keegan, Mark Green. (978-0134129945)
+6. Marketing: An Introduction - Gary Armstrong, Philip Kotler. (978-1292433103)
+7. Strategic Brand Management - Kevin Lane Keller, Vanitha Swaminathan. (978-1292314969)
 ## Human Resource Management
+1. International Human Resource Management - Peter J. Dowling, Marion Festing, Allen D. Engle. (978-9386668585)
+2. Human Resource Management - Sean R. Valentine, Patricia Meglich, Robert L. Mathis, John H. Jackson. (978-0357033852)
+3. Managing Human Resources ) Susan E. Jackson, Randall S. Schuler, Steve Werner. (978-0190857561)
+4. Human Resource Management - Raymond Andrew Noe, John R. Hollenbeck, Barry Gerhart, Patrick M. Wright. (978-1265064013)
 ## Operational Research
 1. Operations Research: An Introduction - Hamdy A. Taha. (978-1292165547)
 2. Introduction to Operations Research - Frederick Hillier. (978-1259162985)
 3. Spreadsheet Modeling and Decision Analysis - Cliff Ragsdale. (978-0357132098)
 4. Introductory Management Science - Gary D. Eppen, F. J. Gould, C. P. Schmidt, Jeffrey H. Moore, Larry R. Weatherford. (978-0138893958)
+5. Business Analytics: The Art of Modeling with Spreadsheets - Stephen G. Powell, Kenneth R. Baker. (978-1119298427)
+6. Operations Research: Applications and Algorithms - Wayne L. Winston. (978-0534380588)
+7. Practical Management Science - Wayne L. Winston, S. Christian Albright. (978-1111531317)
+8. Spreadsheet Modeling for Business Decisions - John F. Kros. (978-1524939311)
 ## Project Management
 ## Business Analysis
 ## CFA / FRM
@@ -85,6 +100,15 @@
 ## CPA
 ## MBA
 1. An Entire MBA in 1 Book - Chris Haroun. (978-1523980642)
+2. The Personal MBA - Josh Kaufman. (978-1591843528)
+3. The Ten-Day MBA - Steven A. Silbiger. (978-0063307773)
+4. MBA in a Nutshell - Milo Sobel. (978-0071701723)
+5. MBA in a Day 2.0 - Steven Stralser. (978-0997532401)
+6. The 30 Day MBA - Colin Barrow. (978-1398609877)
+7. The Portable MBA - Kenneth M. Eades. (978-0470481295)
+8. The Wall Street MBA - Reuben Advani. (978-1260135596)
+9. The Complete Idiot's Guide to MBA Basics - Tom Gorman. (978-1615640713)
+10. Complete MBA For Dummies - Kathleen Allen, Peter Economy. (978-0470194294)
 ## Case Interviews
 1. Case In Point - Marc Patrick Cosentino. (978-0986370762)
     - Case In Point: Case Competition - Marc Patrick Cosentino. (978-0692114155)
