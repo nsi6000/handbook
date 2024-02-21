@@ -1,6 +1,6 @@
 # Economics
 ## Principles of Economics
-1. abc
+1. Principles of Economics - N. Gregory Mankiw. (978-1305585126)
 2. Economics: Principles and Policy - William J. Baumol, Alan S. Blinder, John L. Solow. (978-1337696326)
 3. Principles of Economics - OpenStax. (978-1711471457)
 4. Schaum's Outline of Principles of Economics - Dominick Salvatore. (978-0071762533)
@@ -34,6 +34,12 @@
 12. Principles of Macroeconomics - OpenStax. (978-1711471471)
 13. Schaum's Outline of Macroeconomics - Eugene Diulio. (978-0070170537)
 ## Industrial Organization
+1. The theory of Industrial Organization - Jean Tirole. (978-0262200714)
+2. Industrial Organization: Markets and Strategies - Paul Belleflamme, Martin Peitz. (978-1107687899)
+3. Introduction to Industrial Organization - Luis M. B. Cabral. (978-0262035941)
+4. Industrial Organization: Theory and Applications - Oz Shy. (978-0262691796)
+5. Industrial Organization: Contemporary Theory and Empirical Applications - Lynne Pepall, Dan Richards, George Norman. (978-1118250303)
+6. Modern Industrial Organization - Dennis Carlton, Jeffrey Perloff. (978-1292087856)
 ## International Economics
 1. International Economics: Theory and Policy - Paul Krugman, Maurice Obstfeld, Marc Melitz. (978-1292409719)
 2. International Economics - Robert Carbaugh. (978-0357518915)
@@ -41,6 +47,9 @@
 4. International Economics - Robert C. Feenstra, Alan M. Taylor. (978-1319292362)
 5. International Economics - Dennis Appleyard, Alfred J. Field Jr. (978-1259290626)
 6. Schaum's Outline of International Economics - Dominick Salvatore. (978-0070549500)
+## Game Theory
+1. Game Theory - Jean Tirole, Drew Fudenberg. (978-0262061414)
+2. A Course in Game Theory - Martin J. Osborne, Ariel Rubinstein. (978-0262650403)
 ## Econometrics
 1. Introductory Econometrics: A Modern Approach - Jeffrey M. Wooldridge. (978-1337558860)
     - Using R for Introductory Econometrics - Florian Heiss. (979-8648424364)
