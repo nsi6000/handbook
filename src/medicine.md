@@ -31,6 +31,19 @@
 11. MCAT Study Guide - Wikibooks. [link](https://en.wikibooks.org/wiki/MCAT_Study_Guide)
 ## PCAT
 ## DAT-NBDE
+1. Barron's DAT - Joseph DiRienzo, John J. Ference, Nicole D. Cornell, Edwin H. Hines, John Swartwood. (978-1438006345)
+2. CliffsTestPrep DAT - Tracy Halward. (978-0471785934)
+3. Kaplan DAT Prep Plus 2023-2024 - Kaplan Test Prep. (978-1506276823)
+4. Princeton Review DAT Prep - The Princeton Review. (978-0593517413)
+5. First Aid for the NBDE Part 1 - Derek Steinbacher, Steven Sierakowski. (978-0071769044)
+    - First Aid Q&A for the NBDE Part 1 - Derek Steinbacher, Steven Sierakowski. (978-0071508667)
+6. First Aid for the NBDE Part 2 - Jason Portnof, Timothy Leung. (978-0071482530)
+    - First Aid Q&A for the NBDE Part 2 - Jason Portnof, Timothy Leung. (978-0071613729)
+7. Mosby's Review for the NBDE Part 1 - Mosby. (978-0323225618)
+8. Mosby's Review for the NBDE Part 2 - Mosby. (978-0323225687)
+9. NBDE Part 1 Lecture Notes - Kaplan Medical. (978-1506207834)
+10. NBDE Part 2 Lecture Notes - Kaplan Medical. (978-1506212814)
+11. dentEssentials: High-Yield NBDE Part 1 Review - Michael S. Manley, Leslie D. Manley. (978-1607149002)
 ## Anatomy and Physiology
 1. Human Anatomy - Elaine Marieb, Patricia Brady, Jon Mallat. (978-1292314471)
 2. Anatomy & Physiology - Kenneth Saladin. (978-1259277726)
