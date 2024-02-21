@@ -69,6 +69,6 @@
 ## Economics Dynamics
 1. Economic Dynamics: Theory and Computation - John Stachurski. (978-0262544771)
 2. Economic Dynamics in Discrete Time - Jianjun Miao. (978-0262043625)
-  - Student Solutions Manual to Economic Dynamics in Discrete Time - Yue Jiang. (978-0262538909)
+    - Student Solutions Manual to Economic Dynamics in Discrete Time - Yue Jiang. (978-0262538909)
 3. Economic Dynamics - Giancarlo Gandolfo. (978-3642038624)
 4. Recursive Methods in Economic Dynamics - Nancy L. Stokey, Robert E. Lucas Jr. (978-0674750968)
