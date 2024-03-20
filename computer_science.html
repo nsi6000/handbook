@@ -1,0 +1,637 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Computer Science</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Intro.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="publishers.html">List of textbooks publishers</a></li><li class="chapter-item expanded affix "><li class="part-title">Textbooks</li><li class="chapter-item expanded "><a href="management.html"><strong aria-hidden="true">1.</strong> Management</a></li><li class="chapter-item expanded "><a href="economics.html"><strong aria-hidden="true">2.</strong> Economics</a></li><li class="chapter-item expanded "><a href="law.html"><strong aria-hidden="true">3.</strong> Law</a></li><li class="chapter-item expanded "><a href="computer_science.html" class="active"><strong aria-hidden="true">4.</strong> Computer Science</a></li><li class="chapter-item expanded "><a href="programming_languages.html"><strong aria-hidden="true">5.</strong> Programming Languages</a></li><li class="chapter-item expanded "><a href="mathematics.html"><strong aria-hidden="true">6.</strong> Mathematics</a></li><li class="chapter-item expanded "><a href="physics.html"><strong aria-hidden="true">7.</strong> Physics</a></li><li class="chapter-item expanded "><a href="chemistry.html"><strong aria-hidden="true">8.</strong> Chemistry</a></li><li class="chapter-item expanded "><a href="biology.html"><strong aria-hidden="true">9.</strong> Biology</a></li><li class="chapter-item expanded "><a href="medicine.html"><strong aria-hidden="true">10.</strong> Medicine</a></li><li class="chapter-item expanded "><a href="veterinary_medicine.html"><strong aria-hidden="true">11.</strong> Veterinary Medicine</a></li><li class="chapter-item expanded "><a href="standardized_test_preparation.html"><strong aria-hidden="true">12.</strong> Standardized Test Preparation</a></li><li class="chapter-item expanded "><a href="job_interviews.html"><strong aria-hidden="true">13.</strong> Job Interviews</a></li><li class="chapter-item expanded affix "><li class="part-title">Addendum</li><li class="chapter-item expanded "><a href="softwares.html"><strong aria-hidden="true">14.</strong> Free & Open Source Softwares</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="computer-science"><a class="header" href="#computer-science">Computer Science</a></h1>
+<h2 id="ap-computer-science-principles--a"><a class="header" href="#ap-computer-science-principles--a">AP Computer Science Principles / A</a></h2>
+<ol>
+<li>5 Steps to a 5: AP Computer Science Principles - Julie Schacht Sway. (978-1265287566)</li>
+<li>5 Steps to a 5: AP Computer Science A - Deborah B. Klipp, Dean Johnson, Carol Paymer. (978-1265267926)</li>
+<li>Barron's AP Computer Science Principles Premium - Seth Reichelson. (978-1506287751)</li>
+<li>Barron's AP Computer Science A Premium - Roselyn Teukolsky. (978-1506287911)</li>
+<li>Barron's AP Computer Science A Flashcards - Roselyn Teukolsky. (978-1506264110)</li>
+<li>Princeton Review AP Computer Science Principles - The Princeton Review. (978-0593516782)</li>
+<li>Princeton Review AP Computer Science A - The Princeton Review. (978-0593517055)</li>
+</ol>
+<h2 id="computer-architecture"><a class="header" href="#computer-architecture">Computer Architecture</a></h2>
+<ol>
+<li>Computer Architecture: A Quantitative Approach - John L. Hennessy, David A. Patterson. (978-0128119051)</li>
+<li>Computer Organization and Design: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0124077263)</li>
+<li>Structured Computer Organization - Andrew S. Tanenbaum. (978-0132916523)</li>
+<li>Essentials of Computer Organizaiton and Architecture - Linda Null, Julia Lobur. (978-1284259438)</li>
+<li>Computer Organization and Architecture - William Stallings. (978-0134101613)</li>
+<li>Computer Organization and Embedded Systems - Carl Hamacher, Zvonko Vranesic. (978-0073380650)</li>
+<li>Digital Design and Computer Architecture - David Harris, Sarah Harris. (978-0123944245)
+<ul>
+<li>Digital Design and Computer Architecture: RISC-V Edition - David Harris, Sarah Harris. (978-0128200643)</li>
+<li>Digital Design and Computer Architecture: ARM Edition - David Harris, Sarah Harris. (978-0128000564)</li>
+</ul>
+</li>
+<li>Digital Design: A Systems Approach - William James Dally, R. Curtis Harting. (978-0521199506)</li>
+<li>Digital Design: Principles and Practices -  John Wakerly. (978-0134460093)</li>
+<li>Digital Design - M. Morris Mano, Michael Ciletti. (978-0134549897)</li>
+</ol>
+<h2 id="operating-systems"><a class="header" href="#operating-systems">Operating Systems</a></h2>
+<ol>
+<li>Operating Systems Design and Implementation - Andrew S. Tanenbaum, Albert S. Woodhull. (978-0131429383)</li>
+<li>Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos. (978-0133591620)</li>
+<li>Operating System Concepts - Abrahama Silberschatz, Peter B. Galvin, Greg Gagne. (978-1119800361)</li>
+<li>Operating Systems: Internals and Design Principles - William Stallings. (978-0134670959)</li>
+<li>Operating System - Harvey M. Deitel, Paul J. Deitel, David R. Choffnes. (978-0131828278)</li>
+<li>Understanding Operating Systems - Ann McHoes, Ida M. Flynn. (978-1305674257)</li>
+<li>Operating Systems: A Spiral Approach - Ramez Elmasri, A. Gil Carrick, David Levine. (978-0072449815)</li>
+<li>Linux Kernel Development - Robert Love. (978-0672329463)</li>
+<li>Understanding the Linux Kernel - Daniel Bovet, Marco Cesati. (978-0596005658)</li>
+<li>The Linux Programming Interface - Michael Kerrisk. (978-1593272203)</li>
+<li>Linux Kernel Programming - Kaiwan Billimoria. (978-1803232225)</li>
+<li>The UNIX Programming Environment - Brian Kerninghan, Rob Pike. (978-0139376818)</li>
+<li>Advanced Programming the UNIX Environment - W. Richard Stevens, Stephen A. Rago. (978-0321637734)</li>
+<li>Advanced UNIX Programming - Marc Rochkind. (978-0131411548)</li>
+<li>Lions' Commentary on Unix - John Lions, Peter H. Salus. (978-1573980135)</li>
+<li>The Design and Implementation of the FreeBSD Operating System - Marshall McKusick, George Neville-Neil, Robert Watson. (978-0321968975)</li>
+<li>FreeBSD Device Drivers - Joseph Kong. (978-1593272043)</li>
+<li>FreeDOS Kernel - Pat Villani. (978-1138412309)</li>
+</ol>
+<h2 id="operating-systems-administration"><a class="header" href="#operating-systems-administration">Operating Systems Administration</a></h2>
+<ol>
+<li>Absolute FreeBSD - Michael W. Lucas. (978-1593278922)</li>
+<li>Absolute OpenBSD - Michael W. Lucas. (978-1593274764)</li>
+<li>The Book of PF - Peter N.M. Hansteen. (978-1593272746)</li>
+<li>BSD UNIX Toolbox - Christopher Negus, Francois Caen. (???)</li>
+<li>BSD Hacks - Dru Lavigne. (978-0596006792)</li>
+<li>Mastering FreeBSD and OpenBSD Security - Yanek Korff, Paco Hope, Bruce Potter. (978-0596006266)</li>
+<li>UNIX Power Tools - Shelley Powers, Jerry Peek, Tim O'Reilly, Mike Loukides. (978-0596003302)</li>
+</ol>
+<h2 id="computer-networking"><a class="header" href="#computer-networking">Computer Networking</a></h2>
+<ol>
+<li>Computer Networking: A Top-Down Approach - James Kurose, Keith Ross. (978-1292405469)</li>
+<li>Computer Networks - Andrew S. Tanenbaum, David Wetherhall. (978-0132126953)</li>
+<li>Data Communications and Networking - Behrouz A. Forouzan. (978-0078022098)</li>
+<li>Computer Networks: A Systems Approach - Larry L. Peterson, Bruce S. Davie. (978-0128182000)</li>
+</ol>
+<h2 id="distributed-operating-systems"><a class="header" href="#distributed-operating-systems">Distributed Operating Systems</a></h2>
+<ol>
+<li>Distributed Operating Systems - Andrew S. Tanenbaum. (978-1556353505)</li>
+<li>Distributed Systems: Concepts and Design - George Coulouris, Jean Dollimore, Tim Kindberg, Gordon Blair. (978-0132143011)</li>
+</ol>
+<h2 id="introduction-to-programming"><a class="header" href="#introduction-to-programming">Introduction to programming</a></h2>
+<ul>
+<li>cf Programming Languages page.</li>
+</ul>
+<h2 id="algorithms-and-data-structures"><a class="header" href="#algorithms-and-data-structures">Algorithms and Data Structures</a></h2>
+<ol>
+<li>Introduction to Algorithms - Thomas Cormen, Charles Leiserson, Ronald Rivest, Clifford Stein. (978-0262046305)</li>
+<li>The Algorithm Design Manual - Steven Skiena. (978-1848000698)</li>
+<li>Algorithms - Robert Sedgewick, Kevin Wayne. (978-0321573513)</li>
+<li>Data Structures and Algorithms in Java/Python/C++ - Michael Goodrich, Roberto Tamassia. (978-1118771334) (978-1118290279) (978-0470383278)</li>
+<li>Data Structures and Algorithms in Java/C++ - Adam Drozdek. (978-9814392785) (978-8131521267)</li>
+<li>Java Software Structures - John Lewis, Joe Chase. (978-0136078586)</li>
+<li>Data Structures and Abstractions with Java - Frank Carrano, Timothy Henry. (978-0134831695)</li>
+<li>Data Structures and Algorithm Analysis in Java/C++ - Mark Weiss. (978-0132576277) (978-0273769385)</li>
+<li>Algorithm Design - Jon Kleinberg, Eva Tardos. (978-0321295354)</li>
+<li>Data Structures and Algorithms - Alfred Aho, John Hopcroft, Jeffrey Ullman. (978-0201000238)</li>
+<li>Programming Abstractions in Java/C++ - Eric Roberts. (978-0134421186) (978-0133454840)</li>
+<li>Data Structures and Algorithms in Java - Robert Lafore. (978-0672324536)</li>
+</ol>
+<h2 id="databases"><a class="header" href="#databases">Databases</a></h2>
+<ol>
+<li>Fundamentals of Database Systems - Ramez Elmasri, Shamkant Navathe. (978-1292097619)</li>
+<li>Introduction to Database Systems - C.J. Date, A. Kannan, S. Swamynathan. (978-8177585568)</li>
+<li>Database Systems: A Practical Approach to Design, Implementation, and Management - Thomas Connolly, Carolyn Begg. (978-0132943260)</li>
+<li>Database Systems: The Complete Book - Hector Garcia-Molina, Jeffrey Ullman, Jennifer Widom. (978-0131873254)</li>
+<li>Database System Concepts - Abraham Silberschatz, Henry F. Korth, S. Sudarshan. (978-9390727506)</li>
+<li>Modern Database Management - Jeffrey A. Hoffer, Ramesh Venkataraman, Heikki Topi. (978-0133544619)</li>
+<li>Database Systems: Design, Implementation, &amp; Management - Carlos Coronel, Steven Morris. (978-1337627900)</li>
+<li>A First Course in Database Systems - Jeffrey Ullman, Jennifer Widom. (978-0136006374)</li>
+</ol>
+<h2 id="compilers"><a class="header" href="#compilers">Compilers</a></h2>
+<ol>
+<li>Compilers: Principles, Techniques, and Tools - Alfred V. Aho, Monica S. Lan, Ravi Sethi, Jeffrey D. Ullman. (978-0321486813)</li>
+<li>Engineering a Compiler - Keith D. Cooper, Linda Torczon. (978-1558606982)</li>
+<li>Mordern Compiler Implementation in C/JAVA/ML - Andrew W. Appel. (978-0521583909)(978-0521820608)(978-0521607643)</li>
+<li>Compiler Design in C - Allen I. Holub. (978-0131550452)</li>
+<li>Compiler Construction Using Java, JavaCC, and Yacc - Anthony J. Dos Reis. (978-0470949597)</li>
+<li>Modern Compiler Design - Dick Grune. (978-1461446989)</li>
+<li>Compiler Construction - Niklaus Wirth. (978-0201403534)</li>
+<li>Crafting Interpreters - Robert Nystrom. (978-0990582939)</li>
+<li>Writing a C Compiler - Nora Sandler. (978-1718500426)</li>
+<li>Build your own programming language - Clinton L. Jeffery. (978-1800204805)</li>
+<li>Writing a Compiler in Go - Thorsten Ball. (978-3982016108)</li>
+<li>Writing an Interpreter in Go - Thorsten Ball. (978-3982016115)</li>
+<li>CPython Internals - Anthony Shaw. (978-1775093343)</li>
+</ol>
+<h2 id="programming-languages-concepts"><a class="header" href="#programming-languages-concepts">Programming Languages Concepts</a></h2>
+<ol>
+<li>Principles of Programming Languages - Bruce J. MacLennan. (978-0195113068)</li>
+<li>Concepts of Programming Languages - Robert Sebesta. (978-1292436821)</li>
+<li>Programming Languages Principles and Paradigms - Allen Tucker, Robert Noonan. (978-0072866094)</li>
+<li>Concepts in Programming Languages - John C. Mitchell. (978-0521780988)</li>
+<li>Programming Languages: Application and Interpretation - Shiram Krishnamurthi. (???)</li>
+<li>Essentials of Programming Languages - Daniel P. Friedman, Mitchell Wand. (978-0262062794)</li>
+<li>Concepts, Techniques, and Models of Computer Programming - Peter Van Roy, Seif Haridi. (978-0262220699)</li>
+<li>Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman. (978-0262510875)</li>
+<li>Seven Programming Languages in Seven Weeks - Bruce Tate. (978-1934356593)</li>
+<li>Seven More Programming Languages in Seven Weeks - Bruce Tate. (978-1941222157)</li>
+<li>Introduction to Programming Languages - WikiBooks. <a href="https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages">link</a></li>
+</ol>
+<h2 id="reverse-engineering"><a class="header" href="#reverse-engineering">Reverse Engineering</a></h2>
+<ol>
+<li>The radare book - pancake, maijin. (unknown) <a href="https://github.com/radareorg/radare2-book">github</a> <a href="https://book.rada.re/">read online</a></li>
+<li>Reversing: Secrets of Reverse Engineering - Eldad Eilam. (978-0764574818)</li>
+<li>Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, Elias Bachaanlany. (978-1118787311)</li>
+<li>Practical Binary Analysis - Dennis Andriesse. (978-1593279127)</li>
+<li>Learning Linux Binary Analysis - Ryan O'Neill. (978-1782167105)</li>
+<li>The IDA Pro Book - Chris Eagle. (978-1593272890)</li>
+<li>The Ghidra Book - Chris Eagle, Kara Nance. (978-1718501027)</li>
+<li>Ghidra Software Reverse Engineering for Beginners - A. P. David. (978-1800207974)</li>
+<li>x86 Software Reverse-Engineering, Cracking, and Counter-Measures - Stephanie Domas. (978-1394199884)</li>
+<li>Mastering Reverse Engineering - Reginald Wong. (978-1788838849)</li>
+</ol>
+<h2 id="hacking"><a class="header" href="#hacking">Hacking</a></h2>
+<ol>
+<li>Hacking: The Art of Exploitation - Jon Erickson. (978-1593271442)</li>
+<li>Gray Hat Hacking - Allen Harper, Ryan Linn. (978-1264268948)</li>
+<li>Black Hat Python - Justin Seitz, Tim Arnold. (978-1718501126)</li>
+<li>Black Hat Go - Tom Steele, Chris Patten, Dan Kottmann. (978-1593278656)</li>
+<li>Black Hat Bash - Dolev Farhi, Nick Aleks. (978-1718503748)</li>
+<li>Gray Hat Python - Justin Seitz. (978-1593271923)</li>
+<li>Violent Python - TJ O'Connor. (978-1597499576)</li>
+<li>Cybersecurity Ops with bash - Paul Troncone, Carl Albing. (978-1492041313)</li>
+<li>Linux Basics for Hackers - OccupyTheWeb. (978-1593278557)</li>
+<li>Learning Kali Linux - Ric Messier. (978-1492028697)</li>
+<li>Kali Linux Revealed - Raphael Hertzog, Jim O'Gorman. (978-0997615609)</li>
+<li>The Ultimate Kali Linux Book - Glen D. Singh. (978-1801818933)</li>
+<li>Kali Linux Penetration Testing Bible - Gus Khawaja. (978-1119719083)</li>
+<li>Metasploit: The Penetration Tester's Guide - David Kennedy, Jim O'Gorman. (978-1593272883)</li>
+<li>Nmap Network Scanning - Gordon Fyodor Lyon. (978-0979958717)</li>
+<li>Practical Packet Analysis - Chris Sanders. (978-1593278021)</li>
+<li>Penetration Testing - Georgia Weidman. (978-1593275648)</li>
+<li>Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, Sergey Bratus. (978-1593277161)</li>
+</ol>
+<h2 id="web-development"><a class="header" href="#web-development">Web Development</a></h2>
+<ol>
+<li>Fullstack GraphQL Applications with React, Node.js, and Neo4j - William Lyon. (978-1617297038)</li>
+<li>Learning PHP, MySQL &amp; JavaScript - Robin Nixon. (978-1492093824)</li>
+<li>Full-Stack Web Development with Go - Nanik Tolaram, Nick Glynn. (978-1803234199)</li>
+<li>Hands-On Full Stack Development with Go - Mina Andrawos. (978-1789130751)</li>
+<li>Full Stack JavaScript: Learn Backbone.js, Node.js, and MongoDB - Azat Mardan. (978-1484237175)</li>
+<li>The Full Stack Developer - Chris Northwood. (978-1484241516)</li>
+<li>Modern Full-Stack Development - Frank Zammetti. (978-1484288108)</li>
+<li>JavaScript from Frontend to Backend - Eric Sarrion. (978-1801070317)</li>
+<li>MEAN Web Development - Amos Q. Haviv. (978-1785886300)</li>
+<li>Getting MEAN with Mongo, Express, Angular, and Node - Simon Holmes, Clive Herber. (978-1617294754)</li>
+<li>Node.js, MongoDB and Angular Web Development - Brad Dayley. (978-0134655536)</li>
+<li>Rails, Angular, Postgres, and Bootstrap - David B. Copeland. (978-1680502206)</li>
+<li>PHP and MySQL Web Development - Welling Luke, Thomson Laura. (978-0275967598)</li>
+<li>Murach's PHP and MySQL - Joel Murach, Ray Harris. (978-1943873005)</li>
+<li>Flask Web Development - Miguel Grinberg. (978-1491991732)</li>
+<li>Django 4 By Example - Antonio Mele. (978-1801813051)</li>
+<li>Developing Web Apps with Haskell and Yesod - Michael Snoyman. (978-1491915592)</li>
+<li>Beginning PHP and MySQL - Frank M. Kromann. (978-1430260455)</li>
+<li>PHP &amp; MySQL: Server-side Web Development - Jon Duckett. (978-1119149224)</li>
+</ol>
+<h2 id="data-science"><a class="header" href="#data-science">Data Science</a></h2>
+<p>see 'Data Science and Machine Learning Interviews' below.</p>
+<ol>
+<li>An Introduction to Statistical Learning: with Applications in R - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathan Taylor. (978-1071614174)</li>
+<li>The Elements of Statistical Learning - Trevor Hastie, Robert Tibshirani, Jerome Friedman. (978-0387848570)</li>
+<li>Data Science from Scratch - Joel Grus. (978-1492041139)</li>
+<li>Data Science at the Command Line - Jeroen Janssens. (978-1492087915) <a href="https://jeroenjanssens.com/dsatcl/">read online</a></li>
+</ol>
+<h2 id="artificial-intelligence-machine-learning-and-deep-learning"><a class="header" href="#artificial-intelligence-machine-learning-and-deep-learning">Artificial Intelligence, Machine Learning and Deep Learning</a></h2>
+<ol>
+<li>Artificial Intelligence: A Modern Approach - Peter Norvig, Stuart Russell. (978-1292401133) <a href="https://github.com/aimacode">github</a></li>
+<li>Deep Learning - Ian Goodfellow. (978-0262035613)</li>
+<li>Machine Learning - Tom M. Mitchell. (978-0071154673)</li>
+<li>Hands-on Machine Learning with Scikit-learn, Keras, and Tensorflow - Aurelien Geron. (978-1098125974)</li>
+<li>Deep Learning with Python - Francois Chollet. (978-1617296864)</li>
+<li>Designing Machine Learning Systems - Chip Huyen. (978-1098107963)</li>
+<li>Prolog Programming for Artificial Intelligence - Ivan Bratko. (978-0321417466)</li>
+<li>Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp - Peter Norvig. (978-1558601918) <a href="https://github.com/norvig/paip-lisp">github</a></li>
+<li>Practical MLOps: Operationalizing Machine Learning Models - Noah Gift, Alfredo Deza. (978-1098103019)</li>
+<li>Implementing MLOps in the Entreprise - Noah Gift, Yaron Haviv. (978-1098136581)</li>
+<li>Engineering MLOps - Emmanuel Raj. (978-1800562882)</li>
+</ol>
+<h2 id="databases-internals"><a class="header" href="#databases-internals">Databases Internals</a></h2>
+<ol>
+<li>Designing Data-Intensive Applications - Martin Kleppmann. (978-1449373320)</li>
+<li>Database Internals - Alex Petrov. (978-1492040347)</li>
+<li>Understanding MySQL Internals - Sasha Pachev. (978-0596009571)</li>
+<li>Oracle Core: Essential Internals for DBAs and Developers - Jonathan Lewis. (978-1430239543)</li>
+<li>Pro SQL Server Internals - Dmitri Korotkevitch. (978-1484219638)</li>
+<li>Microsoft SQL Server 2012 Internals - Kalen Delaney, Craig Freeman. (978-0735658561)</li>
+<li>Professional SQL Server 2012 Internals and Troubleshooting - Christian Bolton, Justin Langford. (978-1118177655)</li>
+<li>Distributed Systems - Maarten van Steen, Andrew S. Tanenbaum. (978-9081540636)</li>
+<li>Refactoring Databases - Scott W. Ambler, Pramod J. Sadalage. (978-0321293534)</li>
+<li>Database in Depth: Relational Theory for Practitioners - C. J. Date. (978-0596100124)</li>
+</ol>
+<h2 id="database-administration"><a class="header" href="#database-administration">Database Administration</a></h2>
+<h2 id="nosql-databases"><a class="header" href="#nosql-databases">NoSQL Databases</a></h2>
+<ol>
+<li>DuckDB in Action - Mark Needham, Michael Hunger, Michael Simons. (978-1633437258)</li>
+<li>ScyllaDB in Action - Bo Ingram. (978-1633437265)</li>
+<li>Delta Lake The Definitive Guide - Denny Lee, Tathagata Das, Vini Jaiswal. (TBD)</li>
+<li>Delta Lake Up and Running - Bellie Haelen, Dan Davis. (978-1098139728)</li>
+<li>Data Engineering with Apache Spark, Delta Lake, and Lakehouse - Manoj Kukreja, Danil Zburivsky. (978-1801077743)</li>
+<li>Redis in Action - Josiah L. Carlson. (978-1617290855)</li>
+<li>Redis Stack for Application Modernization - Luigi Fugaro, Mirko Ortensi. (978-1837638185)</li>
+<li>Elasticsearch The Definitive Guide - Clinton Gormley, Zachary Tong. (978-1449358549)</li>
+<li>Elasticsearch in Action - Madhusudhan Konda. (978-1617299858)</li>
+<li>Getting Started with Elastic Stack 8.0 - Asjad Athick, Shay Banon. (978-1800569492)</li>
+<li>Solr in Action - Trey Grainger, Timothy Potter. (978-1617291029)</li>
+<li>Lucene in Action - Michael McCandless. (978-1933988177)</li>
+<li>Neo4j in Action - Aleksa Vukotic, Nicki Watt. (978-1617290763)</li>
+<li>Graph Algorithms: Practical Examples in Apache Spark and Neo4j - Mark Needham, Amy E. Hodler. (978-1492047681)</li>
+<li>Graph Algorithms for Data Science: With examples in Neo4j - Tomaz Bratanic. (978-1617299469)</li>
+<li>Getting Started with RethinkDB - Gianluca Tiepolo. (978-1785887604)</li>
+<li>Mastering RethinkDB - Shahid Shaikh. (978-1786461070)</li>
+<li>Getting Started with OrientDB - Claudio Tesoriero. (978-1782169956)</li>
+<li>Cassandra The Definitive Guide - Jeff Carpenter, Eben Hewitt. (978-1492097143)</li>
+</ol>
+<h2 id="coding-best-practices"><a class="header" href="#coding-best-practices">Coding Best Practices</a></h2>
+<ol>
+<li>The Art of UNIX Programming - Eric S. Raymond. (978-0131429017)</li>
+<li>The Pragmatic Programmer - David Thomas, Andrew Hunt. (978-0135957059)</li>
+<li>Clean Code - Robert C. Martin. (978-0132350884)</li>
+<li>Code Complete - Steve McConnell. (978-0735619678)</li>
+<li>The Art of Readable Code - Dustin Boswell, Trevor Foucher. (978-0596802295)</li>
+<li>Effective Debugging - Diomidis Spinellis. (978-0134394794)</li>
+<li>Hacker's Delight - Henry Warren. (978-0321842688)</li>
+<li>Clean Architecture - Robert C. Martin. (978-0134494166)</li>
+<li>The Clean Coder - Robert C. Martin. (978-0137081073)</li>
+<li>Clean Craftmanship - Robert C. Martin. (978-0136915713)</li>
+<li>Code That Fits in Your Head - Mark Seemann. (978-0137464401)</li>
+<li>Design Patterns: Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. (978-0201633610)</li>
+<li>Refactoring - Martin Fowler. (978-0134757599)</li>
+<li>Working Effectively with Legacy Code - Michael Feathers. (978-0131177055)</li>
+<li>Test-Driven Development By Example - Kent Beck. (978-0321146533)</li>
+<li>Extreme Programming Explained - Kent Beck. (978-0321278654)</li>
+<li>Seriously Good Software - Marco Faella. (978-1617296291)</li>
+<li>The Art of Clean Code - Christian Mayer. (978-1718502185)</li>
+<li>Becoming a Better Programmer - Pete Goodliffe. (978-1491905531)</li>
+<li>The Self-Taught Programmer - Cory Althoff. (978-0999685907)</li>
+<li>The Self-Taught Computer Scientiest - Cory Althoff. (978-1119724414)</li>
+<li>Software Engineering at Google - Titus Winters, Tom Manshreck, Hyrum Wright. (978-1492082798)</li>
+<li>Software Craftmanship: The New Imperative - Pete McBreen. (978-0201733860)</li>
+<li>The Software Craftman - Sandro Mancuso. (978-0134052502)</li>
+<li>Apprenticeship Patterns - Dave Hoover, Adewale Oshineye. (978-0596518387)</li>
+<li>Good Code, Bad Code - Tom Long. (978-1617298936)</li>
+<li>Five Lines of Code: How and when to refactor - Christian Clausen. (978-1617298318)</li>
+<li>Beyong Legacy Code - David Scott Bernstein. (978-1680500790)</li>
+<li>The Practice of Programming - Brian Kernighan, Rob Pike. (978-0201615869)</li>
+</ol>
+<h2 id="coding-puzzles--coding-interviews"><a class="header" href="#coding-puzzles--coding-interviews">Coding Puzzles / Coding Interviews</a></h2>
+<ol>
+<li>Elements of Programming Interviews in Python/Java/C++ - Adnan Aziz, Tsung-Hsien Lee, Amit Prakash. (978-1537713946) (978-1517671273) (978-1479274833)</li>
+<li>Cracking the Coding Interview - Gayle Laakmann McDowell. (978-0984782857)</li>
+<li>Programming Challenges - Steven Skiena, Miguel Revilla. (978-0387001630)</li>
+<li>Guide to Competitive Programming - Antti Laaksonen. (978-3030393564)
+<ul>
+<li>Draft version, free online. <a href="https://cses.fi/book/book.pdf">link</a> <a href="https://github.com/pllk/cphb/">github</a></li>
+</ul>
+</li>
+<li>Programming Interviews Exposed - John Mongan, Noah Kindler, Eric Giguere. (978-1119418474)</li>
+<li>Competitive Programming 3 - Steven Halim. (https://cpbook.net/)</li>
+<li>Programming Pearls - John Bentley. (978-0201657883)</li>
+<li>More Programming Pearls - John Bentley. (978-0201118896)</li>
+<li>Daily Coding Problems - Lawrence Wu, Alex Miller. (978-1793296634)</li>
+<li>Classic Computer Science Problems in Python/Java - David Kopec. (978-1617295980) (978-1617297601)</li>
+<li>Exercises for Programmers 57 Challenges to Develop Your Coding Skills - Brian Hogan. (978-1680501223)</li>
+<li>Ace the Programming Interview: 160 Questions and Answers for Success - Edward Guiness. (978-1118518564)</li>
+<li>Coding Interviews: Questions, Analysis &amp; Solutions - Harry He. (978-8132212249)</li>
+</ol>
+<h2 id="system-design-interviews"><a class="header" href="#system-design-interviews">System Design Interviews</a></h2>
+<ol>
+<li>System Design Interview An Insider's Guide Volume 1 - Alex Xu. (979-8664653403)</li>
+<li>System Design Interview An Insider's Guide Volume 2 - Alex Xu, Sahn Lam. (978-1736049112)</li>
+<li>Hacking The System Design Interview - Stanley Chiang. (979-8839126497)</li>
+<li>The System Design Interview - Lewis Lin. (979-8735625452)</li>
+<li>Acing the System Design Interview - Zhiyong Tan. (978-1633439108)</li>
+<li>Solutions Architect's Handbook - Saurabh Shrivastava, Neelanjali Srivastav. (978-1801816618)</li>
+</ol>
+<h2 id="vim"><a class="header" href="#vim">Vim</a></h2>
+<h2 id="git"><a class="header" href="#git">Git</a></h2>
+<h2 id="data-streaming"><a class="header" href="#data-streaming">Data Streaming</a></h2>
+<ol>
+<li>Spark The Definitive Guide - Bill Chambers, Matei Zaharia. (978-1491912218)</li>
+<li>Learning Spark Lightning-Fast Data Analytics - Jules Damji, Denny Lee. (978-1492050049)</li>
+<li>Spark in Action - Jean-Georges Perrin. (978-1617295522)</li>
+<li>Kafka The Definitive Guide - Gwen Shapira, Todd Palino. (978-1492043089)</li>
+<li>Kafka in Action - Dylan Scott, Viktor Gamoz, Dave Klein. (978-1617295232)</li>
+<li>Kafka Streams in Action - Bill Bejeck. (978-1617298684)</li>
+<li>Mastering Kafka Streams and ksqlDB - Mitch Seymour. (978-1492062493)</li>
+<li>Streaming Data Pipelines with Kafka - Stefan Sprenger. (978-1633437012)</li>
+<li>Akka in Action - Francisco Lopez-Sancho Abraham. (978-1617299216)</li>
+<li>Apache Pulsar in Action - David Kjerrumgaard. (978-1617296888)</li>
+<li>Mastering Apache Pulsar - Jowanza Joseph. (978-1492084907)</li>
+<li>Stream Processing with Apache Flink - Fabian Hueske, Vasiliki Kalavri. (978-1491974292)</li>
+<li>Learning Apache Flink - Tanmay Deshpande. (978-1786466228)</li>
+<li>Flink in Action - Sameer Wadkar, Hari Rajaram. (978-1617293924)</li>
+<li>Grokking Streaming Systems - Josh Fischer, Ning Wang. (978-1617297304)</li>
+<li>Event Streams in Action - Alexander Dean, Valentin Crettaz. (978-1617292347)</li>
+<li>Data Pipelines with Apache Airflow - Bas P. Harenslak, Julian Rutger de Ruiter. (978-1617296901)</li>
+<li>Storm Applied: Strategies for real-time event processing - Matthew Jankowski, Peter Pathirana, Sean Allen. (978-1617291890)</li>
+<li>Data Analysis with Python and PySpark - Jonathan Rioux. (978-1617297205)</li>
+<li>Advanced Analytics with PySpark - Akash Tandon, Sandy Ryza, Uri Laserson, Sean Owen, Josh Wills. (978-1098103651)</li>
+<li>Data Algorithms with Spark - Mahmoud Parsian. (978-1492082385)</li>
+</ol>
+<h2 id="kubernetes"><a class="header" href="#kubernetes">Kubernetes</a></h2>
+<ol>
+<li>The Kubernetes Book - Nigel Poulton. (978-1916585201)
+<ul>
+<li>Quick Start Kubernetes - Nigel Poulton. (979-8373431781)</li>
+<li>The KCNA Book - Nigel Poulton. (979-8409159504)</li>
+</ul>
+</li>
+<li>Kubernetes: Up &amp; Running - Brendan Burns, Joe Beda, Kelsey Hightower, Lachlan Evenson. ( 978-1098110208)</li>
+<li>The Book of Kubernetes - Alan Hohn. (978-1718502642)</li>
+<li>Kubernetes in Action - Marko Luksa. (978-1617297618)</li>
+<li>Certified Kubernetes Application Developer (CKAD) Study Guide - Benjamin Muschko. (978-1492083733)</li>
+<li>Certified Kubernetes Administrator (CKA) Study Guide - Benjamin Muschko. (978-1098107222)</li>
+<li>Certified Kubernetes Security Specialist (CKS) Study Guide - Benjamin Muschko. (978-1098132972)</li>
+<li>Kubernetes: Preparing for the CKA and CKAD Certifications - Philippe Martin. (978-1484264935)</li>
+<li>Acing the Certified Kubernetes Administrator Exam - Chad Crowell. (978-1633439092)</li>
+<li>Becoming KCNA Certified - Dmitry Galkin. (978-1804613399)</li>
+</ol>
+<h2 id="docker--podman"><a class="header" href="#docker--podman">Docker / Podman</a></h2>
+<ol>
+<li>Podman in Action - Daniel Walsh. (978-1633439689)</li>
+<li>Docker Deep Dive - Nigel Poulton. (978-1916585256)</li>
+<li>Docker Up &amp; Running - Sean Kane, Karl Matthias. (978-1098131821)</li>
+<li>Using Docker - Adrian Mouat. (978-1491915769)</li>
+<li>Docker in Action - Jeff Nickoloff, Stephen Kuenzli. (978-1617294761)</li>
+<li>Docker in Practice - Ian Miell, Aidan Hobson Sayers. (978-1617294808)</li>
+</ol>
+<h2 id="terraform--infrastructure-as-code"><a class="header" href="#terraform--infrastructure-as-code">Terraform &amp; Infrastructure-as-code</a></h2>
+<ol>
+<li>Terraform Up and Running - Yevgeniy Brikman. (978-1098116743)</li>
+<li>Terraform in Action - Scott Winkler. (978-1617296895)</li>
+<li>Terraform in Depth - Robert Hafner. (978-1633438002)</li>
+<li>Infrastruce as Code: Dynamic Systems for the Cloud Age - Kief Morris. (978-1098114671)</li>
+<li>Infrastruce as Code, Patterns and Practices: With examples in Python and Terraform - Rosemary Wang. (978-1617298295)</li>
+</ol>
+<h2 id="continuous-integration-and-continuous-delivery--devops"><a class="header" href="#continuous-integration-and-continuous-delivery--devops">Continuous Integration and Continuous Delivery / DevOps</a></h2>
+<ol>
+<li>Jenkins: The Definitive Guide - John Smart. (978-1449305352)</li>
+<li>Continuous Delivery with Docker and Jenkins - Rafal Leszko. (978-1803237480)</li>
+<li>SonarQube in Action - G. Ann Campbell, Patroklos P. Papapetrou. (978-1617290954)</li>
+<li>JUnit in Action - Catalin Tudose. (978-1617297045)</li>
+<li>Python for DevOps - Noah Gift. (978-1492057697)</li>
+<li>DevOps in Python: Infrastructure as Python - Moshe Zadka. (978-1484279953)</li>
+<li>Learning DevOps - Mikael Krief. (978-1801818964)</li>
+<li>Grokking Continuous Delivery - Christie Wilson. (978-1617298257)</li>
+<li>sbt in Action - Josh Suereth, Matthew Farwell. (978-1617291272)</li>
+<li>Maven: The Definitive Guide - Sonatype Company. (978-0596517335)</li>
+<li>Modern CMake for C++ - Rafal Swidzinski. (978-1801070058)</li>
+<li>CMake Best Practices - Dominik Berner. (978-1803239729)</li>
+<li>Managing Projects with GNU Make - Robert Mecklenburg. (978-0596006105)</li>
+<li>Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation - Jez Humble, David Farley. (978-0321601919)</li>
+</ol>
+<h2 id="microservices"><a class="header" href="#microservices">Microservices</a></h2>
+<ol>
+<li>Quarkus in Action - Martin Stefanko, Jan Martiska. (978-1633438958)</li>
+<li>Building Microservices with Micronaut - Nirmal Singh, Zack Dawood. (978-1800564237)</li>
+<li>Reactive Systems in Java: Resilient, Event-Driven Architecture with Quarkus - Clement Escoffier, Ken Fennigan. (978-1492091721)</li>
+<li>Scala Reactive Programming - Rambabu Posa. (978-1787288645)</li>
+<li>Learn Scala Programming - Slava Schmidt. (978-1788836302)</li>
+</ol>
+<h2 id="data-science-and-machine-learning-interviews"><a class="header" href="#data-science-and-machine-learning-interviews">Data Science and Machine Learning Interviews</a></h2>
+<ol>
+<li>Machine Learning System Design Interview - Ali Aminian, Alex Xu. (978-1736049129)</li>
+<li>Machine Learning Design Interview - Khang Pham. (979-8813031571)</li>
+<li>Machine Learning Interviews - Khang Pham. (979-8416893743)</li>
+<li>Ace the Data Science Interview - Nick Singh, Kevin Huo. (978-0578973838)</li>
+<li>The Kaggle Book - Konrad Banachewicz, Luca Massaron. (978-1801817479)</li>
+<li>The Kaggle Workbook - Konrad Banachewicz, Luca Massaron. (978-1804611210)</li>
+<li>Cracking the Data Science Interview - Maverick Lin. (978-1710680133)</li>
+<li>The Little Book of Data Science Tricks - Maverick Lin. (979-8655659063)</li>
+<li>Cracking the Machine Learning Interview - Nitin Suri (978-1729223604)</li>
+<li>The Hundred-Page Machine Learning Book - Anldriy Burkov. (978-1777005474)</li>
+<li>Heard in Data Science Interviews - Kal Mishra. (978-1727287325)</li>
+<li>Be The Outlier - Shrilata Murthy. (978-1641379854)</li>
+<li>Ace the Data Science Interview - Dan Sanz. (978-1633438248)</li>
+<li>Machine Learning System Design - Valerii Babushkin, Arseny Kravchenko. (978-1633438750)</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="law.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="programming_languages.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="law.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="programming_languages.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
