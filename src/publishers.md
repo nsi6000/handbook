@@ -21,6 +21,7 @@
 * No Starch Press [link](https://nostarch.com/)
 * Manning [link](https://www.manning.com/)
 * Springer [link](https://www.springer.com/gp)
+* Dover [link](https://store.doverpublications.com/)
 * Oxford University Press [link](https://global.oup.com/)
 * Cambridge University Press [link](https://www.cambridge.org/)
 * MIT Press [link](https://mitpress.mit.edu/)
