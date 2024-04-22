@@ -47,6 +47,11 @@
 4. International Economics - Robert C. Feenstra, Alan M. Taylor. (978-1319292362)
 5. International Economics - Dennis Appleyard, Alfred J. Field Jr. (978-1259290626)
 6. Schaum's Outline of International Economics - Dominick Salvatore. (978-0070549500)
+## Public Economics
+1. Intermediate Public Economics - Jean Hindriks, Gareth D. Myles. (978-0262018692)
+    - Solutions Manual to Accompany Intermediate Public Economics - Nigar Hashimzade, Jean Hindriks, Gareth D. Myles. (978-0262518482)
+2. Public Economics - Burkhard Heer. (978-3030009878)
+3. Lectures on Public Economics - Anthony B. Atkinson, Joseph E. Stiglitz. (978-0691166414)
 ## Game Theory
 1. Game Theory - Jean Tirole, Drew Fudenberg. (978-0262061414)
 2. A Course in Game Theory - Martin J. Osborne, Ariel Rubinstein. (978-0262650403)
