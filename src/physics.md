@@ -13,6 +13,7 @@
 11. A Brief History of Time - Stephen Hawking. (978-0553380163)
 12. Origins: Fourteen Billion Years of Cosmic Evolution - Neil deGrasse Tyson. (978-0393350395)
 13. Astrophysics for People in a Hurry - Neil deGrasse Tyson. (978-0393609394)
+14. The Edge of Physics - Anil Ananthaswamy. (978-0618884681)
 ## College Physics
 1. College Physics - OpenStax. (978-1711470825)
 2. College Physics: A Strategic Approach - Randall Knight, Brian Jones, Stuart Field. (978-0134609034)
@@ -68,6 +69,25 @@
 19. Physics Study Guide - WikiBooks. [link](https://en.wikibooks.org/wiki/Physics_Study_Guide)
 20. IB Physics - WikiBooks. [link](https://en.wikibooks.org/wiki/IB_Physics)
 21. A-Level Physics - WikiBooks. [link](https://en.wikibooks.org/wiki/A-level_Physics_(Advancing_Physics))
+## Modern Physics
+1. Modern Physics - Paul A. Tipler, Ralph Llewellyn. (978-1429250788)
+2. Modern Physics - Gary N. Felder, Kenny M. Felder. (978-1108842891)
+3. Modern Physics for Scientists and Engineers - John R. Taylor, Chris D. Zafiratos, Michael A. Dubson. (978-1938787751)
+4. Modern Physics - Kenneth S. Krane. (978-1119590583)
+5. Schaum's Outline of Modern Physics - Ronald Gautreau. (978-0070248304)
+## Classical Mechanics
+1. Introduction to Classical Mechanics: With Problems and Solutions - David Morin. (978-0521876223)
+2. Classical Mechanics - John R. Taylor. (unknown)
+    - Classical Mechanics: Student Solutions Manual - John R. Taylor. (978-1940380032)
+3. Classical Mechanics - Herbert Goldstein, Charles P. Poole, John Safko. (978-8131758915)
+4. Structure and Interpretation of Classical Mechanics - Gerald Jay Sussman, Jack Wisdom. (978-0262028967)
+5. Foundations of Classical Mechanics - P. C. Deshmukh. (978-1108727754)
+6. Introduction to Mechanics - Daniel Kleppner. (978-0521198110)
+7. Classical Mechanics - H. C. Corben, Philip Stehle. (978-0486680637)
+## Electrodynamics
+1. ...
+## Quantum Physics
+1. ...
 ## Mechanics Statics and Dynamics
 1. Engineering Mechanics: Statics / Dynamics - Russell Hibbeler. (978-0133918922) (978-0133915389)
 2. Engineering Mechanics: Statics / Dynamics - Anthony Bedford, Wallace Fowler. (978-0136129158) (978-0136129165)
