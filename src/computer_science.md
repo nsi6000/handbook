@@ -10,9 +10,12 @@
 ## Computer Architecture
 1. Computer Architecture: A Quantitative Approach - John L. Hennessy, David A. Patterson. (978-0128119051)
 2. Computer Organization and Design: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0124077263)
+    - Computer Organization and Design MIPS Edition: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0128201091)
+    - Computer Organization and Design RISC-V Edition: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0128203316)
+    - Computer Organization and Design ARM Edition: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0128017333)
 3. Structured Computer Organization - Andrew S. Tanenbaum. (978-0132916523)
 4. Essentials of Computer Organizaiton and Architecture - Linda Null, Julia Lobur. (978-1284259438)
-5. Computer Organization and Architecture - William Stallings. (978-0134101613)
+5. Computer Organization and Architecture - William Stallings. (978-1292420103)
 6. Computer Organization and Embedded Systems - Carl Hamacher, Zvonko Vranesic. (978-0073380650)
 7. Digital Design and Computer Architecture - David Harris, Sarah Harris. (978-0123944245)
     - Digital Design and Computer Architecture: RISC-V Edition - David Harris, Sarah Harris. (978-0128200643)
@@ -20,6 +23,9 @@
 8. Digital Design: A Systems Approach - William James Dally, R. Curtis Harting. (978-0521199506)
 9. Digital Design: Principles and Practices -  John Wakerly. (978-0134460093)
 10. Digital Design - M. Morris Mano, Michael Ciletti. (978-0134549897)
+11. Learning Computer Architecture with Raspberry Pi - Eben Upton, Jeff Duntemann. (978-1119183938)
+12. Computer Architecture - Charles Fox. (978-1718502864)
+13. Schaum's Outline of Computer Architecture - Nick Carter. (978-0071362078)
 ## Operating Systems
 1. Operating Systems Design and Implementation - Andrew S. Tanenbaum, Albert S. Woodhull. (978-0131429383)
 2. Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos. (978-0133591620)
