@@ -37,6 +37,22 @@
 4. Foundations of Financial Risk - Richard Apostolik, Christopher Donohue. (978-1119098058)
 5. The Essentials of Risk Management - Michel Courhy, Dan Galai, Robert Mark. (978-1264258864)
 ## Financial Modelling with Python
+1. Python for Finance: Mastering Data-Driven Finance - Yves Hilpisch. (978-1492024330)
+2. Derivatives Analytics with Python - Yves Hilpisch. (978-1119037996)
+3. Python for Data Analysis - Wes McKinney. (978-1098104030)
+4. Python for Finance - Yuxing Yan. (978-1787125698)
+5. Mastering Python for Finance - James Ma Weiming. (978-1789346466)
+6. Mastering pandas for Finance - Michael Heydt. (978-1783985104)
+7. Hands-on Genetic Algorithms with Python - Eyal Wirsansky. (978-1805123798)
+8. Python for Finance Cookbook - Eryk Lewinson. (978-1803243191)
+9. Python for Algorithmic Trading Cookbook - Jason Strimpel. (978-1835084700)
+10. Artificial Intelligence in Finance - Yves Hilpisch. (978-1492055433)
+11. Financial Theory with Python - Yves Hilpisch. (978-1098104351)
+12. Quantitative Finance with Python - Chris Kelliher. (978-1032014432)
+13. Quantitative Trading Strategies using Python - Peng Liu. (978-1484296745)
+14. Quantitative Portfolio Management - Pierre Brugière. (978-3030377427)
+15. Algorithmic Trading with Python - Chris Conlan. (979-8632784986)
+16. Python for Algorithmic Trading - Yves Hilpisch. (978-1492053354)
 ## Financial Modelling with R
 ## Financial Modelling with C++
 ## Actuarial Science
