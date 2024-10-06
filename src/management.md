@@ -54,6 +54,21 @@
 15. Algorithmic Trading with Python - Chris Conlan. (979-8632784986)
 16. Python for Algorithmic Trading - Yves Hilpisch. (978-1492053354)
 ## Financial Modelling with R
+1. Financial Analytics with R - Mark J. Bennett, Dirk L. Hugen. (978-1107150751)
+2. An Introduction to Analysis for Financial Data with R - Ruey S. Tsay. (978-0470890813)
+3. Analyzing Financial Data and Implementing Financial Models using R - Clifford S. Ang. (978-3030641542)
+4. Mastering R for Quantitative Finance - Edina Berlinger et alii. (978-1783552078)
+5. Financial Risk Modelling and Portfolio Optimization with R - Bernhard Pfaff. (978-1119119661)
+6. Introduction to R for Quantitative Finance - Edina Berlinger et alii. (978-1783280933)
+7. Learning Quantitative Finance with R - Param Jeet, Prashant Vats. (978-1786462411)
+8. R in Finance and Economics - Abhey Kumar Singh, David Edmund Allen. (978-9813144460)
+9. Credit Risk Analytics - Bart Baessens, Daniel Rosch, Harald Scheule. (978-1119143987)
+    - Credit Risk Analytics: The R Companion - Bart Baessens, Daniel Rosch, Harald Scheule. (978-1977760869)
+10. Multivariate Time Series Analysis: with R and Financial Applications - Ruey S. Tsay. (978-1118617908)
+11. Statistics and Data Analysis for Financial Engineering: with R examples - David Ruppert, David S. Matteson. (978-1493926138)
+12. Computational Finance with R - Rituparna Sen, Sourish Das. (978-9811920073)
+13. Quantitative Trading with R - Harry Georgakopoulos. (978-1137354075)
+14. Automated Trading with R - Chris Conlan. (978-1484221778)
 ## Financial Modelling with C++
 ## Actuarial Science
 1. Computational Actuarial Science with R - Arthur Charpentier. (978-1466592599)
