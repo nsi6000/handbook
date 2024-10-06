@@ -20,4 +20,5 @@
 - [Job Interviews](job_interviews.md)
 
 # Addendum
+- [How to study effectively](study_tips.md)
 - [Free & Open Source Softwares](softwares.md)
