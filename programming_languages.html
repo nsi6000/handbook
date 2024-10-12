@@ -1,0 +1,538 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Programming Languages</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Intro.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="publishers.html">List of textbooks publishers</a></li><li class="chapter-item expanded affix "><li class="part-title">Textbooks</li><li class="chapter-item expanded "><a href="management.html"><strong aria-hidden="true">1.</strong> Management</a></li><li class="chapter-item expanded "><a href="economics.html"><strong aria-hidden="true">2.</strong> Economics</a></li><li class="chapter-item expanded "><a href="law.html"><strong aria-hidden="true">3.</strong> Law</a></li><li class="chapter-item expanded "><a href="computer_science.html"><strong aria-hidden="true">4.</strong> Computer Science</a></li><li class="chapter-item expanded "><a href="programming_languages.html" class="active"><strong aria-hidden="true">5.</strong> Programming Languages</a></li><li class="chapter-item expanded "><a href="mathematics.html"><strong aria-hidden="true">6.</strong> Mathematics</a></li><li class="chapter-item expanded "><a href="physics.html"><strong aria-hidden="true">7.</strong> Physics</a></li><li class="chapter-item expanded "><a href="chemistry.html"><strong aria-hidden="true">8.</strong> Chemistry</a></li><li class="chapter-item expanded "><a href="biology.html"><strong aria-hidden="true">9.</strong> Biology</a></li><li class="chapter-item expanded "><a href="medicine.html"><strong aria-hidden="true">10.</strong> Medicine</a></li><li class="chapter-item expanded "><a href="veterinary_medicine.html"><strong aria-hidden="true">11.</strong> Veterinary Medicine</a></li><li class="chapter-item expanded "><a href="standardized_test_preparation.html"><strong aria-hidden="true">12.</strong> Standardized Test Preparation</a></li><li class="chapter-item expanded "><a href="job_interviews.html"><strong aria-hidden="true">13.</strong> Job Interviews</a></li><li class="chapter-item expanded affix "><li class="part-title">Addendum</li><li class="chapter-item expanded "><a href="study_tips.html"><strong aria-hidden="true">14.</strong> How to study effectively</a></li><li class="chapter-item expanded "><a href="softwares.html"><strong aria-hidden="true">15.</strong> Free & Open Source Softwares</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="programming-languages"><a class="header" href="#programming-languages">Programming Languages</a></h1>
+<h2 id="assembly"><a class="header" href="#assembly">Assembly</a></h2>
+<ol>
+<li>x64 Assembly Language Step-by-Step: Programming with Linux - Jeffrey Duntemann. (978-1394155248)</li>
+<li>Assembly Language for x86 Processors - Kip R. Irvine. (978-1292061214)</li>
+<li>The Art of Assembly Language - Randall Hyde. (978-1593272074)</li>
+<li>The Art of ARM Assembly - Randall Hyde. (978-1718502826)</li>
+<li>Modern x86 Assembly Language Programming - Daniel Kusswurm. (978-1484296028)</li>
+<li>Modern Arm Assembly Language Programming - Daniel Kusswurm. (978-1484262665)</li>
+<li>Beginning x64 Assembly Programming - Jo Van Hoey. (978-1484250754)</li>
+<li>Low Level Programming - Igor Zhirkov. (978-1484224021)</li>
+<li>Professional Assembly Language - Richard Blum. (978-0764579011)</li>
+<li>Beginning Linux Programming - Neil Matthew. (978-0470147627)</li>
+<li>Systems Programming in Unix/Linux - K. C. Wang. (978-3319924281)</li>
+<li>Programming with 64-Bit ARM Assembly - Stephen Smith. (978-1484258804)</li>
+<li>Raspberry Pi Assembly Language Programming: ARM Processor Coding - Stephen Smith. (978-1484252864)</li>
+<li>ARM Assembly Internals and Reverse Engineering - Maria Markstedter. (978-1119745303)</li>
+<li>ARM 64-Bit Assembly Language - Larry D. Pyeatt, William Ughetta. (978-0128192214)</li>
+</ol>
+<h2 id="c"><a class="header" href="#c">C</a></h2>
+<ol>
+<li>The C Programming Language - Brian W. Kernighan, Dennis M. Ritchie. (978-0131103627)
+<ul>
+<li>Note: recommended by the <a href="https://www.kernel.org/doc/html/v4.14/process/howto.html#introduction">Linux Kernel How To</a>.</li>
+<li>The C Answer Book - Clovis L. Tondo, Scott E. Gimpel. (978-0131096530)</li>
+</ul>
+</li>
+<li>Practical C Programming - Steve Oualline. (978-1565923065)
+<ul>
+<li>Note: recommended by the <a href="https://www.kernel.org/doc/html/v4.14/process/howto.html#introduction">Linux Kernel How To</a>.</li>
+</ul>
+</li>
+<li>C: A Reference Manual - Samuel Harbison, Guy Steele Jr. (978-0130895929)
+<ul>
+<li>Note: recommended by the <a href="https://www.kernel.org/doc/html/v4.14/process/howto.html#introduction">Linux Kernel How To</a>.</li>
+</ul>
+</li>
+<li>Expert C Programming - Peter van der Linden. (978-0131774292)</li>
+<li>Modern C - Jens Gustedt. (978-1617295812) <a href="https://gustedt.gitlabpages.inria.fr/modern-c/">read online</a></li>
+<li>Extreme C - Kamran Amini. (978-1789343625)</li>
+<li>Effective C - Robert C. Seacord. (978-1718501041)</li>
+<li>21th Century C: C Tips from the New School - Ben Klemens. (978-1491903896)</li>
+<li>Programming in C - Stephen Kochan. (978-0321776419)</li>
+<li>C Programming: A Modern Approach - K. N. King. (978-0393979503)</li>
+<li>C Primer Plus - Stephen Prata. (978-0321928429)</li>
+<li>C Programming in One Hour a Day - Siddhartha Rao. (978-0137334681)</li>
+<li>C How To Program - Paul Deitel, Harvey Deitel. (978-0133976892)</li>
+<li>Fluent C: Principles, Practices, and Patterns - Christopher Preschern. (978-1492097334)</li>
+<li>A Little C Primer - WikiBooks. <a href="https://en.wikibooks.org/wiki/A_Little_C_Primer">link</a></li>
+<li>C Programming - WikiBooks. <a href="https://en.wikibooks.org/wiki/C_Programming">link</a></li>
+</ol>
+<h2 id="rust"><a class="header" href="#rust">Rust</a></h2>
+<ol>
+<li>The Rust Programming Language - Steve Klabnik, Carol Nichols. (978-1718503106) <a href="https://doc.rust-lang.org/book/">read online</a></li>
+<li>Programming Rust: Fast, Safe Systems Development - Jim Blandy, Jason Orendorff, Leonora Tindall. (978-1492052593)</li>
+<li>Rust in Action - Tim McNamara. (978-1617294556)</li>
+<li>Rust for Rustaceans - Jon Gjengset. (978-1718501850)</li>
+<li>Command-Line Rust - Ken Youens-Clark. (978-1098109431)</li>
+<li>Hands-on Rust: Effective Learning through 2D Game Development and Play - Herbert Wolverson. (978-1680508161)</li>
+<li>Rust Brain Teasers: Exercise Your Mind - Herbert Wolverson. (978-1680509175)</li>
+<li>Practical Rust Projects - Shing Lyu, Andrew Rzeznik. (978-1484293300)</li>
+<li>Rust Atomics and Locks: Low-Level Concurrency in Practice - Mara Bos. (978-1098119447)</li>
+<li>Speed Up Your Python with Rust - Maxwell Flitton. (978-1801811446)</li>
+<li>Refactoring to Rust - Lily Mara, Joel Holmes. (978-1617299018)</li>
+<li>Code like a Pro in Rust - Brenden Matthews. (978-1617299643)</li>
+<li>Rust Power Tools - Sam Van Overmeire. (978-1633437494)</li>
+<li>Rust Design Patterns - Brenden Matthews. (978-1633437463)</li>
+<li>Learn Rust in a Month of Lunches - David MacLeod. (978-1633438231)</li>
+<li>Async Rust - Maxwell Flitton, Caroline Morton. (978-1098149093)</li>
+<li>Rust Web Development with Rocket - Karuna Murti. (978-1800561304)</li>
+<li>Rust Web Development with warp, tokio, and reqwest - Bastian Gruber. (978-1617299001)</li>
+<li>Rust Web Programming - Maxwell Flitton. (978-1803234694)</li>
+<li>Rust For The Novice Programmer - WikiBooks. <a href="https://en.wikibooks.org/wiki/Rust_for_the_Novice_Programmer">link</a></li>
+</ol>
+<h2 id="c-1"><a class="header" href="#c-1">C++</a></h2>
+<ol>
+<li>The C++ Programming Language - Bjarne Stroustrup. (978-0275967765)</li>
+<li>Practical C++ Programming - Steve Oualline. (978-0596004194)</li>
+<li>C++ Crash Course - Joshua Lospinoso. (978-1718501102)</li>
+<li>Sams Teach Yourself C++ in One Hour a Day - Siddhartha Rao. (978-0137334681)</li>
+<li>C++ How To Program - Paul Deitel, Harvey Deitel. (978-0134448237)</li>
+<li>C++ Primer - Stanley Lippman, Josee Lajoie, Barbara Moo. (978-0321714114)</li>
+<li>C++ Primer Plus - Stephen Prata. (978-0321776402)</li>
+<li>Big C++ - Cay S. Horstmann, Timothy A. Budd. (978-0471470632)</li>
+<li>C++ High Performance - Bjorn Andrist. (978-1839216541)</li>
+<li>C++ for the Impatient - Brian Overland. (978-0321888020)</li>
+<li>A Tour of C++ - Bjarne Stroustrup. (978-0136816485)</li>
+<li>C++ Concurrency in Action - Anthony Williams. (978-1617294693)</li>
+<li>Effective Modern C++ - Scott Meyers. (978-1491903995)</li>
+<li>Effective C++ - Scott Meyers. (978-0321334879)</li>
+<li>More Effective C++ - Scott Meyers. (978-0201633719)</li>
+<li>Effective STL - Scott Meyers. (978-0201749625)</li>
+<li>C++ Software Design - Klaus Iglberger. (978-1098113162)</li>
+<li>Functional Programming in C++ - Ivan Cukic. (978-1617293818)</li>
+<li>Expert C++ - Marcelo Guerra Hahn. (978-1804617830)</li>
+<li>Learn C++ by Example - Frances Buontempo. (978-1633438330)</li>
+<li>100 C++ Mistakes and How to Avoid Them - Rich Yonts. (978-1633436893)</li>
+<li>Professional C++ - Marc Gregoire. (978-1394193172)</li>
+<li>Safe C++ - Vladimir Kushnir. (978-1449320935)</li>
+<li>C++ Programming - WikiBooks. <a href="https://en.wikibooks.org/wiki/C%2B%2B_Programming">link</a></li>
+</ol>
+<h2 id="go"><a class="header" href="#go">Go</a></h2>
+<ol>
+<li>The Go Programming Language - Alan Donovan, Brian Kernighan. (978-0134190440)</li>
+<li>Programming in Go - Mark Summerfield. (978-0321774637)</li>
+<li>Go in Action - William Kennedy, Brian Ketelsen, Erik St. Martin. (978-1617291784)</li>
+<li>Go Web Programming - Sau Sheong Chang. (978-1617292569)</li>
+<li>Go in Practice: Includes 70 Techiques - Matt Butcher, Matt Farina. (978-1633430075)</li>
+<li>Learning Go: An Idiomatic Approach to Real-World Go Programming - Jon Bodner. (978-1492077213)</li>
+<li>Kubernetes Programming with Go - Philippe Martin. (978-1484290255)</li>
+<li>Powerful Command-Line Applications in Go - Ricardo Gerardi. (978-1680506969)</li>
+<li>Pro Go: The Complete Guide to Programming Reliable and Efficient Software using Golang - Adam Freeman. (978-1484273548)</li>
+<li>Software Development with Go - Nanik Tolaram. (978-1484287309)</li>
+<li>Efficient Go: Data-Driven Performance Optimization - Bartlomiej Plotka. (978-1098105716)</li>
+<li>Cloud Native Go - Matthew Titmus. (978-1492076339)</li>
+<li>Cloud Native Go - Kevin Hoffman, Dan Nemeth. (978-0672337796)</li>
+<li>Practical Go - Amit Saha. (978-1119773818)</li>
+<li>Effective Go: Elegant, efficient, and testable code - Inanc Gumus. (978-1617299896)</li>
+<li>Shipping Go - Joel Holmes. (978-1617299506)</li>
+<li>Distributed Services with Go - Travis Jeffery. (978-1680507607)</li>
+<li>Building Distributed Applications in Gin - Mohamed Labouardy. (978-1801074858)</li>
+<li>Go for DevOps - John Doak, David Justice. (978-1801818896)</li>
+<li>Mastering Go - Mihalis Tsoukalos. (978-1801079310)</li>
+<li>Network Programming with Go - Adam Woodbeck. (978-1718500884)</li>
+<li>Machine Learning with Go - Daniel Whitenack, Janani Selvaraj. (978-1789619898)</li>
+<li>Go Machine Learning Projects - Xuanyi Chew. (978-1788993401)</li>
+<li>Effective Go - Inanc Gumus. (978-1617299896)</li>
+<li>Build an Orchestrator in Go - Tim Boring. (978-1617299759)</li>
+<li>Learn Concurrent Programming with Go - James Cutajar. (978-1633438385)</li>
+<li>100 Go Mistakes and How to Avoid Them - Teiva Harsanyi. (978-1617299599)</li>
+<li>Go From Scratch - WikiBooks. <a href="https://en.wikibooks.org/wiki/Go_From_Scratch">link</a></li>
+<li>Go Programming - WikiBooks. <a href="https://en.wikibooks.org/wiki/Go_Programming">link</a></li>
+</ol>
+<h2 id="java"><a class="header" href="#java">Java</a></h2>
+<ol>
+<li>Java Software Solutions - John Lewis, William Loftus. (978-0134462028)</li>
+<li>Java How To Program: Early Objects - Paul Dietel, Harvey Deitel. (978-0134743356)
+<ul>
+<li>Java How To Program: Late Objects - Paul Dietel, Harvey Deitel. (978-0134791401)</li>
+</ul>
+</li>
+<li>Big Java: Early Objects - Cay S. Horstmann. (978-1119588887)
+<ul>
+<li>Big Java: Late Objects - Cay S. Horstmann. (978-1119398721)</li>
+</ul>
+</li>
+<li>Modern Java in Action - Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft. (978-1617293566)</li>
+<li>Reactive Systems in Java - Clement Escoffier, Ken Fennigan. (978-1492091721)</li>
+<li>Java Performance - Scott Oaks. (978-1492056119)</li>
+<li>Optimizing Java - Benjaming Evans, James Gough, Chris Newland. (978-1492025795)</li>
+<li>Core Java for the Impatient - Cay S. Horstmann. (978-0138052102)</li>
+<li>The Well-Grounded Java Developer - Benjamin Evans, Martijn Verburg, Jason Clark. (978-1617298875)</li>
+<li>Functional Programming in Java - Venkat Subramaniam. (978-1680509793)</li>
+<li>Effective Java - Joshua Bloch. (978-0134685991)</li>
+<li>Troubleshooting Java - Laurentiu Spilca. (978-1617299773)</li>
+<li>JVM Performance Engineering - Monica Beckwith. (978-0134659879)</li>
+<li>Supercharge Your Applications with GraalVM - A. B. Vijay Kumar. (978-1800564909)</li>
+<li>100 Java Mistakes and How to Avoid Them - Tagir Valeev. (978-1633437968)</li>
+<li>Java Number Cruncher: The Java Programmer's Guide to Numerical Computing - Ronald Mak. (978-0130460417)</li>
+<li>Java Programming - WikiBooks. <a href="https://en.wikibooks.org/wiki/Java_Programming">link</a></li>
+</ol>
+<h2 id="scala"><a class="header" href="#scala">Scala</a></h2>
+<ol>
+<li>Programming in Scala - Martin Odersky, Lex Spoon, Bill Venners, Frank Sommers. (978-0997148008)</li>
+<li>Advanced Programming in Scala - Martin Odersky. (unknown)</li>
+<li>Programming Scala: Scalability = Functional Programming + Objects - Dean Wampler. (978-1492077893)</li>
+<li>Scala in Action - Nilanjan Raychaudhuri, Chad Fowler. (978-1935182757)</li>
+<li>Scala in Depth - Josh D. Suereth. (978-1935182702)</li>
+<li>Learning Scala: Practical Functional Programming for the JVM - Jason Swartz. (978-1449367930)</li>
+<li>Functional Programming in Scala - Michael Pilquist, Paul Chiusano, Runar Bjarnasson. (978-1617299582)</li>
+<li>Scala for the Impatient - Cay S. Horstmann. (978-0138033651)</li>
+<li>Scala for Data Science - Pascal Bugnion. (978-1785281372)</li>
+<li>Scientific Computing with Scala - Vytautas Jancauskas. (978-1785886942)</li>
+<li>Scala Puzzlers - Andrew Phillips, Nermin Serifovic. (978-0981531670)</li>
+<li>Scala Cookbook - Alvin Alexander. (978-1492051541)</li>
+<li>Scala Data Analysis Cookbook - Arun Manivannan. (978-1784396749)</li>
+<li>Learning Concurrent Programming in Scala - Aleksandar Prokopec. (978-1786466891)</li>
+<li>Programming Scala - Venkat Subramaniam. (978-1934356319)</li>
+<li>Pragmatic Scala - Venkat Subramaniam. (978-1680500547)</li>
+<li>Modern Systems Programming with Scala - Richard Whaling. (978-1680506228)</li>
+<li>Scala High Performance Programming - Vincent Theron, Michael Diamant. (978-1786466044)</li>
+<li>Hands-On Scala Programming - Haoyi Li. (978-9811456930)</li>
+<li>Scala Programming - WikiBooks. <a href="https://en.wikibooks.org/wiki/Scala">link</a></li>
+</ol>
+<h2 id="haskell"><a class="header" href="#haskell">Haskell</a></h2>
+<ol>
+<li>Learn You a Haskell for Great Good! - Miran Lipovaca. (978-1593272838) <a href="http://learnyouahaskell.com/">website</a> <a href="http://learnyouahaskell.com/learnyouahaskell.pdf">free book (partim)</a> <a href="http://learnyouahaskell.com/chapters">read online</a></li>
+<li>Real World Haskell - Bryan O'Sullivan, John Goerzen, Don Stewart. (978-0596514983) <a href="https://book.realworldhaskell.org/">website</a> <a href="https://book.realworldhaskell.org/read/">read online</a></li>
+<li>Programming in Haskell - Graham Hutton. (978-1316626221)</li>
+<li>Haskell Data Analysis Cookbook - Nishant Shukla. (978-1783286331)</li>
+<li>Learning Haskell Data Analysis - James Church. (978-1784394707)</li>
+<li>Haskell: The Craft of Functional Programming - Simon Thompson. (978-0201882957)</li>
+<li>Introduction to Functional Programming using Haskell - Richard Bird. (978-0134843469)</li>
+<li>Think Functionally with Haskell - Richard Bird. (978-1107452640)</li>
+<li>Haskell in Depth - Vitaly Bragilevsky. (978-1617295409)</li>
+<li>Practical Concurrent Haskell: with Big Data Applications - Stefania Loredana Nita, Marius Mihailescu. (978-1484227824)</li>
+<li>Effective Haskell - Rebecca Skinner. (978-1680509342)</li>
+<li>Haskell Design Patterns - Ryan Lemmer. (978-1783988723)</li>
+<li>Practical Haskell - Alejandro Serrano Mena. (978-1484285800)</li>
+<li>Learn Physics with Functional Programming - Scott N. Walck. (978-1718501669)</li>
+<li>Parallel and Concurrent Programming in Haskell - Simon Marlow. (978-1449335946)</li>
+<li>Developing Web Apps with Haskell and Yesod - Michael Snoyman. (978-1491915592)</li>
+<li>Verified Programming in Agda - Aaron Stump. (978-1970001273)</li>
+<li>Type-Driven Development with Idris - Edwin Brady. (978-1617293023)</li>
+<li>Haskell - WikiBooks. <a href="https://en.wikibooks.org/wiki/Haskell">link</a></li>
+<li>Yet Another Haskell Tutorial - WikiBooks. <a href="https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial">link</a></li>
+</ol>
+<h2 id="ocaml"><a class="header" href="#ocaml">OCaml</a></h2>
+<ol>
+<li>Real World OCaml: Functional Programming for the Masses - Anil Madhavapeddy. (978-1009125802) <a href="https://dev.realworldocaml.org/">website</a></li>
+<li>OCaml Scientific Computing: Functional Programming in Data Science and Artificial Intelligence - Liang Wang, Jianxin Zhao, Richard Mortier. (978-3030976446)</li>
+<li>Architecture of Advanced Numerical Analysis Systems: Designing a Scientific Computing System using OCaml - Liang Wang, Jianxin Zhao. (978-1484288528) <a href="https://library.oapen.org/handle/20.500.12657/60830">free book</a></li>
+<li>Practical OCaml - Joshua B. Smith. (978-1590596203)</li>
+<li>OCaml from the very beginning - John Whitington. (978-0957671102)</li>
+<li>More OCaml: Algorithms, Methods, and Diversions - John Whitington. (978-0957671119)</li>
+<li>Certified Programming with Dependent Types: A Pragmatic Introduction to the Coq Proof Assistant - Adam Chlipala. (978-0262545747)</li>
+<li>OCaml Programming - WikiBooks. <a href="https://en.wikibooks.org/wiki/OCaml">link</a></li>
+</ol>
+<h2 id="lispscheme"><a class="header" href="#lispscheme">Lisp/Scheme</a></h2>
+<ol>
+<li>Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman. (978-0262510875)</li>
+<li>Land of Lisp - Conrad Barski. (978-1593272814)</li>
+<li>The Little Schemer - Daniel P. Friedman. (978-0262560993)</li>
+<li>Let Over Lambda - Doug Hoyte. (978-1435712751)</li>
+<li>Practical Common Lisp - Peter Seibel. (978-1430242901)</li>
+<li>Common Lisp Recipes - Edmund Weitz. (978-1484211779)</li>
+<li>The Scheme Programming Language - R. Kent Dybvig. (978-0262512985)</li>
+<li>The Seasoned Schemer - Daniel P. Friedman. (978-0262561006)</li>
+<li>The Reasoned Schemer - Daniel P. Friedman. (978-0262535519)</li>
+<li>The Little Typer - Daniel P. Friedman. (978-0262536431)</li>
+<li>The Little Prover - Daniel P. Friedman. (978-0262527958)</li>
+<li>On Lisp: Advanced Techniques for Common Lisp - Paul Graham. (978-0130305527)</li>
+<li>Programming Algorithms in Lisp - Vsevolod Domkin. (978-1484264270)</li>
+<li>Lisp In Small Pieces - Christian Queinnec, Kathleen Callaway. (978-0521545662)</li>
+<li>Common Lisp - WikiBooks. <a href="https://en.wikibooks.org/wiki/Common_Lisp">link</a></li>
+<li>Scheme Programming - WikiBooks. <a href="https://en.wikibooks.org/wiki/Scheme_Programming">link</a></li>
+</ol>
+<h2 id="clojure"><a class="header" href="#clojure">Clojure</a></h2>
+<ol>
+<li>Clojure Programming - WikiBooks. <a href="https://en.wikibooks.org/wiki/Clojure_Programming">link</a></li>
+</ol>
+<h2 id="python"><a class="header" href="#python">Python</a></h2>
+<ol>
+<li>Introduction to Computation and Programming Using Python - John V. Guttag. (978-0262542364)</li>
+<li>Python For Everybody - Charles R. Severance. (978-1530051120)</li>
+<li>Python Crash Course - Eric Matthes. (978-1718502703)</li>
+<li>Automate the boring stuff with Python - Al Sweigart. (978-1718503403)</li>
+<li>Serious Python - Julien Danjou. (978-1593278786)</li>
+<li>Learning Python - Mark Lutz. (978-1449355739)</li>
+<li>Python for Data Analysis - Wes McKinney. (978-1098104030)</li>
+<li>Fluent Python - Luciano Ramalho. (978-1492056355)</li>
+<li>Think Python - Allen Downey. (978-1491939369)</li>
+<li>Programming Python - Mark Lutz. (978-0596158101)</li>
+<li>Python Basics - Dan Bader. (978-1775093329)</li>
+<li>Python Tricks - Dan Bader. (978-1775093305)</li>
+<li>CPython Internals - Anthony Shaw. (978-1775093343)</li>
+<li>High Performance Python - Micha Gorelick, Ian Ozsvald. (978-1492055020)</li>
+<li>Architecture Patterns with Python - Harry Percival, Bob Gregory. (978-1492052203)</li>
+<li>Expert Python Programming - Michal Jaworski, Tarek Ziade. (978-1801071109)</li>
+<li>Clean Code in Python - Mariano Anaya. (978-1800560215)</li>
+<li>Robust Python - Patrick Viafore. (978-1098100667)</li>
+<li>Effective Python - Brett Slatkin. (978-0134853987)</li>
+<li>Intro to Python for Computer Science and Data Science - Paul Deitel, Harvey M. Deitel. (978-1292364902)</li>
+<li>Python How To Program - Paul Deitel, Harvey Deitel. (978-0130923615)</li>
+<li>Python for Everyone - Cay S. Horstmann, Rance Necaise. (978-1119638292)</li>
+<li>Data Science from Scratch - Joel Grus. (978-1492041139)</li>
+<li>Python How-To: 63 techniques to improve your Python code - Yong Cui. (978-1617299742)</li>
+<li>Cython: A Guide for Python Programmers - Kurt Smith. (978-1491901557)</li>
+<li>Publishing Python Packages - Dane Hillard. (978-1617299919)</li>
+<li>Practices of the Python Pro - Dane Hillard. (978-1617296086)</li>
+<li>Python Concurrency with asyncio - Matthew Fowler. (978-1617298660)</li>
+<li>Using Asyncio in Python - Caleb Hattingh. (978-1492075332)</li>
+<li>Python Distilled - David Beazley. (978-0134173276)</li>
+<li>Real World Python - Lee Vaughan. (978-1718500624)</li>
+<li>Fast Python: High Performance techniques for Large Datasets - Tiago Rodrigues Antao. (978-1617297939)</li>
+<li>Python Tools for Scientists - Lee Vaughan. (978-1718502666)</li>
+<li>Automate the boring stuff with Python - Al Sweigart. (978-1593279929)</li>
+<li>Beyond the Basic Stuff with Python - Al Sweigart. (978-1593279660)</li>
+<li>Python Programming - John Zelle. (978-1887902991)</li>
+<li>Python Testing with pytest - Brian Okken. (978-1680508604)</li>
+<li>Python Programming - WikiBooks. <a href="https://en.wikibooks.org/wiki/Python_Programming">link</a></li>
+<li>Think Python - WikiBooks. <a href="https://en.wikibooks.org/wiki/Think_Python">link</a></li>
+<li>Non-Programmer's Tutorial for Python 3 - WikiBooks. <a href="https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3">link</a></li>
+</ol>
+<h2 id="sql"><a class="header" href="#sql">SQL</a></h2>
+<ol>
+<li>Joe Celko's SQL for Smarties: Advanced SQL Programming - Joe Celko. (978-0128007617)</li>
+<li>Joe Celko's SQL Puzzles and Answers - Joe Celko. (978-0123735966)</li>
+<li>Joe Celko's SQL Programming Style - Joe Celko. (978-0120887972)</li>
+<li>SQL Antipatterns - Bill Karwin. (978-1934356555)</li>
+<li>Effective SQL - John Viescas, Douglas Steele, Ben Clothier. (978-0134578897)</li>
+<li>Structured Query Language - WikiBooks. <a href="https://en.wikibooks.org/wiki/Structured_Query_Language">link</a></li>
+<li>SQL Exercises - WikiBooks. <a href="https://en.wikibooks.org/wiki/SQL_Exercises">link</a></li>
+</ol>
+<h2 id="latex"><a class="header" href="#latex">LaTeX</a></h2>
+<ol>
+<li>LaTeX - WikiBooks. <a href="https://en.wikibooks.org/wiki/LaTeX">link</a></li>
+</ol>
+<h2 id="matlab--gnu-octave"><a class="header" href="#matlab--gnu-octave">MATLAB / GNU Octave</a></h2>
+<ol>
+<li>MATLAB for Engineers - Holly Moore. (978-0134589640)</li>
+<li>MATLAB: A Practical Introduction to Programming and Problem Solving - Dorothy C. Attaway. (978-0323917506)</li>
+<li>MATLAB Programming for Engineers - Stephen J. Chapman. (978-0357030394)</li>
+<li>Essential MATLAB for Engineers and Scientists - Daniel T. Valentine, Brian H. Hahn. (978-0323995481)</li>
+<li>MATLAB for Engineering Applications - William Plam III. (978-1260084719)</li>
+<li>MATLAB: An Introduction with Applications - Amos Gilat. (978-1118629864)</li>
+<li>Programming for Computations with MATLAB/Octave - Svein Linge, Hans Petter Langtangen. (978-3319324517)</li>
+<li>MATLAB Programming for Biomedical Engineers and Scientists - Andrew P. King, Paul Aljabar. (978-0323857734)</li>
+<li>MATLAB For Dummies - John Paul Mueller, Jim Sizemore. (978-1119796886)</li>
+<li>MATLAB and Simulink Crash Course for Engineers - Eklas Hossain. (978-3030897611)</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="computer_science.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="mathematics.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="computer_science.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="mathematics.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
