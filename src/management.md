@@ -43,6 +43,7 @@
 15. Investment Banking: Concepts, Analyses and Cases - Pratap Giri S. (978-9354600883)
 16. Principles of Financial Modelling - Michael Rees. (978-1118904015)
 17. Financial Modeling with Crystal Ball and Excel - John Charnes. (978-1118175446)
+18. Pro Excel Financial Modeling - Tom Sawyer. (978-1430218982)
 ## Risk Management
 1. Risk Management and Financial Institutions - John C. Hull. (978-1119932482)
 2. Quantitative Risk Management - Alexander J. McNeil, Rudiger Frey, Paul Embrechts. (978-0691166278)
@@ -86,6 +87,20 @@
 13. Quantitative Trading with R - Harry Georgakopoulos. (978-1137354075)
 14. Automated Trading with R - Chris Conlan. (978-1484221778)
 ## Financial Modelling with C++
+1. Financial Modeling Using C++ - Chandan Sengupta. (978-0471789086)
+2. Financial Instrument Pricing Using C++ - Daniel J. Duffy. (978-0470971192)
+3. Modeling Derivatives in C++ - Justin London. (978-0471654643)
+4. Introduction to C++ for Financial Engineers - Daniel J. Duffy. (978-0470015384)
+5. Practical C++20 Financial Programming - Carlos Oliveira. (978-1484268339)
+6. Options and Derivatives Programming in C++23 - Carlos Oliveira. (978-1484298268)
+7. C++ Design Patterns and Derivatives Pricing - Mark S. Joshi. (978-0521721622)
+8. Hedge Fund Modelling and Analysis: An Object Oriented Approach Using C++ - Paul Darbyshire, David Hampton. (978-1118879573)
+9. Numerical Methods in Finance with C++ - Maciej J. Capinski. (978-0521177160)
+10. Building Financial Risk Management Applications with C++ - Robert Brooks. (978-1478350750)
+11. Quantitative Finance: An Object Oriented Approach Using C++ - Erik Schlogl. (978-1584884798)
+12. C++ for Financial Mathematics - John Armstrong. (978-1498750059)
+13. Learning Modern C++ for Finance - Daniel Hanson. (978-1098100803)
+14. Advanced Quantitative Finance with C++ - Alonso Pena. (978-1782167228)
 ## Actuarial Science
 1. Computational Actuarial Science with R - Arthur Charpentier. (978-1466592599)
 2. Modern Actuarial Risk Theory: Using R - Rob Kaas, Marc Goovaerts, Jan Dhaene, Michel Denuit. (978-3642034077)
