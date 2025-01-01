@@ -57,7 +57,11 @@
 17. Rust Web Development with Rocket - Karuna Murti. (978-1800561304)
 18. Rust Web Development with warp, tokio, and reqwest - Bastian Gruber. (978-1617299001)
 19. Rust Web Programming - Maxwell Flitton. (978-1803234694)
-20. Rust For The Novice Programmer - WikiBooks. [link](https://en.wikibooks.org/wiki/Rust_for_the_Novice_Programmer)
+20. Idiomatic Rust - Brenden Matthews. (978-1633437463)
+21. Effective Rust - David Drysdale. (978-1098151409)
+22. Write Powerful Rust Macros - Sam Van Overmeire. (978-1633437494)
+23. Rust Under the Hood - Sandeep Ahluwalia, Deepa Alhuwalia. (979-8320364469)
+24. Rust For The Novice Programmer - WikiBooks. [link](https://en.wikibooks.org/wiki/Rust_for_the_Novice_Programmer)
 ## C++
 1. The C++ Programming Language - Bjarne Stroustrup. (978-0275967765)
 2. Practical C++ Programming - Steve Oualline. (978-0596004194)
@@ -153,7 +157,8 @@
 17. Modern Systems Programming with Scala - Richard Whaling. (978-1680506228)
 18. Scala High Performance Programming - Vincent Theron, Michael Diamant. (978-1786466044)
 19. Hands-On Scala Programming - Haoyi Li. (978-9811456930)
-20. Scala Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Scala)
+20. Hands-On Data Analysis with Scala - Rajesh Gupta. (978-1789346114)
+21. Scala Programming - WikiBooks. [link](https://en.wikibooks.org/wiki/Scala)
 ## Haskell
 1. Learn You a Haskell for Great Good! - Miran Lipovaca. (978-1593272838) [website](http://learnyouahaskell.com/) [free book (partim)](http://learnyouahaskell.com/learnyouahaskell.pdf) [read online](http://learnyouahaskell.com/chapters)
 2. Real World Haskell - Bryan O'Sullivan, John Goerzen, Don Stewart. (978-0596514983) [website](https://book.realworldhaskell.org/) [read online](https://book.realworldhaskell.org/read/)
