@@ -162,7 +162,7 @@
 ## Haskell
 1. Learn You a Haskell for Great Good! - Miran Lipovaca. (978-1593272838) [website](http://learnyouahaskell.com/) [free book (partim)](http://learnyouahaskell.com/learnyouahaskell.pdf) [read online](http://learnyouahaskell.com/chapters)
 2. Real World Haskell - Bryan O'Sullivan, John Goerzen, Don Stewart. (978-0596514983) [website](https://book.realworldhaskell.org/) [read online](https://book.realworldhaskell.org/read/)
-3. Programming in Haskell - Graham Hutton. (978-1316626221)
+3. Programming in Haskell - Graham Hutton. (978-1316626221) [website](https://people.cs.nott.ac.uk/pszgmh/pih.html)
 4. Haskell Data Analysis Cookbook - Nishant Shukla. (978-1783286331)
 5. Learning Haskell Data Analysis - James Church. (978-1784394707)
 6. Haskell: The Craft of Functional Programming - Simon Thompson. (978-0201882957)
