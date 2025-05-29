@@ -315,6 +315,14 @@
 8. Differential Geometry of Curves and Surfaces - Thomas F. Banchoff, Stephen Lovett. (978-1032281094)
 9. Differential Geometry of Curves and Surfaces - Shoshichi Kobayashi. (978-9811517389)
 ## Number Theory
+1. Elementary Number Theory - Kenneth H. Rosen. (978-1292039541)
+2. Number Theory - George E. Andrews. (978-0486682525)
+3. Elementary Number Theory - Underwood Dudley. (978-0486469317)
+4. Elementary Number Theory - Jones A. Gareth, Josephine Mary Jones. (978-3540761976)
+5. Elements of Number Theory - John Stillwell. (978-1441930668)
+6. An Introduction To The Theory of Numbers - G. H. Hardy. (978-0199219865)
+7. Number Theory and its History - Oystein Ore. (978-0486656205)
+8. Elementary Number Theory - David M. Burton. (978-0073383149)
 ## Combinatorics
 1. Analytic Combinatorics - Robert Sedgewick, Philippe Flajolet. (978-0521898065)
 2. A Course in Combinatorics - J. H. van Lint, R. M. Wilson. (978-0521006019)
@@ -408,8 +416,8 @@
 7. Div, Grad, Curl, and All That: An Informal Text on Vector Calculus - H. M. Schey. (978-0393925166)
 8. Alex's Adventures in Numberland - Alex Bellos. (978-1526623997)
 9. Basic Mathematics - Serge Lang. (978-0387967875)
-10. Number Theory - George E. Andrews. (978-0486682525)
-11. Elementary Number Theory - Kenneth H. Rosen. (978-1292039541)
+10. ...
+11. ...
 12. Visual Complex Functions - Elias Wegert. (978-3034801799)
 13. Topics in Algebra - I. N. Herstein. (978-0471010906)
 14. Curves and Singularities - J. W. Bruce, P. J. Giblin. (978-0521419857)
@@ -417,7 +425,7 @@
 16. Visual Group Theory - Nathan Carter. (978-1470464332)
 17. Ideals, Varieties, and Algorithms - David A. Cox, John Little, Donal O'Shea. (978-3319167206)
 18. Exploring University Mathematics with Python - Siri Chongchitnan. (978-3031462696)
-19. Differential Geometry of Curves and Surfaces - Kristopher Tapp. (978-3319397986)
+19. ...
 20. An Introduction to Differentiable Manifolds and Riemannian Geometry - William M. Boothby. (978-0121160517)
 21. Origami Design Secrets: Mathematical Methods for an Ancient Art - Robert J. Lang. (978-1568814360)
 22. Geometric Folding Algorithms - Erik D. Demaine, Joseph O'Rourke. (978-0521715225)
