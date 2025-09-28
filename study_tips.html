@@ -1,0 +1,368 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>How to study effectively</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="study-tips"><a class="header" href="#study-tips">Study Tips</a></h1>
+<h2 id="books-about-studying"><a class="header" href="#books-about-studying">Books about studying</a></h2>
+<ol>
+<li>How to Become a Straight-A Student - Cal Newport. (978-0767922715)</li>
+<li>How to Win at College - Cal Newport. (978-0767917872)</li>
+<li>How to Be a High School Superstar - Cal Newport. (978-0767932585)</li>
+<li>Ultralearning - Scott H. Young. (978-0062852687)</li>
+<li>The First 20 Hours - Josh Kaufman. (978-0670921928)</li>
+<li>Learn Like a Pro - Barbara Oakley. (978-1250799371)</li>
+<li>The Science of Rapid Skill Acquisition - Peter Hollins. (978-1797031859)</li>
+<li>Build Rapid Expertise - Peter Hollins. (979-8615214790)</li>
+<li>The Study Skills Handbook - Peter Hollins. (979-8540015615)</li>
+<li>How to Teach Anything - Peter Hollins. (979-8599928690)</li>
+<li>Feel-Good Productivity - Ali Abdaal. (978-1847943743)</li>
+<li>Building a Second Brain - Tiago Forte. (978-1800812222)</li>
+<li>Slow Productivity - Cal Newport. (978-0241652916)</li>
+<li>The Only Study Guide You'll Ever Need - Jade Bowler. (978-1788704199)</li>
+<li>Make It Stick - Peter C. Brown. (978-0674729018)</li>
+</ol>
+<h2 id="study-tips-and-tricks"><a class="header" href="#study-tips-and-tricks">Study Tips and Tricks</a></h2>
+<h3 id="top-3-tips"><a class="header" href="#top-3-tips">Top 3 tips:</a></h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Testing_effect">Active Recall</a> / Test yourself :
+<ul>
+<li>Use <a href="https://en.wikipedia.org/wiki/Flashcard">flashcards</a>.
+<ul>
+<li>Try the free and open source software Anki.</li>
+<li>Use AI (e.g. ChatGPT or Bing Copilot) to generate flashcards.</li>
+</ul>
+</li>
+<li>Teach / ELI5 (Explain me Like I'm 5 years old, i.e. explain concepts with simple words.) (concepts).</li>
+<li><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">Rubber ducking</a>.</li>
+<li>Practice past/old exams.</li>
+<li>Practice mock/practice exams/exercises/questions/problems. (often found in textbooks, on the internet or given by the professor.)</li>
+<li>Make your own questions and answers (Q&amp;A).</li>
+<li>Find <a href="https://en.wikipedia.org/wiki/Workbook">workbooks</a>, <a href="https://en.wikipedia.org/wiki/Problem_book">problem books</a> or solution books.</li>
+</ul>
+</li>
+<li>Consistency :
+<ul>
+<li>Study early (in the semester/year), study often (daily).</li>
+<li>Build the habit of studying. Studying one hour everyday day for a week beats studying 7 hours in one day that week.</li>
+</ul>
+</li>
+<li>Good sleep :
+<ul>
+<li>Avoid cramming and all-nighters.</li>
+</ul>
+</li>
+</ul>
+<h3 id="other-tips"><a class="header" href="#other-tips">Other tips:</a></h3>
+<ul>
+<li>Avoid distractions / Go offline : no phones (social medias), no laptops, no tablets,...</li>
+<li>Have a quiet and tidy study space/desk.</li>
+<li>Use <a href="https://en.wikipedia.org/wiki/Spaced_repetition">Spaced Repetition</a>:
+<ul>
+<li>To fight the <a href="https://en.wikipedia.org/wiki/Forgetting_curve">Forgetting Curve</a>.</li>
+</ul>
+</li>
+<li>Interleaving : mix-and-match topics/subjects/questions/flashcards.</li>
+<li>Blurting / Braindumping : start from a blank page and write down everything you know about a topic/concept.</li>
+<li><a href="https://en.wikipedia.org/wiki/Progressive_overload">Progressive Overload</a> : start small and easy, then progressively increase the workload and the difficulty.</li>
+<li><a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a> : a simple study routine beats a complex one.</li>
+<li>Retro Planning : start planning your study from the day of the exam and go backwards until today.</li>
+<li>Set deadlines (in your planning) and fixed time slots (1 hour or 2 hours):
+<ul>
+<li>To fight the <a href="https://en.wikipedia.org/wiki/Parkinson%27s_law">Parkinson's Law</a>.</li>
+</ul>
+</li>
+<li>Take regular breaks.
+<ul>
+<li>Go for a walk outside. (Your brain needs oxygen.)</li>
+</ul>
+</li>
+<li>The VELMA Method :
+<ul>
+<li>V for Visualize : make diagrams, charts and drawings from the text. Make it visual.</li>
+<li>E for Explain : Teach or ELI5.</li>
+<li>L for Learn : ...</li>
+<li>M for Mapping : use <a href="https://en.wikipedia.org/wiki/Mind_map">Mindmaps</a>.</li>
+<li>A for Analysis : ...</li>
+</ul>
+</li>
+<li>The ADEPT Method :
+<ul>
+<li>A for Analogy.</li>
+<li>D for Diagram.</li>
+<li>E for Example.</li>
+<li>P for Plain-English.</li>
+<li>T for Technical Description.</li>
+</ul>
+</li>
+<li>The <a href="https://en.wikipedia.org/wiki/Pareto_principle">80/20 Principle</a> : Focus on high-yield questions.</li>
+<li>MPGA : Make Preparation / Pre-Reads Great Again.</li>
+<li>Meta-Learning : make a log (a Spreadsheet for example) for every study sessions and reflect on what did good, bad, your study weakenesses, etc... Review the log regularly to improve yourself.</li>
+<li>Use <a href="https://en.wikipedia.org/wiki/Acronym">Acronyms</a> and <a href="https://en.wikipedia.org/wiki/Mnemonic">Mnemonics</a>.</li>
+<li>Enjoy the process of studying and make it enjoyable. (favorite drink/snacks, light music, personal reward,...)</li>
+<li>Upsolving :
+<ul>
+<li>The process of solving questions/problems slightly harder than your current level.</li>
+</ul>
+</li>
+<li>Resolving :
+<ul>
+<li>Solving questions/problems again after some time can lead you to new perspectives or a better answer/solution.</li>
+</ul>
+</li>
+<li>Disaggregate concepts :
+<ul>
+<li>Split/break down concepts into smaller ones.</li>
+<li>Use frameworks like the ADEPT method or the <a href="https://en.wikipedia.org/wiki/IRAC">IRAC method</a> for <a href="https://en.wikipedia.org/wiki/Brief_(law)">Case Briefing</a> in Law.</li>
+<li>Be <a href="https://en.wikipedia.org/wiki/MECE_principle">MECE</a> when disaggregating the concepts.</li>
+</ul>
+</li>
+<li>Make your own <a href="https://en.wikipedia.org/wiki/Study_guide">study guide</a> :
+<ul>
+<li>Include an outline, learning objectives, core concepts (make an <a href="https://en.wikipedia.org/wiki/Index_(publishing)">index</a>), personal tips and tricks about the subject, acronyms and mnemonics, interesting questions and answers, personal insights,...</li>
+</ul>
+</li>
+<li>Make an <a href="https://en.wikipedia.org/wiki/Outline_(list)">outline</a>.</li>
+<li>Synthetize, don't summarize :
+<ul>
+<li>Focus on insights, do not just reduce the size of the text.</li>
+</ul>
+</li>
+<li>Find a study buddy or join a study group.</li>
+<li>Use the <a href="https://en.wikipedia.org/wiki/Cornell_Notes">Cornell Notetaking system</a>.</li>
+<li>Use the <a href="https://en.wikipedia.org/wiki/SQ3R">SQ3R method</a>.</li>
+<li>Check the <a href="https://en.wikipedia.org/wiki/Study_skills">Study Skills</a> and <a href="https://en.wikipedia.org/wiki/Category:Learning_methods">Learning methods</a> Wikipedia pages for more techniques.</li>
+</ul>
+<h2 id="study-methods-to-avoid"><a class="header" href="#study-methods-to-avoid">Study methods to avoid</a></h2>
+<ul>
+<li>Re-reading your notes or your textbook.</li>
+<li>Re-writing your notes or your textbook.</li>
+<li>Highlighting/Circling/Underlining your notes or your textbook.</li>
+<li>The <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro Technique</a> : take breaks when you feel like it instead.</li>
+<li>Avoid <a href="https://en.wikipedia.org/wiki/Rote_learning">rote learning</a>. (Use Active Recall and Spaced Repetition instead.)</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="engineering_degree.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="softwares.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="engineering_degree.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="softwares.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
