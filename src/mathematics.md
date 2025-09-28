@@ -161,10 +161,12 @@
 8. Fundamentals of Complex Analysis with Applications to Engineering and Science - Edward Saff, Arthur Snider. (978-0134689487)
 9. Complex Variables - Francis J. Flanigan. (978-0486613888)
 10. Complex Analysis - Donald E. Marshall. (978-1107134829)
-11. Complex Variables and Applications - James Brown, Ruel Churchill. (978-0073383170)
+11. Applied Complex Variables - John W. Dettman. (978-0486646701)
+12. Complex Analysis - Alan F. Beardon. (978-0486837185)
+13. Complex Variables and Applications - James Brown, Ruel Churchill. (978-0073383170)
     - Student Solutions Manual to accompany Complex Variables and Applications - James Brown, Ruel Churchill. (978-0073528991)
-12. Schaum's Outline of Complex Variables - Murray Spiegel. (978-0071615693)
-13. Complex Analysis - Wikibooks. [link](https://en.wikibooks.org/wiki/Complex_Analysis)
+14. Schaum's Outline of Complex Variables - Murray Spiegel. (978-0071615693)
+15. Complex Analysis - Wikibooks. [link](https://en.wikibooks.org/wiki/Complex_Analysis)
 ## Differential Equations
 1. Differential Equations and Boundary Value Problems - C. Henry Edwards, David E. Penney, David T. Calvis. (978-0134837390)
 2. Applied Partial Differential Equations - Richard Haberman. (978-0321797056)
@@ -315,7 +317,7 @@
 2. Elementary Differential Geometry - A. N. Pressley. (978-1848828902)
 3. Elementary Differential Geometry - Christian Bar. (978-0521721493)
 4. Elementary Differential Geometry - Barrett O'Neill. (978-1493300020)
-5. Differential Geometry - Loring W. Tu. (978-3319550824)
+5. Differential Geometry: Connections, Curvature, and Characteristic Classes - Loring W. Tu. (978-3319550824)
 6. Differential Geometry of Curves and Surfaces - Manfredo P. do Carmo. (978-0486806990)
 7. Differential Geometry of Curves and Surfaces - Kristopher Tapp. (978-3319397986)
 8. Differential Geometry of Curves and Surfaces - Thomas F. Banchoff, Stephen Lovett. (978-1032281094)
@@ -324,10 +326,18 @@
 11. Differential Geometry - Erwin Kreyszig. (978-0486667218)
 12. Differential Geometry - Heinrich W. Guggenheimer. (978-0486634333)
 13. An Introduction to Differential Geometry - T. J. Willmore. (978-0486486185)
+14. Fundamentals of Differential Geometry - Serge Lang. (978-0387985930)
+15. Elementary Differential Geometry - Barrett O'Neill. (978-1493300020)
+16. Visual Differential Geometry and Forms - Tristan Needham. (978-0691203706)
+17. First Steps in Differential Geometry - Andrew McInerney. (978-1489990464)
+18. Differential Geometry - William C. Graustein. (unknown)
+19. Differential Geometry - Marcel Berger, Bernard Gostiaux. (978-0387966267)
 ## Manifolds
 1. Introduction to Smooth Manifolds - John M. Lee. (978-1441999818)
 2. Introduction to Manifolds - Loring W. Tu. (978-1441973993)
 3. Differential Topology - Victor Guillemin, Alan Pollack. (978-0821851937)
+## Algebraic Geometry
+1. Introduction to Algebraic Geometry - Serge Lang. (978-0486834221)
 ## Knot Theory
 ## Lie Theory
 1. Lie Groups, Lie Algebras, and Representations - Brian Hall. (978-3319374338)
@@ -421,6 +431,7 @@
 10. Graph Theory - Reinhard Diestel. (978-3662536216)
 11. Graph Theory - Adrian Bondy, U. S. R. Murty. (978-1846289699)
 12. Algebraic Graph Theory - Chris Godsil, Gordon F. Royle. (978-0387952208)
+13. Graph Theory - Ronald Gould. (978-0486498065)
 ## Statistics
 1. Mathematical Statistics with Applications - Dennis Wackerly, William Mendenhall, Richard L. Scheaffer. (978-0495110811)
     - Student Solution Manual for Mathematical Statistics with Applications - William J. Owen. (978-0495385066)
