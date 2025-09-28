@@ -19,6 +19,10 @@
 - [Standardized Test Preparation](standardized_test_preparation.md)
 - [Job Interviews](job_interviews.md)
 
+# Curriculums
+- [Mathematics Degree](mathematics_degree.md)
+- [Engineering Degree](engineering_degree.md)
+
 # Addendum
 - [How to study effectively](study_tips.md)
 - [Free & Open Source Softwares](softwares.md)
