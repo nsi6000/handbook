@@ -1,4 +1,4 @@
-# Engineering Degree Template
+# Engineering & Physics Degree Template
 
 ## Undergraduate
 ### First Year
