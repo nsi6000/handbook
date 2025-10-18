@@ -17,7 +17,7 @@
 * Calculus III (Multi Variable Calculus / Partial Derivatives and Vector Calculus.)
     - Prerequisites: Calculus II.
 * Complex Analysis
-* Abstract Algebra / Modern Algebra I (Ring Theory)
+* Abstract Algebra / Modern Algebra I (Group Theory)
     - Prerequisites: None / High School Mathematics.
 * Geometry II (Differential Geometry)
 * Numerical Analysis
@@ -29,7 +29,7 @@
     - Prerequisites: Calculus I and Calculus II.
 * Elementary Number Theory
     - Prerequisites: None / High School Mathematics.
-* Abstract Algebra / Modern Algebra II (Ring Theory and Galois Theory)
+* Abstract Algebra / Modern Algebra II (Ring Theory, Field Theory, and Galois Theory)
     - Prerequisites: Abstract Algebra / Modern Algebra I.
 * Topology (Point-Set Topology)
     - Prerequisites: Real Analysis.
