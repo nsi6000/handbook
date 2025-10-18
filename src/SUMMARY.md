@@ -20,6 +20,8 @@
 - [Job Interviews](job_interviews.md)
 
 # Curriculums
+- [Economics and Management Degree](management_degree.md)
+- [Biology and Chemistry Degree](biochemistry_degree.md)
 - [Mathematics Degree](mathematics_degree.md)
 - [Engineering Degree](engineering_degree.md)
 
