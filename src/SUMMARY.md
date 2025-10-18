@@ -1,7 +1,7 @@
 # Summary
 
-[Introduction](Intro.md)
-[List of textbooks publishers](publishers.md)
+- [Introduction](Intro.md)
+- [List of textbooks publishers](publishers.md)
 
 # Textbooks
 
@@ -23,7 +23,7 @@
 - [Economics and Management Degree](management_degree.md)
 - [Biology and Chemistry Degree](biochemistry_degree.md)
 - [Mathematics Degree](mathematics_degree.md)
-- [Engineering Degree](engineering_degree.md)
+- [Engineering and Physics Degree](engineering_degree.md)
 
 # Addendum
 - [How to study effectively](study_tips.md)
