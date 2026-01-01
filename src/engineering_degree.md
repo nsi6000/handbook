@@ -1,10 +1,10 @@
-# Engineering & Physics Degree Template
+# Engineering, Mathematics & Physics Degree Template
 
 ## Undergraduate
 ### First Year
-* Calculus I (Single Variable Calculus / Series, Limits, and Continuity.)
+* Calculus I (Single Variable Calculus / Series, Limits, and Continuity. Differentiation-Derivatives and Applications.)
     - Prerequisites: Precalculus.
-* Calculus II (Single Variable Calculus / Differentiation and Integration.)
+* Calculus II (Single Variable Calculus / Integration-Integrals and Applications. Conics, Polars, and Parametric Curves. (Infinite and Power) Series and Sequences.)
     - Prerequisites: Calculus I.
 * Linear Algebra
 * Physics I (Mechanics and Electricity.)
@@ -18,8 +18,14 @@
         * Classical Mechanics I (Mechanics of Lagrange and Hamilton.)
         * Geometry I (Eucledian Geometry)
         * Mathematics for the Physical Sciences
+    * Pure Mathematics track
+        * Classical Mechanics I (Mechanics of Lagrange and Hamilton.)
+        * Geometry I (Eucledian Geometry)
+        * Proofs / Transition to Advanced Mathematics
+            - Prerequisites: None / High School Mathematics.
+
 ### Second Year
-* Calculus III (Multi Variable Calculus / Partial Derivatives and Vector Calculus.)
+* Calculus III (Multi Variable Calculus / Partial Differentiation-Derivatives and Applications. Vector Calculus (Fields, Spaces, Dot Products, Projections, and Cross Products.). Plane Coordinates. Multiple-Double-Triple Integration-Integrals.)
     - Prerequisites: Calculus II.
 * Complex Analysis
 * Physics III (Waves and Quantum Physics.)
@@ -59,10 +65,18 @@
         * ...
         * ...
         * ...
+    * Pure Mathematics track
+        * Abstract Algebra / Modern Algebra I (Group Theory)
+            - Prerequisites: None / High School Mathematics.
+        * Geometry II (Differential Geometry)
+        * Classical Mechanics II (Waves)
+
 ### Third Year
 * Finite Element Analysis
 * Differential Equations
+    - Prerequisites: Calculus I, II, and III.
 * Statistics II
+    - Prerequisites: Statistics I
 * 9 Elective Courses (from the major selected.)
     * Physics track
         * Quantum Physics II
@@ -98,10 +112,42 @@
         * ...
         * ...
         * ...
+    * Pure Mathematics track
+        * Real Analysis
+            - Prerequisites: Calculus I and Calculus II.
+        * Elementary Number Theory
+            - Prerequisites: None / High School Mathematics.
+        * Abstract Algebra / Modern Algebra II (Ring Theory, Field Theory, and Galois Theory)
+            - Prerequisites: Abstract Algebra / Modern Algebra I.
+        * Topology (Point-Set Topology)
+            - Prerequisites: Real Analysis.
 
 
 ## Graduate
-### First Year
-* ///TODO///
-### Second Year
-* Thesis
+### Master in (Pure) Mathematics
+#### Core courses
+* Functional Analysis
+* Measure Theory
+* Riemannian Geometry / Riemann Surfaces
+* Sympleptic Geometry
+* Algebraic Geometry
+    - Prerequisites: Abstract Algebra / Modern Algebra I and II.
+* Algebraic Topology
+    - Prerequisites: Abstract Algebra / Modern Algebra I and II, (Point-Set) Topology.
+#### Elective courses
+* Algebraic Number Theory
+    - Prerequisites: Elementary Number Theory.
+* Harmonic Analysis
+* Lie Theory
+* Advanced Differential Geometry
+* Non-Linear Dynamics
+* Spectral Theory
+* Ergodic Theory
+* Knot Theory
+* Galois Theory
+* Complex Manifolds
+* Lattice Models
+* Permutation Groups
+* Commutative Algebra
+* Advanced Partial Differential Equations
+
