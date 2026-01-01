@@ -2,6 +2,7 @@
 
 ## Unix Distributions
 1. [Ubuntu](https://ubuntu.com/download/desktop)
+    - [Ubuntu Studio](https://ubuntustudio.org/)
 2. [Fedora](https://fedoraproject.org/workstation/download/)
     - [Fedora - Design Suite](https://labs.fedoraproject.org/design-suite/)
     - [Fedora - Jam](https://labs.fedoraproject.org/jam/)
@@ -61,6 +62,7 @@
 ## Writing Softwares
 1. [Pandoc](https://pandoc.org/) [github](https://github.com/jgm/pandoc)
 2. [LaTeX](https://www.latex-project.org/)
+    - [Beamer](https://en.wikipedia.org/wiki/Beamer_(LaTeX))
 3. [LibreOffice](https://www.libreoffice.org/)
 4. [Vim](https://www.vim.org/)
 
@@ -73,6 +75,7 @@
 6. [GNU Paint](https://www.gnu.org/software/gpaint/)
 7. [mtPaint](https://mtpaint.sourceforge.net/)
 8. [Pencil2D Animation](https://www.pencil2d.org/)
+9. [LibreSprite](https://libresprite.github.io/)
 
 ## Programming Softwares
 1. [Netwide Assembler (NASM)](https://www.nasm.us/) [github](https://github.com/netwide-assembler/nasm)
