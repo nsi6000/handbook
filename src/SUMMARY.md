@@ -11,10 +11,10 @@
 - [Computer Science](computer_science.md)
 - [Programming Languages](programming_languages.md)
 - [Mathematics](mathematics.md)
-- [Physics](physics.md)
+- [Physics & Engineering](physics.md)
 - [Chemistry](chemistry.md)
 - [Biology](biology.md)
-- [Medicine](medicine.md)
+- [Medicine, Nursing & Health Sciences](medicine.md)
 - [Veterinary Medicine](veterinary_medicine.md)
 - [Standardized Test Preparation](standardized_test_preparation.md)
 - [Job Interviews](job_interviews.md)
@@ -22,8 +22,7 @@
 # Curriculums
 - [Economics and Management Degree](management_degree.md)
 - [Biology and Chemistry Degree](biochemistry_degree.md)
-- [Mathematics Degree](mathematics_degree.md)
-- [Engineering and Physics Degree](engineering_degree.md)
+- [Engineering, Mathematics & Physics Degree](engineering_degree.md)
 
 # Addendum
 - [How to study effectively](study_tips.md)
