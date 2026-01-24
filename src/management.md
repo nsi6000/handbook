@@ -1,6 +1,14 @@
 # Management
 ## Financial Accounting
+- Financial Accounting - Jerry J. Weygdandt, Paul D. Kimmel, Donald E. Kieso. (978-1119688358)
+- Schaum's Outline of Bookkeeping and Accounting - Joel J. Lerner, Rajul Gokarn. (978-0071635363)
+- Schaum's Outline of Principles of Accounting I - Joel J. Lerner, James A. Cashin. (978-0071635387)
+- Schaum's Outline of Principles of Accounting II - Joel J. Lerner, James A. Cashin. (978-0070375895)
+- Schaum's Outline of Intermediate Accounting I - Baruch Englard. (978-0071756068)
+- Schaum's Outline of Intermediate Accounting II - Baruch Englard. (978-0071611664)
+- Schaum's Outline of Financial Accounting - Jae K. Shim, Joel G. Siegel. (978-0071762502)
 ## Managerial Accounting
+1. Schaum's Outline of Managerial Accounting - Jae K. Shim, Joel G. Siegel. (978-0071762526)
 ## Auditing
 ## Corporate Finance
 1. Principles of Corporate Finance - Richard Brealey, Stewart Myers, Franklin Allen. (978-1259144387)
@@ -44,6 +52,11 @@
 16. Principles of Financial Modelling - Michael Rees. (978-1118904015)
 17. Financial Modeling with Crystal Ball and Excel - John Charnes. (978-1118175446)
 18. Pro Excel Financial Modeling - Tom Sawyer. (978-1430218982)
+19. Foundations of Real Estate Financial Modelling - Roger Staiger. (978-1032454597)
+20. Real Estate Financial Modelling in Excel - Maria Wiedner. (978-1032544007)
+21. Financial Modeling: A Backward Stochastic Differential Equations Perspective - Stephane Crepey. (978-3642442520)
+22. Mastering Financial Modeling - Eric Soubiega. (978-0071808507)
+23. Financial Modeling in Excel For Dummies - Danielle Stein Fairhurst. (978-1119844518)
 ## Risk Management
 1. Risk Management and Financial Institutions - John C. Hull. (978-1119932482)
 2. Quantitative Risk Management - Alexander J. McNeil, Rudiger Frey, Paul Embrechts. (978-0691166278)
