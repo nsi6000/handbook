@@ -1,0 +1,982 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Mathematics</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-2459343d.css">
+        <link rel="stylesheet" href="css/chrome-ae938929.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-6b10cb62.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-bc4fa3c4.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="mathematics"><a class="header" href="#mathematics">Mathematics</a></h1>
+<h2 id="pre-math"><a class="header" href="#pre-math">Pre-Math</a></h2>
+<ol>
+<li>The Foundations of Mathmeatics - Ian Stewart, David Tall. (978-0198706434)</li>
+<li>Concepts of Modern Mathematics - Ian Stewart. (978-0486284248)</li>
+<li>Basics Concepts in Modern Mathematics - John Edward Hafstrom. (978-0486497297)</li>
+<li>Basic Mathematics - Serge Lang. (978-0387967875)</li>
+<li>Alex’s Adventures in Numberland - Alex Bellos. (978-1526623997)</li>
+<li>Div, Grad, Curl, and All That: An Informal Text on Vector Calculus - H. M. Schey. (978-0393925166)</li>
+<li>Measurement - Paul Lockhart. (978-0674284388)</li>
+<li>Arithmetic - Paul Lockhart. (978-0674237513)</li>
+<li>A Mathematician’s Lament - Paul Lockhart. (978-1934137178)</li>
+<li>A Mathematician’s Apology - G. H. Hardy. (978-1684221851)</li>
+<li>Math History - Jay Cummings. (979-8314158616)</li>
+<li>Does God play dice? - Ian Stewart. (978-0140256024)</li>
+<li>Fearful Symmetry - Ian Stewart, Martin Golubitsky. (978-0486477589)</li>
+<li>The Art and Craft of Problem Solving - Paul Zeitz. (978-1119239901)</li>
+<li>Mathematics and Its History - John Stillwell. (978-1461426325)</li>
+<li>Mathematician’s Delight - W. W. Sawyer. (978-0486462400)</li>
+<li>Math History: A Long-Form Mathematics Textbook - Jay Cummings. (979-8314158616)</li>
+</ol>
+<h2 id="basic-math-and-pre-algebra"><a class="header" href="#basic-math-and-pre-algebra">Basic Math and Pre-Algebra</a></h2>
+<ol>
+<li>Basic Math &amp; Pre-Algebra All-In-One For Dummies - Mark Zegarelli. (978-1119867081)
+<ul>
+<li>Basic Math &amp; Pre-Algebra For Dummies - Mark Zegarelli. (978-1119293637)</li>
+<li>Basic Math &amp; Pre-Algebra Workbook For Dummies - Mark Zegarelli. (978-1119357513)</li>
+<li>Basic Math &amp; Pre-Algebra 1001 Practice Problems For Dummies - Mark Zegarelli. (978-1119883500)</li>
+</ul>
+</li>
+<li>Pre-Algebra - OpenStax. (978-1975076436)</li>
+</ol>
+<h2 id="elementary-algebra--algebra-i"><a class="header" href="#elementary-algebra--algebra-i">Elementary Algebra / Algebra I</a></h2>
+<ol>
+<li>Beginning Algebra - Margaret Lial, Terry McGinnis, Diana Hestwood. (978-0134994994)</li>
+<li>Schaum’s Outline of Elementary Algebra - Barnett Rich. (978-0071611633)</li>
+<li>Algebra I All-In-One For Dummies - Mary Jane Sterling. (978-1119843047)
+<ul>
+<li>Algebra I For Dummies - Mary Jane Sterling. (978-1119293576)</li>
+<li>Algebra I Workbook For Dummies - Mary Jane Sterling. (978-1119348955)</li>
+<li>Algebra I 1001 Practice Problems For Dummies - Mary Jane Sterling. (978-1118446713)</li>
+</ul>
+</li>
+<li>Elementary Algebra - OpenStax. (978-1975076467)</li>
+</ol>
+<h2 id="intermediate-algebra--college-algebra---algebra-ii"><a class="header" href="#intermediate-algebra--college-algebra---algebra-ii">Intermediate Algebra / College Algebra  / Algebra II</a></h2>
+<ol>
+<li>College Algebra - Robert Blitzer. (978-0134469164)
+<ul>
+<li>College Algebra Essentials - Robert Blitzer. (978-0134469294)</li>
+</ul>
+</li>
+<li>College Algebra - Michael Sullivan. (978-0135163047)</li>
+<li>College Algebra - Julie Miller, Donna Gerken. (978-0077836344)</li>
+<li>College Algebra - Cynthia Young. (978-1119742548)</li>
+<li>College Algebra - Margaret Lial, John Hornsby, David Schneider, Callie Daniels. (978-0135822128)</li>
+<li>College Algebra - OpenStax. (978-1711494012)</li>
+<li>College Algebra - David Gustafson, Jeff Hughes. (978-1305652231)</li>
+<li>College Algebra - Judith Beecher, Judith Penna, Marvin Bittinger. (978-0321969576)</li>
+<li>College Algebra - James Stewart, Lothar Redlin, Saleem Watson. (978-0357753651)</li>
+<li>Intermediate Algebra - Julie Miller, Molly O’Neill, Nancy Hyde. (978-1259610233)</li>
+<li>Schaum’s Outline of Intermediate Algebra - Ray Steege. (978-1260120745)</li>
+<li>Schaum’s Outline of College Algebra - Murray Spiegel, Robert Moyer. (978-1260120769)</li>
+<li>Algebra II All-In-One For Dummies - Mary Jane Sterling. (978-1119896265)
+<ul>
+<li>Algebra II For Dummies - Mary Jane Sterling. (978-1119543145)</li>
+<li>Algebra II Workbook For Dummies - Mary Jane Sterling. (978-1119543114)</li>
+<li>Algebra II 1001 Practice Problems For Dummies - Mary Jane Sterling. (978-1118446621)</li>
+</ul>
+</li>
+<li>Intermediate Algebra - OpenStax. (978-1975076481)</li>
+<li>College Algebra - OpenStax. (978-1711494012)</li>
+</ol>
+<h2 id="trigonometry"><a class="header" href="#trigonometry">Trigonometry</a></h2>
+<ol>
+<li>Trigonometry - Robert Blitzer. (978-0134469966)</li>
+<li>Algebra and Trigonometry - Robert Blizter. (978-0134463216)</li>
+<li>Trigonometry: A Unit Circle Approach - Michael Sullivan. (978-0135181133)</li>
+<li>Algebra and Trigonometry - Michael Sullivan. (978-0135163078)</li>
+<li>College Algebra and Trigonometry - Julie Miller, Donna Gerken. (978-0078035623)</li>
+<li>Trigonometry - Cynthia Young. (978-1119742623)</li>
+<li>Algebra and Trigonometry - Cynthia Young. (978-1119778301)</li>
+<li>Trigonometry - Margaret Lial, John Hornsby, David Schneider, Callie Daniels. (978-0135924181)</li>
+<li>College Algebra and Trigonometry - Margaret Lial, John Hornsby, David Schneider, Callie Daniels. (978-0136680529)</li>
+<li>Graphical Approach to Algebra and Trigonometry - Margaret Lial, John Hornsby, Gary Rockswold. (978-0134696515)</li>
+<li>Trigonometry - James Stewart, Lothar Redlin, Saleem Watson. (978-1111574482)</li>
+<li>Algebra and Trigonometry - James Stewart, Lothar Redlin, Saleem Watson. (978-1305071742)</li>
+<li>Trigonometry - Ron Larson. (978-0357455210)</li>
+<li>Trigonometry - Charles McKeague, Mark Turner. (978-1305652224)</li>
+<li>Schaum’s Outline of Trigonometry - Robert Moyer, Frank Ayres. (978-1260011487)</li>
+<li>Algebra and Trigonometry - OpenStax. (978-1711494036)</li>
+<li>Trigonometry For Dummies - Mary Jane Sterling. (978-1394168552)</li>
+<li>Trigonometry Workbook For Dummies - Mary Jane Sterling. (978-0764587818)</li>
+</ol>
+<h2 id="precalculus"><a class="header" href="#precalculus">Precalculus</a></h2>
+<ol>
+<li>Precalculus - Robert Blitzer. (978-0134469140)</li>
+<li>Precalculus - Michael Sullivan. (978-0135189405)</li>
+<li>Precalculus - Julie Miller, Donna Gerken. (978-0078035609)</li>
+<li>Precalculus - Ron Larson. (978-1337271073)</li>
+<li>Precalculus: Mathematics for Calculus - James Stewart, Lothar Redlin, Saleem Watson. (978-0840068071)</li>
+<li>Precalculus: A Prelude to Calculus - Sheldon Axler. (978-1119443339)</li>
+<li>Precalculus - Cynthia Young. (978-1119869405)</li>
+<li>Precalculus - Margaret Lial, John Hornsby, David Schneider, Callie Daniels. (978-0135925713)</li>
+<li>Precalculus - OpenStax. (978-1711493992)</li>
+<li>Schaum’s Outline of Precalculus - Fred Safier. (978-1260454208)</li>
+<li>Schaum’s 3000 Solved Problems in Precalculus - Philip Schmidt. (978-0070553651)</li>
+<li>Pre-Calculus All-In-One For Dummies - Mary Jane Sterling. (978-1394201242)
+<ul>
+<li>Pre-Calculus For Dummies - Mary Jane Sterling. (978-1119508779)</li>
+<li>Pre-Calculus Workbook For Dummies - Mary Jane Sterling. (978-1119508809)</li>
+<li>Pre-Calculus For Dummies 1001 Practice Problems - Mary Jane Sterling. (978-1118853320)</li>
+</ul>
+</li>
+<li>abc</li>
+</ol>
+<h2 id="ap-precalculus"><a class="header" href="#ap-precalculus">AP Precalculus</a></h2>
+<ol>
+<li>Barron’s AP Precalculus Premium 2024 - Christine Pawlowski-Polanish. (978-1506288635)</li>
+<li>5 Steps to a 5: AP Precalculus 2024 - Deborah Klipp, Paul Rodriguez. (978-1265343729)</li>
+</ol>
+<h2 id="college-mathematics"><a class="header" href="#college-mathematics">College Mathematics</a></h2>
+<h2 id="ap-calculus-abbc"><a class="header" href="#ap-calculus-abbc">AP Calculus AB/BC</a></h2>
+<ol>
+<li>Barron’s AP Calculus Premium 2024 - David Bock, Dennis Donovan, Shirley O. Hockett. (978-1506287836)
+<ul>
+<li>Barron’s AP Calculus Flashcards - David Bock. (978-1506264172)</li>
+</ul>
+</li>
+<li>The Princeton Review AP Calculus AB Premium Prep 2024 - The Princeton Review. (978-0593516737)</li>
+<li>The Princeton Review AP Calculus BC Premium Prep 2024 - The Princeton Review. (978-0593516751)</li>
+<li>5 Steps to a 5: AP Calculus AB 2024 - William Ma, Emily Pillar. (978-1265351076)</li>
+<li>5 Steps to a 5: AP Calculus BC 2024 - William Ma, Emily Pillar. (978-1265341831)
+<ul>
+<li>5 Steps to a 5: 500 AP Calculus AB/BC Questions to Know by Test Day - Anaxos Inc. (978-1264277544)</li>
+</ul>
+</li>
+<li>Kaplan AP Calculus AB Prep Plus 2020 &amp; 2021 - Kaplan Test Prep. (978-1506259741)</li>
+<li>Kaplan AP Calculus BC Prep Plus 2020 &amp; 2021 - Kaplan Test Prep. (978-1506261027)</li>
+<li>Calculus for the AP Course - Michael Sullivan, Kathleen Miranda. (978-1319244316)</li>
+<li>Calculus for AP : A Complete Course - James Stewart. (978-1337282765)</li>
+</ol>
+<h2 id="calculus"><a class="header" href="#calculus">Calculus</a></h2>
+<ol>
+<li>Thomas’ Calculus, SI Units - Joel Hass, Christopher Heil, Maurice Weir, Przemyslaw Bogacki. (978-1292459677)
+<ul>
+<li>Thomas’ Calculus: Early Transcendentals, SI Units - Joel Hass, Christopher Heil, Maurice Weir, Przemyslaw Bogacki. (978-1292725901)</li>
+<li>Thomas’ Calculus: Multivariable - Joel Hass, Christopher Heil, Maurice Weir. (978-0134606088)</li>
+</ul>
+</li>
+<li>Calculus: A Complete Course - Robert Adams, Christopher Essex. (978-0135732588)
+<ul>
+<li>Student Solutions Manual for Calculus - Robert Adams, Christopher Essex. (978-0135732533)</li>
+</ul>
+</li>
+<li>Calculus - William Briggs, Lyle Cochran, Bernard Gillett. (978-1292062327)
+<ul>
+<li>Calculus: Early Transcendentals - William Briggs, Lyle Cochran, Bernard Gillett. (978-1292062310)</li>
+<li>Multivariable Calculus - William Briggs, Lyle Cochran, Bernard Gillett, Eric Schulz. (978-0134766799)</li>
+<li>Student Solutions Manual for Multivariable Calculus - William Briggs, Lyle Cochran, Bernard Gillett, Eric Schulz. (978-0134766829)</li>
+<li>Student Solutions Manual for Single Variable Calculus - William Briggs, Lyle Cochran, Bernard Gillett, Eric Schulz. (978-0134770482)</li>
+</ul>
+</li>
+<li>University Calculus: Early Transcendentals, SI Units - Joel Hass, Christopher Heil, Maurice Weir, George Thomas. (978-1292317304)</li>
+<li>Calculus: Concepts and Methods - Ken Binmore, Joan Davies. (978-0521775410)</li>
+<li>Calculus - Michael Spivak. (978-0914098911)
+<ul>
+<li>Combined Answer Book for Calculus by Spivak - Michael Spivak. (978-0914098928)</li>
+</ul>
+</li>
+<li>Calculus, Metric Edition - James Stewart, Daniel Clegg, Saleem Watson. (978-0357113462) <a href="https://www.stewartcalculus.com/">website</a>
+<ul>
+<li>Calculus: Early Transcendentals, Metric Edition - James Stewart, Daniel Clegg, Saleem Watson. (978-0357113516)</li>
+<li>Multivariable Calculus - James Stewart. (978-1305266643)</li>
+</ul>
+</li>
+<li>Calculus, International Metric Edition - Ron Larson, Bruce Edwards. (978-0357908129)
+<ul>
+<li>Multivariable Calculus - Ron Larson, Bruce Edwards. (978-1337275378)</li>
+</ul>
+</li>
+<li>Calculus - Howard Anton, Irl Bivens, Stephen Davis. (978-1119778103)
+<ul>
+<li>Calculus: Early Transcendentals - Howard Anton, Irl Bivens, Stephen Davis. (978-1119777984)</li>
+</ul>
+</li>
+<li>Calculus with Applications - Peter D. Lax, Maria Shea Terrell. (978-1461479451)</li>
+<li>Multivariable Calculus with Applications - Peter D. Lax, Maria Shea Terrell. (978-3319740720)</li>
+<li>Calculus Made Easy - Sivanus P. Thompson, Martin Gardner. (978-0312185480)</li>
+<li>Multivariable Calculus - C. Edwards, David Penney. (978-0130339676)</li>
+<li>Applied Calculus - Deborah Hughes-Hallett, Andrew M. Gleason, et al. (978-1119799061)
+<ul>
+<li>Calculus: Single Variable - Deborah Hughes-Hallett. (978-1119777823)</li>
+<li>Calculus: Multivariable - Deborah Hughes-Hallett. (978-1119852551)</li>
+<li>Student Solutions Manual for Calculus: Single and Multivariable - Deborah Hughes-Hallett. (978-1119696551)</li>
+</ul>
+</li>
+<li>Schaum’s Outline of Calculus - Elliott Mendelson. (978-1264258338)</li>
+<li>Schaum’s Outline 3000 Solved Problems in Calculus - Elliott Mendelson. (978-0071635349)</li>
+<li>Schaum’s Outline of Advanced Calculus - Robert Wrede, Murray Spiegel. (978-0071623667)</li>
+<li>Calculus All-In-One For Dummies - Mark Ryan. (978-1119909675)
+<ul>
+<li>Calculus For Dummies - Mark Ryan. (978-1119293491)</li>
+<li>Calculus Workbook For Dummies - Mark Ryan. (978-1119357483)</li>
+<li>Calculus 1001 Practice Problems For Dummies - Patrick Jones. (978-1119883654)</li>
+</ul>
+</li>
+<li>Calculus - Wikibooks. <a href="https://en.wikibooks.org/wiki/Calculus">link</a></li>
+</ol>
+<h2 id="advanced-engineering-mathematics"><a class="header" href="#advanced-engineering-mathematics">Advanced Engineering Mathematics</a></h2>
+<ol>
+<li>Advanced Engineering Mathematics - Erwin Kreyszig. (978-0470646137)</li>
+<li>Higher Engineering Mathematics - John Bird. (978-0367643737)</li>
+<li>Advanced Engineering Mathematics - K.A. Stroud, Dexter Booth. (978-1352010251)</li>
+<li>Advanced Engineering Mathematics - Dennis Zill. (978-1284206241)</li>
+<li>Advanced Engineering Mathematics - Michael Greenberg. (978-8177585469)</li>
+<li>Advanced Modern Engineering Mathematics - Glyn James, Phil Dyke. (978-0273719236)</li>
+<li>Advanced Engineering Mathematics - Peter V. O’Neil. (978-1337274524)</li>
+<li>Modern Engineering Mathematics - Glyn James, Phil Dyke. (978-1292253497)</li>
+<li>Mathematical Methods for Physics and Engineering: A Comprehensive Guide - K.F. Riley, M.P. Hobson, S.J. Bence. (978-0521679718)
+<ul>
+<li>Student Solutions Manual for Mathematical Methods - K.F. Riley, M.P. Hobson. (978-0521679732)</li>
+</ul>
+</li>
+<li>Mathematical Methods for Physicists: A Comprehensive Guide - George Arfken, Hans Weber, Frank Harris. (978-9381269558)</li>
+<li>Mathematics for Physicists and Engineers: Fundamentals and Interactive Study Guide - Klaus Weltner, S. T. John, Wolfgang J. Weber, Peter Schuster, Jean Grosjean. (978-3662660676)</li>
+<li>Schaum’s Outline of Advanced Mathematics for Engineers and Scientists - Murray Spiegel. (978-0071635400)</li>
+<li>Advanced Mathematics for Engineers and Scientists - Wikibooks. <a href="https://en.wikibooks.org/wiki/Advanced_Mathematics_for_Engineers_and_Scientists">link</a></li>
+</ol>
+<h2 id="real-analysis"><a class="header" href="#real-analysis">Real Analysis</a></h2>
+<ol>
+<li>Principles of Mathematical Analysis (aka Little Rudin) - Walter Rudin. (978-1259064784)</li>
+<li>Understanding Analysis - Stephen Abbott. (978-1493927111)</li>
+<li>Real Analysis: A Long-Form Mathematics Textbook - Jay Cummings. (978-1077254541)</li>
+<li>Real Analysis - Halsey Royden, Patrick Fitzpatrick. (978-0134689494)</li>
+<li>Real Analysis - N.L. Carothers. (978-0521497565)</li>
+<li>Real and Complex Analysis - Walter Rudin. (978-0070542341)</li>
+<li>Analysis I - Terence Tao. (978-8195196197)</li>
+<li>Analysis II - Terence Tao. (978-8195196128)</li>
+<li>Introductory Real Analysis - A.N. Kolmogorov, S.V. Fomin. (978-0486612263)</li>
+<li>Real Analysis: Modern Techniques and Their Applications - Gerald Folland. (978-0471317166)</li>
+<li>Real Mathamatical Analysis - Charles Chapman Pugh. (978-3319177700)</li>
+<li>Real Analysis for the Undegraduate - Matthew Pons. (978-1461496373)</li>
+<li>Real Analysis: Foundations and Functions of One Variable - Miklos Laczkovich, Vera Sos. (978-1493927654)</li>
+<li>Introduction to Real Analysis - Donald Bartle, Robert Sherbert. (978-1119496786)</li>
+<li>Introduction to Real Analysis: An Educational Approach - William C. Bauldry. (978-0470371367)</li>
+<li>Analysis with an Introduction to Proof - Steven Lay. (978-0321747471)</li>
+<li>Undergraduate Analysis - Serge Lang. (978-0387948416)</li>
+<li>Advanced Calculus - R. Creighton Buck. (978-1577663027)</li>
+<li>Advanced Calculus: A Geometric View - James J. Callahan. (978-1441973313)</li>
+<li>Advanced Calculus - David V. Widder. (978-0486661032)</li>
+<li>Advanced Calculus - Patrick M. Fitzpatrick. (978-0821847916)</li>
+<li>Advanced Calculus - John Petrovic. (978-1032474335)</li>
+<li>Advanced Calculus of Several Variables - C. H. Edwards Jr. (978-0486683362)</li>
+<li>Advanced Calculus: An Introduction to Classical Analysis - Louis Brand. (978-0486445489)</li>
+<li>How to think about Analysis - Lara Alcock. (978-0198723530)</li>
+<li>Elementary Analysis: The Theory of Calculus - Kenneth A. Ross. (978-1461462705)</li>
+<li>Schaum’s Outline of Advanced Calculus - Robert C. Wrede, Murray R. Spiegel. (978-0071623667)</li>
+<li>Introduction to Analysis - Maxwell Rosenlicht. (978-0486650388)</li>
+<li>Advanced Calculus - Lynn Harold Loomis, Shlomo Zvi Sternberg. (978-9814583930)</li>
+<li>Foundations of Mathematical Analysis - Richard Johnsonbaugh, W. E. Pfaffenberger. (978-0486477664)</li>
+<li>Real Analysis - Wikibooks. <a href="https://en.wikibooks.org/wiki/Real_Analysis">link</a></li>
+</ol>
+<h2 id="complex-analysis"><a class="header" href="#complex-analysis">Complex Analysis</a></h2>
+<ol>
+<li>Complex Analysis - Lars Ahlfors. (978-0070006577)</li>
+<li>Introduction to Complex Analysis - H. A. Priestley. (978-0198525622)</li>
+<li>Visual Complex Analysis - Tristan Needham. (978-0192868923)</li>
+<li>Complex Variables - Stephen D. Fischer. (978-0486406794)</li>
+<li>Complex Analysis - Serge Lang. (978-0387985923)</li>
+<li>Complex Analysis - Theodore W. Gamelin. (978-0387950693)</li>
+<li>Complex Analysis: A First Course with Applications - Dennis G. Zill, Patrick D. Shanahan. (978-1449694616)</li>
+<li>Fundamentals of Complex Analysis with Applications to Engineering and Science - Edward Saff, Arthur Snider. (978-0134689487)</li>
+<li>Complex Variables - Francis J. Flanigan. (978-0486613888)</li>
+<li>Complex Analysis - Donald E. Marshall. (978-1107134829)</li>
+<li>Applied Complex Variables - John W. Dettman. (978-0486646701)</li>
+<li>Complex Analysis - Alan F. Beardon. (978-0486837185)</li>
+<li>Complex Variables and Applications - James Brown, Ruel Churchill. (978-0073383170)
+<ul>
+<li>Student Solutions Manual to accompany Complex Variables and Applications - James Brown, Ruel Churchill. (978-0073528991)</li>
+</ul>
+</li>
+<li>Schaum’s Outline of Complex Variables - Murray Spiegel. (978-0071615693)</li>
+<li>Complex Analysis - Wikibooks. <a href="https://en.wikibooks.org/wiki/Complex_Analysis">link</a></li>
+</ol>
+<h2 id="differential-equations"><a class="header" href="#differential-equations">Differential Equations</a></h2>
+<ol>
+<li>Differential Equations and Boundary Value Problems - C. Henry Edwards, David E. Penney, David T. Calvis. (978-0134837390)</li>
+<li>Applied Partial Differential Equations - Richard Haberman. (978-0321797056)</li>
+<li>Elementary Differential Equations and Boundary Value Problems - William E. Boyce, Richard C. DiPrima, Douglas B. Meade. (978-1119820512)</li>
+<li>Differential Equations - Paul Blanchard, Robert L. Devaney, Glen R. Hall. (978-1133109037)
+<ul>
+<li>Student Solutions Manual for Differential Equations - Paul Blanchard, Robert L. Devaney, Glen R. Hall. (978-0495826729)</li>
+</ul>
+</li>
+<li>Differential Equations and Linear Algebra - Gilbert Strang. (978-0980232790)</li>
+<li>Differential Equations and Linear Algebra - C. Henry Edwards, David E. Penney, David T. Calvis. (978-0134497181)</li>
+<li>A First Course in Differential Equations with Modeling Applications - Dennis G. Zill. (978-0357760192)</li>
+<li>Differential Equations with Boundary-Value Problems - Dennis G. Zill. (978-1305965799)</li>
+<li>Differential Equations and Linear Algebra - Stephen Goode, Scott Annin. (978-0321964670)</li>
+<li>Fundamentals of Differential Equations - R. Nagle, Edward Saff, Arthur Snider. (978-0321977069)
+<ul>
+<li>Student Solutions Manual for Fundamentals of Differential Equations - R. Nagle, Edward Saff, Arthur Snider. (978-0321977212)</li>
+</ul>
+</li>
+<li>Differential Equations - John Polking, Al Boggess, David Arnold. (978-0134689586)</li>
+<li>Differential Equations, Dynamical Systems, and an Introduction to Chaos - Morris W. Hirsch, Stephen Smale, Robert L. Devaney. (978-0123820105)</li>
+<li>Ordinary Differential Equations - Morris Tenenbaum, Harry Pollard. (978-0486649405)</li>
+<li>Schaum’s Outline of Differential Equations - Richard Bronson, Gabriel B. Costa. (978-1264258826)</li>
+<li>Schaum’s Outline of Partial Differential Equations - Paul DuChateau, D. W. Zachmann. (978-0071756181)</li>
+<li>Partial Differential Equations: An Introduction - Walter A. Strauss. (978-0470054567)
+<ul>
+<li>Solution Manual for Partial Differential Equations: An Introduction - Julie L. Levandosky, Steven P. Levandosky, Walter A. Strauss. (978-0470260715)</li>
+</ul>
+</li>
+<li>Differential Equations For Dummies - Steven Holzner. (978-0470178140)
+<ul>
+<li>Differential Equations Workbook For Dummies - Steven Holzner. (978-0470472019)</li>
+</ul>
+</li>
+<li>Ordinary Differential Equations - Wikibooks. <a href="https://en.wikibooks.org/wiki/Ordinary_Differential_Equations">link</a></li>
+<li>Partial Differential Equations - Wikibooks. <a href="https://en.wikibooks.org/wiki/Partial_Differential_Equations">link</a></li>
+</ol>
+<h2 id="numerical-analysis"><a class="header" href="#numerical-analysis">Numerical Analysis</a></h2>
+<ol>
+<li>Numerical Recipes: The Art of Scientific Computing - William H. Press, Saul Teukolsky, William Vetterling, Brian Flannery. (978-0521880688) <a href="http://numerical.recipes/">official website</a></li>
+<li>Numerical Methods using MATLAB - John Mathews, Kurtis Fink. (978-0130652485)</li>
+<li>Applied Numerical Analysis Using MATLAB - Laurene Fausett. (978-0132397285)</li>
+<li>Numerical Methods for Engineers - Steven Chapra, Raymond Canale. (978-1260232073)
+<ul>
+<li>Applied Numerical Methods with MATLAB for Engineers and Scientists - Steven Chapra. (978-0073397962)</li>
+<li>Applied Numerical Methods with Python for Engineers and Scientists - Steven Chapra, David Clough. (978-1265017965)</li>
+</ul>
+</li>
+<li>Numerical Analysis - Richard Burden, Douglas Faires. (unknown)</li>
+<li>Numerical Methods Using MATLAB - George Lindfield, John Penny. (978-0128122563)</li>
+<li>Numerical Linear Algebra with Applications Using MATLAB - William Ford. (978-0123944351)</li>
+<li>Numerical Analysis - Timothy Sauer. (978-0134696454)</li>
+<li>Scientific Computing with MATLAB and Octave - Alfio Quarteroni, Fausto Saleri, Paola Gervasio. (978-3662517581)</li>
+<li>A Primer of Scientific Programming with Python - Hans Petter Langtangen. (978-3662570463)</li>
+<li>Numerical Python - Robert Johansson. (978-1484242452)</li>
+<li>Numerical Methods in Engineering with Python 3 - Jaan Kiusalaas. (978-1107033856)</li>
+<li>Numerical Methods in Physics with Python - Alex Gezerlis. (978-1009303866)</li>
+<li>Numerical Methods using Java - Haksun Li. (978-1484267967)</li>
+<li>Python Programming and Numerical Methods - Qingkai Kong, Timmy Siauw, Alexandre Bayen. (978-0128195499)</li>
+<li>Schaum’s Outline of Numerical Analysis - Francis Scheid. (978-0070552210)</li>
+<li>Numerical Methods - Wikibooks. <a href="https://en.wikibooks.org/wiki/Numerical_Methods">link</a></li>
+<li>Tea Time Numerical Analysis - Leon Q. Brin. <a href="https://github.com/lqbrin/tea-time-numerical">github</a> <a href="https://lqbrin.github.io/tea-time-numerical/">website</a></li>
+</ol>
+<h2 id="functional-analysis"><a class="header" href="#functional-analysis">Functional Analysis</a></h2>
+<ol>
+<li>Functional Analysis - Walter Rudin. (978-0070542365)</li>
+<li>Introductory Functional Analysis with Applications - Erwin Kreyszig. (978-0471504597)</li>
+<li>An Introduction to Functional Analysis - James C. Robinson. (978-0521728393)</li>
+<li>Functional Analysis - George Bachman, Lawrence Narici. (978-0486402512)</li>
+<li>A Course in Functional Analysis - John B. Conway. (978-3540960423)</li>
+<li>Functional Analysis: Theory and Applications - R. E. Edwards. (978-0486681436)</li>
+<li>Functional Analysis - Frigyes Riesz, Bela Sz.-Nagy. (978-0486662893)</li>
+<li>Functional Analysis - Peter D. Lax. (978-0471556046)</li>
+<li>Applied Functional Analysis - D. H. Griffel. (978-0486422589)</li>
+<li>Analysis Now - Gert K. K. Pedersen. (978-1461269816)</li>
+</ol>
+<h2 id="harmonic-analysis"><a class="header" href="#harmonic-analysis">Harmonic Analysis</a></h2>
+<ol>
+<li>Introduction to Abstract Harmonic Analysis - Lynn H. Loomis. (978-0486481234)</li>
+<li>A Course in Abstract Harmonic Analysis - Gerald B. Folland. (978-1032922218)</li>
+<li>A First Course in Harmonic Analysis - Anton Deitmar. (978-0387228372)</li>
+<li>Principles of Harmonic Analysis - Anton Deitmar, Siegfried Echterhoff. (978-3319379043)</li>
+</ol>
+<h2 id="measure-theory"><a class="header" href="#measure-theory">Measure Theory</a></h2>
+<ol>
+<li>Measure, Integration &amp; Real Analysis - Sheldon Axler. (978-3030331429) <a href="https://measure.axler.net/MIRA.pdf">free book</a> <a href="https://measure.axler.net/">website</a></li>
+</ol>
+<h2 id="linear-algebra"><a class="header" href="#linear-algebra">Linear Algebra</a></h2>
+<ol>
+<li>Linear Algebra and Its Applications - David Lay, Judy McDonald, Steven Lay. (978-0135851258)</li>
+<li>Introduction to Linear Algebra - Gilbert Strang. (978-1733146678)
+<ul>
+<li>Linear Algebra and Its Applications - Gilbert Strang. (978-0030105678)</li>
+</ul>
+</li>
+<li>Linear Algebra with Applications - Steve Leon, Lisette de Pillis. (978-0136731634)</li>
+<li>Linear Algebra Done Right - Sheldon Axler. (978-3031410253) <a href="https://linear.axler.net/LADR4e.pdf">free book</a> <a href="https://linear.axler.net/">website</a></li>
+<li>Linear Algebra with Applications - Otto Bretscher. (978-0321796974)</li>
+<li>Coding the Matrix: Linear Algebra through Applications to Computer Science - Philip Klein. (978-0615880990) <a href="https://codingthematrix.com/">website</a></li>
+<li>Linear Algebra: A Modern Introduction - David Poole. (978-1285463247)</li>
+<li>Linear Algebra with Appliations - Gareth Williams. (978-1284120097)</li>
+<li>Linear Algebra - John Fraleigh, Raymong Beauregard. (978-0201526752)</li>
+<li>Numerical Linear Algebra - Lloyd N. Trefethen, David Bau III. (978-1611977158)</li>
+<li>Applied Linear Algebra - Peter J. Olver, Chehrzad Shakiban. (978-3319910406)</li>
+<li>Introduction to Applied Linear Algebra - Stephen Boyd, Lieven Vandenberghe. (978-1316518960)</li>
+<li>Linear Algebra - Serge Lang. (978-0387964126)</li>
+<li>Linear Algebra - Stephen Friedberg, Arnold Insel, Lawrence Spence. (978-0134860244)</li>
+<li>Linear Algebra and its applications - Peter D. Lax. (978-0471751564)</li>
+<li>Elementary Linear Algebra - Howard Anton, Anton Kaul. (978-1119268048)
+<ul>
+<li>Studen Solutions Manual to accompany Elementary Linear Algebra - Howard Anton. (978-1118464427)</li>
+</ul>
+</li>
+<li>A Linear Algebra Primer for Financial Engineering - Dan Stefanica. (978-0979757655)
+<ul>
+<li>Solutions Manual for A Linear Algebra Primer - Dan Stefanica. (978-0979757662)</li>
+</ul>
+</li>
+<li>Schaum’s Outline of Linear Algebra - Seymour Lipschutz, Marc Lipson. (978-1260011449)</li>
+<li>Schaum’s 3000 Solved Problems in Linear Algebra - Seymour Lipschutz. (978-0070380233)</li>
+<li>Linear Algebra - Wikibooks. <a href="https://en.wikibooks.org/wiki/Linear_Algebra">link</a></li>
+<li>Tea Time Linear Algebra - Leon Q. Brin. <a href="https://github.com/lqbrin/tea-time-linear">github</a> <a href="https://lqbrin.github.io/tea-time-linear/">website</a></li>
+</ol>
+<h2 id="abstract-algebra"><a class="header" href="#abstract-algebra">Abstract Algebra</a></h2>
+<ol>
+<li>A First Course in Abstract Algebra - John Fraleigh. (978-0201763904)</li>
+<li>Contemporary Abstract Algebra - Joseph Gallian. (978-0367651787) <a href="https://www.d.umn.edu/~jgallian/">website</a>
+<ul>
+<li>Student Solutions Manual for Contemporary Abstract Algebra - Joseph Gallian. (978-0367766801)</li>
+</ul>
+</li>
+<li>Abstract Algebra - David Dummit, Richard Foote. (978-0471433347)</li>
+<li>A Book of Abstract Algebra - Charles Pinter. (978-0486474175)</li>
+<li>A Concrete Approach to Abstract Algebra - Jeffrey Bergen. (978-0123749413)</li>
+<li>Abstract Algebra: An Introduction - Thomas Hungerford. (978-1111569624)</li>
+<li>Abstract Algebra - John Beachy, William Blair. (978-1478638698)
+<ul>
+<li>Abstract Algebra: Study Guide - John Beachy. (978-1493574117)</li>
+</ul>
+</li>
+<li>Abstract Algebra - I.N. Herstein. (978-0471368793)</li>
+<li>Abstract Algebra: Theory and Applications - Thomas Judson. (978-1944325169)</li>
+<li>Abstract Algebra: A First Course - Dan Saracino. (978-1577665366)</li>
+<li>Abstract Algebra: An Inquiry Based Approach - Jonathan Hodge, Steven Schlicker, Ted Sendstrom. (978-1466567061)</li>
+<li>Undergraduate Algebra - Serge Lang. (978-0387220253)</li>
+<li>Algebra - Serge Lang. (978-0387953854)</li>
+<li>Abstract Algebra - Pierre Antoine Grillet. (978-1441924506)</li>
+<li>Schaum’s Outline of Abstract Algebra - Lloyd Jaisingh. (978-0071403276)</li>
+<li>Schaum’s Outline of Modern Abstract Algebra - Frank Ayres. (unknown)</li>
+<li>Abstract Algebra - Wikibooks. <a href="https://en.wikibooks.org/wiki/Abstract_Algebra">link</a></li>
+</ol>
+<h2 id="topology"><a class="header" href="#topology">Topology</a></h2>
+<ol>
+<li>Topology - James Munkres. (978-0134689517)
+<ul>
+<li>Partial Unofficial Solutions: <a href="https://github.com/9beach/munkres-topology-solutions">github</a></li>
+</ul>
+</li>
+<li>Topology - John G. Hocking, Gail S. Young. (978-0486656762)</li>
+<li>Introduction to Topology - Bert Mendelson. (978-0486663524)</li>
+<li>Introduction to Topology - Theodore W. Gamelin, Robert Everist Greene. (978-0486406800)</li>
+<li>Elementary Applied Topology - Robert Ghrist. (978-1502880857)</li>
+<li>Topology Through Inquiry - Michael Starbied, Francis Su. (978-1470462611)</li>
+<li>Introduction to Topology: Pure and Applied - Colin Adams, Robert Franzosa. (978-0131848696)</li>
+<li>Topology and its applications - William F. Basener. (978-0471687559)</li>
+<li>Topology - Klaus Janich. (978-0387908922)</li>
+<li>Introduction to Metric and Topological Spaces - Wilson A. Sutherland. (978-0199563074)</li>
+<li>Counterexamples in Topology - Lynn Arthur Steen, J. Arthur Seebach Jr. (978-0486687353)</li>
+<li>General Topology - Stephen Willard. (978-0486434797)</li>
+<li>A Course in Point Set Topology - John B. Conway. (978-3319023670)</li>
+<li>Point-Set Topology - Rafael Lopez. (978-3031585128)</li>
+<li>General Topology - Waclaw Sierpinski. (978-0486842547)</li>
+<li>Principles of Topology - Fred H. Croom. (978-0486801544)</li>
+<li>Undergraduate Topology - Robert H. Kasriel. (978-0486474199)</li>
+<li>General Topology - John L. Kelley. (978-0486815442)</li>
+<li>General Topology - Stephen Willard. (978-0486434797)</li>
+<li>Topology: An Introduction to the Point Set and Algebraic Areas - Donald W. Khan. (978-0486686097)</li>
+<li>Point Set Topology - Steven A. Gaal. (978-0486472225)</li>
+<li>Topology for Analysis - Albert Wilansky. (978-0486469034)</li>
+<li>Essentials in Topology with Applications - Steven G. Krantz. (978-1420089745)</li>
+<li>Elementary Point-Set Topology - Andre L. Yandl, Adam Bowers. (978-0486803494)</li>
+<li>Point-Set Topology: A Working Textbook - Rafael Lopez. (978-3031585128)</li>
+<li>Schaum’s Outline of General Topology - Seymour Lipschutz. (978-0071763479)</li>
+<li>Topology - Wikibooks. <a href="https://en.wikibooks.org/wiki/Topology">link</a></li>
+</ol>
+<h2 id="algebraic-topology"><a class="header" href="#algebraic-topology">Algebraic Topology</a></h2>
+<ol>
+<li>Algebraic Topology - Allen Hatcher. (978-0521795401) <a href="https://pi.math.cornell.edu/~hatcher/AT/ATpage.html">website</a></li>
+<li>Topology and Geometry - Glen E. Bredon. (978-0387979267)</li>
+<li>An Introduction to Algebraic Topology - Joseph J. Rotman. (978-0387966786)</li>
+<li>Algebraic Topology - C. R. F. Maunder. (978-0486691312)</li>
+<li>Algebraic Topology: A First Course - William Fulton. (978-0387943275)</li>
+<li>A Concise Course in Algebraic Topology - J. P. May. (978-0226511832)</li>
+<li>Algebraic Topology - Joerg Mayer. (978-0130220530)</li>
+<li>Differential Forms in Algebraic Topology - Raoul Bott, Loring W. Tu. (978-0387906133)</li>
+<li>Fundamentals of Algebraic Topology - Steven H. Weintraub. (978-1493918430)</li>
+<li>An Introduction to Algebraic Topology - Andrew H. Wallace. (978-0486457864)</li>
+<li>Algebraic Topology: An Introduction - William S. Massey. (978-0387902715)</li>
+<li>Basic Concepts of Algebraic Topology - Fred H. Croom. (978-0387902883)</li>
+</ol>
+<h2 id="differential-geometry"><a class="header" href="#differential-geometry">Differential Geometry</a></h2>
+<ol>
+<li>Differential Geometry: Curves, Surfaces, Manifolds - Wolfgang Kuhnel, Bruce Hunt. (978-1470423209)</li>
+<li>Elementary Differential Geometry - A. N. Pressley. (978-1848828902)</li>
+<li>Elementary Differential Geometry - Christian Bar. (978-0521721493)</li>
+<li>Elementary Differential Geometry - Barrett O’Neill. (978-1493300020)</li>
+<li>Differential Geometry: Connections, Curvature, and Characteristic Classes - Loring W. Tu. (978-3319550824)</li>
+<li>Differential Geometry of Curves and Surfaces - Manfredo P. do Carmo. (978-0486806990)</li>
+<li>Differential Geometry of Curves and Surfaces - Kristopher Tapp. (978-3319397986)</li>
+<li>Differential Geometry of Curves and Surfaces - Thomas F. Banchoff, Stephen Lovett. (978-1032281094)</li>
+<li>Differential Geometry of Curves and Surfaces - Shoshichi Kobayashi. (978-9811517389)</li>
+<li>Differential Geometry - K. L. Wardle. (978-0486462721)</li>
+<li>Differential Geometry - Erwin Kreyszig. (978-0486667218)</li>
+<li>Differential Geometry - Heinrich W. Guggenheimer. (978-0486634333)</li>
+<li>An Introduction to Differential Geometry - T. J. Willmore. (978-0486486185)</li>
+<li>Fundamentals of Differential Geometry - Serge Lang. (978-0387985930)</li>
+<li>Elementary Differential Geometry - Barrett O’Neill. (978-1493300020)</li>
+<li>Visual Differential Geometry and Forms - Tristan Needham. (978-0691203706)</li>
+<li>First Steps in Differential Geometry - Andrew McInerney. (978-1489990464)</li>
+<li>Differential Geometry - William C. Graustein. (unknown)</li>
+<li>Differential Geometry - Marcel Berger, Bernard Gostiaux. (978-0387966267)</li>
+</ol>
+<h2 id="manifolds"><a class="header" href="#manifolds">Manifolds</a></h2>
+<ol>
+<li>Introduction to Smooth Manifolds - John M. Lee. (978-1441999818)</li>
+<li>Introduction to Manifolds - Loring W. Tu. (978-1441973993)</li>
+<li>Differential Topology - Victor Guillemin, Alan Pollack. (978-0821851937)</li>
+</ol>
+<h2 id="algebraic-geometry"><a class="header" href="#algebraic-geometry">Algebraic Geometry</a></h2>
+<ol>
+<li>Introduction to Algebraic Geometry - Serge Lang. (978-0486834221)</li>
+<li>Algebraic Geometry - Robin Hartshorne. (978-0387902449)</li>
+<li>Algebraic Geometry - Solomon Lefschetz. (978-0486446110)</li>
+<li>Algebraic Geometry - Michael Artin. (978-1470471118)</li>
+</ol>
+<h2 id="knot-theory"><a class="header" href="#knot-theory">Knot Theory</a></h2>
+<ol>
+<li>Knot Theory and Its Applications - Kunio Murasugi. (978-0817647186)</li>
+<li>An Introduction to Knot Theory - W. B. Raymond Lickorish. (978-1461268697)</li>
+<li>Introduction to Knot Theory - Richard H. Crowell, Ralph H. Fox. (978-0486468945)</li>
+<li>An Interactive Introduction to Knot Theory - Inga Johnson, Allison K. Henrich. (978-0486804637)</li>
+<li>Formal Knot Theory - Louis H. Kauffman. (978-0486450520)</li>
+</ol>
+<h2 id="lie-theory"><a class="header" href="#lie-theory">Lie Theory</a></h2>
+<ol>
+<li>Lie Groups, Lie Algebras, and Representations - Brian Hall. (978-3319374338)</li>
+<li>Naive Lie Theory - John Stillwell. (978-1441926814)</li>
+<li>Theory of Lie Groups - Claude Chevalley. (978-0486824536)</li>
+<li>Introduction to Lie Algebras and Representation Theory - J. E. Humphreys. (978-0387900520)</li>
+<li>Lie Groups, Lie Algebras, and Their Representation - V. S. Varadrajan. (978-0387909691)</li>
+</ol>
+<h2 id="elementary-number-theory"><a class="header" href="#elementary-number-theory">Elementary Number Theory</a></h2>
+<ol>
+<li>Elementary Number Theory - Kenneth H. Rosen. (978-1292039541)</li>
+<li>Number Theory - George E. Andrews. (978-0486682525)</li>
+<li>Elementary Number Theory - Underwood Dudley. (978-0486469317)</li>
+<li>Elementary Number Theory - Jones A. Gareth, Josephine Mary Jones. (978-3540761976)</li>
+<li>Elements of Number Theory - John Stillwell. (978-1441930668)</li>
+<li>An Introduction To The Theory of Numbers - G. H. Hardy. (978-0199219865)</li>
+<li>Number Theory and its History - Oystein Ore. (978-0486656205)</li>
+<li>Elementary Number Theory - David M. Burton. (978-0073383149)</li>
+<li>Elementary Theory of Numbers - William J. LeVeque. (978-0486663487)</li>
+</ol>
+<h2 id="algebraic-number-theory"><a class="header" href="#algebraic-number-theory">Algebraic Number Theory</a></h2>
+<ol>
+<li>Algebraic Number Theory - Serge Lang. (978-1461269229)</li>
+<li>Algebraic Theory of Numbers - Pierre Samuel. (978-0486466668)</li>
+<li>Algebraic Number Theory - Edwin Weiss. (978-1258668693)</li>
+<li>A Course in Algebraic Number Theory - Robert B. Ash. (978-0486477541)</li>
+<li>Algebraic Number Theory for Beginners - John Stillwell. (978-1009001922)</li>
+<li>Introductory Algebraic Number Theory - Saban Alaca. (978-0521540117)</li>
+<li>Problems in Algebraic Number Theory - M. Ram Murty, Jody Esmonde. (978-1441919670)</li>
+<li>A Course in Computational Algebraic Number Theory - Henri Cohen. (978-3642081422)</li>
+</ol>
+<h2 id="combinatorics"><a class="header" href="#combinatorics">Combinatorics</a></h2>
+<ol>
+<li>Analytic Combinatorics - Robert Sedgewick, Philippe Flajolet. (978-0521898065) <a href="https://ac.cs.princeton.edu/home/">website</a></li>
+<li>A Course in Combinatorics - J. H. van Lint, R. M. Wilson. (978-0521006019)</li>
+<li>Introductory Combinatorics - Richard A. Brualdi. (978-0134689616)</li>
+<li>Combinatorics: Topics, Techniques, Algorithms - Peter J. Cameron. (978-0521457613)</li>
+<li>Applied Combinatorics - Alan Tucker. (978-0470458389)</li>
+<li>Algebraic Combinatorics: Walks, Trees, Tableaux, and More - Richard P. Stanley. (978-3319771724)</li>
+<li>Combinatorics: The Rota Way - Joseph P. S. Kung, Gian-Carlo Rota, Catherine H. Yan. (978-0521737944)</li>
+<li>Combinatorics: A Problem-Based Approach - Pavle Mladenovic. (978-3030008307)</li>
+<li>Combinatorics - Nicholas A. Loehr. (978-1032476711)</li>
+<li>Bijective Combinatorics - Nicholas Loehr. (978-1439848845)</li>
+<li>An Invitation to Combinatorics - Shahriar Shahriari. (978-1108476546)</li>
+<li>Foundations of Combinatorics with Applications - Edward A. Bender, S. Gill Williamson. (978-0486446035)</li>
+<li>Constructive Combinatorics - Dennis Stanton, Dennis White. (978-0387963471)</li>
+<li>Schaum’s Outline of Combinatorics - V. K. Balakrishnan. (978-0070035751)</li>
+<li>Combinatorics - Wikibooks. <a href="https://en.wikibooks.org/wiki/Combinatorics">link</a></li>
+</ol>
+<h2 id="optimization"><a class="header" href="#optimization">Optimization</a></h2>
+<ol>
+<li>Convex Optimization - Stephen Boyd, Lieven Vandenberghe. (978-0521833783)</li>
+<li>Numerical Optimization - Jorge Nocedal, Stephen Wright. (978-0387303031)</li>
+<li>Integer Programming - Laurence A. Wolsey. (978-1119606536)</li>
+<li>Engineering Optimization: Methods and Applications - A. Ravindran, K. M. Ragsdell, G. V. Reklaitis. (978-0471558149)</li>
+<li>Combinatorial Optimization - Christos H. Papadimitriou, Kenneth Steiglitz. (978-0486402581)</li>
+<li>Algorithms for Optimization - Mykel J. Kochenderfer, Tim A. Wheeler. (978-0262039420)</li>
+<li>Nonlinear Optimization - Andrzej Ruszczynski. (978-0691119151)</li>
+<li>Applied Optimization with MATLAB Programming - P. Venkataraman. (978-0470084885)</li>
+<li>Pyomo: Optimization Modeling in Python - Michael L. Bynum. (978-3030689278)</li>
+</ol>
+<h2 id="proofs"><a class="header" href="#proofs">Proofs</a></h2>
+<ol>
+<li>How to Prove It: A Structured Approach - Daniel Velleman. (978-1108439534)</li>
+<li>How to Solve It: A New Aspect of Mathematical Method - George Polya. (978-0691119663)</li>
+<li>Book of Proof - Richard Hammack. (978-0989472128)</li>
+<li>How to Read and Do Proofs - Daniel Solow. (978-1118164020)</li>
+<li>Proofs: A Long-Form Mathematics Textbook - Jay Cummings. (979-8595265973)</li>
+<li>An Introduction to Mathematical Thinking - Keith Devlin. (978-0615653631)</li>
+<li>Mathematical Proofs: A Transition to Advanced Mathematics - Gary Chartrand, Albert Polimeni, Ping Zhang. (978-0134746753)</li>
+<li>How to Think Like a Mathematician - Kevin Houston. (978-0521719780)</li>
+<li>Concepts of Modern Mathematics - Ian Stewart. (978-0486284248)</li>
+<li>How to study as a Mathematics Major - Lara Alcock. (978-0199661312)</li>
+<li>A Concise Introduction to Pure Mathematics - Martin Liebeck. (978-1498722926)</li>
+<li>A Transition to Advanced Mathematics - Douglas Smith, Maurice Eggen, Richard St Andre. (978-0495562023)</li>
+<li>Mathematical Reasoning: Writing and Proof Version 3 - Ted Sundstrom. (979-8622238970)</li>
+<li>Proofs and Concepts - Dave Witte Morris, Joy Morris. <a href="https://opentext.uleth.ca/PDF/proofs+concepts.pdf">link</a></li>
+<li>Introduction to Mathematical Structures and Proofs - Larry Gerstein. (978-1461442646)</li>
+<li>Writing Proofs in Analysis - Jonathan Kane. (978-3319809311)</li>
+<li>Bridge to Abstract Mathematics - Ronald Morash. (978-0394354293)</li>
+<li>A Concise Introduction to Mathematical Logic - Wolfgang Rautenberg. (978-1441912206)</li>
+<li>Bridging the Gap to University Mathematics - Edward Hurst, Martin Gould. (978-1848002890)</li>
+<li>Theoremus: A Student’s Guide to Mathematical Proofs - Lito Perez Cruz. (978-3030683740)</li>
+<li>The Art of Proof - Matthias Beck, Ross Geoghegan. (978-1441970220)</li>
+<li>Proofs and Fundamentals - Ethan D. Bloch. (978-1461428107)</li>
+<li>…</li>
+<li>Mathematical Writing - Franco Vivaldi. (978-1447165262)</li>
+<li>Reading, Writing, and Proving: A Closer Look at Mathematics - Ulrich Daepp, Pamela Gorkin. (978-1441994783)</li>
+<li>Proof Patterns - Mark Joshi. (978-3319162492)</li>
+<li>Proofs from THE BOOK - Martin Aigner, Gunter M. Ziegler. (978-3662572641)</li>
+<li>Introduction to Proofs and Proofs Strategies - Shay Fuchs. (978-1009096287)</li>
+<li>A Discrete Transition to Advanced Mathematics - Bettina Richmond, Thomas Richmond. (978-0821847893)</li>
+<li>Introduction to Proof Through Number Theory - Bennett Chow. (978-1470470272)</li>
+<li>A Bridge to Advanced Mathematics - Sebastian M. Cioaba, Werner Linde. (978-1470471484)</li>
+</ol>
+<h2 id="discrete-mathematics"><a class="header" href="#discrete-mathematics">Discrete Mathematics</a></h2>
+<ol>
+<li>Discrete Mathematics and Its Applications - Kenneth Rosen. (978-1259676512)
+<ul>
+<li>Student Solutions Guide for Discrete Mathematics and Its Applications - Kenneth H. Rosen. (978-1259731693)</li>
+</ul>
+</li>
+<li>Discrete Mathematics with Applications - Susanna Epp. (978-0357114087)</li>
+<li>Concrete Mathematics - Ronald Graham, Donald Knuth, Oren Patashnik. (978-0201558029)</li>
+<li>Discrete Mathematics - Richard Johnsonbaugh. (978-0321964687)</li>
+<li>Discrete Mathematics: Elementary and Beyond - Laszlo Lovasz, Jozsef Pelikan, Katalin Vesztergombi. (978-0387955858)</li>
+<li>Discrete Mathematical Structures - Bernard Kolman, Robert Busby, Sharon Ross. (978-0134696447)</li>
+<li>Discrete Mathematics with Logic - Martin Milanic, Brigitte Servatius, Herman Servatius. (978-0443187827)</li>
+<li>Discrete Mathematics - Norman L. Biggs. (978-0198507178)</li>
+<li>Introductory Discrete Mathematics - V. K. Balakrishnan. (978-0486691152)</li>
+<li>Discrete and Combinatorial Mathematics - Ralph Grimaldi. (978-0321385024)
+<ul>
+<li>Student Solutions Manual for Discrete and Combinatorial Mathematics - Ralph P. Grimaldi. (978-0321200334)</li>
+</ul>
+</li>
+<li>Schaum’s Outline of Discrete Mathematics - Seymour Lipschutz, Marc Lipson. (978-1264258802)</li>
+<li>Schaum’s 2000 Solved Problems in Discrete Mathematics - Seymour Lipschutz. (978-0070380318)</li>
+<li>Discrete Mathematics - Wikibooks. <a href="https://en.wikibooks.org/wiki/Discrete_Mathematics">link</a></li>
+</ol>
+<h2 id="graph-theory"><a class="header" href="#graph-theory">Graph Theory</a></h2>
+<ol>
+<li>A First Course in Graph Theory - Gary Chatrand, Ping Zhang. (978-0486483689)</li>
+<li>An Introduction to Graph Theory - Richard J. Trudeau. (978-0486678702)</li>
+<li>Introduction to Graph Theory - Douglas West. (978-0131437371)</li>
+<li>Chromatic Graph Theory - Gary Chartrand, Ping Zhang. (978-1032475103)</li>
+<li>Graphs and Digraphs - Gary Chartrand, Ping Zhang, Heather Jordon, Vincent Vatter. (978-1032606989)</li>
+<li>Fundamentals of Graph Theory - Allan Bickle. (978-1470453428)</li>
+<li>Graph Theory with Applications to Engineering and Computer Science - Narsingh Deo. (978-0486807935)</li>
+<li>Modern Graph Theory - Bela Bollobas. (978-0387984889)</li>
+<li>Extremal Graph Theory - Bela Bollobas. (978-0486435961)</li>
+<li>Graph Theory - Reinhard Diestel. (978-3662536216)</li>
+<li>Graph Theory - Adrian Bondy, U. S. R. Murty. (978-1846289699)</li>
+<li>Algebraic Graph Theory - Chris Godsil, Gordon F. Royle. (978-0387952208)</li>
+<li>Graph Theory - Ronald Gould. (978-0486498065)</li>
+</ol>
+<h2 id="statistics"><a class="header" href="#statistics">Statistics</a></h2>
+<ol>
+<li>Mathematical Statistics with Applications - Dennis Wackerly, William Mendenhall, Richard L. Scheaffer. (978-0495110811)
+<ul>
+<li>Student Solution Manual for Mathematical Statistics with Applications - William J. Owen. (978-0495385066)</li>
+</ul>
+</li>
+<li>Introductory Statistics for Business and Economics - Thomas H. Wonnacott, Ronald J. Wonnacott. (978-0471615170)</li>
+<li>Statistics for Business and Economics - George Benson, Terry Sincich, James McClave. (978-1292413396)</li>
+<li>Statistics for Business &amp; Economics - David R. Anderson, Dennis J. Sweeney, Thomas A. Williams. (978-1337901062)</li>
+<li>Basic Business Statistics - Mark Berenson, David Levine, Kathryn Szabat, David Stephan. (978-1292265032)</li>
+<li>Statistics for Business and Economics - Paul Newbold, William Carlson, Betty Thorne. (978-1292315034)</li>
+<li>Introduction to Probability and Statistics for Engineers and Scientists - Sheldon M. Ross. (978-0128243466)</li>
+<li>Schaum’s Outline of Statistics - Murray Spiegel, Larry Stephens. (978-1260011463)</li>
+<li>Schaum’s Outline of Business Statistics - Leonard J. Kazmier. (978-0071635271)</li>
+<li>Schaum’s Ouline of Statistics for Engineers - Larry Stephens. (978-0071736466)</li>
+<li>Schaum’s Outline of Statistics in Psychology - Larry Stephens. (978-0071545990)</li>
+<li>Statistics For Dummies - Deborah J. Rumsey. (978-1119293521)
+<ul>
+<li>Statistics Workbook For Dummies - Deborah J. Rumsey. (978-1119547518)</li>
+<li>Statistics: 1001 Practice Problems For Dummies - Deborah J. Rumsey. (978-1119883593)</li>
+</ul>
+</li>
+<li>Statistics - WikiBooks. <a href="https://en.wikibooks.org/wiki/Statistics">link</a></li>
+</ol>
+<h2 id="ap-statistics"><a class="header" href="#ap-statistics">AP Statistics</a></h2>
+<ol>
+<li>Barron’s AP Statistics Premium 2024 - Martin Sternstein. (978-1506288147)
+<ul>
+<li>Barron’s AP Statistics Flashcards - Martin Sternstein. (978-1506267043)</li>
+<li>Barron’s AP Statistics Q&amp;A - Martin Sternstein. (978-1438011899)</li>
+</ul>
+</li>
+<li>The Princeton Review AP Statistics Prep 2024 - The Princeton Review. (978-0593516850)</li>
+<li>5 Steps to a 5: AP Statistics 2024 Elite Student Edition - Jared Derksen, DeAnna Krause McDonald. (978-1265263539)
+<ul>
+<li>5 Steps to a 5: 500 AP Statistics Questions to Know by Test Dat - Anaxos Inc. (978-1260459791)</li>
+</ul>
+</li>
+</ol>
+<h2 id="econometrics"><a class="header" href="#econometrics">Econometrics</a></h2>
+<ul>
+<li>See Econometrics chapter in the Economics section.</li>
+</ul>
+<h2 id="misc"><a class="header" href="#misc">Misc</a></h2>
+<ol>
+<li>All the Math You Missed - Thomas A. Garrity. (978-1009009195)</li>
+<li>Cracking the GRE Mathematics Subject Test - Steven A. Leduc. (978-0375429729)</li>
+<li>Understanding Pure Mathematics - A.J. Sadler, D.W.S. Thorning. (978-0199142590)</li>
+<li>A Course of Pure Mathematics - G. H. Hardy. (978-0486822358) (978-0521720557)</li>
+<li>An Introduction to Abstract Mathematics - Robert J. Bond, William J. Keane. (978-0534950507)</li>
+<li>Solving Mathematical Problems: A Personal Perspective - Terence Tao. (978-0199205608)</li>
+<li>Problem-Solving Strategies - Arthur Engel. (978-0387982199)</li>
+<li>The Art and Craft of Problem Solving - Paul Zeitz. (978-1119239901)</li>
+<li>Thinking Mathematically - J. Mason, L. Burton, K. Stacey. (978-0273728917)</li>
+<li>Applied Nonstandard Analysis - Martin Davis. (978-0486442297)</li>
+<li>Problem-Solving Through Problems - Loren C. Larson. (978-0387961712)</li>
+<li>Visual Complex Functions - Elias Wegert. (978-3034801799)</li>
+<li>Topics in Algebra - I. N. Herstein. (978-0471010906)</li>
+<li>Curves and Singularities - J. W. Bruce, P. J. Giblin. (978-0521419857)</li>
+<li>Naive Lie Theory - John Stillwell. (978-0387782140)</li>
+<li>Visual Group Theory - Nathan Carter. (978-1470464332)</li>
+<li>Ideals, Varieties, and Algorithms - David A. Cox, John Little, Donal O’Shea. (978-3319167206)</li>
+<li>Exploring University Mathematics with Python - Siri Chongchitnan. (978-3031462696)</li>
+<li>Theory of Linear Operations - Stefan Banach. (978-0486469836)</li>
+<li>Curvature and Homology - Samuel I. Goldberg. (978-0486643144)</li>
+<li>An Introduction to Differentiable Manifolds and Riemannian Geometry - William M. Boothby. (978-0121160517)</li>
+<li>Origami Design Secrets: Mathematical Methods for an Ancient Art - Robert J. Lang. (978-1568814360)</li>
+<li>Geometric Folding Algorithms - Erik D. Demaine, Joseph O’Rourke. (978-0521715225)</li>
+<li>How to Fold It: The Mathematics of Linkages, Origami, and Polyhedra - Joseph O’Rourke. (978-0748794973)</li>
+<li>Origametry - Thomas C. Hull. (978-1108746113)</li>
+<li>Berkeley Problems in Mathematics - Paulo Ney de Souza, Jorge-Nuno Silva. (978-0387204291)</li>
+<li>Algebra: Chapter 0 - Paolo Aluffi. (978-1470465711)</li>
+<li>Oliver Byrne’s Elements of Euclid - Art Meets Science. (978-1528770439)</li>
+<li>Euclid’s Elements - Dana Densmore, Thomas Heath. (978-1888009187)</li>
+<li>The Thirteen Books of the Elements Volume 1 - Dover Books on Mathematics. (978-0486600888)</li>
+<li>The Thirteen Books of the Elements Volume 2 - Dover Books on Mathematics. (978-0486600895)</li>
+<li>The Thirteen Books of the Elements Volume 3 - Dover Books on Mathematics. (978-0486600901)</li>
+<li>Optimal Transport: Old and New - Cedric Villani. (978-3662501801)</li>
+<li>Topics in Optimal Transportation - Cedric Villani. (978-1470467265)</li>
+<li>Algebra and Geometry - Alan F. Beardon. (978-0521890496)</li>
+<li>Sheaf Theory - Glen E. Bredon. (978-1461268543)</li>
+<li>Topos Theory - P. T. Johnstone. (978-0486493367)</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="programming_languages.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="physics.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="programming_languages.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="physics.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-c2a407aa.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

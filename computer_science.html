@@ -1,0 +1,775 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Computer Science</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-2459343d.css">
+        <link rel="stylesheet" href="css/chrome-ae938929.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-6b10cb62.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-bc4fa3c4.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="computer-science"><a class="header" href="#computer-science">Computer Science</a></h1>
+<h2 id="ap-computer-science-principles--a"><a class="header" href="#ap-computer-science-principles--a">AP Computer Science Principles / A</a></h2>
+<ol>
+<li>5 Steps to a 5: AP Computer Science Principles - Julie Schacht Sway. (978-1265287566)</li>
+<li>5 Steps to a 5: AP Computer Science A - Deborah B. Klipp, Dean Johnson, Carol Paymer. (978-1265267926)</li>
+<li>Barron’s AP Computer Science Principles Premium - Seth Reichelson. (978-1506287751)</li>
+<li>Barron’s AP Computer Science A Premium - Roselyn Teukolsky. (978-1506287911)</li>
+<li>Barron’s AP Computer Science A Flashcards - Roselyn Teukolsky. (978-1506264110)</li>
+<li>Princeton Review AP Computer Science Principles - The Princeton Review. (978-0593516782)</li>
+<li>Princeton Review AP Computer Science A - The Princeton Review. (978-0593517055)</li>
+</ol>
+<h2 id="computer-architecture"><a class="header" href="#computer-architecture">Computer Architecture</a></h2>
+<ol>
+<li>Computer Architecture: A Quantitative Approach - John L. Hennessy, David A. Patterson. (978-0128119051)</li>
+<li>Computer Organization and Design: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0124077263)
+<ul>
+<li>Computer Organization and Design MIPS Edition: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0128201091)</li>
+<li>Computer Organization and Design RISC-V Edition: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0128203316)</li>
+<li>Computer Organization and Design ARM Edition: The Hardware/Software Interface - John L. Hennessy, David A. Patterson. (978-0128017333)</li>
+</ul>
+</li>
+<li>Structured Computer Organization - Andrew S. Tanenbaum. (978-0132916523)</li>
+<li>Essentials of Computer Organizaiton and Architecture - Linda Null, Julia Lobur. (978-1284259438)</li>
+<li>Computer Organization and Architecture - William Stallings. (978-1292420103)</li>
+<li>Computer Organization and Embedded Systems - Carl Hamacher, Zvonko Vranesic. (978-0073380650)</li>
+<li>Digital Design and Computer Architecture - David Harris, Sarah Harris. (978-0123944245)
+<ul>
+<li>Digital Design and Computer Architecture: RISC-V Edition - David Harris, Sarah Harris. (978-0128200643)</li>
+<li>Digital Design and Computer Architecture: ARM Edition - David Harris, Sarah Harris. (978-0128000564)</li>
+</ul>
+</li>
+<li>Digital Design: A Systems Approach - William James Dally, R. Curtis Harting. (978-0521199506)</li>
+<li>Digital Design: Principles and Practices -  John Wakerly. (978-0134460093)</li>
+<li>Digital Design - M. Morris Mano, Michael Ciletti. (978-0134549897)</li>
+<li>Learning Computer Architecture with Raspberry Pi - Eben Upton, Jeff Duntemann. (978-1119183938)</li>
+<li>Computer Architecture - Charles Fox. (978-1718502864)</li>
+<li>Schaum’s Outline of Computer Architecture - Nick Carter. (978-0071362078)</li>
+<li>Microprocessors: Principles and Applications - Charles M. Gilmore. (978-0028018379)</li>
+<li>Intel Microprocessors - Barry B. Brey. (978-0135026458)</li>
+<li>Digital Logic and Microprocessor Design with Interfacing - Enoch O. Hwang. (978-1305859456)</li>
+<li>Designing Embedded Systems with PIC Microcontrollers: Principles and Applications - Tim Wilmshurst. (978-1856177504)</li>
+<li>PIC Microcontrollers: An Introduction to Microelectronics - Martin P. Bates. (978-0080969114)</li>
+<li>The PIC Microcontroller: Your Personal Introductory Course - John Morton. (978-0750666640)</li>
+<li>The Definitive Guide to ARM Cortex M3 and Cortex M4 Processors - Joseph Yiu. (978-0124080829)</li>
+<li>The Definitive Guide to ARM Cortex M23 and Cortex M33 Processors - Joseph Yiu. (978-0128207352)</li>
+<li>The Definitive Guide to ARM Cortex M0 and Cortex M0+ Processors - Joseph Yiu. (978-0128032770)</li>
+<li>Fast and Effective Embedded Systems Design - Tim Wilmhurst, Rob Toulson. (978-0323951975)</li>
+</ol>
+<h2 id="operating-systems"><a class="header" href="#operating-systems">Operating Systems</a></h2>
+<ol>
+<li>Operating Systems Design and Implementation - Andrew S. Tanenbaum, Albert S. Woodhull. (978-0131429383)</li>
+<li>Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos. (978-0133591620)</li>
+<li>Operating System Concepts - Abrahama Silberschatz, Peter B. Galvin, Greg Gagne. (978-1119800361)</li>
+<li>Operating Systems: Internals and Design Principles - William Stallings. (978-0134670959)</li>
+<li>Operating System - Harvey M. Deitel, Paul J. Deitel, David R. Choffnes. (978-0131828278)</li>
+<li>Understanding Operating Systems - Ann McHoes, Ida M. Flynn. (978-1305674257)</li>
+<li>Operating Systems: A Spiral Approach - Ramez Elmasri, A. Gil Carrick, David Levine. (978-0072449815)</li>
+<li>Linux Kernel Development - Robert Love. (978-0672329463)</li>
+<li>Understanding the Linux Kernel - Daniel Bovet, Marco Cesati. (978-0596005658)</li>
+<li>The Linux Programming Interface - Michael Kerrisk. (978-1593272203)</li>
+<li>Linux Kernel Programming - Kaiwan Billimoria. (978-1803232225)</li>
+<li>The UNIX Programming Environment - Brian Kerninghan, Rob Pike. (978-0139376818)</li>
+<li>Advanced Programming the UNIX Environment - W. Richard Stevens, Stephen A. Rago. (978-0321637734)</li>
+<li>Advanced UNIX Programming - Marc Rochkind. (978-0131411548)</li>
+<li>Lions’ Commentary on Unix - John Lions, Peter H. Salus. (978-1573980135)</li>
+<li>The Design and Implementation of the FreeBSD Operating System - Marshall McKusick, George Neville-Neil, Robert Watson. (978-0321968975)</li>
+<li>FreeBSD Device Drivers - Joseph Kong. (978-1593272043)</li>
+<li>FreeDOS Kernel - Pat Villani. (978-1138412309)</li>
+</ol>
+<h2 id="operating-systems-administration"><a class="header" href="#operating-systems-administration">Operating Systems Administration</a></h2>
+<ol>
+<li>Absolute FreeBSD - Michael W. Lucas. (978-1593278922)</li>
+<li>Absolute OpenBSD - Michael W. Lucas. (978-1593274764)</li>
+<li>The Book of PF - Peter N.M. Hansteen. (978-1593272746)</li>
+<li>BSD UNIX Toolbox - Christopher Negus, Francois Caen. (???)</li>
+<li>BSD Hacks - Dru Lavigne. (978-0596006792)</li>
+<li>Mastering FreeBSD and OpenBSD Security - Yanek Korff, Paco Hope, Bruce Potter. (978-0596006266)</li>
+<li>UNIX Power Tools - Shelley Powers, Jerry Peek, Tim O’Reilly, Mike Loukides. (978-0596003302)</li>
+</ol>
+<h2 id="computer-networking"><a class="header" href="#computer-networking">Computer Networking</a></h2>
+<ol>
+<li>Computer Networking: A Top-Down Approach - James Kurose, Keith Ross. (978-1292405469)</li>
+<li>Computer Networks - Andrew S. Tanenbaum, David Wetherhall. (978-0132126953)</li>
+<li>Data Communications and Networking - Behrouz A. Forouzan. (978-0078022098)</li>
+<li>Computer Networks: A Systems Approach - Larry L. Peterson, Bruce S. Davie. (978-0128182000)</li>
+</ol>
+<h2 id="distributed-operating-systems"><a class="header" href="#distributed-operating-systems">Distributed Operating Systems</a></h2>
+<ol>
+<li>Distributed Operating Systems - Andrew S. Tanenbaum. (978-1556353505)</li>
+<li>Distributed Systems: Concepts and Design - George Coulouris, Jean Dollimore, Tim Kindberg, Gordon Blair. (978-0132143011)</li>
+</ol>
+<h2 id="introduction-to-programming"><a class="header" href="#introduction-to-programming">Introduction to programming</a></h2>
+<ul>
+<li>cf Programming Languages page.</li>
+</ul>
+<h2 id="algorithms-and-data-structures"><a class="header" href="#algorithms-and-data-structures">Algorithms and Data Structures</a></h2>
+<ol>
+<li>Introduction to Algorithms - Thomas Cormen, Charles Leiserson, Ronald Rivest, Clifford Stein. (978-0262046305)</li>
+<li>The Algorithm Design Manual - Steven Skiena. (978-1848000698)</li>
+<li>Algorithms - Robert Sedgewick, Kevin Wayne. (978-0321573513) <a href="https://algs4.cs.princeton.edu/home/">website</a></li>
+<li>Introduction to the Analysis of Algorithms - Robert Sedgewick, Philippe Flajolet. (978-0321905758) <a href="https://aofa.cs.princeton.edu/home/">website</a></li>
+<li>Data Structures and Algorithms in Java/Python/C++ - Michael Goodrich, Roberto Tamassia. (978-1118771334) (978-1118290279) (978-0470383278)</li>
+<li>Data Structures and Algorithms in Java/C++ - Adam Drozdek. (978-9814392785) (978-8131521267)</li>
+<li>Java Software Structures - John Lewis, Joe Chase. (978-0136078586)</li>
+<li>Data Structures and Abstractions with Java - Frank Carrano, Timothy Henry. (978-0134831695)</li>
+<li>Data Structures and Algorithm Analysis in Java/C++ - Mark Weiss. (978-0132576277) (978-0273769385)</li>
+<li>Algorithm Design - Jon Kleinberg, Eva Tardos. (978-0321295354)</li>
+<li>Data Structures and Algorithms - Alfred Aho, John Hopcroft, Jeffrey Ullman. (978-0201000238)</li>
+<li>Programming Abstractions in Java/C++ - Eric Roberts. (978-0134421186) (978-0133454840)</li>
+<li>Data Structures and Algorithms in Java - Robert Lafore. (978-0672324536)</li>
+</ol>
+<h2 id="databases"><a class="header" href="#databases">Databases</a></h2>
+<ol>
+<li>Fundamentals of Database Systems - Ramez Elmasri, Shamkant Navathe. (978-1292097619)</li>
+<li>Introduction to Database Systems - C.J. Date, A. Kannan, S. Swamynathan. (978-8177585568)</li>
+<li>Database Systems: A Practical Approach to Design, Implementation, and Management - Thomas Connolly, Carolyn Begg. (978-0132943260)</li>
+<li>Database Systems: The Complete Book - Hector Garcia-Molina, Jeffrey Ullman, Jennifer Widom. (978-0131873254)</li>
+<li>Database System Concepts - Abraham Silberschatz, Henry F. Korth, S. Sudarshan. (978-9390727506)</li>
+<li>Modern Database Management - Jeffrey A. Hoffer, Ramesh Venkataraman, Heikki Topi. (978-0133544619)</li>
+<li>Database Systems: Design, Implementation, &amp; Management - Carlos Coronel, Steven Morris. (978-1337627900)</li>
+<li>A First Course in Database Systems - Jeffrey Ullman, Jennifer Widom. (978-0136006374)</li>
+</ol>
+<h2 id="compilers"><a class="header" href="#compilers">Compilers</a></h2>
+<ol>
+<li>Compilers: Principles, Techniques, and Tools - Alfred V. Aho, Monica S. Lan, Ravi Sethi, Jeffrey D. Ullman. (978-0321486813)</li>
+<li>Engineering a Compiler - Keith D. Cooper, Linda Torczon. (978-1558606982)</li>
+<li>Mordern Compiler Implementation in C/JAVA/ML - Andrew W. Appel. (978-0521583909)(978-0521820608)(978-0521607643)</li>
+<li>Compiler Design in C - Allen I. Holub. (978-0131550452)</li>
+<li>Compiler Construction Using Java, JavaCC, and Yacc - Anthony J. Dos Reis. (978-0470949597)</li>
+<li>Modern Compiler Design - Dick Grune. (978-1461446989)</li>
+<li>Compiler Construction - Niklaus Wirth. (978-0201403534)</li>
+<li>Crafting Interpreters - Robert Nystrom. (978-0990582939)</li>
+<li>Writing a C Compiler - Nora Sandler. (978-1718500426)</li>
+<li>Build your own programming language - Clinton L. Jeffery. (978-1800204805)</li>
+<li>Writing a Compiler in Go - Thorsten Ball. (978-3982016108)</li>
+<li>Writing an Interpreter in Go - Thorsten Ball. (978-3982016115)</li>
+<li>CPython Internals - Anthony Shaw. (978-1775093343)</li>
+<li>Learn LLVM 17 - Kai Nacke, Amy Kwan. (978-1837631346)</li>
+<li>LLVM Techniques, Tips, and Best Practices: Clang and Middle-End Libraries - Min-Yih Hsu. (978-1838824952)</li>
+<li>Getting Started with LLVM Core Libraries - Bruno Cardoso Lopes, Rafael Auler. (978-1782166924)</li>
+<li>Clang Compiler Frontend - Ivan Murashko. (978-1837630981)</li>
+<li>LLVM Essentials - Suyog Sarda, Mayur Pandey. (978-1785280801)</li>
+<li>Engineering LLVM Backend - Min-Yih Hsu. (978-1804610664)</li>
+<li>Writing a C Compiler - Nora Sandler. (978-1718500426)</li>
+<li>A Retargetable C Compiler - David Hanson, Christopher Fraser. (978-0805316704)</li>
+<li>The Definitive Guide to GCC - William von Hagen. (978-1590595855)</li>
+</ol>
+<h2 id="programming-languages-concepts"><a class="header" href="#programming-languages-concepts">Programming Languages Concepts</a></h2>
+<ol>
+<li>Principles of Programming Languages - Bruce J. MacLennan. (978-0195113068)</li>
+<li>Concepts of Programming Languages - Robert Sebesta. (978-1292436821)</li>
+<li>Programming Languages Principles and Paradigms - Allen Tucker, Robert Noonan. (978-0072866094)</li>
+<li>Concepts in Programming Languages - John C. Mitchell. (978-0521780988)</li>
+<li>Programming Languages: Application and Interpretation - Shiram Krishnamurthi. (???)</li>
+<li>Essentials of Programming Languages - Daniel P. Friedman, Mitchell Wand. (978-0262062794)</li>
+<li>Concepts, Techniques, and Models of Computer Programming - Peter Van Roy, Seif Haridi. (978-0262220699)</li>
+<li>Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman. (978-0262510875)</li>
+<li>Seven Programming Languages in Seven Weeks - Bruce Tate. (978-1934356593)</li>
+<li>Seven More Programming Languages in Seven Weeks - Bruce Tate. (978-1941222157)</li>
+<li>Introduction to Programming Languages - WikiBooks. <a href="https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages">link</a></li>
+</ol>
+<h2 id="reverse-engineering"><a class="header" href="#reverse-engineering">Reverse Engineering</a></h2>
+<ol>
+<li>The radare book - pancake, maijin. (unknown) <a href="https://github.com/radareorg/radare2-book">github</a> <a href="https://book.rada.re/">read online</a></li>
+<li>Reversing: Secrets of Reverse Engineering - Eldad Eilam. (978-0764574818)</li>
+<li>Practical Reverse Engineering - Bruce Dang, Alexandre Gazet, Elias Bachaanlany. (978-1118787311)</li>
+<li>Practical Binary Analysis - Dennis Andriesse. (978-1593279127)</li>
+<li>Learning Linux Binary Analysis - Ryan O’Neill. (978-1782167105)</li>
+<li>The IDA Pro Book - Chris Eagle. (978-1593272890)</li>
+<li>The Ghidra Book - Chris Eagle, Kara Nance. (978-1718501027)</li>
+<li>Ghidra Software Reverse Engineering for Beginners - A. P. David. (978-1800207974)</li>
+<li>x86 Software Reverse-Engineering, Cracking, and Counter-Measures - Stephanie Domas. (978-1394199884)</li>
+<li>Mastering Reverse Engineering - Reginald Wong. (978-1788838849)</li>
+</ol>
+<h2 id="hacking"><a class="header" href="#hacking">Hacking</a></h2>
+<ol>
+<li>Hacking: The Art of Exploitation - Jon Erickson. (978-1593271442)</li>
+<li>Gray Hat Hacking - Allen Harper, Ryan Linn. (978-1264268948)</li>
+<li>Black Hat Python - Justin Seitz, Tim Arnold. (978-1718501126)</li>
+<li>Black Hat Go - Tom Steele, Chris Patten, Dan Kottmann. (978-1593278656)</li>
+<li>Black Hat Bash - Dolev Farhi, Nick Aleks. (978-1718503748)</li>
+<li>Gray Hat Python - Justin Seitz. (978-1593271923)</li>
+<li>Violent Python - TJ O’Connor. (978-1597499576)</li>
+<li>Cybersecurity Ops with bash - Paul Troncone, Carl Albing. (978-1492041313)</li>
+<li>Linux Basics for Hackers - OccupyTheWeb. (978-1593278557)</li>
+<li>Learning Kali Linux - Ric Messier. (978-1492028697)</li>
+<li>Kali Linux Revealed - Raphael Hertzog, Jim O’Gorman. (978-0997615609)</li>
+<li>The Ultimate Kali Linux Book - Glen D. Singh. (978-1835085806)</li>
+<li>Kali Linux Penetration Testing Bible - Gus Khawaja. (978-1119719083)</li>
+<li>Metasploit: The Penetration Tester’s Guide - David Kennedy, Jim O’Gorman. (978-1718502987)</li>
+<li>Nmap Network Scanning - Gordon Fyodor Lyon. (978-0979958717)</li>
+<li>Practical Packet Analysis - Chris Sanders. (978-1593278021)</li>
+<li>Penetration Testing - Georgia Weidman. (978-1593275648)</li>
+<li>Rootkits and Bootkits - Alex Matrosov, Eugene Rodionov, Sergey Bratus. (978-1593277161)</li>
+<li>Hands On Penetration Testing with Kali NetHunter - Sean-Philip Oriyano, Glen D Singh. (978-1788995177)</li>
+<li>Master Kali Linux for Advanced Penetration Testing - Vijay Kumar Velu. (978-1801819770)</li>
+<li>Digital Forensics with Kali Linux - Shiva V. N. Parasram. (978-1837635153)</li>
+<li>Practical Linux Forensics - Bruce Nikkel. (978-1718501966)</li>
+<li>Mastering Metasploit - Nipun Jaswal. (978-1838980078)</li>
+<li>Metasploit 5.0 for Beginners - Sagar Rahalkar. (978-1838982669)</li>
+<li>Wireshark for Security Professionals - Jessey Bullock, Jeff T. Parker. (978-1118918210)</li>
+<li>Learn Wireshark - Lisa Bock. (978-1803231679)</li>
+<li>Tactical Wireshark - Kevin Cardwell. (978-1484292907)</li>
+<li>Wireshark for Network Forensics - Nagendra Kumar Nainar, Ashish Panda. (978-1484290002)</li>
+<li>Wireshark Fundamentals - Vinit Jain. (978-1484280010)</li>
+<li>Wireshark Essentials - James H. Baxter. (978-1783554638)</li>
+<li>Offensive Security using Python - Rejah Rehim, Manindar Mohan. (978-1835468166)</li>
+<li>Python for Offensive PenTest - Hussam Khrais. (978-1788838979)</li>
+<li>Python for Security and Networking - Jose Manuel Ortega. (978-1837637553)</li>
+<li>Beginning Ethical Hacking with Python - Sanjib Sinha. (978-1484225400)</li>
+</ol>
+<h2 id="web-development"><a class="header" href="#web-development">Web Development</a></h2>
+<ol>
+<li>Fullstack GraphQL Applications with React, Node.js, and Neo4j - William Lyon. (978-1617297038)</li>
+<li>Learning PHP, MySQL &amp; JavaScript - Robin Nixon. (978-1492093824)</li>
+<li>Full-Stack Web Development with Go - Nanik Tolaram, Nick Glynn. (978-1803234199)</li>
+<li>Hands-On Full Stack Development with Go - Mina Andrawos. (978-1789130751)</li>
+<li>Full Stack JavaScript: Learn Backbone.js, Node.js, and MongoDB - Azat Mardan. (978-1484237175)</li>
+<li>The Full Stack Developer - Chris Northwood. (978-1484241516)</li>
+<li>Modern Full-Stack Development - Frank Zammetti. (978-1484288108)</li>
+<li>JavaScript from Frontend to Backend - Eric Sarrion. (978-1801070317)</li>
+<li>MEAN Web Development - Amos Q. Haviv. (978-1785886300)</li>
+<li>Getting MEAN with Mongo, Express, Angular, and Node - Simon Holmes, Clive Herber. (978-1617294754)</li>
+<li>Node.js, MongoDB and Angular Web Development - Brad Dayley. (978-0134655536)</li>
+<li>Rails, Angular, Postgres, and Bootstrap - David B. Copeland. (978-1680502206)</li>
+<li>PHP and MySQL Web Development - Welling Luke, Thomson Laura. (978-0275967598)</li>
+<li>Murach’s PHP and MySQL - Joel Murach, Ray Harris. (978-1943873005)</li>
+<li>Flask Web Development - Miguel Grinberg. (978-1491991732)</li>
+<li>Django 4 By Example - Antonio Mele. (978-1801813051)</li>
+<li>Developing Web Apps with Haskell and Yesod - Michael Snoyman. (978-1491915592)</li>
+<li>Beginning PHP and MySQL - Frank M. Kromann. (978-1430260455)</li>
+<li>PHP &amp; MySQL: Server-side Web Development - Jon Duckett. (978-1119149224)</li>
+</ol>
+<h2 id="data-science"><a class="header" href="#data-science">Data Science</a></h2>
+<p>see ‘Data Science and Machine Learning Interviews’ below.</p>
+<ol>
+<li>An Introduction to Statistical Learning: with Applications in R - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathan Taylor. (978-1071614174)</li>
+<li>The Elements of Statistical Learning - Trevor Hastie, Robert Tibshirani, Jerome Friedman. (978-0387848570)</li>
+<li>Data Science from Scratch - Joel Grus. (978-1492041139)</li>
+<li>Data Science at the Command Line - Jeroen Janssens. (978-1492087915) <a href="https://jeroenjanssens.com/dsatcl/">read online</a></li>
+<li>Building Data Science Applications with FastAPI - Francois Voron. (978-1837632749)</li>
+</ol>
+<h2 id="artificial-intelligence-machine-learning-and-deep-learning"><a class="header" href="#artificial-intelligence-machine-learning-and-deep-learning">Artificial Intelligence, Machine Learning and Deep Learning</a></h2>
+<ol>
+<li>Artificial Intelligence: A Modern Approach - Peter Norvig, Stuart Russell. (978-1292401133) <a href="https://github.com/aimacode">github</a></li>
+<li>Deep Learning - Ian Goodfellow. (978-0262035613)</li>
+<li>Machine Learning - Tom M. Mitchell. (978-0071154673)</li>
+<li>Hands-on Machine Learning with Scikit-learn, Keras, and Tensorflow - Aurelien Geron. (978-1098125974)</li>
+<li>Deep Learning with Python - Francois Chollet. (978-1617296864)</li>
+<li>Designing Machine Learning Systems - Chip Huyen. (978-1098107963)</li>
+<li>Prolog Programming for Artificial Intelligence - Ivan Bratko. (978-0321417466)</li>
+<li>Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp - Peter Norvig. (978-1558601918) <a href="https://github.com/norvig/paip-lisp">github</a></li>
+<li>Practical MLOps: Operationalizing Machine Learning Models - Noah Gift, Alfredo Deza. (978-1098103019)</li>
+<li>Implementing MLOps in the Entreprise - Noah Gift, Yaron Haviv. (978-1098136581)</li>
+<li>Engineering MLOps - Emmanuel Raj. (978-1800562882)</li>
+<li>Machine Learning Algorithms in Depth - Vadim Smolyakov. (978-1633439214)</li>
+</ol>
+<h2 id="databases-internals"><a class="header" href="#databases-internals">Databases Internals</a></h2>
+<ol>
+<li>Designing Data-Intensive Applications - Martin Kleppmann. (978-1449373320)</li>
+<li>Database Internals - Alex Petrov. (978-1492040347)</li>
+<li>Understanding MySQL Internals - Sasha Pachev. (978-0596009571)</li>
+<li>Oracle Core: Essential Internals for DBAs and Developers - Jonathan Lewis. (978-1430239543)</li>
+<li>Pro SQL Server Internals - Dmitri Korotkevitch. (978-1484219638)</li>
+<li>Microsoft SQL Server 2012 Internals - Kalen Delaney, Craig Freeman. (978-0735658561)</li>
+<li>Professional SQL Server 2012 Internals and Troubleshooting - Christian Bolton, Justin Langford. (978-1118177655)</li>
+<li>Distributed Systems - Maarten van Steen, Andrew S. Tanenbaum. (978-9081540636)</li>
+<li>Refactoring Databases - Scott W. Ambler, Pramod J. Sadalage. (978-0321293534)</li>
+<li>Database in Depth: Relational Theory for Practitioners - C. J. Date. (978-0596100124)</li>
+</ol>
+<h2 id="database-administration"><a class="header" href="#database-administration">Database Administration</a></h2>
+<h2 id="nosql-databases"><a class="header" href="#nosql-databases">NoSQL Databases</a></h2>
+<ol>
+<li>DuckDB in Action - Mark Needham, Michael Hunger, Michael Simons. (978-1633437258)</li>
+<li>ScyllaDB in Action - Bo Ingram. (978-1633437265)</li>
+<li>Delta Lake The Definitive Guide - Denny Lee, Tathagata Das, Vini Jaiswal. (TBD)</li>
+<li>Delta Lake Up and Running - Bellie Haelen, Dan Davis. (978-1098139728)</li>
+<li>Data Engineering with Apache Spark, Delta Lake, and Lakehouse - Manoj Kukreja, Danil Zburivsky. (978-1801077743)</li>
+<li>Redis in Action - Josiah L. Carlson. (978-1617290855)</li>
+<li>Redis Stack for Application Modernization - Luigi Fugaro, Mirko Ortensi. (978-1837638185)</li>
+<li>Elasticsearch The Definitive Guide - Clinton Gormley, Zachary Tong. (978-1449358549)</li>
+<li>Elasticsearch in Action - Madhusudhan Konda. (978-1617299858)</li>
+<li>Getting Started with Elastic Stack 8.0 - Asjad Athick, Shay Banon. (978-1800569492)</li>
+<li>Solr in Action - Trey Grainger, Timothy Potter. (978-1617291029)</li>
+<li>Lucene in Action - Michael McCandless. (978-1933988177)</li>
+<li>Neo4j in Action - Aleksa Vukotic, Nicki Watt. (978-1617290763)</li>
+<li>Graph Algorithms: Practical Examples in Apache Spark and Neo4j - Mark Needham, Amy E. Hodler. (978-1492047681)</li>
+<li>Graph Algorithms for Data Science: With examples in Neo4j - Tomaz Bratanic. (978-1617299469)</li>
+<li>Getting Started with RethinkDB - Gianluca Tiepolo. (978-1785887604)</li>
+<li>Mastering RethinkDB - Shahid Shaikh. (978-1786461070)</li>
+<li>Getting Started with OrientDB - Claudio Tesoriero. (978-1782169956)</li>
+<li>Cassandra The Definitive Guide - Jeff Carpenter, Eben Hewitt. (978-1492097143)</li>
+</ol>
+<h2 id="coding-best-practices"><a class="header" href="#coding-best-practices">Coding Best Practices</a></h2>
+<ol>
+<li>The Art of UNIX Programming - Eric S. Raymond. (978-0131429017)</li>
+<li>The Pragmatic Programmer - David Thomas, Andrew Hunt. (978-0135957059)</li>
+<li>Clean Code - Robert C. Martin. (978-0132350884)</li>
+<li>Code Complete - Steve McConnell. (978-0735619678)</li>
+<li>The Art of Readable Code - Dustin Boswell, Trevor Foucher. (978-0596802295)</li>
+<li>Effective Debugging - Diomidis Spinellis. (978-0134394794)</li>
+<li>Hacker’s Delight - Henry Warren. (978-0321842688)</li>
+<li>Clean Architecture - Robert C. Martin. (978-0134494166)</li>
+<li>The Clean Coder - Robert C. Martin. (978-0137081073)</li>
+<li>Clean Craftmanship - Robert C. Martin. (978-0136915713)</li>
+<li>Code That Fits in Your Head - Mark Seemann. (978-0137464401)</li>
+<li>Design Patterns: Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. (978-0201633610)</li>
+<li>Refactoring - Martin Fowler. (978-0134757599)</li>
+<li>Working Effectively with Legacy Code - Michael Feathers. (978-0131177055)</li>
+<li>Test-Driven Development By Example - Kent Beck. (978-0321146533)</li>
+<li>Extreme Programming Explained - Kent Beck. (978-0321278654)</li>
+<li>Seriously Good Software - Marco Faella. (978-1617296291)</li>
+<li>The Art of Clean Code - Christian Mayer. (978-1718502185)</li>
+<li>Becoming a Better Programmer - Pete Goodliffe. (978-1491905531)</li>
+<li>The Self-Taught Programmer - Cory Althoff. (978-0999685907)</li>
+<li>The Self-Taught Computer Scientiest - Cory Althoff. (978-1119724414)</li>
+<li>Software Engineering at Google - Titus Winters, Tom Manshreck, Hyrum Wright. (978-1492082798)</li>
+<li>Software Craftmanship: The New Imperative - Pete McBreen. (978-0201733860)</li>
+<li>The Software Craftman - Sandro Mancuso. (978-0134052502)</li>
+<li>Apprenticeship Patterns - Dave Hoover, Adewale Oshineye. (978-0596518387)</li>
+<li>Good Code, Bad Code - Tom Long. (978-1617298936)</li>
+<li>Five Lines of Code: How and when to refactor - Christian Clausen. (978-1617298318)</li>
+<li>Beyong Legacy Code - David Scott Bernstein. (978-1680500790)</li>
+<li>The Practice of Programming - Brian Kernighan, Rob Pike. (978-0201615869)</li>
+<li>Tidy First - Kent Beck. (978-1098151249)</li>
+<li>Software Design for Flexibility - Chris Hanson, Gerald Jay Sussman. (978-0262045490)</li>
+</ol>
+<h2 id="coding-puzzles--coding-interviews"><a class="header" href="#coding-puzzles--coding-interviews">Coding Puzzles / Coding Interviews</a></h2>
+<ol>
+<li>Elements of Programming Interviews in Python/Java/C++ - Adnan Aziz, Tsung-Hsien Lee, Amit Prakash. (978-1537713946) (978-1517671273) (978-1479274833)</li>
+<li>Cracking the Coding Interview - Gayle Laakmann McDowell. (978-0984782857)</li>
+<li>Programming Challenges - Steven Skiena, Miguel Revilla. (978-0387001630)</li>
+<li>Guide to Competitive Programming - Antti Laaksonen. (978-3030393564)
+<ul>
+<li>Draft version, free online. <a href="https://cses.fi/book/book.pdf">link</a> <a href="https://github.com/pllk/cphb/">github</a></li>
+</ul>
+</li>
+<li>Programming Interviews Exposed - John Mongan, Noah Kindler, Eric Giguere. (978-1119418474)</li>
+<li>Competitive Programming 3 - Steven Halim. (https://cpbook.net/)</li>
+<li>Programming Pearls - John Bentley. (978-0201657883)</li>
+<li>More Programming Pearls - John Bentley. (978-0201118896)</li>
+<li>Daily Coding Problems - Lawrence Wu, Alex Miller. (978-1793296634)</li>
+<li>Classic Computer Science Problems in Python/Java - David Kopec. (978-1617295980) (978-1617297601)</li>
+<li>Exercises for Programmers 57 Challenges to Develop Your Coding Skills - Brian Hogan. (978-1680501223)</li>
+<li>Ace the Programming Interview: 160 Questions and Answers for Success - Edward Guiness. (978-1118518564)</li>
+<li>Coding Interviews: Questions, Analysis &amp; Solutions - Harry He. (978-8132212249)</li>
+</ol>
+<h2 id="system-design-interviews"><a class="header" href="#system-design-interviews">System Design Interviews</a></h2>
+<ol>
+<li>System Design Interview An Insider’s Guide Volume 1 - Alex Xu. (979-8664653403)</li>
+<li>System Design Interview An Insider’s Guide Volume 2 - Alex Xu, Sahn Lam. (978-1736049112)</li>
+<li>Hacking The System Design Interview - Stanley Chiang. (979-8839126497)</li>
+<li>The System Design Interview - Lewis Lin. (979-8735625452)</li>
+<li>Acing the System Design Interview - Zhiyong Tan. (978-1633439108)</li>
+<li>Solutions Architect’s Handbook - Saurabh Shrivastava, Neelanjali Srivastav. (978-1801816618)</li>
+<li>System Design on AWS - Jayanth Kumar, Mandeep Singh. (978-1098146894)</li>
+<li>System Design Interview Made Easy - Richard Lee. (979-8367942088)</li>
+</ol>
+<h2 id="object-oriented-design-and-uml"><a class="header" href="#object-oriented-design-and-uml">Object-Oriented Design and UML</a></h2>
+<ol>
+<li>UML Distilled - Martin Fowler. (978-0321193681)</li>
+<li>Learning UML 2.0 - Russ Miles, Kim Hamilton. (978-0596009823)</li>
+<li>UML 2 For Dummies - Michael Jesse Chonoles, James A. Schardt. (978-0764526145)</li>
+<li>Design Patterns: Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. (978-0201633610)</li>
+<li>Head First Design Patterns - Eric Freeman, Elisabeth Robson. (978-1492078005)</li>
+<li>Head First Object-Oriented Analysis and Design - Brett D. McLaughlin. (978-0596008673)</li>
+<li>Fundamentals of Object-Oriented Design in UML - Meilir Page-Jones, Larry L. Constantine. (978-0201699463)</li>
+<li>Object-Oriented Analysis, Design and Implementation - Brahma Dathan, Sarnath Ramnath. (978-3031712395)</li>
+</ol>
+<h2 id="vim"><a class="header" href="#vim">Vim</a></h2>
+<ol>
+<li>Practical Vim - Drew Neil. (978-1680501278) <a href="https://pragprog.com/titles/dnvim2/practical-vim-second-edition/">website</a></li>
+<li>Learning the vi and Vim Editors - Arnold Robbins, Elbert Hannah. (978-1492078807)</li>
+<li>Modern Vim - Drew Neil. (978-1680502626) <a href="https://pragprog.com/titles/modvim/modern-vim/">website</a></li>
+<li>Vi iMproved - Steve Oualline. (978-0735710016)</li>
+<li>Hacking Vim 7.2 - Kim Schulz. (978-1849510509)</li>
+<li>Mastering Vim - Ruslan Osipov. (978-1835081877)</li>
+<li>Mastering Vim Quickly - Jovica Ilic. (978-1983325748)</li>
+<li>Pro Vim - Mark McDonnell. (978-1484202517)</li>
+<li>The VimL Primer - Benjamin Klein. (978-1680500400)</li>
+</ol>
+<h2 id="git--github--gitlab"><a class="header" href="#git--github--gitlab">Git / Github / Gitlab</a></h2>
+<ol>
+<li>Pro Git - Scott Chacon, Ben Straub. (978-1484200773)</li>
+<li>Learning Git - Anna Skoulikari. (978-1098133917)</li>
+<li>Version Control with Git - Prem Kumar Ponuthorai, Hon Loeliger. (978-1492091196)</li>
+<li>Pragmatic Version Control Using Git - Travis Swicegood. (978-1934356159)</li>
+<li>Git Version Control Cookbook - Kenneth Geisshirt. (978-1789137545)</li>
+<li>Building Tools with Github - Chris Dawson, Ben Straub. (978-1491933503)</li>
+<li>Learning Github Actions - Brent Laster. (978-1098131074)</li>
+<li>Getting Started with Github - Peter Bell, Brent Beer. (978-1491949740)</li>
+<li>Github Actions Cookbook - Michael Kaufmann. (978-1835468944)</li>
+<li>DevOps Unleashed with Git and Github - Yuki Hattori. (978-1835463710)</li>
+<li>Accelerate DevOps with Github - Michael Kaufmann. (978-1801813358)</li>
+<li>Automating Workflows with Github Actions - Pricsila Heller. (978-1800560406)</li>
+<li>Mastering Github Actions - Eric Chapman. (978-1805128625)</li>
+<li>Github Actions in Action - Michael Kaufmann. (978-1633437302)</li>
+<li>Hands-on Github Actions - Chaminda Chandrasekara, Pushpa Herath. (978-1484264638)</li>
+<li>Pratical Git - Johan Abildskov. (978-1484262696)</li>
+<li>Head First Git - Raju Gandhi. (978-1492092513)</li>
+<li>Professional Git - Brent Laster. (978-1119284970)</li>
+<li>Github for Dummies - Sarah Guthals. (978-1394159161)</li>
+</ol>
+<h2 id="awk-and-sed"><a class="header" href="#awk-and-sed">AWK and sed</a></h2>
+<ol>
+<li>The AWK Programming Language - Alfred Aho, Brian Kerninghan, Peter Weinberger. (978-0138269722)</li>
+<li>sed &amp; awk - Dale Dougherty, Arnold Robbins. (978-1565922259)</li>
+<li>Effective awk Programming - Arnold Robbins. (978-1491904619)</li>
+<li>Learn AWK Programming - Shiwang Kalkhanda. (978-1788391030)</li>
+</ol>
+<h2 id="data-streaming"><a class="header" href="#data-streaming">Data Streaming</a></h2>
+<h3 id="spark"><a class="header" href="#spark">Spark</a></h3>
+<ol>
+<li>Spark The Definitive Guide - Bill Chambers, Matei Zaharia. (978-1491912218)</li>
+<li>Learning Spark Lightning-Fast Data Analytics - Jules Damji, Denny Lee. (978-1492050049)</li>
+<li>Spark in Action - Jean-Georges Perrin. (978-1617295522)</li>
+<li>Data Analysis with Python and PySpark - Jonathan Rioux. (978-1617297205)</li>
+<li>Advanced Analytics with PySpark - Akash Tandon, Sandy Ryza, Uri Laserson, Sean Owen, Josh Wills. (978-1098103651)</li>
+<li>Data Algorithms with Spark - Mahmoud Parsian. (978-1492082385)</li>
+<li>Pro Spark Streaming - Zubair Nabi. (978-1484214800)</li>
+<li>Stream Processing with Apache Spark - Gerard Maas, Francois Garillot. (978-1491944240)</li>
+</ol>
+<h3 id="flink"><a class="header" href="#flink">Flink</a></h3>
+<ol>
+<li>Stream Processing with Apache Flink - Fabian Hueske, Vasiliki Kalavri. (978-1491974292)</li>
+<li>Learning Apache Flink - Tanmay Deshpande. (978-1786466228)</li>
+<li>Flink in Action - Sameer Wadkar, Hari Rajaram. (978-1617293924)</li>
+</ol>
+<h3 id="kafka"><a class="header" href="#kafka">Kafka</a></h3>
+<ol>
+<li>Kafka The Definitive Guide - Gwen Shapira, Todd Palino. (978-1492043089)</li>
+<li>Kafka in Action - Dylan Scott, Viktor Gamoz, Dave Klein. (978-1617295232)</li>
+<li>Kafka Streams in Action - Bill Bejeck. (978-1617298684)</li>
+<li>Mastering Kafka Streams and ksqlDB - Mitch Seymour. (978-1492062493)</li>
+<li>Streaming Data Pipelines with Kafka - Stefan Sprenger. (978-1633437012)</li>
+</ol>
+<h3 id="pulsar"><a class="header" href="#pulsar">Pulsar</a></h3>
+<ol>
+<li>Apache Pulsar in Action - David Kjerrumgaard. (978-1617296888)</li>
+<li>Mastering Apache Pulsar - Jowanza Joseph. (978-1492084907)</li>
+<li>Stream Processing with Apache Pulsar - Theophilus Siameh. (979-8517457820)</li>
+</ol>
+<h3 id="misc"><a class="header" href="#misc">Misc</a></h3>
+<ol>
+<li>Akka in Action - Francisco Lopez-Sancho Abraham. (978-1617299216)</li>
+<li>Effective Akka - Jamie Allen. (978-1449360078)</li>
+<li>Grokking Streaming Systems - Josh Fischer, Ning Wang. (978-1617297304)</li>
+<li>Event Streams in Action - Alexander Dean, Valentin Crettaz. (978-1617292347)</li>
+<li>Data Pipelines with Apache Airflow - Bas P. Harenslak, Julian Rutger de Ruiter. (978-1617296901)</li>
+<li>Storm Applied: Strategies for real-time event processing - Matthew Jankowski, Peter Pathirana, Sean Allen. (978-1617291890)</li>
+</ol>
+<h2 id="data-engineering"><a class="header" href="#data-engineering">Data Engineering</a></h2>
+<ol>
+<li>Fundamentals of Data Engineering - Joe Reis, Matt Housley. (978-1098108304)</li>
+<li>Data Engineering with Python - Paul Crickard. (978-1839214189)</li>
+<li>Cracking the Data Engineering Interview - Kedeisha Bryan, Taamir Ransome. (978-1837630776)</li>
+<li>Ace the Data Engineering Interview - Sean Coyne. (979-8864900970)</li>
+<li>Data Ingestion with Python Cookbook - Glaucia Esppenschutz. (978-1837632602)</li>
+<li>Analytics Engineering with SQL and dbt - Rui Pedro Machado, Helder Russa. (978-1098142384)</li>
+<li>Data Engineering with dbt - Roberto Zagni. (978-1803246284)</li>
+<li>Data Engineering with Scala and Spark - Eric Tome, David Radford, Rupam Bhattacharjee. (978-1804612583)</li>
+</ol>
+<h2 id="kubernetes"><a class="header" href="#kubernetes">Kubernetes</a></h2>
+<ol>
+<li>The Kubernetes Book - Nigel Poulton. (978-1916585201)
+<ul>
+<li>Quick Start Kubernetes - Nigel Poulton. (979-8373431781)</li>
+<li>The KCNA Book - Nigel Poulton. (979-8409159504)</li>
+</ul>
+</li>
+<li>Kubernetes: Up &amp; Running - Brendan Burns, Joe Beda, Kelsey Hightower, Lachlan Evenson. ( 978-1098110208)</li>
+<li>The Book of Kubernetes - Alan Hohn. (978-1718502642)</li>
+<li>Kubernetes in Action - Marko Luksa. (978-1617297618)</li>
+<li>Certified Kubernetes Application Developer (CKAD) Study Guide - Benjamin Muschko. (978-1492083733)</li>
+<li>Certified Kubernetes Administrator (CKA) Study Guide - Benjamin Muschko. (978-1098107222)</li>
+<li>Certified Kubernetes Security Specialist (CKS) Study Guide - Benjamin Muschko. (978-1098132972)</li>
+<li>Kubernetes: Preparing for the CKA and CKAD Certifications - Philippe Martin. (978-1484264935)</li>
+<li>Acing the Certified Kubernetes Administrator Exam - Chad Crowell. (978-1633439092)</li>
+<li>Becoming KCNA Certified - Dmitry Galkin. (978-1804613399)</li>
+</ol>
+<h2 id="docker--podman"><a class="header" href="#docker--podman">Docker / Podman</a></h2>
+<ol>
+<li>Podman in Action - Daniel Walsh. (978-1633439689)</li>
+<li>Docker Deep Dive - Nigel Poulton. (978-1916585256)</li>
+<li>Docker Up &amp; Running - Sean Kane, Karl Matthias. (978-1098131821)</li>
+<li>Using Docker - Adrian Mouat. (978-1491915769)</li>
+<li>Docker in Action - Jeff Nickoloff, Stephen Kuenzli. (978-1617294761)</li>
+<li>Docker in Practice - Ian Miell, Aidan Hobson Sayers. (978-1617294808)</li>
+</ol>
+<h2 id="terraform--infrastructure-as-code"><a class="header" href="#terraform--infrastructure-as-code">Terraform &amp; Infrastructure-as-code</a></h2>
+<ol>
+<li>Terraform Up and Running - Yevgeniy Brikman. (978-1098116743)</li>
+<li>Terraform in Action - Scott Winkler. (978-1617296895)</li>
+<li>Terraform in Depth - Robert Hafner. (978-1633438002)</li>
+<li>Infrastruce as Code: Dynamic Systems for the Cloud Age - Kief Morris. (978-1098114671)</li>
+<li>Infrastruce as Code, Patterns and Practices: With examples in Python and Terraform - Rosemary Wang. (978-1617298295)</li>
+</ol>
+<h2 id="continuous-integration-and-continuous-delivery--devops"><a class="header" href="#continuous-integration-and-continuous-delivery--devops">Continuous Integration and Continuous Delivery / DevOps</a></h2>
+<ol>
+<li>Jenkins: The Definitive Guide - John Smart. (978-1449305352)</li>
+<li>Continuous Delivery with Docker and Jenkins - Rafal Leszko. (978-1803237480)</li>
+<li>SonarQube in Action - G. Ann Campbell, Patroklos P. Papapetrou. (978-1617290954)</li>
+<li>JUnit in Action - Catalin Tudose. (978-1617297045)</li>
+<li>Python for DevOps - Noah Gift. (978-1492057697)</li>
+<li>DevOps in Python: Infrastructure as Python - Moshe Zadka. (978-1484279953)</li>
+<li>Learning DevOps - Mikael Krief. (978-1801818964)</li>
+<li>Grokking Continuous Delivery - Christie Wilson. (978-1617298257)</li>
+<li>sbt in Action - Josh Suereth, Matthew Farwell. (978-1617291272)</li>
+<li>Maven: The Definitive Guide - Sonatype Company. (978-0596517335)</li>
+<li>Modern CMake for C++ - Rafal Swidzinski. (978-1801070058)</li>
+<li>CMake Best Practices - Dominik Berner. (978-1803239729)</li>
+<li>Managing Projects with GNU Make - Robert Mecklenburg. (978-0596006105)</li>
+<li>Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation - Jez Humble, David Farley. (978-0321601919)</li>
+</ol>
+<h2 id="microservices"><a class="header" href="#microservices">Microservices</a></h2>
+<ol>
+<li>Quarkus in Action - Martin Stefanko, Jan Martiska. (978-1633438958)</li>
+<li>Building Microservices with Micronaut - Nirmal Singh, Zack Dawood. (978-1800564237)</li>
+<li>Reactive Systems in Java: Resilient, Event-Driven Architecture with Quarkus - Clement Escoffier, Ken Fennigan. (978-1492091721)</li>
+<li>Scala Reactive Programming - Rambabu Posa. (978-1787288645)</li>
+<li>Learn Scala Programming - Slava Schmidt. (978-1788836302)</li>
+</ol>
+<h2 id="data-science-and-machine-learning-interviews"><a class="header" href="#data-science-and-machine-learning-interviews">Data Science and Machine Learning Interviews</a></h2>
+<ol>
+<li>Machine Learning System Design Interview - Ali Aminian, Alex Xu. (978-1736049129)</li>
+<li>Machine Learning Design Interview - Khang Pham. (979-8813031571)</li>
+<li>Machine Learning Interviews - Khang Pham. (979-8416893743)</li>
+<li>Ace the Data Science Interview - Nick Singh, Kevin Huo. (978-0578973838)</li>
+<li>The Kaggle Book - Konrad Banachewicz, Luca Massaron. (978-1801817479)</li>
+<li>The Kaggle Workbook - Konrad Banachewicz, Luca Massaron. (978-1804611210)</li>
+<li>Cracking the Data Science Interview - Maverick Lin. (978-1710680133)</li>
+<li>The Little Book of Data Science Tricks - Maverick Lin. (979-8655659063)</li>
+<li>Cracking the Machine Learning Interview - Nitin Suri (978-1729223604)</li>
+<li>The Hundred-Page Machine Learning Book - Anldriy Burkov. (978-1777005474)</li>
+<li>Heard in Data Science Interviews - Kal Mishra. (978-1727287325)</li>
+<li>Be The Outlier - Shrilata Murthy. (978-1641379854)</li>
+<li>Ace the Data Science Interview - Dan Sanz. (978-1633438248)</li>
+<li>Machine Learning System Design - Valerii Babushkin, Arseny Kravchenko. (978-1633438750)</li>
+<li>Inside the Machine Learning Interview - Peng Shao. (979-8394054303)</li>
+<li>Machine Learning Interviews - Susan Shu Chang. (978-1098146542)</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="law.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="programming_languages.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="law.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="programming_languages.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-c2a407aa.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,518 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Medicine, Nursing &amp; Health Sciences</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-2459343d.css">
+        <link rel="stylesheet" href="css/chrome-ae938929.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex-6b10cb62.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-bc4fa3c4.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="medicine-nursing-and-health-sciences"><a class="header" href="#medicine-nursing-and-health-sciences">Medicine, Nursing and Health Sciences</a></h1>
+<h2 id="pre-med"><a class="header" href="#pre-med">Pre-Med</a></h2>
+<ol>
+<li>On becoming a doctor - Tania Heller. (978-1402220135)</li>
+<li>Med School Confidential - Robert H. Miller. (978-0312330088)</li>
+<li>The Med School Survival Kit - Wendell Cole. (978-1732384309)</li>
+<li>How to be Pre-Med - Suzanne M. Miller. (978-1936633555)</li>
+<li>The Soul of a Doctor - Susan Pories. (978-1565125070)</li>
+<li>Being Mortal - Atul Gawande. (978-1250076229)</li>
+<li>Better: A Surgeon’s Notes on Performance - Atul Gawande. (978-0312427658)</li>
+<li>Complications - Atul Gawande. (978-0312421700)</li>
+<li>The Checklist Manifesto - Atul Gawande. (978-0312430009)</li>
+<li>When Breath Becomes Air - Paul Kalanithi. (978-0812988406)</li>
+<li>The Intern Blues - Robert Marion. (978-0060937096)</li>
+<li>The Emperor of All Maladies - Siddhartha Mukherjee. (978-1439170915)</li>
+<li>Do No Harm - Henry Marsh. (978-1250090133)</li>
+<li>Between Expectations - Meghan Weir. (978-1439189085)</li>
+</ol>
+<h2 id="mcat"><a class="header" href="#mcat">MCAT</a></h2>
+<ol>
+<li>Kaplan MCAT Complete 7-Book Subject Review 2024-2025 - Kaplan Test Prep. (978-1506287065)
+<ul>
+<li>MCAT Flashcards - Kaplan Test Prep. (978-1506259697)</li>
+</ul>
+</li>
+<li>Princeton Review MCAT Subject Review Complete Box Set - The Princeton Review. (978-0593516287)
+<ul>
+<li>Essential MCAT Flashcards - The Princeton Review. (978-0307946300)</li>
+</ul>
+</li>
+<li>Barron’s MCAT - Jay B. Cutts. (978-1438077925)
+<ul>
+<li>MCAT Flash Cards - Jay B. Cutts. (978-1438075549)</li>
+</ul>
+</li>
+<li>Examkrakers MCAT Study Package - Jonathan Orsay. (978-1951127008)</li>
+<li>Kaplan MCAT Practice Tests - Kaplan. (978-1609789480)</li>
+<li>Kaplan MCAT 528 Advanced Prep 2023-2024 - Kaplan Test Prep. (978-1506276786)</li>
+<li>Princeton Review MCAT Prep 2024-2025 - The Princeton Review. (978-0593516577)</li>
+<li>Princeton Review MCAT Workout 2022-2023 - The Princeton Review. (978-0525571568)</li>
+<li>Princeton Review MCAT Elite - The Princeton Review. (978-1101920619)</li>
+<li>McGraw-Hill Education 3 MCAT Practice Tests - George Hademenos. (978-1259859625)</li>
+<li>MCAT Study Guide - Wikibooks. <a href="https://en.wikibooks.org/wiki/MCAT_Study_Guide">link</a></li>
+</ol>
+<h2 id="pcat"><a class="header" href="#pcat">PCAT</a></h2>
+<h2 id="dat-nbde"><a class="header" href="#dat-nbde">DAT-NBDE</a></h2>
+<ol>
+<li>Barron’s DAT - Joseph DiRienzo, John J. Ference, Nicole D. Cornell, Edwin H. Hines, John Swartwood. (978-1438006345)</li>
+<li>CliffsTestPrep DAT - Tracy Halward. (978-0471785934)</li>
+<li>Kaplan DAT Prep Plus 2023-2024 - Kaplan Test Prep. (978-1506276823)</li>
+<li>Princeton Review DAT Prep - The Princeton Review. (978-0593517413)</li>
+<li>First Aid for the NBDE Part 1 - Derek Steinbacher, Steven Sierakowski. (978-0071769044)
+<ul>
+<li>First Aid Q&amp;A for the NBDE Part 1 - Derek Steinbacher, Steven Sierakowski. (978-0071508667)</li>
+</ul>
+</li>
+<li>First Aid for the NBDE Part 2 - Jason Portnof, Timothy Leung. (978-0071482530)
+<ul>
+<li>First Aid Q&amp;A for the NBDE Part 2 - Jason Portnof, Timothy Leung. (978-0071613729)</li>
+</ul>
+</li>
+<li>Mosby’s Review for the NBDE Part 1 - Mosby. (978-0323225618)</li>
+<li>Mosby’s Review for the NBDE Part 2 - Mosby. (978-0323225687)</li>
+<li>NBDE Part 1 Lecture Notes - Kaplan Medical. (978-1506207834)</li>
+<li>NBDE Part 2 Lecture Notes - Kaplan Medical. (978-1506212814)</li>
+<li>dentEssentials: High-Yield NBDE Part 1 Review - Michael S. Manley, Leslie D. Manley. (978-1607149002)</li>
+</ol>
+<h2 id="anatomy-and-physiology"><a class="header" href="#anatomy-and-physiology">Anatomy and Physiology</a></h2>
+<ol>
+<li>Human Anatomy - Elaine Marieb, Patricia Brady, Jon Mallat. (978-1292314471)</li>
+<li>Anatomy &amp; Physiology - Kenneth Saladin. (978-1259277726)</li>
+<li>Netter Atlas of Human Anatomy - Frank H. Netter. (978-0323680424)
+<ul>
+<li>Netter’s Anatomy Flash Cards - John Hansen. (978-0323834179)</li>
+<li>Netter’s Anatomy Coloring Book - John Hansen. (978-0323826730)</li>
+<li>Netter’s Physiology Coloring Book - Susan Mulroney, Adam Myers. (978-0323694636)</li>
+<li>Netter’s Neuroscience Coloring Book - David L. Felten, Mary Summo Maida. (978-0323509596)</li>
+</ul>
+</li>
+<li>Gray’s Anatomy - Susan Standring. (978-0702077050)</li>
+<li>Seeley’s Anatomy &amp; Physiology - Cinnamon VanPutte, Jennifer Regan, Andrew Russo. (978-1265129583)</li>
+<li>Hole’s Human Anatomy &amp; Physiology - David Shier, Jackie Butler, Ricki Lewis. (978-1260092820)</li>
+<li>Moore’s Clinically Oriented Anatomy - Arthur F. Dalley, Anne M. R. Agur. (978-1975209544)</li>
+<li>Human Anatomy - Michael McKinley, Valerie O’Loughlin, Elizabeth Pennefather-O’Brien. (978-1260251357)</li>
+<li>Principles of Anatomy and Physiology - Gerard Tortora, Bryan Derrickson. (978-1119662792)</li>
+<li>Anthony’s Textbook of Anatomy &amp; Physiology - Kevin Patton, Gary Thibodeau. (978-0323528801)</li>
+<li>Human Anatomy - Frederic Martini, Robert Tallitsch, Judi Nath. (978-0134320762)</li>
+<li>Schaum’s Outline of Human Anatomy &amp; Physiology - Kent Van de Graaff. (978-0071810791)</li>
+<li>Barron’s Anatomy Flash Cards - Ken Ashwell. (978-1438077178)</li>
+<li>Moore’s Clinical Anatomy Flash Cards - Douglas Gould. (978-1451173352)</li>
+<li>QuickStudy Anatomy Flash Cards - Inc. BarCharts. (978-1423204237)</li>
+<li>Kaplan Medical Anatomy Flash Cards - Joanne Tillotson, Stephanie McCann. (978-1506258874)</li>
+<li>Kaplan Anatomy Coloring Book - Stephanie McCann, Eric Wise. (978-1506281216)</li>
+<li>The Princeton Review Anatomy Coloring Book - The Princeton Review. (978-0451487872)</li>
+<li>The Anatomy Coloring Book - Wynn Kapit, Lawrence M. Elson. (978-0321832016)</li>
+<li>The Physiology Coloring Book - Wynn Kapit, Robert Macey, Esmail Meisami. (978-0321036636)</li>
+<li>BRS Gross Anatomy - Nancy L. Halliday, Harold M. Chung. (978-1975181376)</li>
+<li>BRS Physiology - Linda S. Costanzo. (978-1975153601)</li>
+<li>Lippincott Illustrated Reviews: Anatomy - Kelly M. Harrell, Ronald W. Dudek. (978-1496317902)</li>
+<li>Lippincott Illustrated Reviews: Physiology - Robin R. Preston, Thad E. Wilson. (978-1496385826)</li>
+<li>Case Files Anatomy - Eugene Toy. (978-0071794862)</li>
+<li>Case Files Physiology - Eugene Toy. (978-0071493741)</li>
+<li>Rapid Review Physiology - Thomas A. Brown. (978-0323072601)</li>
+<li>Anatomy and Physiology - OpenStax. (978-1711494067)</li>
+<li>General Anatomy - Wikibooks. <a href="https://en.wikibooks.org/wiki/General_Anatomy">link</a></li>
+<li>Human Physiology - Wikibooks. <a href="https://en.wikibooks.org/wiki/Human_Physiology">link</a></li>
+</ol>
+<h2 id="internal-medicine"><a class="header" href="#internal-medicine">Internal Medicine</a></h2>
+<ol>
+<li>Harrison’s Principles of Internal Medicine - Larry Jameson, Anthony Fauci, Dennis Kasper, Stephen Hauser, Dan Longo, Joseph Loscalzo. (978-1259644030)</li>
+<li>Netter’s Internal Medicine - Marschall Runge, Andrew Greganti. (978-1416044178)</li>
+<li>Davidson’s Principles and Practice of Medicine - Ian Penman, Stuart Ralston, Mark Strachan, Richard Hobson. (978-0702083471)</li>
+<li>Goldman-Cecil Medicine - Lee Goldman, Kathleen Cooney. (978-0323930383)</li>
+<li>Kumar and Clark’s Clinical Medicine - Adam Feather, David Randall, Mona Waterhouse. (978-0702078682)</li>
+<li>First Aid for the USMLE Step 1 2023 - Tao Le, Vikas Bhushan, Connie Qiu, Anup Chalise, Panagiotis Kaparaliotis. (978-1264946624)</li>
+<li>medEssentials for the USMLE Step 1 - Kaplan Medical. (978-1506254609)</li>
+<li>The Johns Hopkins Internal Medicine Board Review - Bimal Ashar, Redonda Miller, Stephen Sisson. (978-0323377331)</li>
+<li>Master the Boards: Internal Medicine - Conrad Fischer. (978-1609788803)</li>
+<li>Kaplan Medical Internal Medicine Question Book - Conrad Fischer. (978-1607141266)</li>
+<li>First Aid for the Internal Medicine Boards - Tao Le, Tom Baudendistel, Peter Chin-Hong, Cindy Lai. (978-1259835032)</li>
+<li>Clinical Medicine Complete 5-Book Subject Review 2024 2025 - Kaplan Medical. (978-1506285245)</li>
+<li>Blueprints Medicine - Vincent Young. (978-1469864150)</li>
+<li>Case Files Internal Medicine - Eugene Toy. (978-1260469967)</li>
+<li>PreTest Medicine - Robert S. Urban, J. Rush Pierce, Roger D. Smalligan. (978-0071850056)</li>
+<li>Internal Medicine - Wikibooks. <a href="https://en.wikibooks.org/wiki/Internal_Medicine">link</a></li>
+</ol>
+<h2 id="surgery"><a class="header" href="#surgery">Surgery</a></h2>
+<ol>
+<li>Schwartz’s Principles of Surgery - F. Charles Brunicardi. (978-1259835353)</li>
+<li>Sabiston Textbook of Surgery - Courtney Townsend. (978-0323640626)</li>
+<li>Current Surgical Therapy - John L. Cameron, Andrew M. Cameron. (978-0323796835)</li>
+<li>Essentials of General Surgery and Surgical Specialties - Peter F. Lawrence. (978-1496351043)</li>
+<li>Fischer’s Mastery of Surgery - E. Christopher Ellison. (978-1975176433)</li>
+<li>Surgical Recall - Lorne Blackbourne. (978-1975152949)</li>
+<li>Mulholland &amp; Greenfield’s Surgery - Justing B. Dimick. (978-1975143169)</li>
+<li>Dr. Pestana’s Surgery Notes - Carlos Pestana. (978-1506281254)</li>
+<li>Bailey &amp; Love’s Short Practice of Surgery - P. Ronan O’Connell. (978-0367548117)</li>
+<li>Principles and Practice of Surgery - O. James Garden, Rowan W. Parks, Stephen J. Wigmore. (978-0702082511)</li>
+<li>Current Diagnosis and Treatment Surgery - Gerard Doherty. (978-1260122213)</li>
+<li>Case Files Surgery - Eugene Toy. (978-1260468809)</li>
+<li>Blueprints Surgery - Seth J. Karp, James P.G. Morris. (978-0781788687)</li>
+</ol>
+<h2 id="pathology"><a class="header" href="#pathology">Pathology</a></h2>
+<ol>
+<li>Fundamentals of Pathology - Husain A. Sattar. (978-0983224631) <a href="https://www.pathoma.com/">website</a></li>
+<li>Robbins &amp; Cotran Pathologic Basis of Disease - Vinay Kumar, Abul Abbas, Jon Aster. (978-0323531139)
+<ul>
+<li>Robbins and Cotran Pathology Flash Cards - Edward Klatt, Richard Mitchell. (978-0323352222)</li>
+</ul>
+</li>
+<li>Robbins &amp; Kumar Basic Pathology - Vinay Kumar, Abul Abbas, Jon Aster, Andrea Deyrup. (978-0323790185)</li>
+<li>Robbins &amp; Cotran Review of Pathology - Edward Klatt, Vinay Kumar. (978-1455751556)</li>
+<li>Porth’s Pathophysiology - Tommie L. Norris. (978-1496377555)</li>
+<li>Principles of Rubin’s Pathology - Emanuel Rubin, Howard M. Reisner. (978-1496350329)</li>
+<li>Rosai and Ackerman’s Surgical Pathology - John Goldblum, Laura Lamps, Jesse McKenney, Jeffrey Myers. (978-0323263399)</li>
+<li>Schaum’s Outline of Pathophysiology - Tom Betsy. (978-0071623698)</li>
+<li>Netter’s Integrated Review of Medicine: Pathogenesis to Treatment - Bryan Lepperrt, Christopher Kelly. (978-0323479387)</li>
+<li>Gould’s Pathophysiology for the Health Professions - Karin C. VanMeter, Robert J. Hubert. (978-0323792882)</li>
+<li>Pathophysiology of Disease: An Introduction to Clinical Medicine - Gary Hammer, Stephen McPhee. (978-1260026504)</li>
+<li>Case Files Pathology - Eugene Toy. (978-0071486668)</li>
+<li>BRS Pathology - Mary Elizabeth Peyton Gupta. (978-1975136628)</li>
+<li>Rapid Review Pathology - Anthony Alfrey, Edward F. Goljan. (978-0323870573)</li>
+<li>Pathology - Wikibooks. <a href="https://en.wikibooks.org/wiki/Pathology">link</a></li>
+</ol>
+<h2 id="clinical-examination"><a class="header" href="#clinical-examination">Clinical Examination</a></h2>
+<ol>
+<li>Physical Examination and Health Assessment - Carolyn Jarvis. (978-0323809849)</li>
+<li>Seidel’s Guide to Physical Examination - Jane Ball, Joyce Dains, John Flynn, Barry Solomon, Rosalyn Stewart. (978-0323481953)</li>
+<li>Talley and O’Connor’s Clinical Examination - Nicholas Talley, Simon O’Connor. (978-0729544245)</li>
+<li>Macleod’s Clinical Examination - J. Alastair Innes, Anna R. Dover, Karen Fairhurst. (978-0323847704)</li>
+<li>Clinical Examination - Owen Epstein, David Perkin. (978-0723434542)</li>
+<li>Bate’s Guide To Physical Examination and History Taking - Lynn S. Bickley. (978-1496398178)</li>
+<li>Guide to Clinical Examination - Wikibooks. <a href="https://en.wikibooks.org/wiki/Guide_to_Clinical_Examination">link</a></li>
+</ol>
+<h2 id="histology"><a class="header" href="#histology">Histology</a></h2>
+<ol>
+<li>Wheater’s Functional Histology - Geraldine O’Dowd, Sarah Bell, Sylvia Wright. (978-0702083341)</li>
+<li>Junqueira’s Basic Histology - Anthony L. Mescher. (978-1260462982)</li>
+<li>Histology: A Text and Atlas - Wojciech Pawlina. (978-1975181512)</li>
+<li>Gartner &amp; Hiatt’s Atlas and Text of Histology - Leslie P. Gartner, Lisa M.J. Lee. (978-1975164256)</li>
+<li>Bloom &amp; Fawcett’s Concise Histology - Don Fawcett, Ronald Jensh. (978-0340806777)</li>
+<li>Steven &amp; Lowe’s Human Histology - James S. Lowe, Peter G. Anderson. (978-0723435020)</li>
+<li>BRS Cell Biology and Histology - Leslie P. Gartner. (978-1496396358)</li>
+</ol>
+<h2 id="immunology"><a class="header" href="#immunology">Immunology</a></h2>
+<ol>
+<li>Kuby Immunology - Jenni Punt, Sharon Stranford, Patricia Jones, Judy Owen. (978-1464189784)</li>
+<li>Janeway’s Immunobiology - Kenneth Murphy, Casey Weaver, Leslie Berg. (978-0393884890)</li>
+<li>Basic Immunology - Abul Abbas, Andrew Lichtman, Shiv Pillai. (978-0443105197)</li>
+<li>Lippincott Illustrated Reviews: Immunology - Thao Doan, Fabio Lievano, Susan Viselli, Michelle Swanson-Mungerson. (978-1975151331)</li>
+<li>Schaum’s Outline of Immunology - George Pinchuk. (978-0071373661)</li>
+<li>Roitt’s Essential Immunology - Seamus J. Martin, Dennis R. Burton. (978-1118415771)</li>
+<li>Immunology: Understanding the Immunce System - Klaus D. Egbert. (978-0470081570)</li>
+<li>Immunology - David Male, R. Stokes Peebles Jr., Victoria Male. (978-0702078446)</li>
+<li>BRS Microbiology and Immunology - Louise Hawley, Richard J. Ziegler, Benjamin L. Clarke. (978-1451175349)</li>
+</ol>
+<h2 id="pharmacology"><a class="header" href="#pharmacology">Pharmacology</a></h2>
+<ol>
+<li>Katzung’s Basic and Clinical Pharmacology - Todd W. Vanderah. (978-1260463309)
+<ul>
+<li>Lange Pharmacology Flashcards - Suzanne Baron, Christoph Lee. (978-1259837241)</li>
+</ul>
+</li>
+<li>Lippincott Illustrated Reviews: Pharmacology - Karen Whalen. (978-1975170554)</li>
+<li>BRS Pharmacology - Sarah Lerchenfeldt. (978-1975105495)</li>
+<li>Case Files Pharmacology - Eugene Toy. (978-0071790239)</li>
+<li>Rapid Review Pharmacology - Thomas L. Pazdernik, Laszlo Kerecsen. (978-0323068123)</li>
+<li>Pharmacology - Wikibooks. <a href="https://en.wikibooks.org/wiki/Pharmacology">link</a></li>
+</ol>
+<h2 id="neurology"><a class="header" href="#neurology">Neurology</a></h2>
+<ol>
+<li>Lippincott Illustrated Reviews: Neuroscience - Claudia Krebs. (978-1496367891)</li>
+<li>Case Files Neuroscience - Eugene Toy. (978-0071790253)</li>
+<li>Blueprints Neurology - Frank Drislane. (978-1496387394)</li>
+<li>BRS Neuroanatomy - Douglas J. Gould. (978-1496396181)</li>
+<li>PreTest Neurology - David Anschel, Daniel DiCapua. (978-1260468298)</li>
+</ol>
+<h2 id="pediatrics"><a class="header" href="#pediatrics">Pediatrics</a></h2>
+<ol>
+<li>Case Files Pediatrics - Eugene Toy. (978-0071839952)</li>
+<li>Blueprints Pediatrics - Bradley Marino. (978-1496396464)</li>
+<li>BRS Pediatrics - Llyod J. Brown, Ryan J. Coller, Lee Todd Miller. (978-1496309754)</li>
+<li>PreTest Pediatrics - Robert Yetman, Mark Hormann. (978-1260440331)</li>
+</ol>
+<h2 id="orthopaedics"><a class="header" href="#orthopaedics">Orthopaedics</a></h2>
+<ol>
+<li>Case File Orthopaedics Surgery - Eugene Toy. (978-0071790307)</li>
+</ol>
+<h2 id="psychiatry--psychology"><a class="header" href="#psychiatry--psychology">Psychiatry &amp; Psychology</a></h2>
+<ol>
+<li>Case Files Psychiatry - Eugene Toy. (978-1260468731)</li>
+<li>Blueprints Psychiatry - Michael Murphy, Ronald Cowan. (978-1496381347)</li>
+<li>BRS Behavioral Science - Barbara Fadem. (978-1975188856)</li>
+<li>PreTest Psychiatry - Debra Klamen, Philip Pan. (978-1260467413)</li>
+</ol>
+<h2 id="family-medicine"><a class="header" href="#family-medicine">Family Medicine</a></h2>
+<ol>
+<li>Blueprints Family Medicine - Mitchell King, Martin Lipsky. (978-1496377883)</li>
+<li>Case Files Family Medicine - Eugene Toy. (978-1260468595)</li>
+</ol>
+<h2 id="emergency-medicine"><a class="header" href="#emergency-medicine">Emergency Medicine</a></h2>
+<ol>
+<li>Blueprints Emergency Medicine - Nathan Mick, Jessica Peters. (978-1405104616)</li>
+<li>Case Files Emergency Medicine - Eugene Toy. (978-1264268337)</li>
+</ol>
+<h2 id="critical-care"><a class="header" href="#critical-care">Critical Care</a></h2>
+<ol>
+<li>Case Files Critical Care - Eugene Toy. (978-1259641855)</li>
+</ol>
+<h2 id="obstetrics--gynecology"><a class="header" href="#obstetrics--gynecology">Obstetrics &amp; Gynecology</a></h2>
+<ol>
+<li>Blueprints Obstetrics &amp; Gynecology - Tamara Callahan. (978-1975134877)</li>
+<li>Case Files Obstetrics and Gynecology - Eugene Toy. (978-1260468786)</li>
+<li>Case Files Gynecologic Surgery - Eugene Toy. (978-0071592802)</li>
+<li>Case Files High-Risk Obstetrics - Eugene Toy. (unknown)</li>
+<li>PreTest Obstetrics &amp; Gynecology - Shireen Madani Sims. (978-1260468427)</li>
+</ol>
+<h2 id="radiology"><a class="header" href="#radiology">Radiology</a></h2>
+<ol>
+<li>Blueprints Radiology - Alina Uzelac, Ryan Davis. (978-1405104609)</li>
+</ol>
+<h2 id="anesthesiology"><a class="header" href="#anesthesiology">Anesthesiology</a></h2>
+<ol>
+<li>Case Files Anesthesiology - Lydia Conlay. (978-0071606394)</li>
+</ol>
+<h2 id="ap-psychology"><a class="header" href="#ap-psychology">AP Psychology</a></h2>
+<ol>
+<li>Barron’s AP Psychology 2024 - Allyson Weseley, Robert McEntarffer. (978-1506287973)
+<ul>
+<li>Barron’s AP Psychology Flashcards - Robert McEntarffer. (978-1506287997)</li>
+<li>Barron’s Q&amp;A Psychology - Robert McEntarffer, Kristin Whitlock. (978-1506288017)</li>
+</ul>
+</li>
+<li>Princeton Review AP Psychology Premium Prep - The Princeton Review. (978-0593517239)</li>
+<li>5 Steps to a 5: AP Psychology 2024 - Laura Lincoln Maitland, Laura Sheckell. (978-1265270421)</li>
+<li>AP Psychology Crash Course - Larry Krieger. (978-0738612713)</li>
+</ol>
+<h2 id="emt"><a class="header" href="#emt">EMT</a></h2>
+<ol>
+<li>EMT-Basic - Wikibooks. <a href="https://en.wikibooks.org/wiki/EMT-Basic">link</a></li>
+</ol>
+<h2 id="paramedics"><a class="header" href="#paramedics">Paramedics</a></h2>
+<h2 id="nclex-and-nursing"><a class="header" href="#nclex-and-nursing">NCLEX and Nursing</a></h2>
+<h2 id="ccrn"><a class="header" href="#ccrn">CCRN</a></h2>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="biology.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="veterinary_medicine.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="biology.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="veterinary_medicine.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-c2a407aa.js"></script>
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-a0b12cfe.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
