@@ -71,16 +71,16 @@
             - No D1 nor D2: D0, D3, D7 or D8, D14 or D15. (then every two weeks.)
         - Use different colors to **highlight each cell** based on how well the study session went (using highlighters or colored pencils if paper-based).
             - E.g.: Green-colored: the session went well, Orange-colored: you need more practice, Red-colored: the session was very hard.
-- Make your own **[outline](https://en.wikipedia.org/wiki/Outline_(list))** / **[study guide](https://en.wikipedia.org/wiki/Study_guide)** :
-            - Outline early, outline often. **Outline daily.**
-                - Start your outline early in the semester and improve/refine regularly/frequently (Reduce the length of your outline as much as possible.).
-            - Make your **own** outline. The process of making an outline helps you memorizing its content leveraging [Bloom's taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy).
-            - **Synthetize, don't summarize** : Focus on insights, do not just reduce the size of the text.
-            - Ideal length: 3-6 pages for an Attack Outline. 20-30 pages for a Regular Outline.
-            - Begin outlining around the Syllabus of the course and/or with the Table of Contents of your reference tectbook/casebook. Then fill-in your outline based on your class notes and/or commercial outlines and/or other students' outlines.
-            - Use [Flowcharts](https://en.wikipedia.org/wiki/Flowchart), [Comparison Tables](https://en.wikipedia.org/wiki/Table_(information)), Pictures, and Drawings as much as possible.
-            - Compare your outline with old student's outlines and commercial outlines.
-            - For Law Students: structure your outline around the **rules**, and not the cases.
+- Make your own **[outline](https://en.wikipedia.org/wiki/Outline_(list))** / **[study guide](https://en.wikipedia.org/wiki/Study_guide)**:
+    - Outline early, outline often. **Outline daily.**
+        - Start your outline early in the semester and improve/refine regularly/frequently (Reduce the length of your outline as much as possible.).
+    - Make your **own** outline. The process of making an outline helps you memorizing its content leveraging [Bloom's taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy).
+    - **Synthetize, don't summarize** : Focus on insights, do not just reduce the size of the text.
+    - Ideal length: 3-6 pages for an Attack Outline. 20-30 pages for a Regular Outline.
+    - Begin outlining around the Syllabus of the course and/or with the Table of Contents of your reference tectbook/casebook. Then fill-in your outline based on your class notes and/or commercial outlines and/or other students' outlines.
+    - Use [Flowcharts](https://en.wikipedia.org/wiki/Flowchart), [Comparison Tables](https://en.wikipedia.org/wiki/Table_(information)), Pictures, and Drawings as much as possible.
+    - Compare your outline with old student's outlines and commercial outlines.
+    - For Law Students: structure your outline around the **rules**, and not the cases.
     - Include learning objectives.
     - Include an [index](https://en.wikipedia.org/wiki/Index_(publishing)) with core concepts.
     - Include personal tips and tricks about the topic/subjec.
